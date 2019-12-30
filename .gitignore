@@ -1,0 +1,5 @@
+checkpoints/*
+data/*
+outputs/*
+logs/*
+*ipynb_checkpoint*
