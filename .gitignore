@@ -3,3 +3,5 @@ data/*
 outputs/*
 logs/*
 *ipynb_checkpoint*
+*pycache*
+*.pyc
