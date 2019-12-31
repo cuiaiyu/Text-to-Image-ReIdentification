@@ -4,15 +4,15 @@ import torch
 
 class GlobalEvaluator(Evaluator):
    
-    def __init__(self, img_loader, cap_loader, gt_file_path,  embed_size, dist_fn):
-        super(GlobalEvaluator, self).__init__(img_loader, cap_loader, gt_file_path,  embed_size)
+    def __init__(self, img_loader, cap_loader, gt_file_path,  embed_size, logger, dist_fn):
+        super(GlobalEvaluator, self).__init__(img_loader, cap_loader, gt_file_path,  embed_size, logger)
         # dist fn
         self.dist = dist_fn
         
     def populate_img_db(self, encoder):
         K = self.embed_size
         global_imgs = torch.zeros((0,K)).cuda()
-        
+        encoder.eval()
         with torch.no_grad():
             for i, data in tqdm(enumerate(self.img_loader),desc='build db global imgs'):
                 img, file_names = data

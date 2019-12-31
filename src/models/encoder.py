@@ -1,9 +1,28 @@
-from .images import build_image_encoder
-from .texts import build_text_encoder
-
+#from .images import build_image_encoder
+#from .texts import build_text_encoder
+from .texts.gru_backbone import BiGRUBackbone as CaptionBackbone
+from .images.image_backbones import ImageBackbone
 import torch
 import torch.nn as nn
 
+class Model(nn.Module):
+    def __init__(self, embed_size, image_opt="resnet50", caption_opt="bigru", cap_embed_type="sent"):
+        super(Model, self).__init__()
+        self.img_backbone = ImageBackbone(embed_size, image_opt)
+        self.cap_backbone = CaptionBackbone(embed_size=embed_size, caption_opt=caption_opt,cap_embed_type=cap_embed_type)
+        
+    def forward(self,x):
+        if len(x.size()) == 4:
+            x = self.img_backbone(x)
+        elif len(x.size()) == 2 or len(x.size()) == 3:
+            x = self.cap_backbone(x)
+        else:
+            assert False
+        return x      
+    
+    def img_frezee_layer(self, num_layer_to_frezee):
+        self.img_backbone.melt_layer(num_layer_to_frezee)
+    
 class BaseDualEncoder(nn.Module):
     def __init__(self, image_encoder, text_encoder):
         super(BaseDualEncoder, self).__init__()

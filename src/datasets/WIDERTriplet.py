@@ -60,6 +60,7 @@ class WIDERTriplet(data.Dataset):
             self.anns = [ann for ann in anns if ann['split'] == 'val2']
         else:
             self.anns = [ann for ann in anns if ann['split'].startswith(split)] # or ann['split']=='val2']
+ 
             
     def __len__(self):
         return len(self.ann2person)

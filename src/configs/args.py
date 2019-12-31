@@ -60,6 +60,10 @@ def load_arg_parser():
                         default= 'wider_graph/summer_best_val1_top100.pkl', 
                         type=str,
                         help='file path to pre-computed candidates for val1')
+    parser.add_argument('--load_ckpt_fn', 
+                        default= '0', 
+                        type=str,
+                        help='continue training. 0 for fresh model.')
     
 
     # Models
@@ -74,6 +78,10 @@ def load_arg_parser():
                         default='resnet50', type=str,
                         choices=['resnet50','resnet18'],
                         help='global encoder opt')
+    parser.add_argument('--cap_embed_type', 
+                        default='sent', type=str,
+                        choices=['sent','word'],
+                        help='global encoder opt')
     parser.add_argument('--cap_backbone_opt', 
                         default='bigru', type=str,
                         choices=['bigru'],
@@ -81,8 +89,8 @@ def load_arg_parser():
     
     parser.add_argument('--text_melt_layer', default=0, type=int, 
                         help='bert ft layer. 0 by default (layer residual layer, start from 11(0).')
-    parser.add_argument('--image_melt_layer', default=0, type=int, 
-                        help='resnet ft layer. 0 by default (layer residual layer, start from 7(0).')
+    parser.add_argument('--image_melt_layer', default=1, type=int, 
+                        help='resnet ft layer. 0 by default (layer residual layer, start from 8(0).')
 
 
     # Training Misc.
@@ -91,6 +99,15 @@ def load_arg_parser():
                         choices=['euclidean','cosine'],
                         help='distance metrics opt')
     
+    parser.add_argument('--num_gpus', 
+                        default=1, type=int,
+                        help='how much gpus to use?')
+    parser.add_argument('--num_epochs_stage1', 
+                        default=20, type=int,
+                        help='as is')
+    parser.add_argument('--num_epochs_stage2', 
+                        default=60, type=int,
+                        help='as is')
     parser.add_argument('--lr', default=1e-4, type=float, 
                         help='learning rate')
     parser.add_argument('--momentum', default=0.9, type=float, 
@@ -106,6 +123,8 @@ def load_arg_parser():
     
 
     # general misc.
+    parser.add_argument('--cos_margin', default=0.5, type=float, 
+                        help='# batch to log')
     parser.add_argument('--print_freq', default=50, type=int, 
                         help='# batch to log')
     parser.add_argument('--ckpt_freq', default=10, type=int, 

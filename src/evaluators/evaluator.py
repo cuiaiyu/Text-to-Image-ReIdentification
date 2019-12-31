@@ -6,11 +6,12 @@ import itertools, collections
 from .utils.wider_tools import write_result_file_image, eval
 
 class Evaluator:
-    def __init__(self, img_loader, cap_loader, gt_file_path,  embed_size):
+    def __init__(self, img_loader, cap_loader, gt_file_path, embed_size, logger):
         self.embed_size = embed_size
         self.img_loader = img_loader
         self.cap_loader = cap_loader
         self.gt_file_path = gt_file_path
+        self.logger = logger
         
         # keys
         self.idx2img = {i:name for i, name in enumerate(self.img_loader.dataset.get_all_keys())}
@@ -54,6 +55,6 @@ class Evaluator:
         # global eval
         scoremat = self.retrieval()
         acc = self.compute_acc(scoremat, output_path)
-        print("[global] R@1: %.4f | R@5: %.4f | R@10: %.4f" % (acc['top-1'], acc['top-5'], acc['top-10']))
+        # print("[global] R@1: %.4f | R@5: %.4f | R@10: %.4f" % (acc['top-1'], acc['top-5'], acc['top-10']))
         return acc
 
