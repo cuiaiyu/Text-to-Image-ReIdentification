@@ -1,13 +1,27 @@
 from .evaluator import Evaluator
 from tqdm import tqdm
 import torch
+from sklearn.neighbors import DistanceMetric
+import numpy as np
+
+def cos_distance(x,y):
+    eps = 1e-12
+    dot_prod = np.dot(x,y.transpose(1,0))
+    x_norm = np.linalg.norm(x, axis=1, keepdims=True)
+    y_norm = np.linalg.norm(y, axis=1, keepdims=True)
+    tmp = dot_prod / (np.dot(x_norm, y_norm.transpose(1,0)) + eps)
+    return 1 - tmp
 
 class GlobalEvaluator(Evaluator):
    
-    def __init__(self, img_loader, cap_loader, gt_file_path,  embed_size, logger, dist_fn):
+    def __init__(self, img_loader, cap_loader, gt_file_path,  embed_size, logger, dist_fn_opt):
         super(GlobalEvaluator, self).__init__(img_loader, cap_loader, gt_file_path,  embed_size, logger)
         # dist fn
-        self.dist = dist_fn
+        if dist_fn_opt == 'euclidean':
+            self.dist = DistanceMetric.get_metric('euclidean').pairwise
+        else:
+            self.dist = cos_distance
+        #self.dist = dist_fn
         
     def populate_img_db(self, encoder):
         K = self.embed_size
@@ -32,6 +46,7 @@ class GlobalEvaluator(Evaluator):
                 global_caps =  torch.cat((global_caps, global_cap),0)
         self.global_caps = global_caps
         return global_caps
+    
     
     def retrieval(self):
         querys = self.global_caps.cpu().detach().numpy()

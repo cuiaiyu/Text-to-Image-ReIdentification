@@ -69,6 +69,13 @@ def load_arg_parser():
     # Models
     parser.add_argument('--load_model_path', default='starter_bert_resnet50_2048.pt', type=str,
                         help='0 indicating nothing')
+    
+    parser.add_argument('--np', default=True, type=str2bool,
+                        help='use noun phrases or not?')
+    parser.add_argument('--img_num_cut', default=1, type=int,
+                        help='how many cut on feature map (horizontal)?')
+    parser.add_argument('--regional_embed_size', default=256, type=int,
+                        help='regional_embed_size')
 
     parser.add_argument('--token_length', 
                         default=40, type=int,

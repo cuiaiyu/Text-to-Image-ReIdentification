@@ -5,7 +5,7 @@ import pickle
 from PIL import Image
 import random,os,json
 import collections
-import torch
+import torch, copy
 import fastrand
 
 class WIDERTriplet(data.Dataset):
@@ -25,6 +25,7 @@ class WIDERTriplet(data.Dataset):
         # load annotations    
         self._load_anns(anno_path, split)
         
+        
         # debug Mode?
         if debug:
             self.anns = self.anns[:1000]
@@ -40,7 +41,7 @@ class WIDERTriplet(data.Dataset):
         self.ann2person = {}
         for i,ann in enumerate(self.anns):
             self.person2ann[ann['id']].append(i)
-            self.ann2person[i]=ann['id']
+            self.ann2person[i] = ann['id']
         self.len = len(self.ann2person)
         self.id2key = {i:key for i,key in enumerate(self.person2ann)}
         self.person2label = {key:i for i,key in enumerate(self.person2ann.keys())}
@@ -60,6 +61,16 @@ class WIDERTriplet(data.Dataset):
             self.anns = [ann for ann in anns if ann['split'] == 'val2']
         else:
             self.anns = [ann for ann in anns if ann['split'].startswith(split)] # or ann['split']=='val2']
+            
+        new_anns = []
+        for ann in self.anns:
+            caps = ann['captions']
+            ann['captions'] = caps[0]
+            new_anns.append(copy.deepcopy(ann))
+            ann['captions'] = caps[1]
+            new_anns.append(copy.deepcopy(ann))
+        self.anns = new_anns
+            
  
             
     def __len__(self):

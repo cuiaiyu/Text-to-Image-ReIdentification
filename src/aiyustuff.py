@@ -5,11 +5,12 @@
 
 # In[1]:
 
-
 from datasets.wider_global_dataset import build_wider_dataloader
-from datasets.wider_global_test_dataset import build_wider_test_dataloader
-from models.encoder import Model
+from datasets.text_test_datasets import build_text_test_loader
+from datasets.image_test_datasets import build_image_test_loader
+from models.encoder import Model, MLP
 from evaluators.global_evaluator import GlobalEvaluator
+from evaluators.np_evaluator import NPEvaluator
 from loss.loss import crossmodal_triplet_loss, cos_distance
 from loggers.logger import Logger
 from tqdm import tqdm as tqdm
@@ -21,7 +22,7 @@ import torch.optim as optim
 import torch
 
 from configs.args import load_arg_parser
-
+from attentions.rga_attention import RGA_attend_one_to_many_batch, RGA_attend_one_to_many
 
 # ## config
 
@@ -46,7 +47,7 @@ cfg.vocab_path = os.path.join(root, cfg.vocab_path)
 # sys path
 
 cfg.dim = (384,128)
-cfg.exp_name = "dist_fn_{}_imgbb_{}_capbb_{}_embed_size_{}_batch_{}_lr_{}_captype_{}_img_meltlayer_{}_cos_margin_{}".format(
+cfg.exp_name = "dist_fn_{}_imgbb_{}_capbb_{}_embed_size_{}_batch_{}_lr_{}_captype_{}_img_meltlayer_{}_cos_margin_{}_np_{}".format(
     cfg.dist_fn_opt,
     cfg.img_backbone_opt,
     cfg.cap_backbone_opt,
@@ -55,7 +56,8 @@ cfg.exp_name = "dist_fn_{}_imgbb_{}_capbb_{}_embed_size_{}_batch_{}_lr_{}_captyp
     cfg.lr,
     cfg.cap_embed_type,
     cfg.image_melt_layer,
-    cfg.cos_margin)
+    cfg.cos_margin,
+    cfg.np)
 cfg.model_path = os.path.join("/shared/rsaas/aiyucui2/wider_person", cfg.model_path, cfg.exp_name)
 cfg.output_path = os.path.join("/shared/rsaas/aiyucui2/wider_person", cfg.output_path, cfg.exp_name)
 
@@ -68,49 +70,35 @@ if not os.path.exists(cfg.output_path):
 
 logger = Logger(os.path.join(cfg.output_path, "log.txt"))
 logger.log(str(cfg))
+
 # ## Loading data
+
 # train loader
-train_loader = build_wider_dataloader(anno_path=cfg.anno_path,
-                                    img_dir=cfg.img_dir,
-                                    vocab_fn=cfg.vocab_path, 
-                                    dim=cfg.dim,
-                                    token_length=40,
-                                    train=True,
-                                    batch_size=cfg.batch_size,
-                                    num_workers=8,
-                                    debug=cfg.debug)
+train_loader = build_wider_dataloader(cfg)
 
 # test loader (loading image and text separately)
-test_text_loader, test_image_loader = build_wider_test_dataloader(anno_path=cfg.val_anno_path,
-                                                              img_dir=cfg.val_img_dir,
-                                                              vocab_fn=cfg.vocab_path, 
-                                                              dim=cfg.dim,
-                                                              batch_size=cfg.batch_size,
-                                                              num_workers=8,
-                                                              debug=cfg.debug)
+test_text_loader = build_text_test_loader(cfg) 
+test_image_loader = build_image_test_loader(cfg) 
 
 
 
 # ## Define Model
 
-# In[6]:
-
-
- 
-
-
-# In[7]:
-
 # models initializations
 model = Model(embed_size=cfg.embed_size, 
               image_opt=cfg.img_backbone_opt, 
               caption_opt=cfg.cap_backbone_opt,
-              cap_embed_type=cfg.cap_embed_type).cuda()
+              cap_embed_type=cfg.cap_embed_type,
+              img_num_cut=cfg.img_num_cut,
+              regional_embed_size=cfg.regional_embed_size).cuda()
+
+img_mlp = MLP(cfg.regional_embed_size, cfg.embed_size).cuda()
+cap_mlp = MLP(cfg.embed_size, cfg.embed_size).cuda()
 
 if cfg.load_ckpt_fn != "0":
     logger.log("[Model] load pre-trained model from %s." % cfg.load_ckpt_fn)
     ckpt = torch.load(cfg.load_ckpt_fn)
-    model.load_state_dict(ckpt["model"])
+    model.load_state_dict(ckpt["model"], False)
 else:
     logger.log("[Model] Init fresh model.")
     
@@ -128,26 +116,25 @@ def triplet_cos_loss(x, pos, neg, margin=0.5):
 
 ## dist functions
 if cfg.dist_fn_opt == "euclidean":
-    dist_fn = DistanceMetric.get_metric('euclidean').pairwise
     triplet_loss = nn.TripletMarginLoss()
 elif cfg.dist_fn_opt == "cosine":
-    dist_fn = cos_distance
     triplet_loss = triplet_cos_loss
 
 
 # ### Train Misc Setup
-evaluator = GlobalEvaluator(img_loader=test_image_loader, 
+Evaluator = NPEvaluator if cfg.np else GlobalEvaluator
+evaluator = Evaluator(img_loader=test_image_loader, 
                           cap_loader=test_text_loader, 
                           gt_file_path=cfg.gt_file_fn,
                           embed_size=cfg.embed_size,
                           logger=logger,
-                          dist_fn=DistanceMetric.get_metric('euclidean').pairwise)
-cos_evaluator = GlobalEvaluator(img_loader=test_image_loader, 
+                          dist_fn_opt="euclidean")
+cos_evaluator = Evaluator(img_loader=test_image_loader, 
                           cap_loader=test_text_loader, 
                           gt_file_path=cfg.gt_file_fn,
                           embed_size=cfg.embed_size,
-                               logger=logger, 
-                          dist_fn=cos_distance)
+                          logger=logger,
+                          dist_fn_opt="cosine")
 
 
 def build_graph_optimizer(models):
@@ -163,7 +150,7 @@ def build_graph_optimizer(models):
 
 # In[13]:
 
-def train_epoch(train_data, model, optimizer, triplet_loss, note="train"):
+def train_epoch_global(train_data, model, img_mlp_rga, cap_mlp_rga, optimizer, triplet_loss, logger, note="train"):
     model.train()
     cum_tri_loss, cum_id_loss = 0.0, 0.0
     for i, data in tqdm(enumerate(train_data), "%s, epoch%d" % (note,epoch)):
@@ -177,33 +164,125 @@ def train_epoch(train_data, model, optimizer, triplet_loss, note="train"):
                                               cap, pos_cap, neg_cap, 
                                               triplet_loss, cfg.dist_fn_opt)  
         loss = tri_loss
+        
         # backpropagation
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-        cum_tri_loss += tri_loss.item()
+       
         
         # log
+        cum_tri_loss += tri_loss.item()
         if (i+1) % 64 == 0:
             logger.log("batch %d, [tri-loss] %.6f" % (i, cum_tri_loss/64))
             cum_tri_loss = 0.0
     return model
 
+def regional_alignment_text(fulls, parts, p2fs, dist_fn_opt):
+    start_index = 0
+    aligned = []
+    for i, jump in enumerate(p2fs):
+        curr_parts = parts[start_index:start_index + jump]
+        start_index += jump
+        curr_full = fulls[i:i+1]
+        aligned.append(RGA_attend_one_to_many(curr_full, curr_parts, dist_fn_opt))
+    return torch.cat(aligned)
+
+def regional_alignment_image(fulls, parts, dist_fn_opt):
+    return RGA_attend_one_to_many_batch(fulls, parts, dist_fn_opt)
+  
+    
+def train_epoch_regional(train_data, model, img_mlp_rga, cap_mlp_rga, optimizer, triplet_loss, logger, note="train"):
+    model.train(); img_mlp_rga.train(); cap_mlp_rga.train()
+    
+    cum_tri_loss, cum_tri_image_regional_loss, cum_tri_text_regional_loss = 0.0, 0.0, 0.0
+    for i, data in tqdm(enumerate(train_data), "%s, epoch%d" % (note,epoch)):
+        # load data
+        (img, pos_img, neg_img, 
+         cap, pos_cap, neg_cap,
+         nps, pos_nps, neg_nps,
+         n2c, pos_n2c, neg_n2c,
+         pid, pos_pid, neg_pid) = data
+        
+        
+        img, img_part = model(img.cuda())
+        pos_img, pos_img_part = model(pos_img.cuda())
+        neg_img, neg_img_part = model(neg_img.cuda())
+        cap, pos_cap, neg_cap = model(cap.cuda()), model(pos_cap.cuda()), model(neg_cap.cuda())
+        N, M, T = nps.size()
+        nps, pos_nps, neg_nps = model(nps.cuda().reshape(-1, T)), model(pos_nps.cuda().reshape(-1, T)), model(neg_nps.cuda().reshape(-1, T))
+        
+        # part
+        img_part, pos_img_part, neg_img_part = img_mlp_rga(img_part), img_mlp_rga(pos_img_part), img_mlp_rga(neg_img_part)
+        
+        nps, pos_nps, neg_nps = cap_mlp_rga(nps.reshape(N, M, -1)), cap_mlp_rga(pos_nps.reshape(N, M, -1)), cap_mlp_rga(neg_nps.reshape(N, M, -1))
+        
+        img_part = RGA_attend_one_to_many_batch(cap, img_part, cfg.dist_fn_opt)
+        pos_img_part = RGA_attend_one_to_many_batch(pos_cap, pos_img_part, cfg.dist_fn_opt)
+        neg_img_part = RGA_attend_one_to_many_batch(neg_cap, neg_img_part, cfg.dist_fn_opt)
+        #cap_part = regional_alignment_text(img, nps, n2c, cfg.dist_fn_opt)
+        #pos_cap_part = regional_alignment_text(pos_img, pos_nps, pos_n2c, cfg.dist_fn_opt)
+        #neg_cap_part = regional_alignment_text(neg_img, neg_nps, neg_n2c, cfg.dist_fn_opt)
+        cap_part = RGA_attend_one_to_many_batch(img, nps, cfg.dist_fn_opt)
+        pos_cap_part = RGA_attend_one_to_many_batch(pos_img, pos_nps, cfg.dist_fn_opt)
+        neg_cap_part = RGA_attend_one_to_many_batch(neg_img, neg_nps, cfg.dist_fn_opt)
+        
+        # loss
+        tri_loss =  crossmodal_triplet_loss(img,pos_img,neg_img, 
+                                              cap, pos_cap, neg_cap, 
+                                              triplet_loss, cfg.dist_fn_opt) 
+        tri_image_regional_loss =  crossmodal_triplet_loss(img_part,pos_img_part,neg_img_part, 
+                                              cap, pos_cap, neg_cap, 
+                                              triplet_loss, cfg.dist_fn_opt) 
+        tri_text_regional_loss =  crossmodal_triplet_loss(img,pos_img,neg_img, 
+                                              cap_part, pos_cap_part, neg_cap_part, 
+                                              triplet_loss, cfg.dist_fn_opt) 
+        
+        
+        loss = tri_loss + tri_image_regional_loss  + tri_text_regional_loss
+        
+        # backpropagation
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+       
+        
+        # log
+        cum_tri_loss += tri_loss.item()
+        cum_tri_image_regional_loss += tri_image_regional_loss.item()
+        cum_tri_text_regional_loss += tri_text_regional_loss.item()
+        
+        if (i+1) % 64 == 0:
+            logger.log("batch %d, [tri-loss] %.6f, [img_rga] %.6f, [cap_rga] %.6f" % (i, 
+                                                                                      cum_tri_loss/64, 
+                                                                                     cum_tri_image_regional_loss / 64, 
+                                                                                     cum_tri_text_regional_loss / 64))
+            cum_tri_loss, cum_tri_image_regional_loss, cum_tri_text_regional_loss = 0.0, 0.0, 0.0
+    return model
+
+
+
+train_epoch = train_epoch_regional if cfg.np else train_epoch_global
 # stage 1 - image channel forzen
 if isinstance(model, nn.DataParallel):
     model.module.img_backbone.melt_layer(8)
 else:
-    model.img_backbone.melt_layer(7)
-param_to_optimize = build_graph_optimizer([model])
+    model.img_backbone.melt_layer(8)
+# 
+param_to_optimize = build_graph_optimizer([model, img_mlp, cap_mlp])
 optimizer = optim.Adam(param_to_optimize, lr=1e-3, weight_decay=1e-5)
-scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=20)
-
+scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10)
 for epoch in range(cfg.num_epochs_stage1):
-    logger.log("-----stage1, epoch %d-----" % epoch)
-    model = train_epoch(train_loader, model, optimizer, triplet_loss, "train-stage-1")
-    acc = evaluator.evaluate(model)
+    model = train_epoch(train_loader, model, img_mlp, cap_mlp, optimizer, triplet_loss, logger, "train-stage-1")
+    if cfg.np:
+        acc = evaluator.evaluate(model, img_mlp, cap_mlp)
+    else:
+        acc = evaluator.evaluate(model)
     logger.log('[euclidean][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (acc['top-1'], acc['top-5'], acc['top-10']))
-    acc = cos_evaluator.evaluate(model)
+    if cfg.np:
+        acc = cos_evaluator.evaluate(model, img_mlp, cap_mlp)
+    else:
+        acc = cos_evaluator.evaluate(model)
     logger.log('[cosine   ][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (acc['top-1'], acc['top-5'], acc['top-10']))
     scheduler.step()
 torch.save({
@@ -217,16 +296,20 @@ if isinstance(model, nn.DataParallel):
     model.module.img_backbone.melt_layer(8 - cfg.image_melt_layer)
 else:
     model.img_backbone.melt_layer(8 - cfg.image_melt_layer)
-param_to_optimize = build_graph_optimizer([model])
-optimizer = optim.Adam(param_to_optimize, lr=2e-4, weight_decay=1e-5)
-scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=20)
-
+param_to_optimize = build_graph_optimizer([model, img_mlp, cap_mlp])
+optimizer = optim.Adam(param_to_optimize, lr=1e-4, weight_decay=1e-5)
+scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10)
 for epoch in range(cfg.num_epochs_stage2):
-    logger.log("-----stage2, epoch %d-----" % epoch)
-    model = train_epoch(train_loader, model, optimizer, triplet_loss, "train-stage-2")
-    acc = evaluator.evaluate(model)
+    model = train_epoch(train_loader, model, img_mlp, cap_mlp, optimizer, triplet_loss, logger, "train-stage-2")
+    if cfg.np:
+        acc = evaluator.evaluate(model,  img_mlp, cap_mlp)
+    else:
+        acc = evaluator.evaluate(model)
     logger.log('[euclidean][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (acc['top-1'], acc['top-5'], acc['top-10']))
-    acc = cos_evaluator.evaluate(model)
+    if cfg.np:
+        acc = cos_evaluator.evaluate(model,  img_mlp, cap_mlp)
+    else:
+        acc = cos_evaluator.evaluate(model)
     logger.log('[cosine   ][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (acc['top-1'], acc['top-5'], acc['top-10']))
     scheduler.step()
 torch.save({

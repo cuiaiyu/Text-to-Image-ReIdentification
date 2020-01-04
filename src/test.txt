@@ -1,0 +1,1658 @@
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.039715, [img_rga] 0.148603, [cap_rga] 0.251276
+batch 127, [tri-loss] 0.034916, [img_rga] 0.069122, [cap_rga] 0.101516
+batch 191, [tri-loss] 0.034434, [img_rga] 0.060979, [cap_rga] 0.082029
+batch 255, [tri-loss] 0.037293, [img_rga] 0.059044, [cap_rga] 0.073977
+batch 319, [tri-loss] 0.035083, [img_rga] 0.054780, [cap_rga] 0.068482
+batch 383, [tri-loss] 0.035915, [img_rga] 0.055142, [cap_rga] 0.066333
+batch 447, [tri-loss] 0.034361, [img_rga] 0.052485, [cap_rga] 0.060102
+batch 511, [tri-loss] 0.032331, [img_rga] 0.048041, [cap_rga] 0.055664
+batch 575, [tri-loss] 0.034345, [img_rga] 0.051146, [cap_rga] 0.059444
+batch 639, [tri-loss] 0.034661, [img_rga] 0.050309, [cap_rga] 0.056265
+batch 703, [tri-loss] 0.035807, [img_rga] 0.051702, [cap_rga] 0.057940
+batch 767, [tri-loss] 0.031895, [img_rga] 0.044532, [cap_rga] 0.052505
+[euclidean][global] R@1: 0.0237 | R@5: 0.0804 | R@10: 0.1262
+[cosine   ][global] R@1: 0.1971 | R@5: 0.4275 | R@10: 0.5547
+batch 63, [tri-loss] 0.033683, [img_rga] 0.047082, [cap_rga] 0.048241
+batch 127, [tri-loss] 0.029836, [img_rga] 0.041237, [cap_rga] 0.047947
+batch 191, [tri-loss] 0.036413, [img_rga] 0.050183, [cap_rga] 0.053045
+batch 255, [tri-loss] 0.030098, [img_rga] 0.041557, [cap_rga] 0.047169
+batch 319, [tri-loss] 0.028507, [img_rga] 0.038168, [cap_rga] 0.043697
+batch 383, [tri-loss] 0.032308, [img_rga] 0.044468, [cap_rga] 0.048626
+batch 447, [tri-loss] 0.036824, [img_rga] 0.046995, [cap_rga] 0.049787
+batch 511, [tri-loss] 0.034860, [img_rga] 0.045434, [cap_rga] 0.047130
+batch 575, [tri-loss] 0.030996, [img_rga] 0.040239, [cap_rga] 0.045162
+batch 639, [tri-loss] 0.032569, [img_rga] 0.042174, [cap_rga] 0.046385
+batch 703, [tri-loss] 0.031774, [img_rga] 0.042043, [cap_rga] 0.046365
+batch 767, [tri-loss] 0.029253, [img_rga] 0.037935, [cap_rga] 0.043185
+[euclidean][global] R@1: 0.0241 | R@5: 0.0755 | R@10: 0.1220
+[cosine   ][global] R@1: 0.1971 | R@5: 0.4333 | R@10: 0.5540
+batch 63, [tri-loss] 0.030570, [img_rga] 0.038937, [cap_rga] 0.043626
+batch 127, [tri-loss] 0.033012, [img_rga] 0.042933, [cap_rga] 0.047031
+batch 191, [tri-loss] 0.030127, [img_rga] 0.039035, [cap_rga] 0.043417
+batch 255, [tri-loss] 0.028051, [img_rga] 0.035898, [cap_rga] 0.038877
+batch 319, [tri-loss] 0.029631, [img_rga] 0.037026, [cap_rga] 0.041975
+batch 383, [tri-loss] 0.031991, [img_rga] 0.039419, [cap_rga] 0.043354
+batch 447, [tri-loss] 0.031531, [img_rga] 0.039882, [cap_rga] 0.042076
+batch 511, [tri-loss] 0.029377, [img_rga] 0.036767, [cap_rga] 0.040480
+batch 575, [tri-loss] 0.033218, [img_rga] 0.040942, [cap_rga] 0.040708
+batch 639, [tri-loss] 0.030566, [img_rga] 0.037155, [cap_rga] 0.040707
+batch 703, [tri-loss] 0.029947, [img_rga] 0.037386, [cap_rga] 0.041074
+batch 767, [tri-loss] 0.029284, [img_rga] 0.035395, [cap_rga] 0.039224
+[euclidean][global] R@1: 0.0254 | R@5: 0.0823 | R@10: 0.1249
+[cosine   ][global] R@1: 0.2079 | R@5: 0.4460 | R@10: 0.5683
+batch 63, [tri-loss] 0.031293, [img_rga] 0.038447, [cap_rga] 0.041821
+batch 127, [tri-loss] 0.030108, [img_rga] 0.037053, [cap_rga] 0.039662
+batch 191, [tri-loss] 0.031560, [img_rga] 0.038340, [cap_rga] 0.039390
+batch 255, [tri-loss] 0.029913, [img_rga] 0.036728, [cap_rga] 0.037450
+batch 319, [tri-loss] 0.031576, [img_rga] 0.038578, [cap_rga] 0.041427
+batch 383, [tri-loss] 0.029885, [img_rga] 0.036159, [cap_rga] 0.038936
+batch 447, [tri-loss] 0.027958, [img_rga] 0.033421, [cap_rga] 0.036194
+batch 511, [tri-loss] 0.029421, [img_rga] 0.035377, [cap_rga] 0.038434
+batch 575, [tri-loss] 0.032860, [img_rga] 0.040046, [cap_rga] 0.041643
+batch 639, [tri-loss] 0.032672, [img_rga] 0.039672, [cap_rga] 0.041597
+batch 703, [tri-loss] 0.030384, [img_rga] 0.036643, [cap_rga] 0.039260
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 1.247734
+batch 127, [tri-loss] 0.756488
+batch 191, [tri-loss] 0.705298
+batch 255, [tri-loss] 0.711583
+batch 319, [tri-loss] 0.718296
+batch 383, [tri-loss] 0.705206
+batch 447, [tri-loss] 0.714542
+batch 511, [tri-loss] 0.697885
+batch 575, [tri-loss] 0.713474
+batch 639, [tri-loss] 0.716581
+batch 703, [tri-loss] 0.708031
+batch 767, [tri-loss] 0.691255
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.035595
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.042307, [img_rga] 0.152328, [cap_rga] 0.266321
+batch 127, [tri-loss] 0.035644, [img_rga] 0.070992, [cap_rga] 0.105893
+batch 191, [tri-loss] 0.036459, [img_rga] 0.064967, [cap_rga] 0.087743
+batch 255, [tri-loss] 0.036298, [img_rga] 0.059667, [cap_rga] 0.075085
+batch 319, [tri-loss] 0.033521, [img_rga] 0.052607, [cap_rga] 0.068127
+batch 383, [tri-loss] 0.035591, [img_rga] 0.055340, [cap_rga] 0.065685
+batch 447, [tri-loss] 0.032129, [img_rga] 0.047750, [cap_rga] 0.057069
+batch 511, [tri-loss] 0.032978, [img_rga] 0.049328, [cap_rga] 0.059068
+batch 575, [tri-loss] 0.033220, [img_rga] 0.050975, [cap_rga] 0.059760
+batch 639, [tri-loss] 0.033137, [img_rga] 0.048517, [cap_rga] 0.057774
+batch 703, [tri-loss] 0.030360, [img_rga] 0.043851, [cap_rga] 0.050538
+batch 767, [tri-loss] 0.032950, [img_rga] 0.044274, [cap_rga] 0.051059
+[euclidean][global] R@1: 0.0283 | R@5: 0.0982 | R@10: 0.1604
+[cosine   ][global] R@1: 0.1685 | R@5: 0.3871 | R@10: 0.5000
+batch 63, [tri-loss] 0.027254, [img_rga] 0.037912, [cap_rga] 0.046205
+batch 127, [tri-loss] 0.032128, [img_rga] 0.045314, [cap_rga] 0.050801
+batch 191, [tri-loss] 0.033351, [img_rga] 0.045281, [cap_rga] 0.051869
+batch 255, [tri-loss] 0.031903, [img_rga] 0.043108, [cap_rga] 0.050618
+batch 319, [tri-loss] 0.032330, [img_rga] 0.043440, [cap_rga] 0.047566
+batch 383, [tri-loss] 0.033009, [img_rga] 0.043986, [cap_rga] 0.048400
+batch 447, [tri-loss] 0.032320, [img_rga] 0.042442, [cap_rga] 0.046131
+batch 511, [tri-loss] 0.034255, [img_rga] 0.044958, [cap_rga] 0.050466
+batch 575, [tri-loss] 0.030596, [img_rga] 0.039699, [cap_rga] 0.043738
+batch 639, [tri-loss] 0.034649, [img_rga] 0.045251, [cap_rga] 0.047990
+batch 703, [tri-loss] 0.032065, [img_rga] 0.042108, [cap_rga] 0.045340
+batch 767, [tri-loss] 0.033597, [img_rga] 0.042709, [cap_rga] 0.046238
+[euclidean][global] R@1: 0.0260 | R@5: 0.0800 | R@10: 0.1331
+[cosine   ][global] R@1: 0.2010 | R@5: 0.4239 | R@10: 0.5478
+batch 63, [tri-loss] 0.032472, [img_rga] 0.040960, [cap_rga] 0.043756
+batch 127, [tri-loss] 0.032344, [img_rga] 0.041839, [cap_rga] 0.046120
+batch 191, [tri-loss] 0.030288, [img_rga] 0.037980, [cap_rga] 0.041893
+batch 255, [tri-loss] 0.029974, [img_rga] 0.037796, [cap_rga] 0.044002
+batch 319, [tri-loss] 0.028922, [img_rga] 0.036476, [cap_rga] 0.041134
+batch 383, [tri-loss] 0.032153, [img_rga] 0.039832, [cap_rga] 0.042921
+batch 447, [tri-loss] 0.030516, [img_rga] 0.036491, [cap_rga] 0.039895
+batch 511, [tri-loss] 0.033369, [img_rga] 0.041129, [cap_rga] 0.045326
+batch 575, [tri-loss] 0.030626, [img_rga] 0.038434, [cap_rga] 0.042053
+batch 639, [tri-loss] 0.030226, [img_rga] 0.036854, [cap_rga] 0.039460
+batch 703, [tri-loss] 0.031120, [img_rga] 0.038557, [cap_rga] 0.041359
+batch 767, [tri-loss] 0.032969, [img_rga] 0.040331, [cap_rga] 0.043652
+[euclidean][global] R@1: 0.0260 | R@5: 0.0791 | R@10: 0.1331
+[cosine   ][global] R@1: 0.1910 | R@5: 0.4356 | R@10: 0.5573
+batch 63, [tri-loss] 0.029190, [img_rga] 0.035577, [cap_rga] 0.038993
+batch 127, [tri-loss] 0.029398, [img_rga] 0.035666, [cap_rga] 0.039435
+batch 191, [tri-loss] 0.031716, [img_rga] 0.038028, [cap_rga] 0.040406
+batch 255, [tri-loss] 0.034293, [img_rga] 0.041427, [cap_rga] 0.045171
+batch 319, [tri-loss] 0.029903, [img_rga] 0.036373, [cap_rga] 0.039546
+batch 383, [tri-loss] 0.027705, [img_rga] 0.033032, [cap_rga] 0.036587
+batch 447, [tri-loss] 0.029272, [img_rga] 0.035283, [cap_rga] 0.037517
+batch 511, [tri-loss] 0.031499, [img_rga] 0.038011, [cap_rga] 0.039682
+batch 575, [tri-loss] 0.031216, [img_rga] 0.037428, [cap_rga] 0.039142
+batch 639, [tri-loss] 0.029206, [img_rga] 0.035008, [cap_rga] 0.039439
+batch 703, [tri-loss] 0.031924, [img_rga] 0.038145, [cap_rga] 0.042180
+batch 767, [tri-loss] 0.030306, [img_rga] 0.036100, [cap_rga] 0.040331
+[euclidean][global] R@1: 0.0293 | R@5: 0.0862 | R@10: 0.1373
+[cosine   ][global] R@1: 0.1916 | R@5: 0.4206 | R@10: 0.5462
+batch 63, [tri-loss] 0.027676, [img_rga] 0.032791, [cap_rga] 0.035156
+batch 127, [tri-loss] 0.028972, [img_rga] 0.034717, [cap_rga] 0.038444
+batch 191, [tri-loss] 0.029429, [img_rga] 0.034481, [cap_rga] 0.037229
+batch 255, [tri-loss] 0.029764, [img_rga] 0.035030, [cap_rga] 0.039791
+batch 319, [tri-loss] 0.030469, [img_rga] 0.036078, [cap_rga] 0.038073
+batch 383, [tri-loss] 0.032258, [img_rga] 0.036841, [cap_rga] 0.039733
+batch 447, [tri-loss] 0.028095, [img_rga] 0.033680, [cap_rga] 0.036939
+batch 511, [tri-loss] 0.029758, [img_rga] 0.035794, [cap_rga] 0.039179
+batch 575, [tri-loss] 0.027962, [img_rga] 0.033631, [cap_rga] 0.035988
+batch 639, [tri-loss] 0.029594, [img_rga] 0.034394, [cap_rga] 0.037733
+batch 703, [tri-loss] 0.028552, [img_rga] 0.033419, [cap_rga] 0.038119
+batch 767, [tri-loss] 0.031966, [img_rga] 0.037486, [cap_rga] 0.040965
+[euclidean][global] R@1: 0.0270 | R@5: 0.0817 | R@10: 0.1304
+[cosine   ][global] R@1: 0.1955 | R@5: 0.4275 | R@10: 0.5628
+batch 63, [tri-loss] 0.028221, [img_rga] 0.033788, [cap_rga] 0.039151
+batch 127, [tri-loss] 0.029804, [img_rga] 0.035049, [cap_rga] 0.036870
+batch 191, [tri-loss] 0.028827, [img_rga] 0.033416, [cap_rga] 0.036475
+batch 255, [tri-loss] 0.027569, [img_rga] 0.032325, [cap_rga] 0.036589
+batch 319, [tri-loss] 0.028586, [img_rga] 0.033234, [cap_rga] 0.035751
+batch 383, [tri-loss] 0.028390, [img_rga] 0.032493, [cap_rga] 0.036397
+batch 447, [tri-loss] 0.027343, [img_rga] 0.031870, [cap_rga] 0.033993
+batch 511, [tri-loss] 0.028002, [img_rga] 0.032703, [cap_rga] 0.036869
+batch 575, [tri-loss] 0.029410, [img_rga] 0.034579, [cap_rga] 0.037726
+batch 639, [tri-loss] 0.028797, [img_rga] 0.033407, [cap_rga] 0.036101
+batch 703, [tri-loss] 0.026909, [img_rga] 0.031246, [cap_rga] 0.034655
+batch 767, [tri-loss] 0.032263, [img_rga] 0.037197, [cap_rga] 0.038345
+[euclidean][global] R@1: 0.0312 | R@5: 0.1038 | R@10: 0.1614
+[cosine   ][global] R@1: 0.1884 | R@5: 0.4304 | R@10: 0.5589
+batch 63, [tri-loss] 0.030735, [img_rga] 0.035764, [cap_rga] 0.037574
+batch 127, [tri-loss] 0.027892, [img_rga] 0.032389, [cap_rga] 0.036302
+batch 191, [tri-loss] 0.031387, [img_rga] 0.035667, [cap_rga] 0.038327
+batch 255, [tri-loss] 0.028424, [img_rga] 0.033080, [cap_rga] 0.035703
+batch 319, [tri-loss] 0.026035, [img_rga] 0.030124, [cap_rga] 0.033795
+batch 383, [tri-loss] 0.026417, [img_rga] 0.029993, [cap_rga] 0.033526
+batch 447, [tri-loss] 0.026581, [img_rga] 0.031479, [cap_rga] 0.034589
+batch 511, [tri-loss] 0.028939, [img_rga] 0.033342, [cap_rga] 0.035647
+batch 575, [tri-loss] 0.025904, [img_rga] 0.029813, [cap_rga] 0.032841
+batch 639, [tri-loss] 0.025166, [img_rga] 0.028859, [cap_rga] 0.031203
+batch 703, [tri-loss] 0.026303, [img_rga] 0.030401, [cap_rga] 0.036102
+batch 767, [tri-loss] 0.028202, [img_rga] 0.031935, [cap_rga] 0.035511
+[euclidean][global] R@1: 0.0345 | R@5: 0.0966 | R@10: 0.1552
+[cosine   ][global] R@1: 0.1884 | R@5: 0.4291 | R@10: 0.5612
+batch 63, [tri-loss] 0.025547, [img_rga] 0.028908, [cap_rga] 0.031755
+batch 127, [tri-loss] 0.028306, [img_rga] 0.032469, [cap_rga] 0.034181
+batch 191, [tri-loss] 0.024267, [img_rga] 0.027731, [cap_rga] 0.031513
+batch 255, [tri-loss] 0.030415, [img_rga] 0.035465, [cap_rga] 0.037355
+batch 319, [tri-loss] 0.026342, [img_rga] 0.029817, [cap_rga] 0.032369
+batch 383, [tri-loss] 0.029092, [img_rga] 0.033773, [cap_rga] 0.036867
+batch 447, [tri-loss] 0.026920, [img_rga] 0.031401, [cap_rga] 0.034319
+batch 511, [tri-loss] 0.026223, [img_rga] 0.029729, [cap_rga] 0.033629
+batch 575, [tri-loss] 0.026762, [img_rga] 0.030029, [cap_rga] 0.032194
+batch 639, [tri-loss] 0.025884, [img_rga] 0.028844, [cap_rga] 0.033769
+batch 703, [tri-loss] 0.027543, [img_rga] 0.032052, [cap_rga] 0.036290
+batch 767, [tri-loss] 0.028233, [img_rga] 0.032250, [cap_rga] 0.035494
+[euclidean][global] R@1: 0.0371 | R@5: 0.1129 | R@10: 0.1636
+[cosine   ][global] R@1: 0.1880 | R@5: 0.4323 | R@10: 0.5520
+batch 63, [tri-loss] 0.025065, [img_rga] 0.028434, [cap_rga] 0.032199
+batch 127, [tri-loss] 0.026535, [img_rga] 0.029594, [cap_rga] 0.033027
+batch 191, [tri-loss] 0.026270, [img_rga] 0.030166, [cap_rga] 0.033149
+batch 255, [tri-loss] 0.026029, [img_rga] 0.029276, [cap_rga] 0.031563
+batch 319, [tri-loss] 0.026053, [img_rga] 0.029430, [cap_rga] 0.032987
+batch 383, [tri-loss] 0.026943, [img_rga] 0.030046, [cap_rga] 0.032769
+batch 447, [tri-loss] 0.027432, [img_rga] 0.031528, [cap_rga] 0.034537
+batch 511, [tri-loss] 0.025795, [img_rga] 0.029390, [cap_rga] 0.032705
+batch 575, [tri-loss] 0.028232, [img_rga] 0.032349, [cap_rga] 0.033422
+batch 639, [tri-loss] 0.027386, [img_rga] 0.031480, [cap_rga] 0.034302
+batch 703, [tri-loss] 0.026368, [img_rga] 0.030195, [cap_rga] 0.033509
+batch 767, [tri-loss] 0.028238, [img_rga] 0.031896, [cap_rga] 0.035908
+[euclidean][global] R@1: 0.0381 | R@5: 0.1145 | R@10: 0.1783
+[cosine   ][global] R@1: 0.1932 | R@5: 0.4375 | R@10: 0.5586
+batch 63, [tri-loss] 0.026971, [img_rga] 0.030492, [cap_rga] 0.035360
+batch 127, [tri-loss] 0.026503, [img_rga] 0.029952, [cap_rga] 0.033694
+batch 191, [tri-loss] 0.025706, [img_rga] 0.029104, [cap_rga] 0.032135
+batch 255, [tri-loss] 0.023474, [img_rga] 0.026502, [cap_rga] 0.031722
+batch 319, [tri-loss] 0.025672, [img_rga] 0.028737, [cap_rga] 0.032056
+batch 383, [tri-loss] 0.024518, [img_rga] 0.027802, [cap_rga] 0.031265
+batch 447, [tri-loss] 0.026723, [img_rga] 0.029604, [cap_rga] 0.032341
+batch 511, [tri-loss] 0.026973, [img_rga] 0.030745, [cap_rga] 0.034516
+batch 575, [tri-loss] 0.027086, [img_rga] 0.030217, [cap_rga] 0.033423
+batch 639, [tri-loss] 0.024745, [img_rga] 0.027719, [cap_rga] 0.031822
+batch 703, [tri-loss] 0.027216, [img_rga] 0.030601, [cap_rga] 0.034486
+batch 767, [tri-loss] 0.023686, [img_rga] 0.027110, [cap_rga] 0.030770
+[euclidean][global] R@1: 0.0433 | R@5: 0.1399 | R@10: 0.2150
+[cosine   ][global] R@1: 0.1936 | R@5: 0.4473 | R@10: 0.5758
+batch 63, [tri-loss] 0.024582, [img_rga] 0.027410, [cap_rga] 0.031082
+batch 127, [tri-loss] 0.023824, [img_rga] 0.027052, [cap_rga] 0.030953
+batch 191, [tri-loss] 0.023787, [img_rga] 0.026678, [cap_rga] 0.029692
+batch 255, [tri-loss] 0.023982, [img_rga] 0.027455, [cap_rga] 0.029764
+batch 319, [tri-loss] 0.024647, [img_rga] 0.028163, [cap_rga] 0.032196
+batch 383, [tri-loss] 0.022612, [img_rga] 0.025410, [cap_rga] 0.029880
+batch 447, [tri-loss] 0.023424, [img_rga] 0.026406, [cap_rga] 0.029314
+batch 511, [tri-loss] 0.022802, [img_rga] 0.025655, [cap_rga] 0.028266
+batch 575, [tri-loss] 0.023288, [img_rga] 0.026624, [cap_rga] 0.031147
+batch 639, [tri-loss] 0.024868, [img_rga] 0.027764, [cap_rga] 0.030695
+batch 703, [tri-loss] 0.024642, [img_rga] 0.027554, [cap_rga] 0.032851
+batch 767, [tri-loss] 0.026443, [img_rga] 0.029187, [cap_rga] 0.031648
+[euclidean][global] R@1: 0.0436 | R@5: 0.1324 | R@10: 0.1903
+[cosine   ][global] R@1: 0.1779 | R@5: 0.4281 | R@10: 0.5553
+batch 63, [tri-loss] 0.025022, [img_rga] 0.027872, [cap_rga] 0.030658
+batch 127, [tri-loss] 0.026414, [img_rga] 0.029415, [cap_rga] 0.031883
+batch 191, [tri-loss] 0.025171, [img_rga] 0.028140, [cap_rga] 0.032831
+batch 255, [tri-loss] 0.025140, [img_rga] 0.028027, [cap_rga] 0.030557
+batch 319, [tri-loss] 0.027277, [img_rga] 0.030377, [cap_rga] 0.033190
+batch 383, [tri-loss] 0.023426, [img_rga] 0.026240, [cap_rga] 0.030458
+batch 447, [tri-loss] 0.023855, [img_rga] 0.026594, [cap_rga] 0.030242
+batch 511, [tri-loss] 0.023731, [img_rga] 0.026294, [cap_rga] 0.029916
+batch 575, [tri-loss] 0.022310, [img_rga] 0.024917, [cap_rga] 0.027894
+batch 639, [tri-loss] 0.023808, [img_rga] 0.026799, [cap_rga] 0.029779
+batch 703, [tri-loss] 0.025411, [img_rga] 0.027961, [cap_rga] 0.032082
+batch 767, [tri-loss] 0.022083, [img_rga] 0.024590, [cap_rga] 0.029010
+[euclidean][global] R@1: 0.0462 | R@5: 0.1285 | R@10: 0.2010
+[cosine   ][global] R@1: 0.1867 | R@5: 0.4340 | R@10: 0.5589
+batch 63, [tri-loss] 0.024050, [img_rga] 0.026893, [cap_rga] 0.030658
+batch 127, [tri-loss] 0.023653, [img_rga] 0.025985, [cap_rga] 0.030140
+batch 191, [tri-loss] 0.024181, [img_rga] 0.026542, [cap_rga] 0.029657
+batch 255, [tri-loss] 0.023950, [img_rga] 0.026887, [cap_rga] 0.030763
+batch 319, [tri-loss] 0.023929, [img_rga] 0.026394, [cap_rga] 0.030555
+batch 383, [tri-loss] 0.023876, [img_rga] 0.026585, [cap_rga] 0.032159
+batch 447, [tri-loss] 0.021245, [img_rga] 0.023471, [cap_rga] 0.028453
+batch 511, [tri-loss] 0.025183, [img_rga] 0.027786, [cap_rga] 0.032356
+batch 575, [tri-loss] 0.022700, [img_rga] 0.025472, [cap_rga] 0.029054
+batch 639, [tri-loss] 0.022506, [img_rga] 0.024920, [cap_rga] 0.029715
+batch 703, [tri-loss] 0.025668, [img_rga] 0.028712, [cap_rga] 0.031894
+batch 767, [tri-loss] 0.024183, [img_rga] 0.027133, [cap_rga] 0.031414
+[euclidean][global] R@1: 0.0507 | R@5: 0.1597 | R@10: 0.2407
+[cosine   ][global] R@1: 0.1919 | R@5: 0.4463 | R@10: 0.5693
+batch 63, [tri-loss] 0.022677, [img_rga] 0.024984, [cap_rga] 0.029011
+batch 127, [tri-loss] 0.023867, [img_rga] 0.026776, [cap_rga] 0.029612
+batch 191, [tri-loss] 0.021978, [img_rga] 0.024439, [cap_rga] 0.026081
+batch 255, [tri-loss] 0.024495, [img_rga] 0.027118, [cap_rga] 0.029737
+batch 319, [tri-loss] 0.023812, [img_rga] 0.026476, [cap_rga] 0.028924
+batch 383, [tri-loss] 0.024919, [img_rga] 0.027219, [cap_rga] 0.030608
+batch 447, [tri-loss] 0.025168, [img_rga] 0.028448, [cap_rga] 0.031991
+batch 511, [tri-loss] 0.024484, [img_rga] 0.027297, [cap_rga] 0.032483
+batch 575, [tri-loss] 0.021776, [img_rga] 0.024023, [cap_rga] 0.028283
+batch 639, [tri-loss] 0.025942, [img_rga] 0.028569, [cap_rga] 0.031279
+batch 703, [tri-loss] 0.022258, [img_rga] 0.025032, [cap_rga] 0.028706
+batch 767, [tri-loss] 0.021974, [img_rga] 0.024119, [cap_rga] 0.026721
+[euclidean][global] R@1: 0.0426 | R@5: 0.1210 | R@10: 0.1936
+[cosine   ][global] R@1: 0.1984 | R@5: 0.4314 | R@10: 0.5680
+batch 63, [tri-loss] 0.022813, [img_rga] 0.024832, [cap_rga] 0.027892
+batch 127, [tri-loss] 0.022924, [img_rga] 0.025842, [cap_rga] 0.029630
+batch 191, [tri-loss] 0.020614, [img_rga] 0.022985, [cap_rga] 0.026683
+batch 255, [tri-loss] 0.022776, [img_rga] 0.025251, [cap_rga] 0.028440
+batch 319, [tri-loss] 0.024485, [img_rga] 0.027379, [cap_rga] 0.030453
+batch 383, [tri-loss] 0.024794, [img_rga] 0.027368, [cap_rga] 0.030050
+batch 447, [tri-loss] 0.023968, [img_rga] 0.026416, [cap_rga] 0.028174
+batch 511, [tri-loss] 0.023120, [img_rga] 0.025711, [cap_rga] 0.029087
+batch 575, [tri-loss] 0.022224, [img_rga] 0.024243, [cap_rga] 0.026724
+batch 639, [tri-loss] 0.024223, [img_rga] 0.026515, [cap_rga] 0.032130
+batch 703, [tri-loss] 0.022278, [img_rga] 0.024141, [cap_rga] 0.028554
+batch 767, [tri-loss] 0.023724, [img_rga] 0.026904, [cap_rga] 0.028704
+[euclidean][global] R@1: 0.0494 | R@5: 0.1604 | R@10: 0.2391
+[cosine   ][global] R@1: 0.1851 | R@5: 0.4239 | R@10: 0.5524
+batch 63, [tri-loss] 0.023060, [img_rga] 0.024889, [cap_rga] 0.027881
+batch 127, [tri-loss] 0.020934, [img_rga] 0.022972, [cap_rga] 0.025110
+batch 191, [tri-loss] 0.022977, [img_rga] 0.025186, [cap_rga] 0.028691
+batch 255, [tri-loss] 0.022517, [img_rga] 0.024578, [cap_rga] 0.028798
+batch 319, [tri-loss] 0.021047, [img_rga] 0.022946, [cap_rga] 0.027176
+batch 383, [tri-loss] 0.023241, [img_rga] 0.025607, [cap_rga] 0.027088
+batch 447, [tri-loss] 0.021146, [img_rga] 0.023143, [cap_rga] 0.025610
+batch 511, [tri-loss] 0.020571, [img_rga] 0.022641, [cap_rga] 0.026772
+batch 575, [tri-loss] 0.020400, [img_rga] 0.022471, [cap_rga] 0.025763
+batch 639, [tri-loss] 0.022563, [img_rga] 0.024505, [cap_rga] 0.025940
+batch 703, [tri-loss] 0.020735, [img_rga] 0.022721, [cap_rga] 0.027593
+batch 767, [tri-loss] 0.022308, [img_rga] 0.024793, [cap_rga] 0.029196
+[euclidean][global] R@1: 0.0520 | R@5: 0.1614 | R@10: 0.2420
+[cosine   ][global] R@1: 0.1984 | R@5: 0.4440 | R@10: 0.5768
+batch 63, [tri-loss] 0.021167, [img_rga] 0.022962, [cap_rga] 0.026117
+batch 127, [tri-loss] 0.020631, [img_rga] 0.023138, [cap_rga] 0.025886
+batch 191, [tri-loss] 0.018862, [img_rga] 0.020593, [cap_rga] 0.023825
+batch 255, [tri-loss] 0.022296, [img_rga] 0.024247, [cap_rga] 0.027207
+batch 319, [tri-loss] 0.022816, [img_rga] 0.024780, [cap_rga] 0.029837
+batch 383, [tri-loss] 0.019815, [img_rga] 0.021826, [cap_rga] 0.027136
+batch 447, [tri-loss] 0.020962, [img_rga] 0.022741, [cap_rga] 0.027482
+batch 511, [tri-loss] 0.019619, [img_rga] 0.021547, [cap_rga] 0.025809
+batch 575, [tri-loss] 0.022439, [img_rga] 0.024390, [cap_rga] 0.026782
+batch 639, [tri-loss] 0.021837, [img_rga] 0.023517, [cap_rga] 0.025289
+batch 703, [tri-loss] 0.020797, [img_rga] 0.022865, [cap_rga] 0.026765
+batch 767, [tri-loss] 0.022336, [img_rga] 0.024089, [cap_rga] 0.027654
+[euclidean][global] R@1: 0.0592 | R@5: 0.1607 | R@10: 0.2479
+[cosine   ][global] R@1: 0.2007 | R@5: 0.4460 | R@10: 0.5699
+batch 63, [tri-loss] 0.019565, [img_rga] 0.021259, [cap_rga] 0.025046
+batch 127, [tri-loss] 0.022546, [img_rga] 0.024790, [cap_rga] 0.029073
+batch 191, [tri-loss] 0.019601, [img_rga] 0.021574, [cap_rga] 0.025536
+batch 255, [tri-loss] 0.020381, [img_rga] 0.022415, [cap_rga] 0.024994
+batch 319, [tri-loss] 0.021840, [img_rga] 0.023698, [cap_rga] 0.028241
+batch 383, [tri-loss] 0.021758, [img_rga] 0.023330, [cap_rga] 0.024931
+batch 447, [tri-loss] 0.020638, [img_rga] 0.022745, [cap_rga] 0.025276
+batch 511, [tri-loss] 0.018345, [img_rga] 0.019849, [cap_rga] 0.023818
+batch 575, [tri-loss] 0.021424, [img_rga] 0.023034, [cap_rga] 0.025737
+batch 639, [tri-loss] 0.021277, [img_rga] 0.023187, [cap_rga] 0.027132
+batch 703, [tri-loss] 0.021465, [img_rga] 0.023158, [cap_rga] 0.026723
+batch 767, [tri-loss] 0.020070, [img_rga] 0.021796, [cap_rga] 0.025439
+[euclidean][global] R@1: 0.0595 | R@5: 0.1731 | R@10: 0.2472
+[cosine   ][global] R@1: 0.1984 | R@5: 0.4463 | R@10: 0.5706
+batch 63, [tri-loss] 0.019753, [img_rga] 0.021507, [cap_rga] 0.024847
+batch 127, [tri-loss] 0.019942, [img_rga] 0.022077, [cap_rga] 0.026889
+batch 191, [tri-loss] 0.017878, [img_rga] 0.019472, [cap_rga] 0.022958
+batch 255, [tri-loss] 0.019094, [img_rga] 0.020785, [cap_rga] 0.026139
+batch 319, [tri-loss] 0.020669, [img_rga] 0.022596, [cap_rga] 0.026712
+batch 383, [tri-loss] 0.021852, [img_rga] 0.023518, [cap_rga] 0.026349
+batch 447, [tri-loss] 0.019988, [img_rga] 0.021928, [cap_rga] 0.026793
+batch 511, [tri-loss] 0.020692, [img_rga] 0.022801, [cap_rga] 0.026003
+batch 575, [tri-loss] 0.020758, [img_rga] 0.022672, [cap_rga] 0.025600
+batch 639, [tri-loss] 0.018605, [img_rga] 0.020280, [cap_rga] 0.023861
+batch 703, [tri-loss] 0.021883, [img_rga] 0.024465, [cap_rga] 0.028942
+batch 767, [tri-loss] 0.019795, [img_rga] 0.022031, [cap_rga] 0.025885
+[euclidean][global] R@1: 0.0599 | R@5: 0.1799 | R@10: 0.2622
+[cosine   ][global] R@1: 0.2066 | R@5: 0.4535 | R@10: 0.5794
+batch 63, [tri-loss] 0.020340, [img_rga] 0.021993, [cap_rga] 0.025363
+batch 127, [tri-loss] 0.020641, [img_rga] 0.022569, [cap_rga] 0.025359
+batch 191, [tri-loss] 0.018954, [img_rga] 0.020477, [cap_rga] 0.025479
+batch 255, [tri-loss] 0.021001, [img_rga] 0.022585, [cap_rga] 0.025266
+batch 319, [tri-loss] 0.021357, [img_rga] 0.023061, [cap_rga] 0.027868
+batch 383, [tri-loss] 0.022252, [img_rga] 0.023964, [cap_rga] 0.026331
+batch 447, [tri-loss] 0.020827, [img_rga] 0.022502, [cap_rga] 0.028367
+batch 511, [tri-loss] 0.020654, [img_rga] 0.022627, [cap_rga] 0.026216
+batch 575, [tri-loss] 0.021376, [img_rga] 0.023011, [cap_rga] 0.027667
+batch 639, [tri-loss] 0.019830, [img_rga] 0.021354, [cap_rga] 0.024692
+batch 703, [tri-loss] 0.021005, [img_rga] 0.022664, [cap_rga] 0.026158
+batch 767, [tri-loss] 0.021438, [img_rga] 0.023390, [cap_rga] 0.026164
+[euclidean][global] R@1: 0.0670 | R@5: 0.1822 | R@10: 0.2632
+[cosine   ][global] R@1: 0.1997 | R@5: 0.4333 | R@10: 0.5683
+batch 63, [tri-loss] 0.019205, [img_rga] 0.020797, [cap_rga] 0.025457
+batch 127, [tri-loss] 0.021882, [img_rga] 0.023694, [cap_rga] 0.026625
+batch 191, [tri-loss] 0.021621, [img_rga] 0.023035, [cap_rga] 0.025396
+batch 255, [tri-loss] 0.020904, [img_rga] 0.022586, [cap_rga] 0.026418
+batch 319, [tri-loss] 0.017802, [img_rga] 0.019586, [cap_rga] 0.023492
+batch 383, [tri-loss] 0.020610, [img_rga] 0.022068, [cap_rga] 0.025879
+batch 447, [tri-loss] 0.021197, [img_rga] 0.022681, [cap_rga] 0.026366
+batch 511, [tri-loss] 0.020795, [img_rga] 0.022570, [cap_rga] 0.024806
+batch 575, [tri-loss] 0.019874, [img_rga] 0.021289, [cap_rga] 0.023677
+batch 639, [tri-loss] 0.019056, [img_rga] 0.020452, [cap_rga] 0.024740
+batch 703, [tri-loss] 0.020146, [img_rga] 0.021872, [cap_rga] 0.023956
+batch 767, [tri-loss] 0.022261, [img_rga] 0.024162, [cap_rga] 0.028173
+[euclidean][global] R@1: 0.0576 | R@5: 0.1682 | R@10: 0.2427
+[cosine   ][global] R@1: 0.1958 | R@5: 0.4362 | R@10: 0.5690
+batch 63, [tri-loss] 0.019178, [img_rga] 0.021035, [cap_rga] 0.025484
+batch 127, [tri-loss] 0.021134, [img_rga] 0.022931, [cap_rga] 0.026485
+batch 191, [tri-loss] 0.018942, [img_rga] 0.020737, [cap_rga] 0.023942
+batch 255, [tri-loss] 0.018020, [img_rga] 0.019454, [cap_rga] 0.023664
+batch 319, [tri-loss] 0.021419, [img_rga] 0.023381, [cap_rga] 0.028035
+batch 383, [tri-loss] 0.019975, [img_rga] 0.021755, [cap_rga] 0.025140
+batch 447, [tri-loss] 0.020304, [img_rga] 0.022110, [cap_rga] 0.025735
+batch 511, [tri-loss] 0.019820, [img_rga] 0.021819, [cap_rga] 0.027186
+batch 575, [tri-loss] 0.021063, [img_rga] 0.022990, [cap_rga] 0.025308
+batch 639, [tri-loss] 0.020514, [img_rga] 0.022169, [cap_rga] 0.026175
+batch 703, [tri-loss] 0.022321, [img_rga] 0.024275, [cap_rga] 0.026172
+batch 767, [tri-loss] 0.018611, [img_rga] 0.019785, [cap_rga] 0.024686
+[euclidean][global] R@1: 0.0644 | R@5: 0.1887 | R@10: 0.2759
+[cosine   ][global] R@1: 0.2017 | R@5: 0.4483 | R@10: 0.5804
+batch 63, [tri-loss] 0.021868, [img_rga] 0.023759, [cap_rga] 0.026897
+batch 127, [tri-loss] 0.018999, [img_rga] 0.020579, [cap_rga] 0.024205
+batch 191, [tri-loss] 0.020224, [img_rga] 0.022091, [cap_rga] 0.026064
+batch 255, [tri-loss] 0.020548, [img_rga] 0.022270, [cap_rga] 0.026566
+batch 319, [tri-loss] 0.019713, [img_rga] 0.021422, [cap_rga] 0.025231
+batch 383, [tri-loss] 0.020041, [img_rga] 0.021887, [cap_rga] 0.027148
+batch 447, [tri-loss] 0.019288, [img_rga] 0.020442, [cap_rga] 0.024253
+batch 511, [tri-loss] 0.019293, [img_rga] 0.020924, [cap_rga] 0.025520
+batch 575, [tri-loss] 0.021915, [img_rga] 0.023455, [cap_rga] 0.026875
+batch 639, [tri-loss] 0.022088, [img_rga] 0.023803, [cap_rga] 0.029561
+batch 703, [tri-loss] 0.019761, [img_rga] 0.021552, [cap_rga] 0.026215
+batch 767, [tri-loss] 0.019389, [img_rga] 0.021222, [cap_rga] 0.023912
+[euclidean][global] R@1: 0.0547 | R@5: 0.1672 | R@10: 0.2446
+[cosine   ][global] R@1: 0.2092 | R@5: 0.4515 | R@10: 0.5852
+batch 63, [tri-loss] 0.019126, [img_rga] 0.020816, [cap_rga] 0.024105
+batch 127, [tri-loss] 0.019352, [img_rga] 0.020956, [cap_rga] 0.024613
+batch 191, [tri-loss] 0.019917, [img_rga] 0.021513, [cap_rga] 0.025701
+batch 255, [tri-loss] 0.020026, [img_rga] 0.021768, [cap_rga] 0.027056
+batch 319, [tri-loss] 0.019065, [img_rga] 0.021131, [cap_rga] 0.026602
+batch 383, [tri-loss] 0.019821, [img_rga] 0.021199, [cap_rga] 0.026218
+batch 447, [tri-loss] 0.020373, [img_rga] 0.021908, [cap_rga] 0.025596
+batch 511, [tri-loss] 0.019402, [img_rga] 0.021413, [cap_rga] 0.025877
+batch 575, [tri-loss] 0.020019, [img_rga] 0.021648, [cap_rga] 0.025684
+batch 639, [tri-loss] 0.020919, [img_rga] 0.022430, [cap_rga] 0.026315
+batch 703, [tri-loss] 0.019215, [img_rga] 0.021002, [cap_rga] 0.025723
+batch 767, [tri-loss] 0.018797, [img_rga] 0.020030, [cap_rga] 0.025331
+[euclidean][global] R@1: 0.0670 | R@5: 0.1783 | R@10: 0.2606
+[cosine   ][global] R@1: 0.2066 | R@5: 0.4457 | R@10: 0.5797
+batch 63, [tri-loss] 0.021486, [img_rga] 0.023335, [cap_rga] 0.026990
+batch 127, [tri-loss] 0.020224, [img_rga] 0.021841, [cap_rga] 0.025125
+batch 191, [tri-loss] 0.019846, [img_rga] 0.021603, [cap_rga] 0.026162
+batch 255, [tri-loss] 0.019616, [img_rga] 0.021146, [cap_rga] 0.024344
+batch 319, [tri-loss] 0.022037, [img_rga] 0.024039, [cap_rga] 0.029390
+batch 383, [tri-loss] 0.018509, [img_rga] 0.019664, [cap_rga] 0.022919
+batch 447, [tri-loss] 0.021488, [img_rga] 0.022892, [cap_rga] 0.026047
+batch 511, [tri-loss] 0.022556, [img_rga] 0.024399, [cap_rga] 0.027396
+batch 575, [tri-loss] 0.018786, [img_rga] 0.020385, [cap_rga] 0.023944
+batch 639, [tri-loss] 0.020959, [img_rga] 0.022557, [cap_rga] 0.025262
+batch 703, [tri-loss] 0.019890, [img_rga] 0.021420, [cap_rga] 0.025818
+batch 767, [tri-loss] 0.018569, [img_rga] 0.020046, [cap_rga] 0.023253
+[euclidean][global] R@1: 0.0589 | R@5: 0.1783 | R@10: 0.2602
+[cosine   ][global] R@1: 0.2030 | R@5: 0.4590 | R@10: 0.5820
+batch 63, [tri-loss] 0.019412, [img_rga] 0.020960, [cap_rga] 0.023096
+batch 127, [tri-loss] 0.020217, [img_rga] 0.021992, [cap_rga] 0.025582
+batch 191, [tri-loss] 0.020143, [img_rga] 0.021663, [cap_rga] 0.026019
+batch 255, [tri-loss] 0.019546, [img_rga] 0.021275, [cap_rga] 0.024385
+batch 319, [tri-loss] 0.018947, [img_rga] 0.020842, [cap_rga] 0.024264
+batch 383, [tri-loss] 0.018502, [img_rga] 0.020067, [cap_rga] 0.024372
+batch 447, [tri-loss] 0.021740, [img_rga] 0.023239, [cap_rga] 0.025409
+batch 511, [tri-loss] 0.022298, [img_rga] 0.023578, [cap_rga] 0.027042
+batch 575, [tri-loss] 0.019265, [img_rga] 0.020865, [cap_rga] 0.024308
+batch 639, [tri-loss] 0.018495, [img_rga] 0.019898, [cap_rga] 0.024530
+batch 703, [tri-loss] 0.019350, [img_rga] 0.021258, [cap_rga] 0.025834
+batch 767, [tri-loss] 0.019610, [img_rga] 0.021060, [cap_rga] 0.025728
+[euclidean][global] R@1: 0.0657 | R@5: 0.1939 | R@10: 0.2700
+[cosine   ][global] R@1: 0.2030 | R@5: 0.4444 | R@10: 0.5745
+batch 63, [tri-loss] 0.020050, [img_rga] 0.021545, [cap_rga] 0.024941
+batch 127, [tri-loss] 0.018087, [img_rga] 0.019577, [cap_rga] 0.024595
+batch 191, [tri-loss] 0.020888, [img_rga] 0.022240, [cap_rga] 0.025000
+batch 255, [tri-loss] 0.018634, [img_rga] 0.020317, [cap_rga] 0.023834
+batch 319, [tri-loss] 0.021221, [img_rga] 0.022945, [cap_rga] 0.026547
+batch 383, [tri-loss] 0.022236, [img_rga] 0.023989, [cap_rga] 0.028405
+batch 447, [tri-loss] 0.020374, [img_rga] 0.021913, [cap_rga] 0.025395
+batch 511, [tri-loss] 0.018625, [img_rga] 0.020232, [cap_rga] 0.022962
+batch 575, [tri-loss] 0.022138, [img_rga] 0.023893, [cap_rga] 0.026995
+batch 639, [tri-loss] 0.021472, [img_rga] 0.023326, [cap_rga] 0.027366
+batch 703, [tri-loss] 0.019467, [img_rga] 0.020907, [cap_rga] 0.023443
+batch 767, [tri-loss] 0.018339, [img_rga] 0.019610, [cap_rga] 0.023789
+[euclidean][global] R@1: 0.0621 | R@5: 0.1796 | R@10: 0.2599
+[cosine   ][global] R@1: 0.2131 | R@5: 0.4626 | R@10: 0.5878
+batch 63, [tri-loss] 0.021080, [img_rga] 0.023052, [cap_rga] 0.026510
+batch 127, [tri-loss] 0.017625, [img_rga] 0.019072, [cap_rga] 0.023937
+batch 191, [tri-loss] 0.019031, [img_rga] 0.020495, [cap_rga] 0.024014
+batch 255, [tri-loss] 0.021653, [img_rga] 0.023235, [cap_rga] 0.026712
+batch 319, [tri-loss] 0.019026, [img_rga] 0.020552, [cap_rga] 0.022954
+batch 383, [tri-loss] 0.018763, [img_rga] 0.020157, [cap_rga] 0.025129
+batch 447, [tri-loss] 0.020784, [img_rga] 0.022297, [cap_rga] 0.025465
+batch 511, [tri-loss] 0.020940, [img_rga] 0.022774, [cap_rga] 0.028646
+batch 575, [tri-loss] 0.018732, [img_rga] 0.020159, [cap_rga] 0.025309
+batch 639, [tri-loss] 0.020465, [img_rga] 0.022257, [cap_rga] 0.026245
+batch 703, [tri-loss] 0.018985, [img_rga] 0.020649, [cap_rga] 0.024343
+batch 767, [tri-loss] 0.022353, [img_rga] 0.023730, [cap_rga] 0.027674
+[euclidean][global] R@1: 0.0657 | R@5: 0.1805 | R@10: 0.2772
+[cosine   ][global] R@1: 0.2134 | R@5: 0.4632 | R@10: 0.5810
+batch 63, [tri-loss] 0.018466, [img_rga] 0.020060, [cap_rga] 0.023138
+batch 127, [tri-loss] 0.020554, [img_rga] 0.022142, [cap_rga] 0.024951
+batch 191, [tri-loss] 0.019440, [img_rga] 0.020949, [cap_rga] 0.024324
+batch 255, [tri-loss] 0.019228, [img_rga] 0.020674, [cap_rga] 0.024242
+batch 319, [tri-loss] 0.019939, [img_rga] 0.021289, [cap_rga] 0.026053
+batch 383, [tri-loss] 0.020573, [img_rga] 0.022203, [cap_rga] 0.026450
+batch 447, [tri-loss] 0.020367, [img_rga] 0.021842, [cap_rga] 0.024320
+batch 511, [tri-loss] 0.019060, [img_rga] 0.020862, [cap_rga] 0.026975
+batch 575, [tri-loss] 0.018514, [img_rga] 0.019974, [cap_rga] 0.024694
+batch 639, [tri-loss] 0.019708, [img_rga] 0.021654, [cap_rga] 0.025971
+batch 703, [tri-loss] 0.017524, [img_rga] 0.019023, [cap_rga] 0.022299
+batch 767, [tri-loss] 0.019517, [img_rga] 0.021087, [cap_rga] 0.026326
+[euclidean][global] R@1: 0.0677 | R@5: 0.1809 | R@10: 0.2661
+[cosine   ][global] R@1: 0.2085 | R@5: 0.4580 | R@10: 0.5872
+batch 63, [tri-loss] 0.018600, [img_rga] 0.019784, [cap_rga] 0.024827
+batch 127, [tri-loss] 0.018909, [img_rga] 0.020422, [cap_rga] 0.024736
+batch 191, [tri-loss] 0.020667, [img_rga] 0.022430, [cap_rga] 0.027496
+batch 255, [tri-loss] 0.020753, [img_rga] 0.022404, [cap_rga] 0.026175
+batch 319, [tri-loss] 0.018898, [img_rga] 0.020407, [cap_rga] 0.025901
+batch 383, [tri-loss] 0.018934, [img_rga] 0.020316, [cap_rga] 0.023744
+batch 447, [tri-loss] 0.020844, [img_rga] 0.022415, [cap_rga] 0.025865
+batch 511, [tri-loss] 0.018128, [img_rga] 0.019368, [cap_rga] 0.022620
+batch 575, [tri-loss] 0.021067, [img_rga] 0.022825, [cap_rga] 0.026833
+batch 639, [tri-loss] 0.020096, [img_rga] 0.021448, [cap_rga] 0.024712
+batch 703, [tri-loss] 0.018585, [img_rga] 0.019581, [cap_rga] 0.023525
+batch 767, [tri-loss] 0.019918, [img_rga] 0.021712, [cap_rga] 0.026114
+[euclidean][global] R@1: 0.0654 | R@5: 0.1845 | R@10: 0.2710
+[cosine   ][global] R@1: 0.2111 | R@5: 0.4694 | R@10: 0.5869
+batch 63, [tri-loss] 0.018560, [img_rga] 0.019861, [cap_rga] 0.023826
+batch 127, [tri-loss] 0.018788, [img_rga] 0.020237, [cap_rga] 0.022705
+batch 191, [tri-loss] 0.016899, [img_rga] 0.017990, [cap_rga] 0.021809
+batch 255, [tri-loss] 0.019074, [img_rga] 0.020628, [cap_rga] 0.024972
+batch 319, [tri-loss] 0.019772, [img_rga] 0.021524, [cap_rga] 0.025923
+batch 383, [tri-loss] 0.021582, [img_rga] 0.023153, [cap_rga] 0.025816
+batch 447, [tri-loss] 0.018440, [img_rga] 0.019991, [cap_rga] 0.023952
+batch 511, [tri-loss] 0.019602, [img_rga] 0.021704, [cap_rga] 0.026848
+batch 575, [tri-loss] 0.017374, [img_rga] 0.018669, [cap_rga] 0.024148
+batch 639, [tri-loss] 0.021176, [img_rga] 0.022924, [cap_rga] 0.024744
+batch 703, [tri-loss] 0.019792, [img_rga] 0.021256, [cap_rga] 0.025066
+batch 767, [tri-loss] 0.017956, [img_rga] 0.019424, [cap_rga] 0.022693
+[euclidean][global] R@1: 0.0696 | R@5: 0.1913 | R@10: 0.2772
+[cosine   ][global] R@1: 0.2150 | R@5: 0.4714 | R@10: 0.5891
+batch 63, [tri-loss] 0.019874, [img_rga] 0.021462, [cap_rga] 0.024356
+batch 127, [tri-loss] 0.019375, [img_rga] 0.020979, [cap_rga] 0.025821
+batch 191, [tri-loss] 0.018347, [img_rga] 0.020165, [cap_rga] 0.024043
+batch 255, [tri-loss] 0.020055, [img_rga] 0.021484, [cap_rga] 0.025884
+batch 319, [tri-loss] 0.019352, [img_rga] 0.021026, [cap_rga] 0.024673
+batch 383, [tri-loss] 0.017481, [img_rga] 0.019041, [cap_rga] 0.023644
+batch 447, [tri-loss] 0.019548, [img_rga] 0.021061, [cap_rga] 0.026778
+batch 511, [tri-loss] 0.019970, [img_rga] 0.021656, [cap_rga] 0.025011
+batch 575, [tri-loss] 0.018243, [img_rga] 0.019398, [cap_rga] 0.023504
+batch 639, [tri-loss] 0.019119, [img_rga] 0.020885, [cap_rga] 0.025115
+batch 703, [tri-loss] 0.018561, [img_rga] 0.020108, [cap_rga] 0.023439
+batch 767, [tri-loss] 0.019049, [img_rga] 0.020396, [cap_rga] 0.024394
+[euclidean][global] R@1: 0.0660 | R@5: 0.1994 | R@10: 0.2856
+[cosine   ][global] R@1: 0.2046 | R@5: 0.4522 | R@10: 0.5768
+batch 63, [tri-loss] 0.016716, [img_rga] 0.018163, [cap_rga] 0.022331
+batch 127, [tri-loss] 0.020686, [img_rga] 0.022076, [cap_rga] 0.025879
+batch 191, [tri-loss] 0.019325, [img_rga] 0.020900, [cap_rga] 0.024391
+batch 255, [tri-loss] 0.020311, [img_rga] 0.021928, [cap_rga] 0.025311
+batch 319, [tri-loss] 0.019799, [img_rga] 0.021639, [cap_rga] 0.024899
+batch 383, [tri-loss] 0.018259, [img_rga] 0.019671, [cap_rga] 0.022657
+batch 447, [tri-loss] 0.019232, [img_rga] 0.020942, [cap_rga] 0.024640
+batch 511, [tri-loss] 0.018888, [img_rga] 0.020396, [cap_rga] 0.023850
+batch 575, [tri-loss] 0.019817, [img_rga] 0.021698, [cap_rga] 0.025342
+batch 639, [tri-loss] 0.019279, [img_rga] 0.020944, [cap_rga] 0.025645
+batch 703, [tri-loss] 0.020032, [img_rga] 0.021095, [cap_rga] 0.024527
+batch 767, [tri-loss] 0.019989, [img_rga] 0.021015, [cap_rga] 0.023689
+[euclidean][global] R@1: 0.0644 | R@5: 0.1818 | R@10: 0.2612
+[cosine   ][global] R@1: 0.2075 | R@5: 0.4645 | R@10: 0.5875
+batch 63, [tri-loss] 0.020672, [img_rga] 0.022413, [cap_rga] 0.025842
+batch 127, [tri-loss] 0.019985, [img_rga] 0.021677, [cap_rga] 0.025131
+batch 191, [tri-loss] 0.018729, [img_rga] 0.020344, [cap_rga] 0.021853
+batch 255, [tri-loss] 0.018389, [img_rga] 0.019464, [cap_rga] 0.024187
+batch 319, [tri-loss] 0.018945, [img_rga] 0.020571, [cap_rga] 0.024556
+batch 383, [tri-loss] 0.019363, [img_rga] 0.020789, [cap_rga] 0.024715
+batch 447, [tri-loss] 0.018339, [img_rga] 0.019754, [cap_rga] 0.022026
+batch 511, [tri-loss] 0.018128, [img_rga] 0.019778, [cap_rga] 0.024218
+batch 575, [tri-loss] 0.020571, [img_rga] 0.022140, [cap_rga] 0.025267
+batch 639, [tri-loss] 0.018525, [img_rga] 0.020698, [cap_rga] 0.023816
+batch 703, [tri-loss] 0.017149, [img_rga] 0.018645, [cap_rga] 0.023283
+batch 767, [tri-loss] 0.021491, [img_rga] 0.023047, [cap_rga] 0.026462
+[euclidean][global] R@1: 0.0683 | R@5: 0.1854 | R@10: 0.2807
+[cosine   ][global] R@1: 0.2066 | R@5: 0.4558 | R@10: 0.5843
+batch 63, [tri-loss] 0.021905, [img_rga] 0.024001, [cap_rga] 0.027778
+batch 127, [tri-loss] 0.017390, [img_rga] 0.018854, [cap_rga] 0.022557
+batch 191, [tri-loss] 0.019435, [img_rga] 0.020876, [cap_rga] 0.023863
+batch 255, [tri-loss] 0.019830, [img_rga] 0.021226, [cap_rga] 0.024882
+batch 319, [tri-loss] 0.017950, [img_rga] 0.019243, [cap_rga] 0.023580
+batch 383, [tri-loss] 0.020410, [img_rga] 0.021926, [cap_rga] 0.026430
+batch 447, [tri-loss] 0.020131, [img_rga] 0.021893, [cap_rga] 0.024455
+batch 511, [tri-loss] 0.020068, [img_rga] 0.021603, [cap_rga] 0.025859
+batch 575, [tri-loss] 0.018591, [img_rga] 0.019839, [cap_rga] 0.024452
+batch 639, [tri-loss] 0.019774, [img_rga] 0.021137, [cap_rga] 0.024075
+batch 703, [tri-loss] 0.020500, [img_rga] 0.021959, [cap_rga] 0.027120
+batch 767, [tri-loss] 0.021501, [img_rga] 0.023356, [cap_rga] 0.025400
+[euclidean][global] R@1: 0.0621 | R@5: 0.1786 | R@10: 0.2622
+[cosine   ][global] R@1: 0.2193 | R@5: 0.4707 | R@10: 0.5917
+batch 63, [tri-loss] 0.018022, [img_rga] 0.019389, [cap_rga] 0.023505
+batch 127, [tri-loss] 0.017313, [img_rga] 0.018561, [cap_rga] 0.023999
+batch 191, [tri-loss] 0.019805, [img_rga] 0.021448, [cap_rga] 0.025225
+batch 255, [tri-loss] 0.019953, [img_rga] 0.021579, [cap_rga] 0.025246
+batch 319, [tri-loss] 0.018593, [img_rga] 0.019962, [cap_rga] 0.024692
+batch 383, [tri-loss] 0.019722, [img_rga] 0.021010, [cap_rga] 0.024444
+batch 447, [tri-loss] 0.020209, [img_rga] 0.021818, [cap_rga] 0.024396
+batch 511, [tri-loss] 0.020674, [img_rga] 0.022282, [cap_rga] 0.023930
+batch 575, [tri-loss] 0.021401, [img_rga] 0.023475, [cap_rga] 0.027803
+batch 639, [tri-loss] 0.019815, [img_rga] 0.021295, [cap_rga] 0.024146
+batch 703, [tri-loss] 0.018168, [img_rga] 0.019748, [cap_rga] 0.025558
+batch 767, [tri-loss] 0.020590, [img_rga] 0.022126, [cap_rga] 0.025607
+[euclidean][global] R@1: 0.0683 | R@5: 0.1923 | R@10: 0.2918
+[cosine   ][global] R@1: 0.2144 | R@5: 0.4658 | R@10: 0.5859
+batch 63, [tri-loss] 0.018618, [img_rga] 0.020200, [cap_rga] 0.025538
+batch 127, [tri-loss] 0.018838, [img_rga] 0.020277, [cap_rga] 0.024325
+batch 191, [tri-loss] 0.018479, [img_rga] 0.020288, [cap_rga] 0.023759
+batch 255, [tri-loss] 0.018036, [img_rga] 0.019654, [cap_rga] 0.024261
+batch 319, [tri-loss] 0.017879, [img_rga] 0.019469, [cap_rga] 0.024196
+batch 383, [tri-loss] 0.019809, [img_rga] 0.021606, [cap_rga] 0.025619
+batch 447, [tri-loss] 0.017703, [img_rga] 0.019002, [cap_rga] 0.023606
+batch 511, [tri-loss] 0.017354, [img_rga] 0.018950, [cap_rga] 0.022972
+batch 575, [tri-loss] 0.021141, [img_rga] 0.022900, [cap_rga] 0.027220
+batch 639, [tri-loss] 0.018656, [img_rga] 0.020224, [cap_rga] 0.023862
+batch 703, [tri-loss] 0.018924, [img_rga] 0.020609, [cap_rga] 0.025576
+batch 767, [tri-loss] 0.020039, [img_rga] 0.021400, [cap_rga] 0.025271
+[euclidean][global] R@1: 0.0641 | R@5: 0.1753 | R@10: 0.2661
+[cosine   ][global] R@1: 0.2053 | R@5: 0.4519 | R@10: 0.5826
+batch 63, [tri-loss] 0.018265, [img_rga] 0.019841, [cap_rga] 0.023292
+batch 127, [tri-loss] 0.019687, [img_rga] 0.021189, [cap_rga] 0.024707
+batch 191, [tri-loss] 0.020530, [img_rga] 0.021947, [cap_rga] 0.025106
+batch 255, [tri-loss] 0.018850, [img_rga] 0.020502, [cap_rga] 0.025139
+batch 319, [tri-loss] 0.017737, [img_rga] 0.019132, [cap_rga] 0.023755
+batch 383, [tri-loss] 0.020701, [img_rga] 0.022208, [cap_rga] 0.025539
+batch 447, [tri-loss] 0.018828, [img_rga] 0.020415, [cap_rga] 0.025848
+batch 511, [tri-loss] 0.017957, [img_rga] 0.019417, [cap_rga] 0.023689
+batch 575, [tri-loss] 0.018811, [img_rga] 0.020301, [cap_rga] 0.022528
+batch 639, [tri-loss] 0.018939, [img_rga] 0.020694, [cap_rga] 0.024912
+batch 703, [tri-loss] 0.020347, [img_rga] 0.021930, [cap_rga] 0.026711
+batch 767, [tri-loss] 0.018472, [img_rga] 0.019634, [cap_rga] 0.023112
+[euclidean][global] R@1: 0.0644 | R@5: 0.1825 | R@10: 0.2739
+[cosine   ][global] R@1: 0.2173 | R@5: 0.4652 | R@10: 0.5882
+batch 63, [tri-loss] 0.018574, [img_rga] 0.020178, [cap_rga] 0.024535
+batch 127, [tri-loss] 0.018613, [img_rga] 0.020259, [cap_rga] 0.024715
+batch 191, [tri-loss] 0.017771, [img_rga] 0.019091, [cap_rga] 0.022758
+batch 255, [tri-loss] 0.019887, [img_rga] 0.021636, [cap_rga] 0.025398
+batch 319, [tri-loss] 0.017521, [img_rga] 0.018782, [cap_rga] 0.023544
+batch 383, [tri-loss] 0.018648, [img_rga] 0.020155, [cap_rga] 0.024013
+batch 447, [tri-loss] 0.018692, [img_rga] 0.019958, [cap_rga] 0.025490
+batch 511, [tri-loss] 0.018127, [img_rga] 0.019691, [cap_rga] 0.023631
+batch 575, [tri-loss] 0.017962, [img_rga] 0.019326, [cap_rga] 0.024006
+batch 639, [tri-loss] 0.018491, [img_rga] 0.020005, [cap_rga] 0.021942
+batch 703, [tri-loss] 0.019781, [img_rga] 0.021241, [cap_rga] 0.028009
+batch 767, [tri-loss] 0.019272, [img_rga] 0.020787, [cap_rga] 0.025618
+[euclidean][global] R@1: 0.0628 | R@5: 0.1731 | R@10: 0.2599
+[cosine   ][global] R@1: 0.2157 | R@5: 0.4610 | R@10: 0.5843
+batch 63, [tri-loss] 0.019311, [img_rga] 0.020624, [cap_rga] 0.023954
+batch 127, [tri-loss] 0.019944, [img_rga] 0.021900, [cap_rga] 0.024542
+batch 191, [tri-loss] 0.019332, [img_rga] 0.020705, [cap_rga] 0.024760
+batch 255, [tri-loss] 0.019244, [img_rga] 0.020723, [cap_rga] 0.022903
+batch 319, [tri-loss] 0.018813, [img_rga] 0.020550, [cap_rga] 0.024355
+batch 383, [tri-loss] 0.020418, [img_rga] 0.021865, [cap_rga] 0.025767
+batch 447, [tri-loss] 0.018696, [img_rga] 0.020143, [cap_rga] 0.023144
+batch 511, [tri-loss] 0.018464, [img_rga] 0.019667, [cap_rga] 0.022999
+batch 575, [tri-loss] 0.017235, [img_rga] 0.018755, [cap_rga] 0.023158
+batch 639, [tri-loss] 0.017100, [img_rga] 0.018502, [cap_rga] 0.023278
+batch 703, [tri-loss] 0.020029, [img_rga] 0.021565, [cap_rga] 0.024210
+batch 767, [tri-loss] 0.017871, [img_rga] 0.019478, [cap_rga] 0.022971
+[euclidean][global] R@1: 0.0660 | R@5: 0.1864 | R@10: 0.2820
+[cosine   ][global] R@1: 0.2150 | R@5: 0.4632 | R@10: 0.5852
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.039269, [img_rga] 0.139881, [cap_rga] 0.276580
+batch 127, [tri-loss] 0.037891, [img_rga] 0.071362, [cap_rga] 0.140731
+batch 191, [tri-loss] 0.036369, [img_rga] 0.059337, [cap_rga] 0.109600
+batch 255, [tri-loss] 0.033315, [img_rga] 0.050845, [cap_rga] 0.096207
+batch 319, [tri-loss] 0.033829, [img_rga] 0.051968, [cap_rga] 0.095862
+batch 383, [tri-loss] 0.033015, [img_rga] 0.048647, [cap_rga] 0.088217
+batch 447, [tri-loss] 0.034084, [img_rga] 0.049785, [cap_rga] 0.086778
+batch 511, [tri-loss] 0.030669, [img_rga] 0.041660, [cap_rga] 0.077373
+batch 575, [tri-loss] 0.038024, [img_rga] 0.051503, [cap_rga] 0.090835
+batch 639, [tri-loss] 0.033835, [img_rga] 0.045044, [cap_rga] 0.082375
+batch 703, [tri-loss] 0.035735, [img_rga] 0.047228, [cap_rga] 0.082580
+batch 767, [tri-loss] 0.028049, [img_rga] 0.037490, [cap_rga] 0.071351
+[euclidean][global] R@1: 0.0358 | R@5: 0.1025 | R@10: 0.1561
+[cosine   ][global] R@1: 0.2040 | R@5: 0.4327 | R@10: 0.5579
+batch 63, [tri-loss] 0.033015, [img_rga] 0.043103, [cap_rga] 0.075668
+batch 127, [tri-loss] 0.028994, [img_rga] 0.037847, [cap_rga] 0.069280
+batch 191, [tri-loss] 0.033395, [img_rga] 0.043605, [cap_rga] 0.076239
+batch 255, [tri-loss] 0.030485, [img_rga] 0.037692, [cap_rga] 0.070753
+batch 319, [tri-loss] 0.032025, [img_rga] 0.040424, [cap_rga] 0.075495
+batch 383, [tri-loss] 0.030473, [img_rga] 0.037899, [cap_rga] 0.072315
+batch 447, [tri-loss] 0.033964, [img_rga] 0.041739, [cap_rga] 0.073768
+batch 511, [tri-loss] 0.033303, [img_rga] 0.041000, [cap_rga] 0.071720
+batch 575, [tri-loss] 0.030720, [img_rga] 0.037660, [cap_rga] 0.071555
+batch 639, [tri-loss] 0.032374, [img_rga] 0.039165, [cap_rga] 0.068916
+batch 703, [tri-loss] 0.029370, [img_rga] 0.034886, [cap_rga] 0.064500
+batch 767, [tri-loss] 0.030062, [img_rga] 0.035913, [cap_rga] 0.066082
+[euclidean][global] R@1: 0.0436 | R@5: 0.1344 | R@10: 0.2004
+[cosine   ][global] R@1: 0.1854 | R@5: 0.4086 | R@10: 0.5335
+batch 63, [tri-loss] 0.034236, [img_rga] 0.041264, [cap_rga] 0.070230
+batch 127, [tri-loss] 0.032969, [img_rga] 0.038843, [cap_rga] 0.068164
+batch 191, [tri-loss] 0.030798, [img_rga] 0.036472, [cap_rga] 0.068609
+batch 255, [tri-loss] 0.029756, [img_rga] 0.035323, [cap_rga] 0.064352
+batch 319, [tri-loss] 0.029927, [img_rga] 0.035925, [cap_rga] 0.065051
+batch 383, [tri-loss] 0.031569, [img_rga] 0.035779, [cap_rga] 0.065362
+batch 447, [tri-loss] 0.029843, [img_rga] 0.035043, [cap_rga] 0.065368
+batch 511, [tri-loss] 0.029593, [img_rga] 0.034525, [cap_rga] 0.064144
+batch 575, [tri-loss] 0.031570, [img_rga] 0.036440, [cap_rga] 0.067883
+batch 639, [tri-loss] 0.029778, [img_rga] 0.033764, [cap_rga] 0.063336
+batch 703, [tri-loss] 0.031218, [img_rga] 0.036226, [cap_rga] 0.066612
+batch 767, [tri-loss] 0.032021, [img_rga] 0.037445, [cap_rga] 0.067586
+[euclidean][global] R@1: 0.0316 | R@5: 0.1103 | R@10: 0.1796
+[cosine   ][global] R@1: 0.1923 | R@5: 0.4317 | R@10: 0.5491
+batch 63, [tri-loss] 0.030598, [img_rga] 0.034992, [cap_rga] 0.062154
+batch 127, [tri-loss] 0.027023, [img_rga] 0.030834, [cap_rga] 0.060700
+batch 191, [tri-loss] 0.029721, [img_rga] 0.034635, [cap_rga] 0.064316
+batch 255, [tri-loss] 0.029421, [img_rga] 0.033587, [cap_rga] 0.065464
+batch 319, [tri-loss] 0.029729, [img_rga] 0.033649, [cap_rga] 0.061250
+batch 383, [tri-loss] 0.030238, [img_rga] 0.034424, [cap_rga] 0.064021
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.173360, [img_rga] 1.368585, [cap_rga] 1.916012
+batch 127, [tri-loss] 0.184512, [img_rga] 0.720245, [cap_rga] 1.143146
+batch 191, [tri-loss] 0.195932, [img_rga] 0.542449, [cap_rga] 0.597060
+batch 255, [tri-loss] 0.180099, [img_rga] 0.407442, [cap_rga] 0.454172
+batch 319, [tri-loss] 0.183759, [img_rga] 0.387441, [cap_rga] 0.400214
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+batch 127, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+batch 63, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+batch 63, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.037935, [img_rga] 0.146825, [cap_rga] 0.296578
+batch 63, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.040240, [img_rga] 0.144780, [cap_rga] 0.247159
+batch 63, [tri-loss] 0.036067, [img_rga] 0.063201, [cap_rga] 0.124113
+batch 127, [tri-loss] 0.035642, [img_rga] 0.055364, [cap_rga] 0.104856
+batch 191, [tri-loss] 0.037405, [img_rga] 0.056099, [cap_rga] 0.100364
+batch 255, [tri-loss] 0.035476, [img_rga] 0.052124, [cap_rga] 0.093589
+batch 319, [tri-loss] 0.035344, [img_rga] 0.050003, [cap_rga] 0.090271
+batch 383, [tri-loss] 0.034500, [img_rga] 0.047665, [cap_rga] 0.086141
+batch 447, [tri-loss] 0.035148, [img_rga] 0.047178, [cap_rga] 0.083532
+batch 511, [tri-loss] 0.034965, [img_rga] 0.046287, [cap_rga] 0.084741
+batch 575, [tri-loss] 0.032025, [img_rga] 0.042868, [cap_rga] 0.078589
+batch 639, [tri-loss] 0.034425, [img_rga] 0.044719, [cap_rga] 0.079035
+batch 703, [tri-loss] 0.033565, [img_rga] 0.043520, [cap_rga] 0.075613
+batch 767, [tri-loss] 0.034676, [img_rga] 0.044358, [cap_rga] 0.080802
+[euclidean][global] R@1: 0.0342 | R@5: 0.0976 | R@10: 0.1578
+[cosine   ][global] R@1: 0.2023 | R@5: 0.4392 | R@10: 0.5605
+batch 63, [tri-loss] 0.031366, [img_rga] 0.039830, [cap_rga] 0.073058
+batch 127, [tri-loss] 0.030126, [img_rga] 0.037843, [cap_rga] 0.070555
+batch 191, [tri-loss] 0.031390, [img_rga] 0.039174, [cap_rga] 0.071345
+batch 255, [tri-loss] 0.034338, [img_rga] 0.041365, [cap_rga] 0.074269
+batch 319, [tri-loss] 0.030536, [img_rga] 0.037639, [cap_rga] 0.067068
+batch 383, [tri-loss] 0.031080, [img_rga] 0.037988, [cap_rga] 0.070067
+batch 447, [tri-loss] 0.032826, [img_rga] 0.039606, [cap_rga] 0.072936
+batch 511, [tri-loss] 0.029948, [img_rga] 0.036683, [cap_rga] 0.068259
+batch 575, [tri-loss] 0.030969, [img_rga] 0.036451, [cap_rga] 0.068963
+batch 639, [tri-loss] 0.029191, [img_rga] 0.034173, [cap_rga] 0.062199
+batch 703, [tri-loss] 0.033080, [img_rga] 0.039199, [cap_rga] 0.069708
+batch 767, [tri-loss] 0.032681, [img_rga] 0.038026, [cap_rga] 0.070608
+[euclidean][global] R@1: 0.0374 | R@5: 0.1187 | R@10: 0.1727
+[cosine   ][global] R@1: 0.2066 | R@5: 0.4346 | R@10: 0.5514
+batch 63, [tri-loss] 0.030088, [img_rga] 0.035761, [cap_rga] 0.067086
+batch 127, [tri-loss] 0.030714, [img_rga] 0.035654, [cap_rga] 0.065410
+batch 191, [tri-loss] 0.028395, [img_rga] 0.033711, [cap_rga] 0.064712
+batch 255, [tri-loss] 0.031106, [img_rga] 0.035863, [cap_rga] 0.063803
+batch 319, [tri-loss] 0.030119, [img_rga] 0.034428, [cap_rga] 0.063620
+batch 383, [tri-loss] 0.029079, [img_rga] 0.033538, [cap_rga] 0.064700
+batch 447, [tri-loss] 0.030135, [img_rga] 0.033911, [cap_rga] 0.064730
+batch 511, [tri-loss] 0.032115, [img_rga] 0.035719, [cap_rga] 0.062860
+batch 575, [tri-loss] 0.029493, [img_rga] 0.033009, [cap_rga] 0.063114
+batch 639, [tri-loss] 0.031839, [img_rga] 0.034779, [cap_rga] 0.061937
+batch 703, [tri-loss] 0.029284, [img_rga] 0.033349, [cap_rga] 0.062056
+batch 767, [tri-loss] 0.033034, [img_rga] 0.036682, [cap_rga] 0.065289
+[euclidean][global] R@1: 0.0361 | R@5: 0.1165 | R@10: 0.1818
+[cosine   ][global] R@1: 0.2017 | R@5: 0.4174 | R@10: 0.5387
+batch 63, [tri-loss] 0.028747, [img_rga] 0.032293, [cap_rga] 0.059207
+batch 127, [tri-loss] 0.028652, [img_rga] 0.031742, [cap_rga] 0.058954
+batch 191, [tri-loss] 0.029831, [img_rga] 0.034338, [cap_rga] 0.064821
+batch 255, [tri-loss] 0.031719, [img_rga] 0.036074, [cap_rga] 0.064831
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[euclidean][global] R@1: 0.0340 | R@5: 0.0980 | R@10: 0.1700
+[cosine   ][global] R@1: 0.1580 | R@5: 0.3920 | R@10: 0.5120
+[euclidean][global] R@1: 0.0340 | R@5: 0.1180 | R@10: 0.1760
+[cosine   ][global] R@1: 0.1560 | R@5: 0.3980 | R@10: 0.5140
+[euclidean][global] R@1: 0.0360 | R@5: 0.1220 | R@10: 0.1720
+[cosine   ][global] R@1: 0.1620 | R@5: 0.3820 | R@10: 0.5260
+[euclidean][global] R@1: 0.0380 | R@5: 0.1160 | R@10: 0.1840
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.041785, [img_rga] 0.146108, [cap_rga] 0.311828
+batch 127, [tri-loss] 0.039081, [img_rga] 0.073671, [cap_rga] 0.145942
+batch 191, [tri-loss] 0.036923, [img_rga] 0.062763, [cap_rga] 0.111977
+batch 255, [tri-loss] 0.035766, [img_rga] 0.057131, [cap_rga] 0.099323
+batch 319, [tri-loss] 0.036260, [img_rga] 0.055749, [cap_rga] 0.097654
+batch 383, [tri-loss] 0.032741, [img_rga] 0.048552, [cap_rga] 0.085590
+batch 447, [tri-loss] 0.034953, [img_rga] 0.049826, [cap_rga] 0.088294
+batch 511, [tri-loss] 0.034267, [img_rga] 0.047967, [cap_rga] 0.085331
+batch 575, [tri-loss] 0.035177, [img_rga] 0.048319, [cap_rga] 0.085320
+batch 639, [tri-loss] 0.037962, [img_rga] 0.050857, [cap_rga] 0.086027
+batch 703, [tri-loss] 0.032310, [img_rga] 0.042906, [cap_rga] 0.076199
+batch 767, [tri-loss] 0.031559, [img_rga] 0.041903, [cap_rga] 0.076443
+[euclidean][global] R@1: 0.0338 | R@5: 0.1054 | R@10: 0.1646
+[cosine   ][global] R@1: 0.1633 | R@5: 0.3774 | R@10: 0.5000
+batch 63, [tri-loss] 0.031439, [img_rga] 0.041306, [cap_rga] 0.074979
+batch 127, [tri-loss] 0.035030, [img_rga] 0.045727, [cap_rga] 0.078924
+batch 191, [tri-loss] 0.031216, [img_rga] 0.039182, [cap_rga] 0.068803
+batch 255, [tri-loss] 0.031600, [img_rga] 0.039941, [cap_rga] 0.071265
+batch 319, [tri-loss] 0.034031, [img_rga] 0.042364, [cap_rga] 0.077350
+batch 383, [tri-loss] 0.034041, [img_rga] 0.042222, [cap_rga] 0.071984
+batch 447, [tri-loss] 0.032676, [img_rga] 0.041529, [cap_rga] 0.074956
+batch 511, [tri-loss] 0.030846, [img_rga] 0.038394, [cap_rga] 0.069844
+batch 575, [tri-loss] 0.033066, [img_rga] 0.040605, [cap_rga] 0.071876
+batch 639, [tri-loss] 0.032834, [img_rga] 0.039544, [cap_rga] 0.072448
+batch 703, [tri-loss] 0.032106, [img_rga] 0.038368, [cap_rga] 0.068312
+batch 767, [tri-loss] 0.029531, [img_rga] 0.035392, [cap_rga] 0.065026
+[euclidean][global] R@1: 0.0381 | R@5: 0.1204 | R@10: 0.1802
+[cosine   ][global] R@1: 0.1581 | R@5: 0.3692 | R@10: 0.4964
+batch 63, [tri-loss] 0.029793, [img_rga] 0.035808, [cap_rga] 0.064926
+batch 127, [tri-loss] 0.032147, [img_rga] 0.037765, [cap_rga] 0.068232
+batch 191, [tri-loss] 0.028438, [img_rga] 0.034346, [cap_rga] 0.064092
+batch 255, [tri-loss] 0.030663, [img_rga] 0.037214, [cap_rga] 0.069123
+batch 319, [tri-loss] 0.029333, [img_rga] 0.034957, [cap_rga] 0.063739
+batch 383, [tri-loss] 0.033283, [img_rga] 0.038438, [cap_rga] 0.070057
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.042824, [img_rga] 0.151747, [cap_rga] 0.315016
+batch 127, [tri-loss] 0.039131, [img_rga] 0.072532, [cap_rga] 0.152411
+batch 191, [tri-loss] 0.037204, [img_rga] 0.059556, [cap_rga] 0.112082
+batch 255, [tri-loss] 0.034172, [img_rga] 0.053593, [cap_rga] 0.100881
+batch 319, [tri-loss] 0.034729, [img_rga] 0.054024, [cap_rga] 0.100446
+batch 383, [tri-loss] 0.036728, [img_rga] 0.052256, [cap_rga] 0.090558
+batch 447, [tri-loss] 0.032139, [img_rga] 0.045317, [cap_rga] 0.087442
+batch 511, [tri-loss] 0.033555, [img_rga] 0.045931, [cap_rga] 0.084344
+batch 575, [tri-loss] 0.035102, [img_rga] 0.048054, [cap_rga] 0.083158
+batch 639, [tri-loss] 0.035353, [img_rga] 0.047512, [cap_rga] 0.085065
+batch 703, [tri-loss] 0.030401, [img_rga] 0.041192, [cap_rga] 0.078456
+batch 767, [tri-loss] 0.032221, [img_rga] 0.041634, [cap_rga] 0.077147
+[euclidean][global] R@1: 0.0384 | R@5: 0.1122 | R@10: 0.1705
+[cosine   ][global] R@1: 0.1542 | R@5: 0.3822 | R@10: 0.5130
+batch 63, [tri-loss] 0.029728, [img_rga] 0.038819, [cap_rga] 0.071721
+batch 127, [tri-loss] 0.030709, [img_rga] 0.039389, [cap_rga] 0.073931
+batch 191, [tri-loss] 0.032581, [img_rga] 0.040506, [cap_rga] 0.073694
+batch 255, [tri-loss] 0.031073, [img_rga] 0.038820, [cap_rga] 0.070652
+batch 319, [tri-loss] 0.033204, [img_rga] 0.041196, [cap_rga] 0.072990
+batch 383, [tri-loss] 0.035453, [img_rga] 0.043713, [cap_rga] 0.079543
+batch 447, [tri-loss] 0.033308, [img_rga] 0.040863, [cap_rga] 0.072930
+batch 511, [tri-loss] 0.030931, [img_rga] 0.036605, [cap_rga] 0.068728
+batch 575, [tri-loss] 0.031081, [img_rga] 0.036392, [cap_rga] 0.069632
+batch 639, [tri-loss] 0.033019, [img_rga] 0.039427, [cap_rga] 0.072974
+batch 703, [tri-loss] 0.030994, [img_rga] 0.036775, [cap_rga] 0.067919
+batch 767, [tri-loss] 0.030891, [img_rga] 0.036742, [cap_rga] 0.068909
+[euclidean][global] R@1: 0.0400 | R@5: 0.1243 | R@10: 0.1880
+[cosine   ][global] R@1: 0.1383 | R@5: 0.3562 | R@10: 0.4782
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[euclidean][global] R@1: 0.0020 | R@5: 0.0260 | R@10: 0.0560
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.044862, [img_rga] 0.145555, [cap_rga] 0.300856
+batch 127, [tri-loss] 0.039462, [img_rga] 0.071195, [cap_rga] 0.145383
+batch 191, [tri-loss] 0.038830, [img_rga] 0.063271, [cap_rga] 0.118810
+batch 255, [tri-loss] 0.034855, [img_rga] 0.054093, [cap_rga] 0.101076
+batch 319, [tri-loss] 0.031355, [img_rga] 0.046369, [cap_rga] 0.088613
+batch 383, [tri-loss] 0.034858, [img_rga] 0.050570, [cap_rga] 0.091210
+batch 447, [tri-loss] 0.034329, [img_rga] 0.047324, [cap_rga] 0.087410
+batch 511, [tri-loss] 0.034340, [img_rga] 0.047420, [cap_rga] 0.084111
+batch 575, [tri-loss] 0.034988, [img_rga] 0.047022, [cap_rga] 0.085968
+batch 639, [tri-loss] 0.035957, [img_rga] 0.047251, [cap_rga] 0.085267
+batch 703, [tri-loss] 0.033664, [img_rga] 0.045121, [cap_rga] 0.079397
+batch 767, [tri-loss] 0.032140, [img_rga] 0.041399, [cap_rga] 0.074443
+[euclidean][global] R@1: 0.0020 | R@5: 0.0218 | R@10: 0.0452
+[cosine   ][global] R@1: 0.0003 | R@5: 0.0003 | R@10: 0.0003
+batch 63, [tri-loss] 0.030188, [img_rga] 0.038869, [cap_rga] 0.074600
+batch 127, [tri-loss] 0.032352, [img_rga] 0.039618, [cap_rga] 0.073326
+batch 191, [tri-loss] 0.028808, [img_rga] 0.036421, [cap_rga] 0.068059
+batch 255, [tri-loss] 0.027481, [img_rga] 0.035630, [cap_rga] 0.068685
+batch 319, [tri-loss] 0.030658, [img_rga] 0.037431, [cap_rga] 0.068655
+batch 383, [tri-loss] 0.031535, [img_rga] 0.039358, [cap_rga] 0.070506
+batch 447, [tri-loss] 0.031752, [img_rga] 0.038663, [cap_rga] 0.071742
+batch 511, [tri-loss] 0.033750, [img_rga] 0.039906, [cap_rga] 0.070874
+batch 575, [tri-loss] 0.030415, [img_rga] 0.036319, [cap_rga] 0.068478
+batch 639, [tri-loss] 0.030193, [img_rga] 0.036154, [cap_rga] 0.065585
+batch 703, [tri-loss] 0.031614, [img_rga] 0.037511, [cap_rga] 0.071110
+batch 767, [tri-loss] 0.030676, [img_rga] 0.035823, [cap_rga] 0.069412
+[euclidean][global] R@1: 0.0120 | R@5: 0.0416 | R@10: 0.0667
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+batch 63, [tri-loss] 0.031567, [img_rga] 0.038086, [cap_rga] 0.069535
+batch 127, [tri-loss] 0.028245, [img_rga] 0.033439, [cap_rga] 0.065901
+batch 191, [tri-loss] 0.029509, [img_rga] 0.034090, [cap_rga] 0.065448
+batch 255, [tri-loss] 0.031242, [img_rga] 0.036984, [cap_rga] 0.066691
+batch 319, [tri-loss] 0.029518, [img_rga] 0.034835, [cap_rga] 0.064951
+batch 383, [tri-loss] 0.031234, [img_rga] 0.035094, [cap_rga] 0.063949
+batch 447, [tri-loss] 0.028593, [img_rga] 0.032640, [cap_rga] 0.062546
+batch 511, [tri-loss] 0.028628, [img_rga] 0.033296, [cap_rga] 0.064074
+batch 575, [tri-loss] 0.029090, [img_rga] 0.033617, [cap_rga] 0.061204
+batch 639, [tri-loss] 0.030590, [img_rga] 0.034225, [cap_rga] 0.063295
+batch 703, [tri-loss] 0.031823, [img_rga] 0.036236, [cap_rga] 0.066803
+batch 767, [tri-loss] 0.033222, [img_rga] 0.038399, [cap_rga] 0.065987
+[euclidean][global] R@1: 0.0091 | R@5: 0.0429 | R@10: 0.0725
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0003
+batch 63, [tri-loss] 0.031884, [img_rga] 0.035786, [cap_rga] 0.063393
+batch 127, [tri-loss] 0.029487, [img_rga] 0.033117, [cap_rga] 0.061048
+batch 191, [tri-loss] 0.029832, [img_rga] 0.033017, [cap_rga] 0.060228
+batch 255, [tri-loss] 0.026878, [img_rga] 0.030266, [cap_rga] 0.058626
+batch 319, [tri-loss] 0.030205, [img_rga] 0.033498, [cap_rga] 0.063763
+batch 383, [tri-loss] 0.028994, [img_rga] 0.032917, [cap_rga] 0.063082
+batch 447, [tri-loss] 0.029074, [img_rga] 0.031938, [cap_rga] 0.059558
+batch 511, [tri-loss] 0.026846, [img_rga] 0.029470, [cap_rga] 0.058273
+batch 575, [tri-loss] 0.029011, [img_rga] 0.032407, [cap_rga] 0.062514
+batch 639, [tri-loss] 0.028002, [img_rga] 0.030925, [cap_rga] 0.062377
+batch 703, [tri-loss] 0.031887, [img_rga] 0.035156, [cap_rga] 0.064250
+batch 767, [tri-loss] 0.029209, [img_rga] 0.032252, [cap_rga] 0.059570
+[euclidean][global] R@1: 0.0088 | R@5: 0.0410 | R@10: 0.0732
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0003 | R@10: 0.0003
+batch 63, [tri-loss] 0.030829, [img_rga] 0.034267, [cap_rga] 0.060947
+batch 127, [tri-loss] 0.028155, [img_rga] 0.030952, [cap_rga] 0.060041
+batch 191, [tri-loss] 0.026582, [img_rga] 0.029343, [cap_rga] 0.059003
+batch 255, [tri-loss] 0.031783, [img_rga] 0.034567, [cap_rga] 0.063241
+batch 319, [tri-loss] 0.029490, [img_rga] 0.031768, [cap_rga] 0.060806
+batch 383, [tri-loss] 0.029414, [img_rga] 0.032006, [cap_rga] 0.061047
+batch 447, [tri-loss] 0.027224, [img_rga] 0.030089, [cap_rga] 0.060432
+batch 511, [tri-loss] 0.028822, [img_rga] 0.031221, [cap_rga] 0.060562
+batch 575, [tri-loss] 0.023628, [img_rga] 0.025751, [cap_rga] 0.052463
+batch 639, [tri-loss] 0.025840, [img_rga] 0.028133, [cap_rga] 0.054052
+batch 703, [tri-loss] 0.027627, [img_rga] 0.029501, [cap_rga] 0.053912
+batch 767, [tri-loss] 0.028910, [img_rga] 0.031573, [cap_rga] 0.059457
+[euclidean][global] R@1: 0.0088 | R@5: 0.0374 | R@10: 0.0660
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+batch 63, [tri-loss] 0.028933, [img_rga] 0.031327, [cap_rga] 0.057512
+batch 127, [tri-loss] 0.025185, [img_rga] 0.027393, [cap_rga] 0.056050
+batch 191, [tri-loss] 0.026894, [img_rga] 0.028831, [cap_rga] 0.055873
+batch 255, [tri-loss] 0.028276, [img_rga] 0.030243, [cap_rga] 0.057609
+batch 319, [tri-loss] 0.028841, [img_rga] 0.030760, [cap_rga] 0.058056
+batch 383, [tri-loss] 0.026159, [img_rga] 0.028091, [cap_rga] 0.053628
+batch 447, [tri-loss] 0.028237, [img_rga] 0.030251, [cap_rga] 0.054017
+batch 511, [tri-loss] 0.026533, [img_rga] 0.028588, [cap_rga] 0.055169
+batch 575, [tri-loss] 0.025683, [img_rga] 0.027386, [cap_rga] 0.053005
+batch 639, [tri-loss] 0.030280, [img_rga] 0.031776, [cap_rga] 0.058401
+batch 703, [tri-loss] 0.029380, [img_rga] 0.031277, [cap_rga] 0.059167
+batch 767, [tri-loss] 0.027740, [img_rga] 0.029109, [cap_rga] 0.056801
+[euclidean][global] R@1: 0.0163 | R@5: 0.0547 | R@10: 0.0947
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0003
+batch 63, [tri-loss] 0.026170, [img_rga] 0.027857, [cap_rga] 0.053993
+batch 127, [tri-loss] 0.026901, [img_rga] 0.029073, [cap_rga] 0.057113
+batch 191, [tri-loss] 0.026261, [img_rga] 0.027901, [cap_rga] 0.052962
+batch 255, [tri-loss] 0.028271, [img_rga] 0.030235, [cap_rga] 0.057910
+batch 319, [tri-loss] 0.025392, [img_rga] 0.027223, [cap_rga] 0.052910
+batch 383, [tri-loss] 0.026525, [img_rga] 0.028177, [cap_rga] 0.055093
+batch 447, [tri-loss] 0.027983, [img_rga] 0.029110, [cap_rga] 0.052842
+batch 511, [tri-loss] 0.027474, [img_rga] 0.028600, [cap_rga] 0.054509
+batch 575, [tri-loss] 0.028325, [img_rga] 0.029780, [cap_rga] 0.054446
+batch 639, [tri-loss] 0.026819, [img_rga] 0.028054, [cap_rga] 0.051019
+batch 703, [tri-loss] 0.025580, [img_rga] 0.027044, [cap_rga] 0.056115
+batch 63, [tri-loss] 0.025286, [img_rga] 0.032461, [cap_rga] 0.053994
+batch 127, [tri-loss] 0.026209, [img_rga] 0.033468, [cap_rga] 0.053110
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.039534, [img_rga] 0.148277, [cap_rga] 0.291119
+batch 127, [tri-loss] 0.037842, [img_rga] 0.074721, [cap_rga] 0.144609
+batch 191, [tri-loss] 0.038270, [img_rga] 0.064500, [cap_rga] 0.113285
+batch 255, [tri-loss] 0.034769, [img_rga] 0.058601, [cap_rga] 0.096216
+batch 319, [tri-loss] 0.035198, [img_rga] 0.056471, [cap_rga] 0.095011
+batch 383, [tri-loss] 0.035212, [img_rga] 0.054819, [cap_rga] 0.090110
+batch 447, [tri-loss] 0.032263, [img_rga] 0.050946, [cap_rga] 0.087684
+batch 511, [tri-loss] 0.032652, [img_rga] 0.050146, [cap_rga] 0.084086
+batch 575, [tri-loss] 0.034408, [img_rga] 0.051922, [cap_rga] 0.085705
+batch 639, [tri-loss] 0.032668, [img_rga] 0.048426, [cap_rga] 0.081782
+batch 703, [tri-loss] 0.036597, [img_rga] 0.052443, [cap_rga] 0.084306
+batch 767, [tri-loss] 0.034792, [img_rga] 0.050211, [cap_rga] 0.079369
+[euclidean][global] R@1: 0.1721 | R@5: 0.3621 | R@10: 0.4824
+[cosine   ][global] R@1: 0.1718 | R@5: 0.3839 | R@10: 0.5159
+batch 63, [tri-loss] 0.032716, [img_rga] 0.048070, [cap_rga] 0.078021
+batch 127, [tri-loss] 0.033448, [img_rga] 0.046944, [cap_rga] 0.076899
+batch 191, [tri-loss] 0.030416, [img_rga] 0.043006, [cap_rga] 0.071511
+batch 255, [tri-loss] 0.030391, [img_rga] 0.041798, [cap_rga] 0.069272
+batch 319, [tri-loss] 0.034131, [img_rga] 0.046926, [cap_rga] 0.075114
+batch 383, [tri-loss] 0.035277, [img_rga] 0.046926, [cap_rga] 0.074944
+batch 447, [tri-loss] 0.030870, [img_rga] 0.040973, [cap_rga] 0.069666
+batch 511, [tri-loss] 0.031606, [img_rga] 0.041983, [cap_rga] 0.072291
+batch 575, [tri-loss] 0.034042, [img_rga] 0.044581, [cap_rga] 0.072208
+batch 639, [tri-loss] 0.029404, [img_rga] 0.039053, [cap_rga] 0.069649
+batch 703, [tri-loss] 0.031913, [img_rga] 0.042109, [cap_rga] 0.072114
+batch 767, [tri-loss] 0.031493, [img_rga] 0.040887, [cap_rga] 0.068341
+[euclidean][global] R@1: 0.1984 | R@5: 0.3985 | R@10: 0.5172
+[cosine   ][global] R@1: 0.2007 | R@5: 0.4349 | R@10: 0.5534
+batch 63, [tri-loss] 0.030695, [img_rga] 0.039982, [cap_rga] 0.064251
+batch 127, [tri-loss] 0.029635, [img_rga] 0.039521, [cap_rga] 0.067402
+batch 191, [tri-loss] 0.028137, [img_rga] 0.036246, [cap_rga] 0.062569
+batch 255, [tri-loss] 0.030654, [img_rga] 0.040246, [cap_rga] 0.071227
+batch 319, [tri-loss] 0.031874, [img_rga] 0.040182, [cap_rga] 0.064973
+batch 383, [tri-loss] 0.029641, [img_rga] 0.038201, [cap_rga] 0.064859
+batch 447, [tri-loss] 0.028342, [img_rga] 0.035636, [cap_rga] 0.059020
+batch 511, [tri-loss] 0.029763, [img_rga] 0.037822, [cap_rga] 0.063879
+batch 575, [tri-loss] 0.029155, [img_rga] 0.036570, [cap_rga] 0.062794
+batch 639, [tri-loss] 0.030342, [img_rga] 0.039870, [cap_rga] 0.065326
+batch 703, [tri-loss] 0.029002, [img_rga] 0.037371, [cap_rga] 0.063169
+batch 767, [tri-loss] 0.029794, [img_rga] 0.037376, [cap_rga] 0.064210
+[euclidean][global] R@1: 0.1763 | R@5: 0.3722 | R@10: 0.4906
+[cosine   ][global] R@1: 0.1858 | R@5: 0.4366 | R@10: 0.5686
+batch 63, [tri-loss] 0.029022, [img_rga] 0.036284, [cap_rga] 0.062007
+batch 127, [tri-loss] 0.027147, [img_rga] 0.033699, [cap_rga] 0.059235
+batch 191, [tri-loss] 0.027958, [img_rga] 0.034389, [cap_rga] 0.057996
+batch 255, [tri-loss] 0.026652, [img_rga] 0.032831, [cap_rga] 0.056845
+batch 319, [tri-loss] 0.028365, [img_rga] 0.035491, [cap_rga] 0.061530
+batch 383, [tri-loss] 0.028852, [img_rga] 0.035903, [cap_rga] 0.061518
+batch 447, [tri-loss] 0.028611, [img_rga] 0.035996, [cap_rga] 0.062603
+batch 511, [tri-loss] 0.029123, [img_rga] 0.036089, [cap_rga] 0.063168
+batch 575, [tri-loss] 0.028877, [img_rga] 0.035546, [cap_rga] 0.060868
+batch 639, [tri-loss] 0.028770, [img_rga] 0.035213, [cap_rga] 0.059490
+batch 703, [tri-loss] 0.028703, [img_rga] 0.035439, [cap_rga] 0.059640
+batch 767, [tri-loss] 0.030147, [img_rga] 0.036583, [cap_rga] 0.061532
+[euclidean][global] R@1: 0.1848 | R@5: 0.3822 | R@10: 0.5062
+[cosine   ][global] R@1: 0.1968 | R@5: 0.4398 | R@10: 0.5612
+batch 63, [tri-loss] 0.030951, [img_rga] 0.037353, [cap_rga] 0.060445
+batch 127, [tri-loss] 0.028941, [img_rga] 0.035191, [cap_rga] 0.060160
+batch 191, [tri-loss] 0.029290, [img_rga] 0.036251, [cap_rga] 0.061162
+batch 255, [tri-loss] 0.031542, [img_rga] 0.038604, [cap_rga] 0.065060
+batch 319, [tri-loss] 0.028730, [img_rga] 0.034869, [cap_rga] 0.058276
+batch 383, [tri-loss] 0.029207, [img_rga] 0.035718, [cap_rga] 0.061838
+batch 447, [tri-loss] 0.026845, [img_rga] 0.032750, [cap_rga] 0.056415
+batch 511, [tri-loss] 0.029704, [img_rga] 0.036679, [cap_rga] 0.059849
+batch 575, [tri-loss] 0.027451, [img_rga] 0.033243, [cap_rga] 0.058424
+batch 639, [tri-loss] 0.025341, [img_rga] 0.031337, [cap_rga] 0.055774
+batch 703, [tri-loss] 0.027251, [img_rga] 0.032690, [cap_rga] 0.056498
+batch 767, [tri-loss] 0.028206, [img_rga] 0.035273, [cap_rga] 0.059393
+[euclidean][global] R@1: 0.1893 | R@5: 0.3982 | R@10: 0.5104
+[cosine   ][global] R@1: 0.2010 | R@5: 0.4297 | R@10: 0.5673
+batch 63, [tri-loss] 0.025835, [img_rga] 0.031120, [cap_rga] 0.054691
+batch 127, [tri-loss] 0.029802, [img_rga] 0.036144, [cap_rga] 0.058176
+batch 191, [tri-loss] 0.027083, [img_rga] 0.032787, [cap_rga] 0.057135
+batch 255, [tri-loss] 0.026081, [img_rga] 0.031859, [cap_rga] 0.052588
+batch 319, [tri-loss] 0.031318, [img_rga] 0.037071, [cap_rga] 0.061180
+batch 383, [tri-loss] 0.029045, [img_rga] 0.034549, [cap_rga] 0.057223
+batch 447, [tri-loss] 0.025747, [img_rga] 0.030973, [cap_rga] 0.051603
+batch 511, [tri-loss] 0.027110, [img_rga] 0.032734, [cap_rga] 0.057143
+batch 575, [tri-loss] 0.027318, [img_rga] 0.033011, [cap_rga] 0.057091
+batch 639, [tri-loss] 0.024317, [img_rga] 0.029250, [cap_rga] 0.053431
+batch 703, [tri-loss] 0.029065, [img_rga] 0.034374, [cap_rga] 0.058044
+batch 767, [tri-loss] 0.027105, [img_rga] 0.032270, [cap_rga] 0.057860
+[euclidean][global] R@1: 0.1649 | R@5: 0.3565 | R@10: 0.4665
+[cosine   ][global] R@1: 0.1981 | R@5: 0.4437 | R@10: 0.5621
+batch 63, [tri-loss] 0.027164, [img_rga] 0.031960, [cap_rga] 0.054446
+batch 127, [tri-loss] 0.025200, [img_rga] 0.029530, [cap_rga] 0.051722
+batch 191, [tri-loss] 0.028842, [img_rga] 0.034195, [cap_rga] 0.056596
+batch 255, [tri-loss] 0.026317, [img_rga] 0.030826, [cap_rga] 0.053905
+batch 319, [tri-loss] 0.027840, [img_rga] 0.033268, [cap_rga] 0.055308
+batch 383, [tri-loss] 0.025316, [img_rga] 0.030403, [cap_rga] 0.053399
+batch 447, [tri-loss] 0.029857, [img_rga] 0.034956, [cap_rga] 0.058879
+batch 511, [tri-loss] 0.025110, [img_rga] 0.029876, [cap_rga] 0.052915
+batch 575, [tri-loss] 0.025064, [img_rga] 0.029825, [cap_rga] 0.054591
+batch 639, [tri-loss] 0.029987, [img_rga] 0.035124, [cap_rga] 0.058084
+batch 703, [tri-loss] 0.025451, [img_rga] 0.030168, [cap_rga] 0.053118
+batch 767, [tri-loss] 0.026345, [img_rga] 0.030904, [cap_rga] 0.053752
+[euclidean][global] R@1: 0.1740 | R@5: 0.3780 | R@10: 0.4867
+[cosine   ][global] R@1: 0.2020 | R@5: 0.4369 | R@10: 0.5638
+batch 63, [tri-loss] 0.028559, [img_rga] 0.033528, [cap_rga] 0.055521
+batch 127, [tri-loss] 0.024419, [img_rga] 0.029727, [cap_rga] 0.053483
+batch 191, [tri-loss] 0.024151, [img_rga] 0.028787, [cap_rga] 0.052264
+batch 255, [tri-loss] 0.023583, [img_rga] 0.027653, [cap_rga] 0.049874
+batch 319, [tri-loss] 0.026518, [img_rga] 0.030584, [cap_rga] 0.052083
+batch 383, [tri-loss] 0.025788, [img_rga] 0.029719, [cap_rga] 0.052202
+batch 447, [tri-loss] 0.024084, [img_rga] 0.027902, [cap_rga] 0.050513
+batch 511, [tri-loss] 0.026962, [img_rga] 0.031600, [cap_rga] 0.053212
+batch 575, [tri-loss] 0.025100, [img_rga] 0.029770, [cap_rga] 0.054534
+batch 639, [tri-loss] 0.024394, [img_rga] 0.028811, [cap_rga] 0.051494
+batch 703, [tri-loss] 0.023889, [img_rga] 0.028009, [cap_rga] 0.049923
+batch 767, [tri-loss] 0.027930, [img_rga] 0.032631, [cap_rga] 0.054900
+[euclidean][global] R@1: 0.1828 | R@5: 0.4105 | R@10: 0.5163
+[cosine   ][global] R@1: 0.2115 | R@5: 0.4483 | R@10: 0.5751
+batch 63, [tri-loss] 0.026371, [img_rga] 0.030151, [cap_rga] 0.052171
+batch 127, [tri-loss] 0.022911, [img_rga] 0.026775, [cap_rga] 0.048238
+batch 191, [tri-loss] 0.023351, [img_rga] 0.027344, [cap_rga] 0.049383
+batch 255, [tri-loss] 0.025851, [img_rga] 0.030332, [cap_rga] 0.052774
+batch 319, [tri-loss] 0.026427, [img_rga] 0.030717, [cap_rga] 0.050646
+batch 383, [tri-loss] 0.025325, [img_rga] 0.029895, [cap_rga] 0.051489
+batch 447, [tri-loss] 0.025904, [img_rga] 0.030732, [cap_rga] 0.053490
+batch 511, [tri-loss] 0.023531, [img_rga] 0.027169, [cap_rga] 0.050079
+batch 575, [tri-loss] 0.024086, [img_rga] 0.028337, [cap_rga] 0.051875
+batch 639, [tri-loss] 0.025219, [img_rga] 0.029700, [cap_rga] 0.052337
+batch 703, [tri-loss] 0.024455, [img_rga] 0.028751, [cap_rga] 0.052493
+batch 767, [tri-loss] 0.024962, [img_rga] 0.028895, [cap_rga] 0.049199
+[euclidean][global] R@1: 0.1607 | R@5: 0.3357 | R@10: 0.4545
+[cosine   ][global] R@1: 0.1978 | R@5: 0.4369 | R@10: 0.5651
+batch 63, [tri-loss] 0.023779, [img_rga] 0.028039, [cap_rga] 0.051934
+batch 127, [tri-loss] 0.023864, [img_rga] 0.027434, [cap_rga] 0.047716
+batch 191, [tri-loss] 0.025158, [img_rga] 0.029244, [cap_rga] 0.051405
+batch 255, [tri-loss] 0.022160, [img_rga] 0.025647, [cap_rga] 0.047630
+batch 319, [tri-loss] 0.024008, [img_rga] 0.027285, [cap_rga] 0.048558
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.038014, [img_rga] 0.138349, [cap_rga] 0.294345
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[euclidean][global] R@1: 0.0040 | R@5: 0.0340 | R@10: 0.0640
+[cosine   ][global] R@1: 0.1500 | R@5: 0.3780 | R@10: 0.4980
+[euclidean][global] R@1: 0.0020 | R@5: 0.0380 | R@10: 0.0640
+[cosine   ][global] R@1: 0.1440 | R@5: 0.3780 | R@10: 0.4960
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.037838, [img_rga] 0.085583, [cap_rga] 0.133882
+batch 127, [tri-loss] 0.035738, [img_rga] 0.041829, [cap_rga] 0.088372
+batch 191, [tri-loss] 0.034486, [img_rga] 0.037426, [cap_rga] 0.084713
+batch 255, [tri-loss] 0.036717, [img_rga] 0.039072, [cap_rga] 0.083546
+batch 319, [tri-loss] 0.032228, [img_rga] 0.033870, [cap_rga] 0.076418
+batch 383, [tri-loss] 0.031708, [img_rga] 0.032109, [cap_rga] 0.071953
+batch 447, [tri-loss] 0.034086, [img_rga] 0.034300, [cap_rga] 0.076350
+batch 511, [tri-loss] 0.033469, [img_rga] 0.034200, [cap_rga] 0.072696
+batch 575, [tri-loss] 0.034658, [img_rga] 0.034492, [cap_rga] 0.072158
+batch 639, [tri-loss] 0.031709, [img_rga] 0.031295, [cap_rga] 0.071127
+batch 703, [tri-loss] 0.037860, [img_rga] 0.035829, [cap_rga] 0.081479
+batch 767, [tri-loss] 0.034001, [img_rga] 0.033268, [cap_rga] 0.075300
+[euclidean][global] R@1: 0.0156 | R@5: 0.0459 | R@10: 0.0745
+[cosine   ][global] R@1: 0.1692 | R@5: 0.4125 | R@10: 0.5384
+batch 63, [tri-loss] 0.032842, [img_rga] 0.032279, [cap_rga] 0.072066
+batch 127, [tri-loss] 0.030670, [img_rga] 0.029153, [cap_rga] 0.070132
+batch 191, [tri-loss] 0.029939, [img_rga] 0.027708, [cap_rga] 0.067260
+batch 255, [tri-loss] 0.028548, [img_rga] 0.027116, [cap_rga] 0.066831
+batch 319, [tri-loss] 0.032009, [img_rga] 0.030656, [cap_rga] 0.068974
+batch 383, [tri-loss] 0.031236, [img_rga] 0.028293, [cap_rga] 0.067360
+batch 447, [tri-loss] 0.027882, [img_rga] 0.026600, [cap_rga] 0.063487
+batch 511, [tri-loss] 0.030349, [img_rga] 0.028034, [cap_rga] 0.065354
+batch 575, [tri-loss] 0.029575, [img_rga] 0.027830, [cap_rga] 0.065230
+batch 639, [tri-loss] 0.028463, [img_rga] 0.027209, [cap_rga] 0.062057
+batch 703, [tri-loss] 0.031759, [img_rga] 0.029297, [cap_rga] 0.067977
+batch 767, [tri-loss] 0.030407, [img_rga] 0.028216, [cap_rga] 0.067112
+[euclidean][global] R@1: 0.0211 | R@5: 0.0660 | R@10: 0.1047
+[cosine   ][global] R@1: 0.1900 | R@5: 0.4161 | R@10: 0.5446
+batch 63, [tri-loss] 0.029203, [img_rga] 0.028060, [cap_rga] 0.065849
+batch 127, [tri-loss] 0.027920, [img_rga] 0.025906, [cap_rga] 0.063534
+batch 191, [tri-loss] 0.029360, [img_rga] 0.027665, [cap_rga] 0.060592
+batch 255, [tri-loss] 0.031280, [img_rga] 0.029047, [cap_rga] 0.061835
+batch 319, [tri-loss] 0.029471, [img_rga] 0.027096, [cap_rga] 0.062368
+batch 383, [tri-loss] 0.028247, [img_rga] 0.025868, [cap_rga] 0.062220
+batch 447, [tri-loss] 0.029807, [img_rga] 0.027380, [cap_rga] 0.062813
+batch 511, [tri-loss] 0.031032, [img_rga] 0.028408, [cap_rga] 0.066299
+batch 575, [tri-loss] 0.027376, [img_rga] 0.024772, [cap_rga] 0.059549
+batch 639, [tri-loss] 0.028554, [img_rga] 0.025787, [cap_rga] 0.061998
+batch 703, [tri-loss] 0.030602, [img_rga] 0.027730, [cap_rga] 0.062425
+batch 767, [tri-loss] 0.027304, [img_rga] 0.025029, [cap_rga] 0.057042
+[euclidean][global] R@1: 0.0189 | R@5: 0.0742 | R@10: 0.1158
+[cosine   ][global] R@1: 0.1737 | R@5: 0.3796 | R@10: 0.5081
+batch 63, [tri-loss] 0.027335, [img_rga] 0.024693, [cap_rga] 0.057899
+batch 127, [tri-loss] 0.028712, [img_rga] 0.026337, [cap_rga] 0.056996
+batch 191, [tri-loss] 0.027820, [img_rga] 0.024754, [cap_rga] 0.058967
+batch 255, [tri-loss] 0.027923, [img_rga] 0.025772, [cap_rga] 0.059178
+batch 319, [tri-loss] 0.028694, [img_rga] 0.026339, [cap_rga] 0.058430
+batch 383, [tri-loss] 0.027626, [img_rga] 0.025301, [cap_rga] 0.058326
+batch 447, [tri-loss] 0.028478, [img_rga] 0.025652, [cap_rga] 0.059777
+batch 511, [tri-loss] 0.027409, [img_rga] 0.024696, [cap_rga] 0.056467
+batch 575, [tri-loss] 0.027603, [img_rga] 0.024573, [cap_rga] 0.059421
+batch 639, [tri-loss] 0.027268, [img_rga] 0.024295, [cap_rga] 0.055925
+batch 703, [tri-loss] 0.030490, [img_rga] 0.026683, [cap_rga] 0.063649
+batch 767, [tri-loss] 0.029231, [img_rga] 0.026314, [cap_rga] 0.059998
+[euclidean][global] R@1: 0.0277 | R@5: 0.0791 | R@10: 0.1249
+[cosine   ][global] R@1: 0.1871 | R@5: 0.4242 | R@10: 0.5494
+batch 63, [tri-loss] 0.027403, [img_rga] 0.024205, [cap_rga] 0.055447
+batch 127, [tri-loss] 0.026324, [img_rga] 0.023010, [cap_rga] 0.054254
+batch 191, [tri-loss] 0.026827, [img_rga] 0.024616, [cap_rga] 0.058123
+batch 255, [tri-loss] 0.027289, [img_rga] 0.023909, [cap_rga] 0.056941
+batch 319, [tri-loss] 0.026453, [img_rga] 0.023371, [cap_rga] 0.055077
+batch 383, [tri-loss] 0.027390, [img_rga] 0.023549, [cap_rga] 0.053829
+batch 447, [tri-loss] 0.026469, [img_rga] 0.023568, [cap_rga] 0.053977
+batch 511, [tri-loss] 0.028485, [img_rga] 0.024977, [cap_rga] 0.057596
+batch 575, [tri-loss] 0.026011, [img_rga] 0.023506, [cap_rga] 0.053002
+batch 639, [tri-loss] 0.026402, [img_rga] 0.023564, [cap_rga] 0.054781
+batch 703, [tri-loss] 0.029070, [img_rga] 0.025651, [cap_rga] 0.059232
+batch 767, [tri-loss] 0.027137, [img_rga] 0.023879, [cap_rga] 0.055338
+[euclidean][global] R@1: 0.0293 | R@5: 0.0839 | R@10: 0.1282
+[cosine   ][global] R@1: 0.1932 | R@5: 0.4271 | R@10: 0.5556
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.099616, [img_rga] 0.422280, [cap_rga] 0.545694
+batch 127, [tri-loss] 0.089194, [img_rga] 0.124774, [cap_rga] 0.245818
+batch 191, [tri-loss] 0.080172, [img_rga] 0.098562, [cap_rga] 0.203423
+batch 255, [tri-loss] 0.092503, [img_rga] 0.102384, [cap_rga] 0.222633
+batch 319, [tri-loss] 0.088373, [img_rga] 0.098752, [cap_rga] 0.199320
+batch 383, [tri-loss] 0.090033, [img_rga] 0.097223, [cap_rga] 0.206226
+batch 447, [tri-loss] 0.082595, [img_rga] 0.089227, [cap_rga] 0.190323
+batch 511, [tri-loss] 0.090910, [img_rga] 0.096560, [cap_rga] 0.209441
+batch 575, [tri-loss] 0.091216, [img_rga] 0.095672, [cap_rga] 0.205087
+batch 639, [tri-loss] 0.083719, [img_rga] 0.087438, [cap_rga] 0.181639
+batch 703, [tri-loss] 0.080211, [img_rga] 0.082456, [cap_rga] 0.180545
+batch 767, [tri-loss] 0.076268, [img_rga] 0.079606, [cap_rga] 0.170661
+[euclidean][global] R@1: 0.0150 | R@5: 0.0556 | R@10: 0.0950
+[cosine   ][global] R@1: 0.1887 | R@5: 0.4330 | R@10: 0.5468
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 10.081711, [img_rga] 22.487306, [cap_rga] 55.825234
+batch 127, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 36.386228, [img_rga] 32.307301, [cap_rga] 156.539403
+batch 127, [tri-loss] 22.198396, [img_rga] 30.605626, [cap_rga] 120.869096
+batch 191, [tri-loss] 12.473373, [img_rga] 28.155421, [cap_rga] 67.968657
+batch 255, [tri-loss] 7.835094, [img_rga] 24.743008, [cap_rga] 36.162271
+batch 319, [tri-loss] 5.838771, [img_rga] 20.779604, [cap_rga] 24.289182
+batch 383, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.104269, [img_rga] 1.497668, [cap_rga] 1.638690
+batch 127, [tri-loss] 0.102227, [img_rga] 0.570410, [cap_rga] 0.565017
+batch 191, [tri-loss] 0.113341, [img_rga] 0.341772, [cap_rga] 0.439234
+batch 255, [tri-loss] 0.102410, [img_rga] 0.258808, [cap_rga] 0.372094
+batch 63, [tri-loss] 0.104582, [img_rga] 0.208953, [cap_rga] 0.329141
+batch 127, [tri-loss] 0.093919, [img_rga] 0.166493, [cap_rga] 0.295135
+batch 191, [tri-loss] 0.095283, [img_rga] 0.155422, [cap_rga] 0.282799
+batch 255, [tri-loss] 0.093414, [img_rga] 0.139348, [cap_rga] 0.265810
+batch 319, [tri-loss] 0.087705, [img_rga] 0.128161, [cap_rga] 0.253896
+batch 383, [tri-loss] 0.089586, [img_rga] 0.121621, [cap_rga] 0.248722
+batch 447, [tri-loss] 0.092443, [img_rga] 0.120369, [cap_rga] 0.241877
+batch 63, [tri-loss] 0.089923, [img_rga] 0.119560, [cap_rga] 0.243396
+batch 127, [tri-loss] 0.084888, [img_rga] 0.097426, [cap_rga] 0.207975
+batch 191, [tri-loss] 0.089630, [img_rga] 0.099278, [cap_rga] 0.221288
+batch 255, [tri-loss] 0.098126, [img_rga] 0.108041, [cap_rga] 0.222414
+batch 63, [tri-loss] 0.079686, [img_rga] 0.082143, [cap_rga] 0.175547
+batch 127, [tri-loss] 0.078904, [img_rga] 0.081083, [cap_rga] 0.175378
+batch 191, [tri-loss] 0.067793, [img_rga] 0.068953, [cap_rga] 0.156288
+batch 255, [tri-loss] 0.084222, [img_rga] 0.084998, [cap_rga] 0.170829
+batch 319, [tri-loss] 0.085673, [img_rga] 0.086014, [cap_rga] 0.182496
+batch 383, [tri-loss] 0.087810, [img_rga] 0.085392, [cap_rga] 0.181858
+batch 447, [tri-loss] 0.082756, [img_rga] 0.081620, [cap_rga] 0.188771
+batch 511, [tri-loss] 0.086591, [img_rga] 0.083962, [cap_rga] 0.182035
+batch 63, [tri-loss] 0.086481, [img_rga] 0.085645, [cap_rga] 0.178274
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.043278, [img_rga] 0.120684, [cap_rga] 0.166642
+batch 127, [tri-loss] 0.036496, [img_rga] 0.045945, [cap_rga] 0.095338
+batch 191, [tri-loss] 0.033172, [img_rga] 0.039013, [cap_rga] 0.083330
+batch 255, [tri-loss] 0.034550, [img_rga] 0.038021, [cap_rga] 0.081659
+batch 319, [tri-loss] 0.035009, [img_rga] 0.037600, [cap_rga] 0.083491
+batch 383, [tri-loss] 0.034120, [img_rga] 0.035938, [cap_rga] 0.077494
+batch 447, [tri-loss] 0.032660, [img_rga] 0.034526, [cap_rga] 0.075149
+batch 511, [tri-loss] 0.032378, [img_rga] 0.032079, [cap_rga] 0.073027
+batch 575, [tri-loss] 0.033280, [img_rga] 0.034188, [cap_rga] 0.075035
+batch 639, [tri-loss] 0.028568, [img_rga] 0.029492, [cap_rga] 0.069253
+batch 703, [tri-loss] 0.030694, [img_rga] 0.030271, [cap_rga] 0.068200
+batch 767, [tri-loss] 0.030956, [img_rga] 0.030603, [cap_rga] 0.072460
+[euclidean][global] R@1: 0.0039 | R@5: 0.0416 | R@10: 0.0680
+[cosine   ][global] R@1: 0.1740 | R@5: 0.4060 | R@10: 0.5374
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.039463, [img_rga] 0.123819, [cap_rga] 0.000000
+batch 127, [tri-loss] 0.038527, [img_rga] 0.049417, [cap_rga] 0.000000
+batch 191, [tri-loss] 0.033148, [img_rga] 0.038715, [cap_rga] 0.000000
+batch 255, [tri-loss] 0.035523, [img_rga] 0.039247, [cap_rga] 0.000000
+batch 319, [tri-loss] 0.033089, [img_rga] 0.035921, [cap_rga] 0.000000
+batch 383, [tri-loss] 0.032200, [img_rga] 0.033725, [cap_rga] 0.000000
+batch 447, [tri-loss] 0.034334, [img_rga] 0.035764, [cap_rga] 0.000000
+batch 511, [tri-loss] 0.033380, [img_rga] 0.034429, [cap_rga] 0.000000
+batch 575, [tri-loss] 0.034776, [img_rga] 0.034714, [cap_rga] 0.000000
+batch 639, [tri-loss] 0.032489, [img_rga] 0.032867, [cap_rga] 0.000000
+batch 703, [tri-loss] 0.032390, [img_rga] 0.032602, [cap_rga] 0.000000
+batch 767, [tri-loss] 0.029898, [img_rga] 0.029406, [cap_rga] 0.000000
+[euclidean][global] R@1: 0.0026 | R@5: 0.0303 | R@10: 0.0625
+[cosine   ][global] R@1: 0.1721 | R@5: 0.4014 | R@10: 0.5296
+batch 63, [tri-loss] 0.032000, [img_rga] 0.032119, [cap_rga] 0.215352
+batch 127, [tri-loss] 0.029022, [img_rga] 0.028460, [cap_rga] 0.143806
+batch 191, [tri-loss] 0.030056, [img_rga] 0.028830, [cap_rga] 0.129522
+batch 255, [tri-loss] 0.033246, [img_rga] 0.032013, [cap_rga] 0.130966
+batch 319, [tri-loss] 0.033253, [img_rga] 0.032088, [cap_rga] 0.126516
+batch 383, [tri-loss] 0.030209, [img_rga] 0.029034, [cap_rga] 0.120700
+batch 447, [tri-loss] 0.033059, [img_rga] 0.030884, [cap_rga] 0.127668
+batch 511, [tri-loss] 0.034247, [img_rga] 0.032793, [cap_rga] 0.122078
+batch 575, [tri-loss] 0.031929, [img_rga] 0.029631, [cap_rga] 0.115673
+batch 639, [tri-loss] 0.029943, [img_rga] 0.027379, [cap_rga] 0.113830
+batch 703, [tri-loss] 0.031780, [img_rga] 0.028288, [cap_rga] 0.113410
+batch 767, [tri-loss] 0.031611, [img_rga] 0.029665, [cap_rga] 0.112313
+[euclidean][global] R@1: 0.0111 | R@5: 0.0475 | R@10: 0.0761
+[cosine   ][global] R@1: 0.1623 | R@5: 0.3858 | R@10: 0.5215
+batch 63, [tri-loss] 0.030571, [img_rga] 0.027521, [cap_rga] 0.106667
+batch 127, [tri-loss] 0.030553, [img_rga] 0.027095, [cap_rga] 0.104116
+batch 191, [tri-loss] 0.031288, [img_rga] 0.028243, [cap_rga] 0.110741
+batch 255, [tri-loss] 0.031880, [img_rga] 0.028305, [cap_rga] 0.107488
+batch 319, [tri-loss] 0.032680, [img_rga] 0.029237, [cap_rga] 0.111802
+batch 383, [tri-loss] 0.030256, [img_rga] 0.026019, [cap_rga] 0.103287
+batch 447, [tri-loss] 0.030083, [img_rga] 0.026239, [cap_rga] 0.099012
+batch 511, [tri-loss] 0.032060, [img_rga] 0.028007, [cap_rga] 0.105606
+batch 575, [tri-loss] 0.031236, [img_rga] 0.027116, [cap_rga] 0.100670
+batch 639, [tri-loss] 0.031259, [img_rga] 0.027883, [cap_rga] 0.106863
+batch 703, [tri-loss] 0.028708, [img_rga] 0.024399, [cap_rga] 0.096051
+batch 767, [tri-loss] 0.032109, [img_rga] 0.027541, [cap_rga] 0.097878
+[euclidean][global] R@1: 0.0153 | R@5: 0.0517 | R@10: 0.0852
+[cosine   ][global] R@1: 0.1750 | R@5: 0.4076 | R@10: 0.5436
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.040045
+batch 127, [tri-loss] 0.035769
+batch 191, [tri-loss] 0.034003
+batch 255, [tri-loss] 0.035806
+batch 319, [tri-loss] 0.035544
+batch 383, [tri-loss] 0.032761
+batch 447, [tri-loss] 0.033051
+batch 511, [tri-loss] 0.033096
+batch 575, [tri-loss] 0.035112
+batch 639, [tri-loss] 0.033083
+batch 703, [tri-loss] 0.031979
+batch 767, [tri-loss] 0.033302
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.041389
+batch 127, [tri-loss] 0.040348
+batch 191, [tri-loss] 0.031417
+batch 255, [tri-loss] 0.035399
+batch 319, [tri-loss] 0.033526
+batch 383, [tri-loss] 0.032883
+batch 447, [tri-loss] 0.032225
+batch 511, [tri-loss] 0.031488
+batch 575, [tri-loss] 0.031727
+batch 639, [tri-loss] 0.032148
+batch 703, [tri-loss] 0.027562
+batch 767, [tri-loss] 0.031323
+batch 63, [tri-loss] 0.032022
+batch 127, [tri-loss] 0.032907
+batch 191, [tri-loss] 0.029980
+batch 255, [tri-loss] 0.030742
+batch 319, [tri-loss] 0.032708
+batch 383, [tri-loss] 0.032598
+batch 447, [tri-loss] 0.030623
+batch 511, [tri-loss] 0.033210
+batch 575, [tri-loss] 0.032305
+batch 639, [tri-loss] 0.033413
+batch 703, [tri-loss] 0.034980
+batch 767, [tri-loss] 0.035730
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[euclidean][global] R@1: 0.0480 | R@5: 0.1260 | R@10: 0.1960
+[cosine   ][global] R@1: 0.0480 | R@5: 0.1260 | R@10: 0.1960
+[euclidean][global] R@1: 0.0420 | R@5: 0.1180 | R@10: 0.1840
+[euclidean][global] R@1: 0.0300 | R@5: 0.1160 | R@10: 0.1760
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[euclidean][global] R@1: 0.0340 | R@5: 0.1220 | R@10: 0.1780
+[cosine   ][global] R@1: 0.1700 | R@5: 0.3760 | R@10: 0.5180
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.036030
+batch 127, [tri-loss] 0.038512
+batch 191, [tri-loss] 0.034113
+batch 255, [tri-loss] 0.031836
+batch 319, [tri-loss] 0.034161
+batch 383, [tri-loss] 0.035486
+batch 447, [tri-loss] 0.035710
+batch 511, [tri-loss] 0.032457
+batch 575, [tri-loss] 0.034536
+batch 639, [tri-loss] 0.033461
+batch 703, [tri-loss] 0.032673
+batch 767, [tri-loss] 0.034702
+[euclidean][global] R@1: 0.0332 | R@5: 0.1132 | R@10: 0.1701
+[cosine   ][global] R@1: 0.1643 | R@5: 0.3845 | R@10: 0.5218
+batch 63, [tri-loss] 0.033885
+batch 127, [tri-loss] 0.034536
+batch 191, [tri-loss] 0.034109
+batch 63, [tri-loss] 0.032675
+batch 127, [tri-loss] 0.033812
+batch 191, [tri-loss] 0.032483
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.036149
+batch 127, [tri-loss] 0.037523
+batch 191, [tri-loss] 0.039365
+batch 63, [tri-loss] 0.036532
+batch 127, [tri-loss] 0.034744
+batch 191, [tri-loss] 0.033121
+batch 255, [tri-loss] 0.034923
+batch 319, [tri-loss] 0.035407
+batch 383, [tri-loss] 0.033561
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.042598
+batch 127, [tri-loss] 0.039262
+batch 191, [tri-loss] 0.039956
+batch 255, [tri-loss] 0.035966
+batch 319, [tri-loss] 0.039044
+batch 383, [tri-loss] 0.035991
+batch 447, [tri-loss] 0.035400
+batch 511, [tri-loss] 0.036240
+batch 575, [tri-loss] 0.034861
+batch 639, [tri-loss] 0.037169
+batch 703, [tri-loss] 0.034549
+batch 767, [tri-loss] 0.038473
+[euclidean][global] R@1: 0.0329 | R@5: 0.1093 | R@10: 0.1568
+[cosine   ][global] R@1: 0.1854 | R@5: 0.4148 | R@10: 0.5429
+batch 63, [tri-loss] 0.034324
+batch 127, [tri-loss] 0.033820
+batch 191, [tri-loss] 0.033658
+batch 255, [tri-loss] 0.031157
+batch 319, [tri-loss] 0.032906
+batch 383, [tri-loss] 0.033919
+batch 447, [tri-loss] 0.034215
+batch 511, [tri-loss] 0.032836
+batch 575, [tri-loss] 0.033048
+batch 639, [tri-loss] 0.032518
+batch 703, [tri-loss] 0.035063
+batch 767, [tri-loss] 0.033282
+[euclidean][global] R@1: 0.0351 | R@5: 0.1083 | R@10: 0.1630
+[cosine   ][global] R@1: 0.1897 | R@5: 0.4356 | R@10: 0.5560
+batch 63, [tri-loss] 0.032769
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.074097
+batch 127, [tri-loss] 0.060499
+batch 191, [tri-loss] 0.055267
+batch 255, [tri-loss] 0.052721
+batch 319, [tri-loss] 0.047647
+batch 383, [tri-loss] 0.050615
+batch 447, [tri-loss] 0.048205
+batch 511, [tri-loss] 0.048506
+batch 575, [tri-loss] 0.045113
+batch 639, [tri-loss] 0.043883
+batch 703, [tri-loss] 0.044104
+batch 767, [tri-loss] 0.047174
+[euclidean][global] R@1: 0.1321 | R@5: 0.2863 | R@10: 0.3982
+[cosine   ][global] R@1: 0.1327 | R@5: 0.3491 | R@10: 0.4785
+batch 63, [tri-loss] 0.111443
+batch 127, [tri-loss] 0.087958
+batch 191, [tri-loss] 0.086378
+batch 255, [tri-loss] 0.088660
+batch 319, [tri-loss] 0.088607
+batch 383, [tri-loss] 0.090306
+batch 447, [tri-loss] 0.088677
+batch 511, [tri-loss] 0.083817
+batch 575, [tri-loss] 0.082707
+batch 639, [tri-loss] 0.089365
+batch 703, [tri-loss] 0.079705
+batch 767, [tri-loss] 0.080890
+[euclidean][global] R@1: 0.0703 | R@5: 0.1949 | R@10: 0.2827
+[cosine   ][global] R@1: 0.0699 | R@5: 0.2101 | R@10: 0.3159
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.059519
+batch 127, [tri-loss] 0.056227
+batch 191, [tri-loss] 0.054612
+batch 255, [tri-loss] 0.050802
+batch 319, [tri-loss] 0.055341
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.317920
+batch 127, [tri-loss] 0.346882
+batch 63, [tri-loss] 0.239377
+batch 127, [tri-loss] 0.201007
+batch 191, [tri-loss] 0.183966
+batch 255, [tri-loss] 0.180739
+batch 319, [tri-loss] 0.185843
+batch 383, [tri-loss] 0.195542
+batch 447, [tri-loss] 0.183168
+batch 511, [tri-loss] 0.183453
+batch 575, [tri-loss] 0.149703
+batch 639, [tri-loss] 0.144781
+batch 703, [tri-loss] 0.168796
+batch 767, [tri-loss] 0.176020
+[euclidean][global] R@1: 0.1906 | R@5: 0.4083 | R@10: 0.5172
+[cosine   ][global] R@1: 0.2075 | R@5: 0.4131 | R@10: 0.5215
+batch 63, [tri-loss] 0.162827
+batch 127, [tri-loss] 0.163910
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.527247
+batch 127, [tri-loss] 0.434526
+batch 191, [tri-loss] 0.409339
+batch 255, [tri-loss] 0.374020
+batch 319, [tri-loss] 0.413762
+batch 383, [tri-loss] 0.353426
+batch 447, [tri-loss] 0.381253
+batch 511, [tri-loss] 0.328913
+batch 575, [tri-loss] 0.378748
+batch 639, [tri-loss] 0.427479
+batch 703, [tri-loss] 0.396995
+batch 767, [tri-loss] 0.356822
+[euclidean][global] R@1: 0.2186 | R@5: 0.4499 | R@10: 0.5725
+[cosine   ][global] R@1: 0.2280 | R@5: 0.4486 | R@10: 0.5660
+batch 63, [tri-loss] 0.377846
+batch 127, [tri-loss] 0.387906
+batch 191, [tri-loss] 0.377141
+batch 255, [tri-loss] 0.340394
+batch 319, [tri-loss] 0.334786
+batch 383, [tri-loss] 0.295654
+batch 447, [tri-loss] 0.328083
+batch 511, [tri-loss] 0.333862
+batch 575, [tri-loss] 0.341186
+batch 639, [tri-loss] 0.328105
+batch 703, [tri-loss] 0.328243
+batch 767, [tri-loss] 0.317171
+[euclidean][global] R@1: 0.2251 | R@5: 0.4460 | R@10: 0.5764
+[cosine   ][global] R@1: 0.2271 | R@5: 0.4457 | R@10: 0.5703
+batch 63, [tri-loss] 0.377114
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.955479, [img_rga] 7.466219, [cap_rga] 7.022573
+batch 127, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.467606, [img_rga] 13.356997, [cap_rga] 19.196761
+batch 127, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.507832, [img_rga] 13.694240, [cap_rga] 21.230218
+batch 127, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_euclidean_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+batch 127, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+batch 191, [tri-loss] nan, [img_rga] nan, [cap_rga] nan
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.108339
+batch 127, [tri-loss] 0.109400
+batch 191, [tri-loss] 0.107080
+batch 255, [tri-loss] 0.108560
+batch 319, [tri-loss] 0.110818
+batch 383, [tri-loss] 0.110293
+batch 447, [tri-loss] 0.103030
+batch 511, [tri-loss] 0.114902
+batch 575, [tri-loss] 0.109738
+batch 639, [tri-loss] 0.114072
+batch 703, [tri-loss] 0.110899
+batch 767, [tri-loss] 0.100629
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.109241
+batch 127, [tri-loss] 0.107385
+batch 191, [tri-loss] 0.109813
+batch 255, [tri-loss] 0.115971
+batch 319, [tri-loss] 0.110270
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.104976
+batch 127, [tri-loss] 0.095177
+batch 191, [tri-loss] 0.086640
+batch 255, [tri-loss] 0.095080
+batch 319, [tri-loss] 0.088780
+batch 383, [tri-loss] 0.096587
+batch 447, [tri-loss] 0.083508
+batch 511, [tri-loss] 0.093589
+batch 575, [tri-loss] 0.084961
+batch 639, [tri-loss] 0.086560
+batch 703, [tri-loss] 0.088332
+batch 767, [tri-loss] 0.089460
+[euclidean][global] R@1: 0.0348 | R@5: 0.1155 | R@10: 0.1890
+[cosine   ][global] R@1: 0.2017 | R@5: 0.4314 | R@10: 0.5569
+batch 63, [tri-loss] 0.085769
+batch 127, [tri-loss] 0.085492
+batch 191, [tri-loss] 0.085774
+batch 255, [tri-loss] 0.085700
+batch 319, [tri-loss] 0.085170
+batch 383, [tri-loss] 0.088958
+batch 447, [tri-loss] 0.068890
+batch 511, [tri-loss] 0.077188
+batch 575, [tri-loss] 0.084333
+batch 639, [tri-loss] 0.076862
+batch 703, [tri-loss] 0.082799
+batch 767, [tri-loss] 0.071491
+[euclidean][global] R@1: 0.0387 | R@5: 0.1239 | R@10: 0.1939
+[cosine   ][global] R@1: 0.1994 | R@5: 0.4382 | R@10: 0.5608
+batch 63, [tri-loss] 0.069289
+batch 127, [tri-loss] 0.077906
+batch 191, [tri-loss] 0.071945
+batch 255, [tri-loss] 0.079866
+batch 319, [tri-loss] 0.068780
+batch 383, [tri-loss] 0.072042
+batch 447, [tri-loss] 0.071334
+batch 511, [tri-loss] 0.071732
+batch 575, [tri-loss] 0.072434
+batch 639, [tri-loss] 0.080423
+batch 703, [tri-loss] 0.069909
+batch 767, [tri-loss] 0.085641
+[euclidean][global] R@1: 0.0390 | R@5: 0.1152 | R@10: 0.1838
+[cosine   ][global] R@1: 0.1952 | R@5: 0.4349 | R@10: 0.5582
+batch 63, [tri-loss] 0.069999
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+batch 63, [tri-loss] 0.093673
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[euclidean][global] R@1: 0.0020 | R@5: 0.0300 | R@10: 0.0600
+[cosine   ][global] R@1: 0.1300 | R@5: 0.3600 | R@10: 0.4940
+[euclidean][global] R@1: 0.0020 | R@5: 0.0380 | R@10: 0.0600
+[cosine   ][global] R@1: 0.1080 | R@5: 0.3560 | R@10: 0.4680
+[euclidean][global] R@1: 0.0000 | R@5: 0.0320 | R@10: 0.0780
+[cosine   ][global] R@1: 0.1220 | R@5: 0.3560 | R@10: 0.4920
+[euclidean][global] R@1: 0.0000 | R@5: 0.0380 | R@10: 0.0960
+[cosine   ][global] R@1: 0.1320 | R@5: 0.3460 | R@10: 0.4880
+[euclidean][global] R@1: 0.0000 | R@5: 0.0380 | R@10: 0.0820
+[cosine   ][global] R@1: 0.1280 | R@5: 0.3400 | R@10: 0.4820
+[euclidean][global] R@1: 0.0000 | R@5: 0.0440 | R@10: 0.0960
+[cosine   ][global] R@1: 0.1400 | R@5: 0.3640 | R@10: 0.4740
+[euclidean][global] R@1: 0.0040 | R@5: 0.0440 | R@10: 0.0880
+[cosine   ][global] R@1: 0.1340 | R@5: 0.3440 | R@10: 0.4780
+[euclidean][global] R@1: 0.0000 | R@5: 0.0500 | R@10: 0.0900
+[cosine   ][global] R@1: 0.1520 | R@5: 0.3280 | R@10: 0.4740
+[euclidean][global] R@1: 0.0000 | R@5: 0.0340 | R@10: 0.0760
+[cosine   ][global] R@1: 0.1320 | R@5: 0.3220 | R@10: 0.4660
+[euclidean][global] R@1: 0.0000 | R@5: 0.0520 | R@10: 0.0900
+[cosine   ][global] R@1: 0.1360 | R@5: 0.3500 | R@10: 0.4580
+[euclidean][global] R@1: 0.0000 | R@5: 0.0520 | R@10: 0.0860
+[cosine   ][global] R@1: 0.1500 | R@5: 0.3580 | R@10: 0.4760
+[euclidean][global] R@1: 0.0000 | R@5: 0.0540 | R@10: 0.0920
+[cosine   ][global] R@1: 0.1480 | R@5: 0.3520 | R@10: 0.4840
+[euclidean][global] R@1: 0.0020 | R@5: 0.0600 | R@10: 0.0880
+[cosine   ][global] R@1: 0.1560 | R@5: 0.3620 | R@10: 0.4800
+[euclidean][global] R@1: 0.0000 | R@5: 0.0600 | R@10: 0.1000
+[cosine   ][global] R@1: 0.1540 | R@5: 0.3620 | R@10: 0.4680
+[euclidean][global] R@1: 0.0000 | R@5: 0.0700 | R@10: 0.1100
+[cosine   ][global] R@1: 0.1480 | R@5: 0.3540 | R@10: 0.4760
+[euclidean][global] R@1: 0.0020 | R@5: 0.0680 | R@10: 0.0980
+[cosine   ][global] R@1: 0.1580 | R@5: 0.3440 | R@10: 0.4800
+[euclidean][global] R@1: 0.0000 | R@5: 0.0560 | R@10: 0.1060
+[cosine   ][global] R@1: 0.1520 | R@5: 0.3400 | R@10: 0.4740
+[euclidean][global] R@1: 0.0000 | R@5: 0.0560 | R@10: 0.1040
+[cosine   ][global] R@1: 0.1540 | R@5: 0.3200 | R@10: 0.4580
+[euclidean][global] R@1: 0.0000 | R@5: 0.0540 | R@10: 0.0980
+[cosine   ][global] R@1: 0.1520 | R@5: 0.3620 | R@10: 0.4920
+[euclidean][global] R@1: 0.0020 | R@5: 0.0620 | R@10: 0.0960
+[cosine   ][global] R@1: 0.1420 | R@5: 0.3580 | R@10: 0.4740
+[euclidean][global] R@1: 0.0000 | R@5: 0.0500 | R@10: 0.0860
+[cosine   ][global] R@1: 0.1520 | R@5: 0.3460 | R@10: 0.4760
+[euclidean][global] R@1: 0.0020 | R@5: 0.0600 | R@10: 0.1040
+[cosine   ][global] R@1: 0.1500 | R@5: 0.3560 | R@10: 0.4760
+[euclidean][global] R@1: 0.0000 | R@5: 0.0600 | R@10: 0.0900
+[cosine   ][global] R@1: 0.1460 | R@5: 0.3400 | R@10: 0.4760
+[euclidean][global] R@1: 0.0000 | R@5: 0.0460 | R@10: 0.1020
+[cosine   ][global] R@1: 0.1460 | R@5: 0.3520 | R@10: 0.4700
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[euclidean][global] R@1: 0.0240 | R@5: 0.1220 | R@10: 0.1760
+[cosine   ][global] R@1: 0.1320 | R@5: 0.2980 | R@10: 0.3720
+[Model] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8/stage1.pt.
+[euclidean][global] R@1: 0.0420 | R@5: 0.1340 | R@10: 0.2000
+[cosine   ][global] R@1: 0.1320 | R@5: 0.3240 | R@10: 0.4360
+[euclidean][global] R@1: 0.0680 | R@5: 0.1860 | R@10: 0.2820
+[cosine   ][global] R@1: 0.1520 | R@5: 0.3100 | R@10: 0.4260
+[euclidean][global] R@1: 0.0660 | R@5: 0.1780 | R@10: 0.2960
+[cosine   ][global] R@1: 0.1360 | R@5: 0.2920 | R@10: 0.4100
+[euclidean][global] R@1: 0.0760 | R@5: 0.2020 | R@10: 0.3120
+[cosine   ][global] R@1: 0.1400 | R@5: 0.3120 | R@10: 0.4100
+[euclidean][global] R@1: 0.0560 | R@5: 0.2080 | R@10: 0.3300
+[cosine   ][global] R@1: 0.1280 | R@5: 0.2820 | R@10: 0.4240
+[euclidean][global] R@1: 0.0420 | R@5: 0.1740 | R@10: 0.2800
+[cosine   ][global] R@1: 0.1140 | R@5: 0.2800 | R@10: 0.4160
+[euclidean][global] R@1: 0.0420 | R@5: 0.1740 | R@10: 0.2560
+[cosine   ][global] R@1: 0.0940 | R@5: 0.2600 | R@10: 0.3720
+[euclidean][global] R@1: 0.0540 | R@5: 0.1920 | R@10: 0.3120
+[cosine   ][global] R@1: 0.1200 | R@5: 0.2840 | R@10: 0.3740
+[euclidean][global] R@1: 0.0620 | R@5: 0.1980 | R@10: 0.3100
+[cosine   ][global] R@1: 0.1200 | R@5: 0.2760 | R@10: 0.3700
+[euclidean][global] R@1: 0.0560 | R@5: 0.1940 | R@10: 0.3260
+[cosine   ][global] R@1: 0.1160 | R@5: 0.2740 | R@10: 0.3920
+[euclidean][global] R@1: 0.0520 | R@5: 0.2080 | R@10: 0.3360
+[cosine   ][global] R@1: 0.0960 | R@5: 0.2840 | R@10: 0.3920
+[euclidean][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0060
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0060 | R@10: 0.0140
+[euclidean][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0060
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0060 | R@10: 0.0060
+[euclidean][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0160
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0020
+[euclidean][global] R@1: 0.0088 | R@5: 0.0293 | R@10: 0.0595
+[cosine   ][global] R@1: 0.0182 | R@5: 0.0696 | R@10: 0.1132
+[euclidean][global] R@1: 0.0325 | R@5: 0.1064 | R@10: 0.1734
+[cosine   ][global] R@1: 0.0820 | R@5: 0.2036 | R@10: 0.2944
+[euclidean][global] R@1: 0.0358 | R@5: 0.1262 | R@10: 0.1841
+[cosine   ][global] R@1: 0.1509 | R@5: 0.3292 | R@10: 0.4437
+[euclidean][global] R@1: 0.0426 | R@5: 0.1161 | R@10: 0.1688
+[cosine   ][global] R@1: 0.1984 | R@5: 0.4066 | R@10: 0.5091
+[euclidean][global] R@1: 0.0137 | R@5: 0.0530 | R@10: 0.0921
+[cosine   ][global] R@1: 0.0390 | R@5: 0.1171 | R@10: 0.1766
+[euclidean][global] R@1: 0.0218 | R@5: 0.0725 | R@10: 0.1100
+[cosine   ][global] R@1: 0.1282 | R@5: 0.2872 | R@10: 0.3949
+[euclidean][global] R@1: 0.0241 | R@5: 0.0807 | R@10: 0.1181
+[cosine   ][global] R@1: 0.1799 | R@5: 0.3822 | R@10: 0.4863
+[euclidean][global] R@1: 0.0182 | R@5: 0.0660 | R@10: 0.1015
+[cosine   ][global] R@1: 0.1984 | R@5: 0.4060 | R@10: 0.5114
+[euclidean][global] R@1: 0.0290 | R@5: 0.0758 | R@10: 0.1158
+[cosine   ][global] R@1: 0.2131 | R@5: 0.4206 | R@10: 0.5221
+[euclidean][global] R@1: 0.0156 | R@5: 0.0618 | R@10: 0.0963
+[cosine   ][global] R@1: 0.2062 | R@5: 0.3992 | R@10: 0.5065
+[euclidean][global] R@1: 0.0192 | R@5: 0.0680 | R@10: 0.1093
+[cosine   ][global] R@1: 0.2131 | R@5: 0.4170 | R@10: 0.5228
