@@ -1656,3 +1656,689 @@ batch 63, [tri-loss] 0.093673
 [cosine   ][global] R@1: 0.2062 | R@5: 0.3992 | R@10: 0.5065
 [euclidean][global] R@1: 0.0192 | R@5: 0.0680 | R@10: 0.1093
 [cosine   ][global] R@1: 0.2131 | R@5: 0.4170 | R@10: 0.5228
+[euclidean][global] R@1: 0.0286 | R@5: 0.0794 | R@10: 0.1187
+[cosine   ][global] R@1: 0.1978 | R@5: 0.3956 | R@10: 0.5055
+[euclidean][global] R@1: 0.0410 | R@5: 0.1008 | R@10: 0.1418
+[cosine   ][global] R@1: 0.2033 | R@5: 0.4040 | R@10: 0.5169
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[euclidean][global] R@1: 0.0374 | R@5: 0.0963 | R@10: 0.1438
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2066 | R@5: 0.4206 | R@10: 0.5189
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[euclidean][global] R@1: 0.0055 | R@5: 0.0390 | R@10: 0.0644
+[cosine   ][global] R@1: 0.0179 | R@5: 0.0615 | R@10: 0.1051
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[euclidean][global] R@1: 0.0000 | R@5: 0.0040 | R@10: 0.0260
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0020 | R@10: 0.0120
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[euclidean][global] R@1: 0.0000 | R@5: 0.0060 | R@10: 0.0060
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0100 | R@10: 0.0180
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[euclidean][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0080 | R@10: 0.0160
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[euclidean][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0020
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[euclidean][global] R@1: 0.0000 | R@5: 0.0100 | R@10: 0.0100
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0160 | R@10: 0.0200
+[euclidean][global] R@1: 0.0000 | R@5: 0.0140 | R@10: 0.0220
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0060 | R@10: 0.0080
+[euclidean][global] R@1: 0.0020 | R@5: 0.0040 | R@10: 0.0140
+[cosine   ][global] R@1: 0.0020 | R@5: 0.0060 | R@10: 0.0120
+[euclidean][global] R@1: 0.0000 | R@5: 0.0060 | R@10: 0.0140
+[cosine   ][global] R@1: 0.0020 | R@5: 0.0080 | R@10: 0.0140
+[Trainer][init] load pre-trained Model(
+  (img_backbone): ImageBackbone(
+    (img_backbone): ResNet(
+      (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+      (layer1): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer2): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer3): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer4): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+      (fc): Linear(in_features=512, out_features=512, bias=True)
+    )
+  )
+  (cap_backbone): BiGRUBackbone(
+    (embedding): Embedding(1287, 300)
+    (fc): Linear(in_features=1024, out_features=512, bias=True)
+    (rnn): GRU(300, 512, batch_first=True, bidirectional=True)
+  )
+) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained Linear(in_features=512, out_features=164, bias=True) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained MLP(
+  (mlp): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=512, bias=True)
+  )
+) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained MLP(
+  (mlp): Sequential(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=512, out_features=512, bias=True)
+  )
+) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[euclidean][global] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0140
+[cosine   ][global] R@1: 0.0040 | R@5: 0.0160 | R@10: 0.0240
+[Trainer][init] load pre-trained Model(
+  (img_backbone): ImageBackbone(
+    (img_backbone): ResNet(
+      (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+      (layer1): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer2): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer3): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer4): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+      (fc): Linear(in_features=512, out_features=512, bias=True)
+    )
+  )
+  (cap_backbone): BiGRUBackbone(
+    (embedding): Embedding(1287, 300)
+    (fc): Linear(in_features=1024, out_features=512, bias=True)
+    (rnn): GRU(300, 512, batch_first=True, bidirectional=True)
+  )
+) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[euclidean][global] R@1: 0.0143 | R@5: 0.0416 | R@10: 0.0683
+[cosine   ][global] R@1: 0.0166 | R@5: 0.0563 | R@10: 0.0976
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.0016 | R@5: 0.0039 | R@10: 0.0078
+[euclidean][global] R@1: 0.0059 | R@5: 0.0254 | R@10: 0.0517
+[cosine   ][global] R@1: 0.0104 | R@5: 0.0478 | R@10: 0.0895
+[euclidean][global] R@1: 0.0241 | R@5: 0.0820 | R@10: 0.1331
+[cosine   ][global] R@1: 0.0927 | R@5: 0.2196 | R@10: 0.3058
+[euclidean][global] R@1: 0.0374 | R@5: 0.1174 | R@10: 0.1766
+[cosine   ][global] R@1: 0.1584 | R@5: 0.3403 | R@10: 0.4509
+[euclidean][global] R@1: 0.0319 | R@5: 0.0999 | R@10: 0.1461
+[Trainer][init] load pre-trained Model(
+  (img_backbone): ImageBackbone(
+    (img_backbone): ResNet(
+      (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+      (layer1): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer2): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer3): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer4): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+      (fc): Linear(in_features=512, out_features=512, bias=True)
+    )
+  )
+  (cap_backbone): BiGRUBackbone(
+    (embedding): Embedding(1287, 300)
+    (fc): Linear(in_features=1024, out_features=512, bias=True)
+    (rnn): GRU(300, 512, batch_first=True, bidirectional=True)
+  )
+) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained Linear(in_features=512, out_features=12003, bias=True) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained MLP(
+  (mlp): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=512, bias=True)
+  )
+) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained MLP(
+  (mlp): Sequential(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=512, out_features=512, bias=True)
+  )
+) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.1584 | R@5: 0.3403 | R@10: 0.4509
+[Trainer][init] load pre-trained Model(
+  (img_backbone): ImageBackbone(
+    (img_backbone): ResNet(
+      (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+      (layer1): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer2): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer3): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (layer4): Sequential(
+        (0): BasicBlock(
+          (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (downsample): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): BasicBlock(
+          (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+      (fc): Linear(in_features=512, out_features=512, bias=True)
+    )
+  )
+  (cap_backbone): BiGRUBackbone(
+    (embedding): Embedding(1287, 300)
+    (fc): Linear(in_features=1024, out_features=512, bias=True)
+    (rnn): GRU(300, 512, batch_first=True, bidirectional=True)
+  )
+) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained Linear(in_features=512, out_features=12003, bias=True) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained MLP(
+  (mlp): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=512, bias=True)
+  )
+) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained MLP(
+  (mlp): Sequential(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=512, out_features=512, bias=True)
+  )
+) from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.1584 | R@5: 0.3403 | R@10: 0.4509
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.1584 | R@5: 0.3403 | R@10: 0.4509
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.1584 | R@5: 0.3403 | R@10: 0.4509
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [tri-loss] 0.354892, [id-loss] 7.710572, 
+[ep-0, bs-99] [tri-loss] 0.399516, [id-loss] 10.523307, 
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.1584 | R@5: 0.3403 | R@10: 0.4509
+[ep-0, bs-49] [tri-loss] 0.334410, [id-loss] 5.721048, 
+[ep-0, bs-99] [tri-loss] 0.312611, [id-loss] 5.871843, 
+[ep-0, bs-149] [tri-loss] 0.310931, [id-loss] 5.874586, 
+[ep-0, bs-199] [tri-loss] 0.313944, [id-loss] 5.725095, 
+[ep-0, bs-249] [tri-loss] 0.284834, [id-loss] 5.534795, 
+[ep-0, bs-299] [tri-loss] 0.298650, [id-loss] 5.336707, 
+[ep-0, bs-349] [tri-loss] 0.296314, [id-loss] 5.129854, 
+[ep-0, bs-399] [tri-loss] 0.282634, [id-loss] 4.899794, 
+[ep-0, bs-449] [tri-loss] 0.293803, [id-loss] 4.757644, 
+[ep-0, bs-499] [tri-loss] 0.272981, [id-loss] 4.639513, 
+[ep-0, bs-549] [tri-loss] 0.267620, [id-loss] 4.511467, 
+[ep-0, bs-599] [tri-loss] 0.264074, [id-loss] 4.428889, 
+[ep-0, bs-649] [tri-loss] 0.244386, [id-loss] 4.285728, 
+[ep-0, bs-699] [tri-loss] 0.252012, [id-loss] 4.205386, 
+[ep-0, bs-749] [tri-loss] 0.254291, [id-loss] 4.056585, 
+[euclidean][global] R@1: 0.0504 | R@5: 0.1477 | R@10: 0.2215
+[cosine   ][global] R@1: 0.1884 | R@5: 0.3910 | R@10: 0.5088
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.1584 | R@5: 0.3403 | R@10: 0.4509
+[img_rga] R@1: 0.0003 | R@5: 0.0023 | R@10: 0.0055
+[cap_rga] R@1: 0.0003 | R@5: 0.0036 | R@10: 0.0078
+[fusion] R@1: 0.1327 | R@5: 0.2931 | R@10: 0.3910
+[cosine   ][global] R@1: 0.1327 | R@5: 0.2931 | R@10: 0.3910
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.1584 | R@5: 0.3403 | R@10: 0.4509
+[img_rga] R@1: 0.0029 | R@5: 0.0072 | R@10: 0.0107
+[cap_rga] R@1: 0.0010 | R@5: 0.0042 | R@10: 0.0059
+[fusion] R@1: 0.1363 | R@5: 0.2925 | R@10: 0.3861
+[cosine   ][global] R@1: 0.1363 | R@5: 0.2925 | R@10: 0.3861
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.1584 | R@5: 0.3403 | R@10: 0.4509
+[img_rga] R@1: 0.0016 | R@5: 0.0055 | R@10: 0.0101
+[cap_rga] R@1: 0.0010 | R@5: 0.0042 | R@10: 0.0059
+[fusion] R@1: 0.1386 | R@5: 0.2934 | R@10: 0.3917
+[cosine   ][global] R@1: 0.1386 | R@5: 0.2934 | R@10: 0.3917
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.1584 | R@5: 0.3403 | R@10: 0.4509
+[img_rga] R@1: 0.0010 | R@5: 0.0088 | R@10: 0.0163
+[cap_rga] R@1: 0.0010 | R@5: 0.0042 | R@10: 0.0059
+[fusion] R@1: 0.1311 | R@5: 0.2895 | R@10: 0.3874
+[cosine   ][global] R@1: 0.1311 | R@5: 0.2895 | R@10: 0.3874
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 5.881551, [tri-loss] 0.371313, [img_rga] 1.538384, [cap_rga] 2.290145 
+[ep-0, bs-99] [id-loss] 6.256138, [tri-loss] 0.380649, [img_rga] 0.905540, [cap_rga] 1.566819 
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/stage_1_id_last.pt.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.0000 | R@5: 0.0080 | R@10: 0.0080
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0180
+[cap_rga] R@1: 0.0000 | R@5: 0.0080 | R@10: 0.0080
+[fusion] R@1: 0.0000 | R@5: 0.0080 | R@10: 0.0080
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+======== [Stage 1] ============
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+======== [Stage 1] ============

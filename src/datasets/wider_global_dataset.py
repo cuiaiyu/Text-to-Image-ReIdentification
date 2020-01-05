@@ -17,17 +17,17 @@ def train_np_collate_fn(batch):
         ims.append(curr_img[None]); pos_ims.append(pos_img[None]); neg_ims.append(neg_img[None])
         caps.append(cap); pos_caps.append(pos_cap); neg_caps.append(neg_cap)
         pids.append(pid); pos_pids.append(pos_pid); neg_pids.append(neg_pid)
-        # nps += np; 
+        nps += np; 
         n2c += [len(np)] #[i] * len(np)
-        # pos_nps += pos_np; 
+        pos_nps += pos_np; 
         pos_n2c += [len(pos_np)] #[i] * len(pos_np)
-        # neg_nps += neg_np; 
+        neg_nps += neg_np; 
         neg_n2c += [len(neg_np)] #[i] * len(neg_np)
         
-        np = np[:6] if np.size(0) > 6 else torch.cat((np, torch.ones((6 - np.size(0), 8)).long()))
-        pos_np = np[:6] if pos_np.size(0) > 6 else torch.cat((pos_np, torch.ones((6 - pos_np.size(0), 8)).long()))
-        neg_np = np[:6] if neg_np.size(0) > 6 else torch.cat((neg_np, torch.ones((6 - neg_np.size(0), 8)).long()))
-        nps.append(np[None]); pos_nps.append(pos_np[None]); neg_nps.append(neg_np[None])
+        #np = np[:6] if np.size(0) > 6 else torch.cat((np, torch.ones((6 - np.size(0), 6)).long()))
+        #pos_np = np[:6] if pos_np.size(0) > 6 else torch.cat((pos_np, torch.ones((6 - pos_np.size(0), 6)).long()))
+        #neg_np = np[:6] if neg_np.size(0) > 6 else torch.cat((neg_np, torch.ones((6 - neg_np.size(0), 6)).long()))
+        #nps.append(np[None]); pos_nps.append(pos_np[None]); neg_nps.append(neg_np[None])
     
     ims = torch.cat(ims)
     pos_ims = torch.cat(pos_ims)
@@ -72,8 +72,8 @@ class WIDERTriplet_NP(WIDERTriplet):
         cap_token = self.tokenizer.tokenize(cap, 40)
         cap_token = torch.LongTensor([cap_token])
         nps = self.np_extractor.sent_parse(cap)
-        nps = [torch.LongTensor([self.tokenizer.tokenize(np, 8)]) for np in nps]
-        nps = torch.cat(nps)
+        nps = [torch.LongTensor([self.tokenizer.tokenize(np, 6)]) for np in nps]
+        # nps = torch.cat(nps)
         return cap_token, nps
     
     def __getitem__(self,index):

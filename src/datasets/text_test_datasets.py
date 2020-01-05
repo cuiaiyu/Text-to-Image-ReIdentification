@@ -29,7 +29,7 @@ def text_test_np_collate_fn(batch):
     for i, (cap, nps, image_fn) in enumerate(batch):
         all_caps.append(cap)
         all_image_fn.append(image_fn)
-        nps = nps[:6] if nps.size(0) > 6 else torch.cat((nps, torch.ones((6 - nps.size(0), 8)).long()))
+        nps = nps[:6] if nps.size(0) > 6 else torch.cat((nps, torch.ones((6 - nps.size(0), 6)).long()))
                                                      
         all_nps.append(nps[None])
                                                      
@@ -104,7 +104,7 @@ class WIDERNPTextDataset(WIDERTextDataset):
         cap = self.captions[index]
         cap_token = self.tokenizer.tokenize(cap, 40)
         nps = self.np_extractor.sent_parse(cap)
-        nps = [torch.LongTensor([self.tokenizer.tokenize(np, 8)]) for np in nps]
+        nps = [torch.LongTensor([self.tokenizer.tokenize(np, 6)]) for np in nps]
         nps = torch.cat(nps)
         
         cap_token = torch.LongTensor([cap_token])
