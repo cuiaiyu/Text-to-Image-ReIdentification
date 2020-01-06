@@ -66,13 +66,21 @@ class Manager:
         self.rga_img_mlp = MLP(self.cfg.regional_embed_size, self.cfg.embed_size).cuda()
         # RGA text mlp
         self.rga_cap_mlp = MLP(self.cfg.embed_size, self.cfg.embed_size).cuda()
-        # gpu
+             
         self.all_models = {
             "model": self.model,
             "id_cls": self.id_cls, 
             "rga_img_mlp": self.rga_img_mlp,
             "rga_cap_mlp": self.rga_cap_mlp,
         }
+        
+        # gpu
+        if self.cfg.num_gpus > 1:
+            for name in self.all_models.keys():
+                print('set data parallel to [%s]' % name)
+                self.all_models[name] = nn.DataParallel(self.all_models[name])
+           
+        
         
         # load ckpt
         self.reset_ckpt()
@@ -127,30 +135,31 @@ class Manager:
         else:
             self.model.img_backbone.melt_layer(8 - num_layer_to_melt)
      
-    def train_epoch_global(self, train_data, optimizer, epoch, note="train"):
+    def train_epoch_global(self, train_data, optimizer, epoch, do_id=True, note="train"):
         self.model.train()
         cum_tri_loss, cum_id_loss = 0.0, 0.0
         for i, data in tqdm(enumerate(train_data), "%s, epoch%d" % (note, epoch)):
             # load data
             data = self.todevice(data)
-            (img,pos_img,neg_img, cap, pos_cap, neg_cap, pid, pos_pid, neg_pid) = data
+            (img, cap, pid) = data
             
             # encode
-            img, pos_img, neg_img = self.model(img), self.model(pos_img), self.model(neg_img)
-            cap, pos_cap, neg_cap = self.model(cap), self.model(pos_cap), self.model(neg_cap)
+            img, cap = self.model(img), self.model(cap)
 
             # loss
-            tri_loss =  crossmodal_triplet_loss(img,pos_img,neg_img, 
-                                                  cap, pos_cap, neg_cap, 
-                                                  self.triplet_loss, self.cfg.dist_fn_opt)  
-            id_loss = self.cls_loss(self.id_cls(img), pid) + self.cls_loss(self.id_cls(cap), pid)
+            tri_loss = self.triplet_loss(img, cap, pid)
+            if do_id:
+                id_loss = self.cls_loss(self.id_cls(img), pid) + self.cls_loss(self.id_cls(cap), pid)
+                cum_id_loss += id_loss.item()
+            else:
+                id_loss = 0.0
             loss = tri_loss + id_loss
 
             # backpropagation
             optimizer.zero_grad(); loss.backward(); optimizer.step()
             # log
             cum_tri_loss += tri_loss.item()
-            cum_id_loss += id_loss.item()
+            
             if (i+1) % self.cfg.print_freq == 0:
                 out_string = "[ep-%d, bs-%d] " % (epoch, i)
                 out_string += "[tri-loss] %.6f, " % (cum_tri_loss / self.cfg.print_freq)
@@ -165,52 +174,34 @@ class Manager:
         for i, data in tqdm(enumerate(train_data), "%s, epoch%d" % (note,epoch)):
             # load data
             data = self.todevice(data)
-            (img, pos_img, neg_img, 
-             cap, pos_cap, neg_cap,
-             nps, pos_nps, neg_nps,
-             n2c, pos_n2c, neg_n2c,
-             pid, pos_pid, neg_pid) = data
+            (img, cap, nps, n2c, pid) = data
 
 
             img, img_part = self.model(img)
-            pos_img, pos_img_part = self.model(pos_img)
-            neg_img, neg_img_part = self.model(neg_img)
-            cap, pos_cap, neg_cap = self.model(cap), self.model(pos_cap), self.model(neg_cap)
+            cap = self.model(cap)
             
             # N, M, T = nps.size()
             nps = self.rga_cap_mlp(self.model(nps))
-            pos_nps = self.rga_cap_mlp(self.model(pos_nps))
-            neg_nps = self.rga_cap_mlp(self.model(neg_nps))
             #nps = self.rga_cap_mlp(self.model(nps.reshape(-1, T))).reshape(N, M, -1)
-            #pos_nps = self.rga_cap_mlp(self.model(pos_nps.reshape(-1, T))).reshape(N, M, -1)
-            #neg_nps = self.rga_cap_mlp(self.model(neg_nps.reshape(-1, T))).reshape(N, M, -1)
-            
+           
             # part
             img_part = self.rga_img_mlp(img_part)
-            pos_img_part = self.rga_img_mlp(pos_img_part)
-            neg_img_part = self.rga_img_mlp(neg_img_part)
+            
 
             img_part = RGA_attend_one_to_many_batch(cap, img_part, self.cfg.dist_fn_opt)
-            pos_img_part = RGA_attend_one_to_many_batch(pos_cap, pos_img_part, self.cfg.dist_fn_opt)
-            neg_img_part = RGA_attend_one_to_many_batch(neg_cap, neg_img_part, self.cfg.dist_fn_opt)
             cap_part = regional_alignment_text(img, nps, n2c, self.cfg.dist_fn_opt)
-            pos_cap_part = regional_alignment_text(pos_img, pos_nps, pos_n2c, self.cfg.dist_fn_opt)
-            neg_cap_part = regional_alignment_text(neg_img, neg_nps, neg_n2c, self.cfg.dist_fn_opt)
             #cap_part = RGA_attend_one_to_many_batch(img, nps, self.cfg.dist_fn_opt)
-            #pos_cap_part = RGA_attend_one_to_many_batch(pos_img, pos_nps, self.cfg.dist_fn_opt)
-            #neg_cap_part = RGA_attend_one_to_many_batch(neg_img, neg_nps, self.cfg.dist_fn_opt)
-
+            
             # loss
-            tri_loss =  crossmodal_triplet_loss(img,pos_img,neg_img, 
-                                                  cap, pos_cap, neg_cap, 
-                                                  self.triplet_loss, self.cfg.dist_fn_opt) 
-            tri_image_regional_loss =  crossmodal_triplet_loss(img_part,pos_img_part,neg_img_part, 
-                                                  cap, pos_cap, neg_cap, 
-                                                  self.triplet_loss, self.cfg.dist_fn_opt) 
-            tri_text_regional_loss =  crossmodal_triplet_loss(img,pos_img,neg_img, 
-                                                  cap_part, pos_cap_part, neg_cap_part, 
-                                                  self.triplet_loss, self.cfg.dist_fn_opt) 
-            id_loss = self.cls_loss(self.id_cls(img), pid) +  self.cls_loss(self.id_cls(cap), pid)
+            tri_loss =  self.triplet_loss(img, cap, pid) 
+            tri_image_regional_loss =  self.triplet_loss(img_part, cap, pid) 
+            tri_text_regional_loss =  self.triplet_loss(img, cap_part, pid) 
+            
+            if do_id:
+                id_loss = self.cls_loss(self.id_cls(img), pid) +  self.cls_loss(self.id_cls(cap), pid)
+                cum_id_loss += id_loss.item()
+            else:
+                id_loss = 0.0
 
 
             loss = tri_loss + tri_image_regional_loss  + tri_text_regional_loss + id_loss
@@ -225,7 +216,6 @@ class Manager:
             cum_tri_loss += tri_loss.item()
             cum_tri_image_regional_loss += tri_image_regional_loss.item()
             cum_tri_text_regional_loss += tri_text_regional_loss.item()
-            cum_id_loss += id_loss.item()
             
             if (i+1) % self.cfg.print_freq == 0:
                 out_string = "[ep-%d, bs-%d] " % (epoch, i)
@@ -245,7 +235,7 @@ class Manager:
         for i, data in tqdm(enumerate(train_data), "%s, epoch%d" % (note,epoch)):
             # load data
             data = self.todevice(data)
-            (img,pos_img,neg_img, cap, pos_cap, neg_cap, pid, pos_pid, neg_pid) = data
+            (img, cap, pid) = data
             img = self.model(img)
             cap = self.model(cap)
 
@@ -262,5 +252,5 @@ class Manager:
 
             # log
             if (i+1) % self.cfg.print_freq == 0:
-                print("ep-%d, bs-%d, [id-loss] %.6f" % (epoch, i, cum_loss / self.cfg.print_freq))
+                self.log("ep-%d, bs-%d, [id-loss] %.6f" % (epoch, i, cum_loss / self.cfg.print_freq))
                 cum_loss = 0.0

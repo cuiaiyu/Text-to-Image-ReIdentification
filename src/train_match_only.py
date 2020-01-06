@@ -47,6 +47,7 @@ cfg.exp_name = "dist_fn_{}_imgbb_{}_capbb_{}_embed_size_{}_batch_{}_lr_{}_captyp
     cfg.image_melt_layer,
     cfg.cos_margin,
     cfg.np)
+cfg.exp_name += "_match_only"
 cfg.model_path = os.path.join("/shared/rsaas/aiyucui2/wider_person", cfg.model_path, cfg.exp_name)
 cfg.output_path = os.path.join("/shared/rsaas/aiyucui2/wider_person", cfg.output_path, cfg.exp_name)
 
@@ -91,44 +92,35 @@ manager = Manager(cfg, logger)
 ## Train
 #------------------
 # Stage 1 (ID)
-logger.log("======== [Stage 1] ============")
+logger.log("======== [Stage 1 - match] ============")
 manager.melt_img_layer(num_layer_to_melt=0)
 param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls])
 optimizer = optim.Adam(param_to_optimize, lr=1e-3)
 scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10)
 
 for epoch in range(cfg.num_epochs_stage1):
-    manager.train_epoch_id(train_loader, optimizer, epoch, "train-stage-1")
+    manager.train_epoch_global(train_loader, optimizer, epoch, do_id=False, note="train-stage-1")
     acc = evaluator.evaluate(manager.model)
     logger.log('[stage-1, ep-%d][euclidean][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, acc['top-1'], acc['top-5'], acc['top-10']))
     acc = cos_evaluator.evaluate(manager.model)
     logger.log('[stage-1, ep-%d][cosine   ][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, acc['top-1'], acc['top-5'], acc['top-10']))
     scheduler.step()
-    manager.save_ckpt(epoch, acc, 'stage_1_id_last.pt')
-   
+    manager.save_ckpt(epoch, acc, 'stage_1_match_last.pt')
 if cfg.num_epochs_stage1:
-    manager.save_ckpt(epoch, acc, 'id_initialized.pt')
+    manager.save_ckpt(epoch, acc, 'match_initialized.pt')
 
-# Stage 2 (ID + Matching)
+# Stage 2 (ID)
 logger.log("======== [Stage 2] ============")
-manager.melt_img_layer(num_layer_to_melt=cfg.image_melt_layer)
-if cfg.np:
-    param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls, manager.rga_img_mlp, manager.rga_cap_mlp]) 
-else:
-    param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls])    
-optimizer = optim.Adam(param_to_optimize, lr=2e-4, weight_decay=1e-5)
-scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10)
+manager.melt_img_layer(num_layer_to_melt=8)
+param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls])
+optimizer = optim.Adam(param_to_optimize, lr=2e-4)
+scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=5)
 
-train_epoch = manager.train_epoch_regional if cfg.np else manager.train_epoch_global
 for epoch in range(cfg.num_epochs_stage2):
-    train_epoch(train_loader, optimizer, epoch, "train-stage-2")
-    if cfg.np:
-        acc = evaluator.evaluate(manager.model, manager.rga_img_mlp, manager.rga_cap_mlp)
-        cos_acc = cos_evaluator.evaluate(manager.model, manager.rga_img_mlp, manager.rga_cap_mlp)
-    else:
-        acc = evaluator.evaluate(manager.model)
-        cos_acc = cos_evaluator.evaluate(manager.model)
+    manager.train_epoch_global(train_loader, optimizer, epoch, do_id=False, note="train-stage-2")
+    acc = evaluator.evaluate(manager.model)
     logger.log('[stage-2, ep-%d][euclidean][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, acc['top-1'], acc['top-5'], acc['top-10']))
-    logger.log('[stage-2, ep-%d][cosine   ][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, cos_acc['top-1'], cos_acc['top-5'], cos_acc['top-10']))
+    acc = cos_evaluator.evaluate(manager.model)
+    logger.log('[stage-2, ep-%d][cosine   ][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, acc['top-1'], acc['top-5'], acc['top-10']))
     scheduler.step()
-    manager.save_ckpt(epoch, acc, 'stage_2_id_match_last.pt')
+    manager.save_ckpt(epoch, acc, 'stage_2_match_last.pt')

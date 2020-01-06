@@ -2342,3 +2342,977 @@ batch 63, [tri-loss] 0.093673
 [Trainer][init] model initialized.
 [Trainer][init] criterion initialized.
 ======== [Stage 1] ============
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2101 | R@5: 0.4193 | R@10: 0.5293
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2101 | R@5: 0.4193 | R@10: 0.5293
+[ep-0, bs-49] [tri-loss] 0.059503, [id-loss] 2.141433, 
+[ep-0, bs-99] [tri-loss] 0.055339, [id-loss] 2.139966, 
+[ep-0, bs-149] [tri-loss] 0.057531, [id-loss] 2.133309, 
+[ep-0, bs-199] [tri-loss] 0.055170, [id-loss] 2.054461, 
+[ep-0, bs-249] [tri-loss] 0.057204, [id-loss] 1.955026, 
+[ep-0, bs-299] [tri-loss] 0.058952, [id-loss] 1.944307, 
+[ep-0, bs-349] [tri-loss] 0.058473, [id-loss] 1.922676, 
+[ep-0, bs-399] [tri-loss] 0.058735, [id-loss] 1.844394, 
+[ep-0, bs-449] [tri-loss] 0.056268, [id-loss] 1.737460, 
+[ep-0, bs-499] [tri-loss] 0.055685, [id-loss] 1.776015, 
+[ep-0, bs-549] [tri-loss] 0.055230, [id-loss] 1.706621, 
+[ep-0, bs-599] [tri-loss] 0.052391, [id-loss] 1.688051, 
+[ep-0, bs-649] [tri-loss] 0.053568, [id-loss] 1.576381, 
+[ep-0, bs-699] [tri-loss] 0.052416, [id-loss] 1.599979, 
+[ep-0, bs-749] [tri-loss] 0.050620, [id-loss] 1.561205, 
+[euclidean][global] R@1: 0.0192 | R@5: 0.0732 | R@10: 0.1145
+[cosine   ][global] R@1: 0.2342 | R@5: 0.4509 | R@10: 0.5657
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2101 | R@5: 0.4193 | R@10: 0.5293
+[ep-0, bs-49] [tri-loss] 4.402646, [id-loss] 2.305427, 
+[ep-0, bs-99] [tri-loss] 3.383293, [id-loss] 2.457540, 
+[ep-0, bs-149] [tri-loss] 2.923468, [id-loss] 2.505764, 
+[ep-0, bs-199] [tri-loss] 2.854678, [id-loss] 2.481569, 
+[ep-0, bs-249] [tri-loss] 2.595260, [id-loss] 2.461707, 
+[ep-0, bs-299] [tri-loss] 2.718413, [id-loss] 2.375442, 
+[ep-0, bs-349] [tri-loss] 2.439129, [id-loss] 2.255815, 
+[ep-0, bs-399] [tri-loss] 2.469262, [id-loss] 2.278251, 
+[ep-0, bs-449] [tri-loss] 2.210099, [id-loss] 2.209573, 
+[ep-0, bs-499] [tri-loss] 2.138451, [id-loss] 2.105807, 
+[ep-0, bs-549] [tri-loss] 2.373047, [id-loss] 2.070651, 
+[ep-0, bs-599] [tri-loss] 2.210519, [id-loss] 2.041563, 
+[ep-0, bs-649] [tri-loss] 2.104956, [id-loss] 1.999010, 
+[ep-0, bs-699] [tri-loss] 2.129597, [id-loss] 1.943435, 
+[ep-0, bs-749] [tri-loss] 2.116663, [id-loss] 1.917209, 
+[euclidean][global] R@1: 0.0599 | R@5: 0.1906 | R@10: 0.2859
+[cosine   ][global] R@1: 0.2762 | R@5: 0.5163 | R@10: 0.6243
+[ep-1, bs-49] [tri-loss] 1.801372, [id-loss] 1.381967, 
+[ep-1, bs-99] [tri-loss] 1.705873, [id-loss] 1.384268, 
+[ep-1, bs-149] [tri-loss] 1.866867, [id-loss] 1.422040, 
+[ep-1, bs-199] [tri-loss] 1.734017, [id-loss] 1.387880, 
+[ep-1, bs-249] [tri-loss] 1.675355, [id-loss] 1.419123, 
+[ep-1, bs-299] [tri-loss] 1.602701, [id-loss] 1.401231, 
+[ep-1, bs-349] [tri-loss] 1.776200, [id-loss] 1.453943, 
+[ep-1, bs-399] [tri-loss] 1.684262, [id-loss] 1.434711, 
+[ep-1, bs-449] [tri-loss] 1.666244, [id-loss] 1.452812, 
+[ep-1, bs-499] [tri-loss] 1.675684, [id-loss] 1.389518, 
+[ep-1, bs-549] [tri-loss] 1.653643, [id-loss] 1.441619, 
+[ep-1, bs-599] [tri-loss] 1.715840, [id-loss] 1.508389, 
+[ep-1, bs-649] [tri-loss] 1.702552, [id-loss] 1.487772, 
+[ep-1, bs-699] [tri-loss] 1.534688, [id-loss] 1.471261, 
+[ep-1, bs-749] [tri-loss] 1.587372, [id-loss] 1.449305, 
+[euclidean][global] R@1: 0.0807 | R@5: 0.2378 | R@10: 0.3409
+[cosine   ][global] R@1: 0.2931 | R@5: 0.5410 | R@10: 0.6513
+[ep-2, bs-49] [tri-loss] 1.337425, [id-loss] 1.065149, 
+[ep-2, bs-99] [tri-loss] 1.387444, [id-loss] 1.092643, 
+[ep-2, bs-149] [tri-loss] 1.486945, [id-loss] 1.144565, 
+[ep-2, bs-199] [tri-loss] 1.468642, [id-loss] 1.113072, 
+[ep-2, bs-249] [tri-loss] 1.281374, [id-loss] 1.139823, 
+[ep-2, bs-299] [tri-loss] 1.450293, [id-loss] 1.191382, 
+[ep-2, bs-349] [tri-loss] 1.257407, [id-loss] 1.186099, 
+[ep-2, bs-399] [tri-loss] 1.334211, [id-loss] 1.224145, 
+[ep-2, bs-449] [tri-loss] 1.365213, [id-loss] 1.193770, 
+[ep-2, bs-499] [tri-loss] 1.353339, [id-loss] 1.180305, 
+[ep-2, bs-549] [tri-loss] 1.348542, [id-loss] 1.224243, 
+[ep-2, bs-599] [tri-loss] 1.428595, [id-loss] 1.250872, 
+[ep-2, bs-649] [tri-loss] 1.335422, [id-loss] 1.242072, 
+[ep-2, bs-699] [tri-loss] 1.275829, [id-loss] 1.241933, 
+[ep-2, bs-749] [tri-loss] 1.372335, [id-loss] 1.242542, 
+[euclidean][global] R@1: 0.1034 | R@5: 0.2798 | R@10: 0.3962
+[cosine   ][global] R@1: 0.3019 | R@5: 0.5420 | R@10: 0.6555
+[ep-3, bs-49] [tri-loss] 1.272593, [id-loss] 0.887687, 
+[ep-3, bs-99] [tri-loss] 1.233180, [id-loss] 0.936390, 
+[ep-3, bs-149] [tri-loss] 1.309735, [id-loss] 0.936214, 
+[ep-3, bs-199] [tri-loss] 1.276307, [id-loss] 0.965490, 
+[ep-3, bs-249] [tri-loss] 1.360746, [id-loss] 0.975746, 
+[ep-3, bs-299] [tri-loss] 1.140872, [id-loss] 0.966898, 
+[ep-3, bs-349] [tri-loss] 1.250576, [id-loss] 0.998270, 
+[ep-3, bs-399] [tri-loss] 1.398989, [id-loss] 1.036670, 
+[ep-3, bs-449] [tri-loss] 1.278826, [id-loss] 1.005064, 
+[ep-3, bs-499] [tri-loss] 1.231829, [id-loss] 1.036045, 
+[ep-3, bs-549] [tri-loss] 1.304733, [id-loss] 1.010849, 
+[ep-3, bs-599] [tri-loss] 1.313886, [id-loss] 1.088489, 
+[ep-3, bs-649] [tri-loss] 1.175307, [id-loss] 1.068572, 
+[ep-3, bs-699] [tri-loss] 1.382319, [id-loss] 1.060065, 
+[ep-3, bs-749] [tri-loss] 1.114091, [id-loss] 1.121028, 
+[euclidean][global] R@1: 0.1269 | R@5: 0.3308 | R@10: 0.4444
+[cosine   ][global] R@1: 0.3032 | R@5: 0.5394 | R@10: 0.6506
+[ep-4, bs-49] [tri-loss] 1.195668, [id-loss] 0.756866, 
+[ep-4, bs-99] [tri-loss] 1.071983, [id-loss] 0.767502, 
+[ep-4, bs-149] [tri-loss] 1.036049, [id-loss] 0.818455, 
+[ep-4, bs-199] [tri-loss] 1.104368, [id-loss] 0.818072, 
+[ep-4, bs-249] [tri-loss] 1.096940, [id-loss] 0.816692, 
+[ep-4, bs-299] [tri-loss] 1.230327, [id-loss] 0.852134, 
+[ep-4, bs-349] [tri-loss] 1.104805, [id-loss] 0.880398, 
+[ep-4, bs-399] [tri-loss] 1.037255, [id-loss] 0.861563, 
+[ep-4, bs-449] [tri-loss] 1.076411, [id-loss] 0.878038, 
+[ep-4, bs-499] [tri-loss] 1.074121, [id-loss] 0.889729, 
+[ep-4, bs-549] [tri-loss] 1.063207, [id-loss] 0.882448, 
+[ep-4, bs-599] [tri-loss] 1.051201, [id-loss] 0.931653, 
+[ep-4, bs-649] [tri-loss] 1.112943, [id-loss] 0.940201, 
+[ep-4, bs-699] [tri-loss] 1.088600, [id-loss] 0.925588, 
+[ep-4, bs-749] [tri-loss] 1.129773, [id-loss] 0.933227, 
+[euclidean][global] R@1: 0.1259 | R@5: 0.3282 | R@10: 0.4473
+[cosine   ][global] R@1: 0.3123 | R@5: 0.5527 | R@10: 0.6555
+[Trainer][init] load pre-trained model from /data/aiyucui2/wider/checkpoints/reID/debug/tmp.pt.
+[Trainer][init] load pre-trained id_cls from /data/aiyucui2/wider/checkpoints/reID/debug/tmp.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/tmp.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /data/aiyucui2/wider/checkpoints/reID/debug/tmp.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.3100 | R@5: 0.5573 | R@10: 0.6669
+[ep-0, bs-49] [tri-loss] 0.967607, [id-loss] 0.623502, 
+[ep-0, bs-99] [tri-loss] 0.892126, [id-loss] 0.617847, 
+[ep-0, bs-149] [tri-loss] 0.940954, [id-loss] 0.597057, 
+[ep-0, bs-199] [tri-loss] 0.896790, [id-loss] 0.624633, 
+[ep-0, bs-249] [tri-loss] 0.868535, [id-loss] 0.588398, 
+[ep-0, bs-299] [tri-loss] 0.922907, [id-loss] 0.598630, 
+[ep-0, bs-349] [tri-loss] 0.950515, [id-loss] 0.602770, 
+[ep-0, bs-399] [tri-loss] 0.995627, [id-loss] 0.573748, 
+[ep-0, bs-449] [tri-loss] 0.978999, [id-loss] 0.625590, 
+[ep-0, bs-499] [tri-loss] 0.840501, [id-loss] 0.614942, 
+[ep-0, bs-549] [tri-loss] 0.874804, [id-loss] 0.584156, 
+[ep-0, bs-599] [tri-loss] 0.900708, [id-loss] 0.593783, 
+[ep-0, bs-649] [tri-loss] 0.893881, [id-loss] 0.581727, 
+[ep-0, bs-699] [tri-loss] 1.042412, [id-loss] 0.574308, 
+[ep-0, bs-749] [tri-loss] 0.878463, [id-loss] 0.573412, 
+[euclidean][global] R@1: 0.1490 | R@5: 0.3640 | R@10: 0.4834
+[cosine   ][global] R@1: 0.3178 | R@5: 0.5696 | R@10: 0.6737
+[ep-1, bs-49] [tri-loss] 0.903989, [id-loss] 0.534960, 
+[ep-1, bs-99] [tri-loss] 0.886502, [id-loss] 0.525362, 
+[ep-1, bs-149] [tri-loss] 0.839537, [id-loss] 0.517127, 
+[ep-1, bs-199] [tri-loss] 0.978944, [id-loss] 0.527080, 
+[ep-1, bs-249] [tri-loss] 0.810990, [id-loss] 0.530233, 
+[ep-1, bs-299] [tri-loss] 0.903615, [id-loss] 0.532314, 
+[ep-1, bs-349] [tri-loss] 0.742056, [id-loss] 0.525519, 
+[ep-1, bs-399] [tri-loss] 0.730425, [id-loss] 0.521904, 
+[ep-1, bs-449] [tri-loss] 0.907155, [id-loss] 0.512201, 
+[ep-1, bs-499] [tri-loss] 0.870333, [id-loss] 0.534031, 
+[ep-1, bs-549] [tri-loss] 0.772342, [id-loss] 0.504630, 
+[ep-1, bs-599] [tri-loss] 0.825973, [id-loss] 0.522412, 
+[ep-1, bs-649] [tri-loss] 0.954832, [id-loss] 0.511591, 
+[ep-1, bs-699] [tri-loss] 0.903257, [id-loss] 0.525883, 
+[ep-1, bs-749] [tri-loss] 0.898607, [id-loss] 0.541691, 
+[euclidean][global] R@1: 0.1558 | R@5: 0.3770 | R@10: 0.5016
+[cosine   ][global] R@1: 0.3253 | R@5: 0.5686 | R@10: 0.6802
+[ep-2, bs-49] [tri-loss] 0.690280, [id-loss] 0.478798, 
+[ep-2, bs-99] [tri-loss] 0.859258, [id-loss] 0.486302, 
+[ep-2, bs-149] [tri-loss] 0.762642, [id-loss] 0.497840, 
+[ep-2, bs-199] [tri-loss] 0.783885, [id-loss] 0.488947, 
+[ep-2, bs-249] [tri-loss] 0.803477, [id-loss] 0.468716, 
+[ep-2, bs-299] [tri-loss] 0.809258, [id-loss] 0.490149, 
+[ep-2, bs-349] [tri-loss] 0.841392, [id-loss] 0.496298, 
+[ep-2, bs-399] [tri-loss] 0.820599, [id-loss] 0.503158, 
+[ep-2, bs-449] [tri-loss] 0.798157, [id-loss] 0.497066, 
+[ep-2, bs-499] [tri-loss] 0.725330, [id-loss] 0.508071, 
+[ep-2, bs-549] [tri-loss] 0.893563, [id-loss] 0.497113, 
+[ep-2, bs-599] [tri-loss] 0.900092, [id-loss] 0.503738, 
+[ep-2, bs-649] [tri-loss] 0.832210, [id-loss] 0.509882, 
+[ep-2, bs-699] [tri-loss] 0.801953, [id-loss] 0.505877, 
+[ep-2, bs-749] [tri-loss] 0.789441, [id-loss] 0.507094, 
+[euclidean][global] R@1: 0.1617 | R@5: 0.3842 | R@10: 0.5068
+[cosine   ][global] R@1: 0.3237 | R@5: 0.5703 | R@10: 0.6757
+[ep-3, bs-49] [tri-loss] 0.744745, [id-loss] 0.463862, 
+[ep-3, bs-99] [tri-loss] 0.789980, [id-loss] 0.474940, 
+[ep-3, bs-149] [tri-loss] 0.794946, [id-loss] 0.457675, 
+[ep-3, bs-199] [tri-loss] 0.754792, [id-loss] 0.453522, 
+[ep-3, bs-249] [tri-loss] 0.831496, [id-loss] 0.459206, 
+[ep-3, bs-299] [tri-loss] 0.714240, [id-loss] 0.473632, 
+[ep-3, bs-349] [tri-loss] 0.798646, [id-loss] 0.466484, 
+[ep-3, bs-399] [tri-loss] 0.858076, [id-loss] 0.482199, 
+[ep-3, bs-449] [tri-loss] 0.793210, [id-loss] 0.466957, 
+[ep-3, bs-499] [tri-loss] 0.796998, [id-loss] 0.470726, 
+[ep-3, bs-549] [tri-loss] 0.708183, [id-loss] 0.490608, 
+[ep-3, bs-599] [tri-loss] 0.809512, [id-loss] 0.510354, 
+[ep-3, bs-649] [tri-loss] 0.827439, [id-loss] 0.488612, 
+[ep-3, bs-699] [tri-loss] 0.702194, [id-loss] 0.478560, 
+[ep-3, bs-749] [tri-loss] 0.860512, [id-loss] 0.483777, 
+[euclidean][global] R@1: 0.1601 | R@5: 0.3819 | R@10: 0.5107
+[cosine   ][global] R@1: 0.3214 | R@5: 0.5693 | R@10: 0.6760
+[ep-4, bs-49] [tri-loss] 0.810605, [id-loss] 0.432141, 
+[ep-4, bs-99] [tri-loss] 0.791834, [id-loss] 0.429663, 
+[ep-4, bs-149] [tri-loss] 0.746981, [id-loss] 0.472152, 
+[ep-4, bs-199] [tri-loss] 0.883119, [id-loss] 0.461533, 
+[ep-4, bs-249] [tri-loss] 0.753930, [id-loss] 0.475237, 
+[ep-4, bs-299] [tri-loss] 0.716727, [id-loss] 0.430321, 
+[ep-4, bs-349] [tri-loss] 0.809038, [id-loss] 0.471271, 
+[ep-4, bs-399] [tri-loss] 0.714032, [id-loss] 0.450748, 
+[ep-4, bs-449] [tri-loss] 0.632414, [id-loss] 0.437050, 
+[ep-4, bs-499] [tri-loss] 0.814400, [id-loss] 0.441920, 
+[ep-4, bs-549] [tri-loss] 0.793262, [id-loss] 0.474286, 
+[ep-4, bs-599] [tri-loss] 0.769891, [id-loss] 0.461050, 
+[ep-4, bs-649] [tri-loss] 0.800614, [id-loss] 0.472790, 
+[ep-4, bs-699] [tri-loss] 0.697184, [id-loss] 0.461388, 
+[ep-4, bs-749] [tri-loss] 0.811881, [id-loss] 0.486454, 
+[euclidean][global] R@1: 0.1597 | R@5: 0.3979 | R@10: 0.5218
+[cosine   ][global] R@1: 0.3256 | R@5: 0.5719 | R@10: 0.6796
+[ep-5, bs-49] [tri-loss] 0.697982, [id-loss] 0.416285, 
+[ep-5, bs-99] [tri-loss] 0.735740, [id-loss] 0.424219, 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2215 | R@5: 0.4281 | R@10: 0.5319
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2215 | R@5: 0.4281 | R@10: 0.5319
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2215 | R@5: 0.4281 | R@10: 0.5319
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2215 | R@5: 0.4281 | R@10: 0.5319
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2215 | R@5: 0.4281 | R@10: 0.5319
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.0007 | R@5: 0.0029 | R@10: 0.0094
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2215 | R@5: 0.4281 | R@10: 0.5319
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2215 | R@5: 0.4281 | R@10: 0.5319
+[ep-0, bs-49] [tri-loss] 3.870393, [id-loss] 0.475987, 
+[ep-0, bs-99] [tri-loss] 3.646395, [id-loss] 0.464056, 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2215 | R@5: 0.4281 | R@10: 0.5319
+[ep-0, bs-49] [tri-loss] 2.948738, [id-loss] 0.499260, 
+[ep-0, bs-99] [tri-loss] 2.356112, [id-loss] 0.849123, 
+[ep-0, bs-149] [tri-loss] 2.268816, [id-loss] 1.247654, 
+[ep-0, bs-199] [tri-loss] 1.915828, [id-loss] 1.592369, 
+[ep-0, bs-249] [tri-loss] 2.030278, [id-loss] 1.871136, 
+[ep-0, bs-299] [tri-loss] 1.789834, [id-loss] 2.066194, 
+[ep-0, bs-349] [tri-loss] 1.750182, [id-loss] 2.238926, 
+[ep-0, bs-399] [tri-loss] 1.778993, [id-loss] 2.315955, 
+[ep-0, bs-449] [tri-loss] 1.737710, [id-loss] 2.431235, 
+[ep-0, bs-499] [tri-loss] 1.556134, [id-loss] 2.306467, 
+[ep-0, bs-549] [tri-loss] 1.684108, [id-loss] 2.180837, 
+[ep-0, bs-599] [tri-loss] 1.528997, [id-loss] 2.179757, 
+[ep-0, bs-649] [tri-loss] 1.389475, [id-loss] 2.016247, 
+[ep-0, bs-699] [tri-loss] 1.380021, [id-loss] 2.231424, 
+[ep-0, bs-749] [tri-loss] 1.423629, [id-loss] 1.911343, 
+[ep-0, bs-799] [tri-loss] 1.398446, [id-loss] 1.841357, 
+[ep-0, bs-849] [tri-loss] 1.484321, [id-loss] 1.474671, 
+[ep-0, bs-899] [tri-loss] 1.479483, [id-loss] 1.551395, 
+[ep-0, bs-949] [tri-loss] 1.432823, [id-loss] 1.481127, 
+[ep-0, bs-999] [tri-loss] 1.382797, [id-loss] 1.533365, 
+[ep-0, bs-1049] [tri-loss] 1.255868, [id-loss] 1.395747, 
+[ep-0, bs-1099] [tri-loss] 1.343518, [id-loss] 1.305412, 
+[ep-0, bs-1149] [tri-loss] 1.357784, [id-loss] 1.246482, 
+[euclidean][global] R@1: 0.2622 | R@5: 0.4863 | R@10: 0.5956
+[cosine   ][global] R@1: 0.3396 | R@5: 0.5709 | R@10: 0.6786
+[ep-1, bs-49] [tri-loss] 0.984337, [id-loss] 0.523880, 
+[ep-1, bs-99] [tri-loss] 1.025449, [id-loss] 0.549677, 
+[ep-1, bs-149] [tri-loss] 0.985835, [id-loss] 0.500206, 
+[ep-1, bs-199] [tri-loss] 0.943631, [id-loss] 0.466637, 
+[ep-1, bs-249] [tri-loss] 1.015688, [id-loss] 0.489823, 
+[ep-1, bs-299] [tri-loss] 1.032298, [id-loss] 0.489730, 
+[ep-1, bs-349] [tri-loss] 0.994014, [id-loss] 0.530308, 
+[ep-1, bs-399] [tri-loss] 0.964261, [id-loss] 0.494294, 
+[ep-1, bs-449] [tri-loss] 0.985935, [id-loss] 0.450129, 
+[ep-1, bs-499] [tri-loss] 0.979063, [id-loss] 0.440557, 
+[ep-1, bs-549] [tri-loss] 0.978715, [id-loss] 0.438064, 
+[ep-1, bs-599] [tri-loss] 0.963820, [id-loss] 0.431389, 
+[ep-1, bs-649] [tri-loss] 0.946155, [id-loss] 0.397536, 
+[ep-1, bs-699] [tri-loss] 0.896780, [id-loss] 0.418575, 
+[ep-1, bs-749] [tri-loss] 0.951990, [id-loss] 0.361157, 
+[ep-1, bs-799] [tri-loss] 0.906631, [id-loss] 0.430098, 
+[ep-1, bs-849] [tri-loss] 0.866937, [id-loss] 0.376833, 
+[ep-1, bs-899] [tri-loss] 0.881450, [id-loss] 0.351264, 
+[ep-1, bs-949] [tri-loss] 0.910673, [id-loss] 0.323179, 
+[ep-1, bs-999] [tri-loss] 1.015134, [id-loss] 0.331830, 
+[ep-1, bs-1049] [tri-loss] 0.794972, [id-loss] 0.354813, 
+[ep-1, bs-1099] [tri-loss] 0.930658, [id-loss] 0.326906, 
+[ep-1, bs-1149] [tri-loss] 0.849610, [id-loss] 0.351447, 
+[euclidean][global] R@1: 0.2785 | R@5: 0.5163 | R@10: 0.6165
+[cosine   ][global] R@1: 0.3419 | R@5: 0.5791 | R@10: 0.6893
+[ep-2, bs-49] [tri-loss] 0.682946, [id-loss] 0.188206, 
+[ep-2, bs-99] [tri-loss] 0.731349, [id-loss] 0.213429, 
+[ep-2, bs-149] [tri-loss] 0.733020, [id-loss] 0.221821, 
+[ep-2, bs-199] [tri-loss] 0.784309, [id-loss] 0.201460, 
+[ep-2, bs-249] [tri-loss] 0.705972, [id-loss] 0.208772, 
+[ep-2, bs-299] [tri-loss] 0.708501, [id-loss] 0.184412, 
+[ep-2, bs-349] [tri-loss] 0.708471, [id-loss] 0.209423, 
+[ep-2, bs-399] [tri-loss] 0.689963, [id-loss] 0.222790, 
+[ep-2, bs-449] [tri-loss] 0.688389, [id-loss] 0.199653, 
+[ep-2, bs-499] [tri-loss] 0.650026, [id-loss] 0.228997, 
+[ep-2, bs-549] [tri-loss] 0.718131, [id-loss] 0.193474, 
+[ep-2, bs-599] [tri-loss] 0.694121, [id-loss] 0.201039, 
+[ep-2, bs-649] [tri-loss] 0.624996, [id-loss] 0.206609, 
+[ep-2, bs-699] [tri-loss] 0.689420, [id-loss] 0.209727, 
+[ep-2, bs-749] [tri-loss] 0.659069, [id-loss] 0.215896, 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False_id_only/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False_id_only/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False_id_only/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False_id_only/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2173 | R@5: 0.4379 | R@10: 0.5507
+[ep-0, bs-49] [tri-loss] 4.341510, [id-loss] 1.672036, 
+[ep-0, bs-99] [tri-loss] 3.399298, [id-loss] 1.792259, 
+[ep-0, bs-149] [tri-loss] 2.989600, [id-loss] 1.856323, 
+[ep-0, bs-199] [tri-loss] 2.715833, [id-loss] 1.838577, 
+[ep-0, bs-249] [tri-loss] 2.518509, [id-loss] 1.868489, 
+[ep-0, bs-299] [tri-loss] 2.579424, [id-loss] 1.746867, 
+[ep-0, bs-349] [tri-loss] 2.339253, [id-loss] 1.708480, 
+[ep-0, bs-399] [tri-loss] 2.218335, [id-loss] 1.602249, 
+[ep-0, bs-449] [tri-loss] 1.951299, [id-loss] 1.572643, 
+[ep-0, bs-499] [tri-loss] 2.156044, [id-loss] 1.509596, 
+[ep-0, bs-549] [tri-loss] 1.964246, [id-loss] 1.502332, 
+[ep-0, bs-599] [tri-loss] 2.007493, [id-loss] 1.370286, 
+[ep-0, bs-649] [tri-loss] 1.813597, [id-loss] 1.340065, 
+[ep-0, bs-699] [tri-loss] 2.031246, [id-loss] 1.287097, 
+[ep-0, bs-749] [tri-loss] 1.821234, [id-loss] 1.261491, 
+[euclidean][global] R@1: 0.1139 | R@5: 0.2694 | R@10: 0.3741
+[cosine   ][global] R@1: 0.3012 | R@5: 0.5426 | R@10: 0.6542
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2101 | R@5: 0.4193 | R@10: 0.5293
+[ep-0, bs-49] [tri-loss] 4.474389, [id-loss] 2.300098, 
+[ep-0, bs-99] [tri-loss] 3.363735, [id-loss] 2.440658, 
+[ep-0, bs-149] [tri-loss] 2.940314, [id-loss] 2.438325, 
+[ep-0, bs-199] [tri-loss] 2.710658, [id-loss] 2.494548, 
+[ep-0, bs-249] [tri-loss] 2.799751, [id-loss] 2.363850, 
+[ep-0, bs-299] [tri-loss] 2.594337, [id-loss] 2.346836, 
+[ep-0, bs-349] [tri-loss] 2.414950, [id-loss] 2.263992, 
+[ep-0, bs-399] [tri-loss] 2.393590, [id-loss] 2.247324, 
+[ep-0, bs-449] [tri-loss] 2.383633, [id-loss] 2.150403, 
+[ep-0, bs-499] [tri-loss] 2.323351, [id-loss] 2.127126, 
+[ep-0, bs-549] [tri-loss] 2.042087, [id-loss] 2.028467, 
+[ep-0, bs-599] [tri-loss] 1.983476, [id-loss] 2.001204, 
+[ep-0, bs-649] [tri-loss] 2.036388, [id-loss] 1.958926, 
+[ep-0, bs-699] [tri-loss] 2.066453, [id-loss] 1.920690, 
+[ep-0, bs-749] [tri-loss] 1.990382, [id-loss] 1.875341, 
+[euclidean][global] R@1: 0.0748 | R@5: 0.2066 | R@10: 0.3009
+[cosine   ][global] R@1: 0.2827 | R@5: 0.5182 | R@10: 0.6269
+[ep-1, bs-49] [tri-loss] 1.635719, [id-loss] 1.297735, 
+[ep-1, bs-99] [tri-loss] 1.603781, [id-loss] 1.345369, 
+[ep-1, bs-149] [tri-loss] 1.633811, [id-loss] 1.341397, 
+[ep-1, bs-199] [tri-loss] 1.638410, [id-loss] 1.337094, 
+[ep-1, bs-249] [tri-loss] 1.758038, [id-loss] 1.408024, 
+[ep-1, bs-299] [tri-loss] 1.673537, [id-loss] 1.407943, 
+[ep-1, bs-349] [tri-loss] 1.657612, [id-loss] 1.431170, 
+[ep-1, bs-399] [tri-loss] 1.719233, [id-loss] 1.394796, 
+[ep-1, bs-449] [tri-loss] 1.656724, [id-loss] 1.442248, 
+[ep-1, bs-499] [tri-loss] 1.745956, [id-loss] 1.419988, 
+[ep-1, bs-549] [tri-loss] 1.615013, [id-loss] 1.481533, 
+[ep-1, bs-599] [tri-loss] 1.758472, [id-loss] 1.462059, 
+[ep-1, bs-649] [tri-loss] 1.752292, [id-loss] 1.478114, 
+[ep-1, bs-699] [tri-loss] 1.572113, [id-loss] 1.433261, 
+[ep-1, bs-749] [tri-loss] 1.638851, [id-loss] 1.420237, 
+[euclidean][global] R@1: 0.0830 | R@5: 0.2290 | R@10: 0.3334
+[cosine   ][global] R@1: 0.2986 | R@5: 0.5332 | R@10: 0.6480
+[ep-2, bs-49] [tri-loss] 1.406302, [id-loss] 1.080036, 
+[ep-2, bs-99] [tri-loss] 1.449645, [id-loss] 1.061782, 
+[ep-2, bs-149] [tri-loss] 1.344466, [id-loss] 1.114447, 
+[ep-2, bs-199] [tri-loss] 1.364190, [id-loss] 1.118878, 
+[ep-2, bs-249] [tri-loss] 1.384918, [id-loss] 1.125231, 
+[ep-2, bs-299] [tri-loss] 1.313632, [id-loss] 1.115688, 
+[ep-2, bs-349] [tri-loss] 1.354888, [id-loss] 1.165000, 
+[ep-2, bs-399] [tri-loss] 1.458521, [id-loss] 1.195888, 
+[ep-2, bs-449] [tri-loss] 1.449807, [id-loss] 1.181785, 
+[ep-2, bs-499] [tri-loss] 1.323086, [id-loss] 1.187163, 
+[ep-2, bs-549] [tri-loss] 1.279532, [id-loss] 1.191237, 
+[ep-2, bs-599] [tri-loss] 1.281566, [id-loss] 1.179905, 
+[ep-2, bs-649] [tri-loss] 1.380124, [id-loss] 1.237152, 
+[ep-2, bs-699] [tri-loss] 1.315554, [id-loss] 1.255366, 
+[ep-2, bs-749] [tri-loss] 1.428212, [id-loss] 1.267204, 
+[euclidean][global] R@1: 0.0917 | R@5: 0.2765 | R@10: 0.3933
+[cosine   ][global] R@1: 0.2934 | R@5: 0.5459 | R@10: 0.6500
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.2101 | R@5: 0.4193 | R@10: 0.5293
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [tri-loss] 5.973796, [id-loss] 2.276551, 
+[ep-0, bs-99] [tri-loss] 3.735204, [id-loss] 2.451552, 
+[ep-0, bs-149] [tri-loss] 3.095241, [id-loss] 2.517726, 
+[ep-0, bs-199] [tri-loss] 2.738008, [id-loss] 2.550435, 
+[ep-0, bs-249] [tri-loss] 2.500726, [id-loss] 2.425978, 
+[ep-0, bs-299] [tri-loss] 2.333290, [id-loss] 2.490100, 
+[ep-0, bs-349] [tri-loss] 2.155754, [id-loss] 2.341120, 
+[ep-0, bs-399] [tri-loss] 2.016774, [id-loss] 2.269876, 
+[ep-0, bs-449] [tri-loss] 1.987166, [id-loss] 2.136444, 
+[ep-0, bs-499] [tri-loss] 1.975371, [id-loss] 2.164492, 
+[ep-0, bs-549] [tri-loss] 1.802012, [id-loss] 2.015667, 
+[ep-0, bs-599] [tri-loss] 1.704635, [id-loss] 1.932262, 
+[ep-0, bs-649] [tri-loss] 1.727579, [id-loss] 2.053359, 
+[ep-0, bs-699] [tri-loss] 1.697652, [id-loss] 1.893876, 
+[ep-0, bs-749] [tri-loss] 1.598133, [id-loss] 1.890540, 
+[euclidean][global] R@1: 0.1324 | R@5: 0.3230 | R@10: 0.4401
+[cosine   ][global] R@1: 0.2944 | R@5: 0.5407 | R@10: 0.6610
+[ep-1, bs-49] [tri-loss] 1.186923, [id-loss] 1.282155, 
+[ep-1, bs-99] [tri-loss] 1.219665, [id-loss] 1.338477, 
+[ep-1, bs-149] [tri-loss] 1.221216, [id-loss] 1.364376, 
+[ep-1, bs-199] [tri-loss] 1.167213, [id-loss] 1.366078, 
+[ep-1, bs-249] [tri-loss] 1.156571, [id-loss] 1.366950, 
+[ep-1, bs-299] [tri-loss] 1.158835, [id-loss] 1.369724, 
+[ep-1, bs-349] [tri-loss] 1.111210, [id-loss] 1.375444, 
+[ep-1, bs-399] [tri-loss] 1.144726, [id-loss] 1.363311, 
+[ep-1, bs-449] [tri-loss] 1.190201, [id-loss] 1.395303, 
+[ep-1, bs-499] [tri-loss] 1.096362, [id-loss] 1.356509, 
+[ep-1, bs-549] [tri-loss] 1.138138, [id-loss] 1.415685, 
+[ep-1, bs-599] [tri-loss] 1.145961, [id-loss] 1.455792, 
+[ep-1, bs-649] [tri-loss] 1.159011, [id-loss] 1.447260, 
+[ep-1, bs-699] [tri-loss] 1.117313, [id-loss] 1.484446, 
+[ep-1, bs-749] [tri-loss] 1.084632, [id-loss] 1.454152, 
+[euclidean][global] R@1: 0.1789 | R@5: 0.4109 | R@10: 0.5358
+[cosine   ][global] R@1: 0.3142 | R@5: 0.5569 | R@10: 0.6724
+[ep-2, bs-49] [tri-loss] 0.845355, [id-loss] 0.975617, 
+[ep-2, bs-99] [tri-loss] 0.855205, [id-loss] 1.028554, 
+[ep-2, bs-149] [tri-loss] 0.822342, [id-loss] 1.027301, 
+[ep-2, bs-199] [tri-loss] 0.829594, [id-loss] 1.043543, 
+[ep-2, bs-249] [tri-loss] 0.828114, [id-loss] 1.062003, 
+[ep-2, bs-299] [tri-loss] 0.783301, [id-loss] 1.018728, 
+[ep-2, bs-349] [tri-loss] 0.820912, [id-loss] 1.089326, 
+[ep-2, bs-399] [tri-loss] 0.819682, [id-loss] 1.096963, 
+[ep-2, bs-449] [tri-loss] 0.798514, [id-loss] 1.103993, 
+[ep-2, bs-499] [tri-loss] 0.807520, [id-loss] 1.120327, 
+[ep-2, bs-549] [tri-loss] 0.809969, [id-loss] 1.100197, 
+[ep-2, bs-599] [tri-loss] 0.826149, [id-loss] 1.141592, 
+[ep-2, bs-649] [tri-loss] 0.866430, [id-loss] 1.138954, 
+[ep-2, bs-699] [tri-loss] 0.800543, [id-loss] 1.163133, 
+[ep-2, bs-749] [tri-loss] 0.851481, [id-loss] 1.168191, 
+[euclidean][global] R@1: 0.2066 | R@5: 0.4525 | R@10: 0.5712
+[cosine   ][global] R@1: 0.3198 | R@5: 0.5569 | R@10: 0.6763
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet18_capbb_bigru_embed_size_512_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_False/id_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [tri-loss] 5.909464, [id-loss] 2.306727, 
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [tri-loss] 19.264678, [id-loss] 0.000000, 
+[ep-0, bs-99] [tri-loss] 15.503937, [id-loss] 0.000000, 
+[ep-0, bs-149] [tri-loss] 12.888152, [id-loss] 0.000000, 
+[ep-0, bs-199] [tri-loss] 10.941369, [id-loss] 0.000000, 
+[ep-0, bs-249] [tri-loss] 9.309938, [id-loss] 0.000000, 
+[ep-0, bs-299] [tri-loss] 7.908621, [id-loss] 0.000000, 
+[ep-0, bs-349] [tri-loss] 6.630335, [id-loss] 0.000000, 
+[ep-0, bs-399] [tri-loss] 5.766680, [id-loss] 0.000000, 
+[ep-0, bs-449] [tri-loss] 5.516566, [id-loss] 0.000000, 
+[ep-0, bs-499] [tri-loss] 4.891525, [id-loss] 0.000000, 
+[ep-0, bs-549] [tri-loss] 4.549102, [id-loss] 0.000000, 
+[ep-0, bs-599] [tri-loss] 4.381379, [id-loss] 0.000000, 
+[ep-0, bs-649] [tri-loss] 4.132997, [id-loss] 0.000000, 
+[ep-0, bs-699] [tri-loss] 3.963257, [id-loss] 0.000000, 
+[ep-0, bs-749] [tri-loss] 3.738215, [id-loss] 0.000000, 
+[euclidean][global] R@1: 0.0228 | R@5: 0.0895 | R@10: 0.1480
+[cosine   ][global] R@1: 0.0927 | R@5: 0.2658 | R@10: 0.3855
+[ep-1, bs-49] [tri-loss] 2.890205, [id-loss] 0.000000, 
+[ep-1, bs-99] [tri-loss] 2.766340, [id-loss] 0.000000, 
+[ep-1, bs-149] [tri-loss] 2.620266, [id-loss] 0.000000, 
+[ep-1, bs-199] [tri-loss] 2.654120, [id-loss] 0.000000, 
+[ep-1, bs-249] [tri-loss] 2.458419, [id-loss] 0.000000, 
+[ep-1, bs-299] [tri-loss] 2.408263, [id-loss] 0.000000, 
+[ep-1, bs-349] [tri-loss] 2.245438, [id-loss] 0.000000, 
+[ep-1, bs-399] [tri-loss] 2.254762, [id-loss] 0.000000, 
+[ep-1, bs-449] [tri-loss] 2.323827, [id-loss] 0.000000, 
+[ep-1, bs-499] [tri-loss] 2.233241, [id-loss] 0.000000, 
+[ep-1, bs-549] [tri-loss] 2.283559, [id-loss] 0.000000, 
+[ep-1, bs-599] [tri-loss] 2.141770, [id-loss] 0.000000, 
+[ep-1, bs-649] [tri-loss] 2.276334, [id-loss] 0.000000, 
+[ep-1, bs-699] [tri-loss] 2.162234, [id-loss] 0.000000, 
+[ep-1, bs-749] [tri-loss] 2.101572, [id-loss] 0.000000, 
+[euclidean][global] R@1: 0.0439 | R@5: 0.1318 | R@10: 0.1968
+[cosine   ][global] R@1: 0.1662 | R@5: 0.3800 | R@10: 0.5072
+[ep-2, bs-49] [tri-loss] 1.532230, [id-loss] 0.000000, 
+[ep-2, bs-99] [tri-loss] 1.437547, [id-loss] 0.000000, 
+[ep-2, bs-149] [tri-loss] 1.398544, [id-loss] 0.000000, 
+[ep-2, bs-199] [tri-loss] 1.396206, [id-loss] 0.000000, 
+[ep-2, bs-249] [tri-loss] 1.402284, [id-loss] 0.000000, 
+[ep-2, bs-299] [tri-loss] 1.443567, [id-loss] 0.000000, 
+[ep-2, bs-349] [tri-loss] 1.460046, [id-loss] 0.000000, 
+[ep-2, bs-399] [tri-loss] 1.417459, [id-loss] 0.000000, 
+[ep-2, bs-449] [tri-loss] 1.410403, [id-loss] 0.000000, 
+[ep-2, bs-499] [tri-loss] 1.441034, [id-loss] 0.000000, 
+[ep-2, bs-549] [tri-loss] 1.550246, [id-loss] 0.000000, 
+[ep-2, bs-599] [tri-loss] 1.449438, [id-loss] 0.000000, 
+[ep-2, bs-649] [tri-loss] 1.423146, [id-loss] 0.000000, 
+[ep-2, bs-699] [tri-loss] 1.459571, [id-loss] 0.000000, 
+[ep-2, bs-749] [tri-loss] 1.409620, [id-loss] 0.000000, 
+[euclidean][global] R@1: 0.0618 | R@5: 0.1854 | R@10: 0.2720
+[cosine   ][global] R@1: 0.1962 | R@5: 0.4440 | R@10: 0.5634
+[ep-3, bs-49] [tri-loss] 1.041361, [id-loss] 0.000000, 
+[ep-3, bs-99] [tri-loss] 1.008444, [id-loss] 0.000000, 
+[ep-3, bs-149] [tri-loss] 0.969250, [id-loss] 0.000000, 
+[ep-3, bs-199] [tri-loss] 0.919284, [id-loss] 0.000000, 
+[ep-3, bs-249] [tri-loss] 0.962276, [id-loss] 0.000000, 
+[ep-3, bs-299] [tri-loss] 1.038888, [id-loss] 0.000000, 
+[ep-3, bs-349] [tri-loss] 0.983043, [id-loss] 0.000000, 
+[ep-3, bs-399] [tri-loss] 1.002001, [id-loss] 0.000000, 
+[ep-3, bs-449] [tri-loss] 1.035612, [id-loss] 0.000000, 
+[ep-3, bs-499] [tri-loss] 1.062228, [id-loss] 0.000000, 
+[ep-3, bs-549] [tri-loss] 1.077538, [id-loss] 0.000000, 
+[ep-3, bs-599] [tri-loss] 1.064363, [id-loss] 0.000000, 
+[ep-3, bs-649] [tri-loss] 1.050769, [id-loss] 0.000000, 
+[ep-3, bs-699] [tri-loss] 1.005024, [id-loss] 0.000000, 
+[ep-3, bs-749] [tri-loss] 1.025245, [id-loss] 0.000000, 
+[euclidean][global] R@1: 0.0592 | R@5: 0.1906 | R@10: 0.2749
+[cosine   ][global] R@1: 0.2189 | R@5: 0.4759 | R@10: 0.5966
+[ep-4, bs-49] [tri-loss] 0.762026, [id-loss] 0.000000, 
+[ep-4, bs-99] [tri-loss] 0.735501, [id-loss] 0.000000, 
+[ep-4, bs-149] [tri-loss] 0.691630, [id-loss] 0.000000, 
+[ep-4, bs-199] [tri-loss] 0.709649, [id-loss] 0.000000, 
+[ep-4, bs-249] [tri-loss] 0.754597, [id-loss] 0.000000, 
+[ep-4, bs-299] [tri-loss] 0.741142, [id-loss] 0.000000, 
+[ep-4, bs-349] [tri-loss] 0.790904, [id-loss] 0.000000, 
+[ep-4, bs-399] [tri-loss] 0.754501, [id-loss] 0.000000, 
+[ep-4, bs-449] [tri-loss] 0.767822, [id-loss] 0.000000, 
+[ep-4, bs-499] [tri-loss] 0.769936, [id-loss] 0.000000, 
+[ep-4, bs-549] [tri-loss] 0.801522, [id-loss] 0.000000, 
+[ep-4, bs-599] [tri-loss] 0.820153, [id-loss] 0.000000, 
+[ep-4, bs-649] [tri-loss] 0.828933, [id-loss] 0.000000, 
+[ep-4, bs-699] [tri-loss] 0.848106, [id-loss] 0.000000, 
+[ep-4, bs-749] [tri-loss] 0.831104, [id-loss] 0.000000, 
+[euclidean][global] R@1: 0.0791 | R@5: 0.2258 | R@10: 0.3136
+[cosine   ][global] R@1: 0.2651 | R@5: 0.5224 | R@10: 0.6301
+[ep-5, bs-49] [tri-loss] 0.558509, [id-loss] 0.000000, 
+[cosine   ][global] R@1: 0.2498 | R@5: 0.4990 | R@10: 0.6246
+[ep-0, bs-49] [tri-loss] 0.763449, [id-loss] 0.000000, 
+[ep-0, bs-99] [tri-loss] 0.727634, [id-loss] 0.000000, 
+[ep-0, bs-149] [tri-loss] 0.745552, [id-loss] 0.000000, 
+[ep-0, bs-199] [tri-loss] 0.799839, [id-loss] 0.000000, 
+[ep-0, bs-249] [tri-loss] 0.859782, [id-loss] 0.000000, 
+[ep-0, bs-299] [tri-loss] 0.866214, [id-loss] 0.000000, 
+[ep-0, bs-349] [tri-loss] 0.908328, [id-loss] 0.000000, 
+[ep-0, bs-399] [tri-loss] 0.867567, [id-loss] 0.000000, 
+[ep-0, bs-449] [tri-loss] 0.884767, [id-loss] 0.000000, 
+[ep-0, bs-499] [tri-loss] 0.910421, [id-loss] 0.000000, 
+[ep-0, bs-549] [tri-loss] 0.823573, [id-loss] 0.000000, 
+[ep-0, bs-599] [tri-loss] 0.787847, [id-loss] 0.000000, 
+[ep-0, bs-649] [tri-loss] 0.856362, [id-loss] 0.000000, 
+[ep-0, bs-699] [tri-loss] 0.815310, [id-loss] 0.000000, 
+[ep-0, bs-749] [tri-loss] 0.861142, [id-loss] 0.000000, 
+[euclidean][global] R@1: 0.0660 | R@5: 0.2001 | R@10: 0.2899
+[cosine   ][global] R@1: 0.2547 | R@5: 0.5176 | R@10: 0.6396
+[ep-1, bs-49] [tri-loss] 0.597764, [id-loss] 0.000000, 
+[ep-1, bs-99] [tri-loss] 0.515988, [id-loss] 0.000000, 
+[ep-1, bs-149] [tri-loss] 0.519509, [id-loss] 0.000000, 
+[ep-1, bs-199] [tri-loss] 0.526595, [id-loss] 0.000000, 
+[ep-1, bs-249] [tri-loss] 0.526315, [id-loss] 0.000000, 
+[ep-1, bs-299] [tri-loss] 0.572598, [id-loss] 0.000000, 
+[ep-1, bs-349] [tri-loss] 0.563954, [id-loss] 0.000000, 
+[ep-1, bs-399] [tri-loss] 0.558279, [id-loss] 0.000000, 
+[ep-1, bs-449] [tri-loss] 0.543538, [id-loss] 0.000000, 
+[ep-1, bs-499] [tri-loss] 0.570645, [id-loss] 0.000000, 
+[ep-1, bs-549] [tri-loss] 0.581262, [id-loss] 0.000000, 
+[ep-1, bs-599] [tri-loss] 0.575062, [id-loss] 0.000000, 
+[ep-1, bs-649] [tri-loss] 0.601896, [id-loss] 0.000000, 
+[ep-1, bs-699] [tri-loss] 0.606369, [id-loss] 0.000000, 
+[ep-1, bs-749] [tri-loss] 0.559851, [id-loss] 0.000000, 
+[euclidean][global] R@1: 0.0774 | R@5: 0.2323 | R@10: 0.3201
+[cosine   ][global] R@1: 0.2938 | R@5: 0.5452 | R@10: 0.6692
+[ep-2, bs-49] [tri-loss] 0.396029, [id-loss] 0.000000, 
+[ep-2, bs-99] [tri-loss] 0.379699, [id-loss] 0.000000, 
+[ep-2, bs-149] [tri-loss] 0.380289, [id-loss] 0.000000, 
+[ep-2, bs-199] [tri-loss] 0.395337, [id-loss] 0.000000, 
+[ep-2, bs-249] [tri-loss] 0.436078, [id-loss] 0.000000, 
+[ep-2, bs-299] [tri-loss] 0.423884, [id-loss] 0.000000, 
+[ep-2, bs-349] [tri-loss] 0.441553, [id-loss] 0.000000, 
+[ep-2, bs-399] [tri-loss] 0.433236, [id-loss] 0.000000, 
+[ep-2, bs-449] [tri-loss] 0.422619, [id-loss] 0.000000, 
+[ep-2, bs-499] [tri-loss] 0.463392, [id-loss] 0.000000, 
+[ep-2, bs-549] [tri-loss] 0.470789, [id-loss] 0.000000, 
+[ep-2, bs-599] [tri-loss] 0.497544, [id-loss] 0.000000, 
+[ep-2, bs-649] [tri-loss] 0.483583, [id-loss] 0.000000, 
+[ep-2, bs-699] [tri-loss] 0.501714, [id-loss] 0.000000, 
+[ep-2, bs-749] [tri-loss] 0.519201, [id-loss] 0.000000, 
+[euclidean][global] R@1: 0.0784 | R@5: 0.2258 | R@10: 0.3152
+[cosine   ][global] R@1: 0.2944 | R@5: 0.5459 | R@10: 0.6623
+[ep-3, bs-49] [tri-loss] 0.336936, [id-loss] 0.000000, 
+[ep-3, bs-99] [tri-loss] 0.333928, [id-loss] 0.000000, 
+[ep-3, bs-149] [tri-loss] 0.314015, [id-loss] 0.000000, 
+[ep-3, bs-199] [tri-loss] 0.317816, [id-loss] 0.000000, 
+[ep-3, bs-249] [tri-loss] 0.345424, [id-loss] 0.000000, 
+[ep-3, bs-299] [tri-loss] 0.378948, [id-loss] 0.000000, 
+[ep-3, bs-349] [tri-loss] 0.344032, [id-loss] 0.000000, 
+[ep-3, bs-399] [tri-loss] 0.353220, [id-loss] 0.000000, 
+[ep-3, bs-449] [tri-loss] 0.355056, [id-loss] 0.000000, 
+[ep-3, bs-499] [tri-loss] 0.393521, [id-loss] 0.000000, 
+[ep-3, bs-549] [tri-loss] 0.387923, [id-loss] 0.000000, 
+[ep-3, bs-599] [tri-loss] 0.378375, [id-loss] 0.000000, 
+[ep-3, bs-649] [tri-loss] 0.396593, [id-loss] 0.000000, 
+[ep-3, bs-699] [tri-loss] 0.447274, [id-loss] 0.000000, 
+[ep-3, bs-749] [tri-loss] 0.428613, [id-loss] 0.000000, 
+[euclidean][global] R@1: 0.0843 | R@5: 0.2378 | R@10: 0.3491
+[cosine   ][global] R@1: 0.3058 | R@5: 0.5602 | R@10: 0.6747
+[ep-4, bs-49] [tri-loss] 0.311016, [id-loss] 0.000000, 
+[ep-4, bs-99] [tri-loss] 0.281206, [id-loss] 0.000000, 
+[ep-4, bs-149] [tri-loss] 0.284707, [id-loss] 0.000000, 
+[ep-4, bs-199] [tri-loss] 0.306452, [id-loss] 0.000000, 
+[ep-4, bs-249] [tri-loss] 0.280497, [id-loss] 0.000000, 
+[ep-4, bs-299] [tri-loss] 0.286527, [id-loss] 0.000000, 
+[ep-4, bs-349] [tri-loss] 0.306850, [id-loss] 0.000000, 
+[ep-4, bs-399] [tri-loss] 0.299460, [id-loss] 0.000000, 
+[ep-4, bs-449] [tri-loss] 0.335560, [id-loss] 0.000000, 
+[ep-4, bs-499] [tri-loss] 0.336319, [id-loss] 0.000000, 
+[ep-4, bs-549] [tri-loss] 0.328569, [id-loss] 0.000000, 
+[ep-4, bs-599] [tri-loss] 0.376169, [id-loss] 0.000000, 
+[ep-4, bs-649] [tri-loss] 0.381031, [id-loss] 0.000000, 
+[ep-4, bs-699] [tri-loss] 0.366499, [id-loss] 0.000000, 
+[ep-4, bs-749] [tri-loss] 0.391474, [id-loss] 0.000000, 
+[euclidean][global] R@1: 0.0966 | R@5: 0.2508 | R@10: 0.3432
+[cosine   ][global] R@1: 0.3094 | R@5: 0.5654 | R@10: 0.6757
+[ep-5, bs-49] [tri-loss] 0.261283, [id-loss] 0.000000, 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/initialized/resnet18_bigru_512_match_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/initialized/resnet18_bigru_512_match_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/initialized/resnet18_bigru_512_match_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/initialized/resnet18_bigru_512_match_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[cosine   ][global] R@1: 0.3338 | R@5: 0.5745 | R@10: 0.6818
+[ep-0, bs-49] [tri-loss] 1.111301, [id-loss] 0.000000, 
+[ep-0, bs-99] [tri-loss] 1.072863, [id-loss] 0.000000, 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/initialized/resnet18_bigru_512_match_initialized.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/initialized/resnet18_bigru_512_match_initialized.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/initialized/resnet18_bigru_512_match_initialized.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/initialized/resnet18_bigru_512_match_initialized.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [tri-loss] 0.461051, [id-loss] 18.824642, 
+[ep-0, bs-99] [tri-loss] 0.316067, [id-loss] 18.197185, 
+[ep-0, bs-149] [tri-loss] 0.285567, [id-loss] 17.520502, 
+[ep-0, bs-199] [tri-loss] 0.285743, [id-loss] 16.712282, 
+[ep-0, bs-249] [tri-loss] 0.289844, [id-loss] 15.801001, 
+[ep-0, bs-299] [tri-loss] 0.331010, [id-loss] 15.019745, 
+[ep-0, bs-349] [tri-loss] 0.351071, [id-loss] 14.205691, 
+[ep-0, bs-399] [tri-loss] 0.354226, [id-loss] 13.411891, 
+[ep-0, bs-449] [tri-loss] 0.366373, [id-loss] 12.824076, 
+[ep-0, bs-499] [tri-loss] 0.353155, [id-loss] 12.328730, 
+[ep-0, bs-549] [tri-loss] 0.360903, [id-loss] 11.593284, 
+[ep-0, bs-599] [tri-loss] 0.321125, [id-loss] 11.105703, 
+[ep-0, bs-649] [tri-loss] 0.338586, [id-loss] 10.633101, 
+[ep-0, bs-699] [tri-loss] 0.331945, [id-loss] 10.178462, 
+[ep-0, bs-749] [tri-loss] 0.332948, [id-loss] 9.751863, 
+[euclidean][global] R@1: 0.3003 | R@5: 0.5485 | R@10: 0.6695
+[cosine   ][global] R@1: 0.3692 | R@5: 0.6145 | R@10: 0.7147
+[ep-1, bs-49] [tri-loss] 0.260591, [id-loss] 7.655289, 
+[ep-1, bs-99] [tri-loss] 0.266941, [id-loss] 7.639326, 
+[ep-1, bs-149] [tri-loss] 0.259586, [id-loss] 7.519604, 
+[ep-1, bs-199] [tri-loss] 0.271362, [id-loss] 7.424605, 
+[ep-1, bs-249] [tri-loss] 0.248695, [id-loss] 7.210885, 
+[ep-1, bs-299] [tri-loss] 0.270655, [id-loss] 7.137214, 
+[ep-1, bs-349] [tri-loss] 0.270906, [id-loss] 6.989875, 
+[ep-1, bs-399] [tri-loss] 0.275499, [id-loss] 6.786016, 
+[ep-1, bs-449] [tri-loss] 0.273995, [id-loss] 6.693471, 
+[ep-1, bs-499] [tri-loss] 0.274327, [id-loss] 6.485025, 
+[ep-1, bs-549] [tri-loss] 0.268550, [id-loss] 6.228636, 
+[ep-1, bs-599] [tri-loss] 0.266175, [id-loss] 6.187434, 
+[ep-1, bs-649] [tri-loss] 0.291451, [id-loss] 6.099796, 
+[ep-1, bs-699] [tri-loss] 0.280501, [id-loss] 5.931611, 
+[ep-1, bs-749] [tri-loss] 0.279312, [id-loss] 5.885546, 
+[euclidean][global] R@1: 0.3256 | R@5: 0.5677 | R@10: 0.6776
+[cosine   ][global] R@1: 0.3855 | R@5: 0.6308 | R@10: 0.7326
+[ep-2, bs-49] [tri-loss] 0.212426, [id-loss] 4.407182, 
+[ep-2, bs-99] [tri-loss] 0.205324, [id-loss] 4.435480, 
+[ep-2, bs-149] [tri-loss] 0.205459, [id-loss] 4.455120, 
+[ep-2, bs-199] [tri-loss] 0.217662, [id-loss] 4.484170, 
+[ep-2, bs-249] [tri-loss] 0.217455, [id-loss] 4.531025, 
+[ep-2, bs-299] [tri-loss] 0.225233, [id-loss] 4.531427, 
+[ep-2, bs-349] [tri-loss] 0.213451, [id-loss] 4.503765, 
+[ep-2, bs-399] [tri-loss] 0.215534, [id-loss] 4.495025, 
+[ep-2, bs-449] [tri-loss] 0.218533, [id-loss] 4.529179, 
+[ep-2, bs-499] [tri-loss] 0.220850, [id-loss] 4.478159, 
+[ep-2, bs-549] [tri-loss] 0.229125, [id-loss] 4.420923, 
+[ep-2, bs-599] [tri-loss] 0.227249, [id-loss] 4.392138, 
+[ep-2, bs-649] [tri-loss] 0.237308, [id-loss] 4.391857, 
+[ep-2, bs-699] [tri-loss] 0.225173, [id-loss] 4.411496, 
+[ep-2, bs-749] [tri-loss] 0.231048, [id-loss] 4.304274, 
+[euclidean][global] R@1: 0.3110 | R@5: 0.5498 | R@10: 0.6552
+[cosine   ][global] R@1: 0.3852 | R@5: 0.6389 | R@10: 0.7284
+[ep-3, bs-49] [tri-loss] 0.171238, [id-loss] 3.229674, 
+[ep-3, bs-99] [tri-loss] 0.182832, [id-loss] 3.312968, 
+[ep-3, bs-149] [tri-loss] 0.178926, [id-loss] 3.338937, 
+[ep-3, bs-199] [tri-loss] 0.176385, [id-loss] 3.431402, 
+[ep-3, bs-249] [tri-loss] 0.176690, [id-loss] 3.465667, 
+[ep-3, bs-299] [tri-loss] 0.176208, [id-loss] 3.514809, 
+[ep-3, bs-349] [tri-loss] 0.181175, [id-loss] 3.492585, 
+[ep-3, bs-399] [tri-loss] 0.184356, [id-loss] 3.559587, 
+[ep-3, bs-449] [tri-loss] 0.188297, [id-loss] 3.622599, 
+[ep-3, bs-499] [tri-loss] 0.193523, [id-loss] 3.629768, 
+[ep-3, bs-549] [tri-loss] 0.193032, [id-loss] 3.627515, 
+[ep-3, bs-599] [tri-loss] 0.197564, [id-loss] 3.682490, 
+[ep-3, bs-649] [tri-loss] 0.194578, [id-loss] 3.673656, 
+[ep-3, bs-699] [tri-loss] 0.195156, [id-loss] 3.673879, 
+[ep-3, bs-749] [tri-loss] 0.195523, [id-loss] 3.645631, 
+[cosine   ][global] R@1: 0.3910 | R@5: 0.6418 | R@10: 0.7355
+[ep-0, bs-49] [tri-loss] 0.162344, [id-loss] 3.616422, 
+[ep-0, bs-99] [tri-loss] 0.177356, [id-loss] 5.424442, 
+[ep-0, bs-149] [tri-loss] 0.201314, [id-loss] 6.068118, 
+[ep-0, bs-199] [tri-loss] 0.194129, [id-loss] 6.311744, 
+[ep-0, bs-249] [tri-loss] 0.193401, [id-loss] 6.121080, 
+[ep-0, bs-299] [tri-loss] 0.197741, [id-loss] 5.810260, 
+[ep-0, bs-349] [tri-loss] 0.194180, [id-loss] 5.522797, 
+[ep-0, bs-399] [tri-loss] 0.182322, [id-loss] 5.375436, 
+[ep-0, bs-449] [tri-loss] 0.183560, [id-loss] 5.054340, 
+[ep-0, bs-499] [tri-loss] 0.182816, [id-loss] 5.006310, 
+[ep-0, bs-549] [tri-loss] 0.189250, [id-loss] 4.644267, 
+[ep-0, bs-599] [tri-loss] 0.183038, [id-loss] 4.634500, 
+[ep-0, bs-649] [tri-loss] 0.183607, [id-loss] 4.465513, 
+[ep-0, bs-699] [tri-loss] 0.182451, [id-loss] 4.417586, 
+[ep-0, bs-749] [tri-loss] 0.180647, [id-loss] 4.260442, 
+[euclidean][global] R@1: 0.3169 | R@5: 0.5608 | R@10: 0.6669
+[cosine   ][global] R@1: 0.3881 | R@5: 0.6311 | R@10: 0.7271
+[ep-1, bs-49] [tri-loss] 0.141492, [id-loss] 3.034552, 
+[ep-1, bs-99] [tri-loss] 0.145947, [id-loss] 3.126549, 
+[ep-1, bs-149] [tri-loss] 0.145547, [id-loss] 3.195612, 
+[ep-1, bs-199] [tri-loss] 0.154682, [id-loss] 3.256456, 
+[ep-1, bs-249] [tri-loss] 0.150297, [id-loss] 3.265904, 
+[ep-1, bs-299] [tri-loss] 0.148756, [id-loss] 3.338955, 
+[ep-1, bs-349] [tri-loss] 0.155277, [id-loss] 3.391064, 
+[ep-1, bs-399] [tri-loss] 0.149029, [id-loss] 3.388000, 
+[ep-1, bs-449] [tri-loss] 0.158131, [id-loss] 3.387330, 
+[ep-1, bs-499] [tri-loss] 0.157327, [id-loss] 3.450862, 
+[ep-1, bs-549] [tri-loss] 0.162094, [id-loss] 3.409548, 
+[ep-1, bs-599] [tri-loss] 0.156192, [id-loss] 3.438409, 
+[ep-1, bs-649] [tri-loss] 0.165403, [id-loss] 3.472240, 
+[ep-1, bs-699] [tri-loss] 0.162495, [id-loss] 3.450916, 
+[ep-1, bs-749] [tri-loss] 0.169969, [id-loss] 3.497372, 
+[euclidean][global] R@1: 0.3159 | R@5: 0.5664 | R@10: 0.6701
+[cosine   ][global] R@1: 0.3858 | R@5: 0.6340 | R@10: 0.7323
+[ep-2, bs-49] [tri-loss] 0.126685, [id-loss] 2.405273, 
+[ep-2, bs-99] [tri-loss] 0.127638, [id-loss] 2.423263, 
+[ep-2, bs-149] [tri-loss] 0.130779, [id-loss] 2.491007, 
+[ep-2, bs-199] [tri-loss] 0.133270, [id-loss] 2.617677, 
+[ep-2, bs-249] [tri-loss] 0.133542, [id-loss] 2.658873, 
+[ep-2, bs-299] [tri-loss] 0.132718, [id-loss] 2.719702, 
+[ep-2, bs-349] [tri-loss] 0.139409, [id-loss] 2.745205, 
+[ep-2, bs-399] [tri-loss] 0.141893, [id-loss] 2.832949, 
+[ep-2, bs-449] [tri-loss] 0.142670, [id-loss] 2.857247, 
+[ep-2, bs-499] [tri-loss] 0.146348, [id-loss] 2.851669, 
+[ep-2, bs-549] [tri-loss] 0.151712, [id-loss] 2.947575, 
+[ep-2, bs-599] [tri-loss] 0.147945, [id-loss] 2.947833, 
+[ep-2, bs-649] [tri-loss] 0.151888, [id-loss] 3.023990, 
+[ep-2, bs-699] [tri-loss] 0.157244, [id-loss] 3.020391, 
+[ep-2, bs-749] [tri-loss] 0.151876, [id-loss] 3.051090, 
+[euclidean][global] R@1: 0.2980 | R@5: 0.5452 | R@10: 0.6545
+[cosine   ][global] R@1: 0.3842 | R@5: 0.6272 | R@10: 0.7228
+[ep-3, bs-49] [tri-loss] 0.121867, [id-loss] 1.987584, 
+[ep-3, bs-99] [tri-loss] 0.123197, [id-loss] 2.061232, 
+[ep-3, bs-149] [tri-loss] 0.119406, [id-loss] 2.104157, 
+[ep-3, bs-199] [tri-loss] 0.124004, [id-loss] 2.177290, 
+[ep-3, bs-249] [tri-loss] 0.120587, [id-loss] 2.225805, 
+[ep-3, bs-299] [tri-loss] 0.127344, [id-loss] 2.268924, 
+[ep-3, bs-349] [tri-loss] 0.120605, [id-loss] 2.325395, 
+[ep-3, bs-399] [tri-loss] 0.143713, [id-loss] 2.423023, 
+[ep-3, bs-449] [tri-loss] 0.135697, [id-loss] 2.453393, 
+[ep-3, bs-499] [tri-loss] 0.132398, [id-loss] 2.533354, 
+[ep-3, bs-549] [tri-loss] 0.133798, [id-loss] 2.576068, 
+[ep-3, bs-599] [tri-loss] 0.141406, [id-loss] 2.630400, 
+[ep-3, bs-649] [tri-loss] 0.140354, [id-loss] 2.650338, 
+[ep-3, bs-699] [tri-loss] 0.145769, [id-loss] 2.658266, 
+[ep-3, bs-749] [tri-loss] 0.138043, [id-loss] 2.652180, 
+[euclidean][global] R@1: 0.2915 | R@5: 0.5260 | R@10: 0.6383
+[cosine   ][global] R@1: 0.3806 | R@5: 0.6223 | R@10: 0.7254
+[ep-4, bs-49] [tri-loss] 0.113628, [id-loss] 1.655687, 
+[ep-4, bs-99] [tri-loss] 0.117390, [id-loss] 1.724285, 
+[ep-4, bs-149] [tri-loss] 0.115572, [id-loss] 1.844067, 
+[ep-4, bs-199] [tri-loss] 0.114893, [id-loss] 1.826750, 
+[ep-4, bs-249] [tri-loss] 0.118258, [id-loss] 1.880397, 
+[ep-4, bs-299] [tri-loss] 0.128860, [id-loss] 2.044930, 
+[ep-4, bs-349] [tri-loss] 0.126208, [id-loss] 2.105779, 
+[ep-4, bs-399] [tri-loss] 0.124110, [id-loss] 2.096010, 
+[ep-4, bs-449] [tri-loss] 0.126908, [id-loss] 2.135827, 
+[ep-4, bs-499] [tri-loss] 0.135503, [id-loss] 2.180165, 
+[ep-4, bs-549] [tri-loss] 0.130606, [id-loss] 2.249030, 
+[ep-4, bs-599] [tri-loss] 0.127487, [id-loss] 2.275245, 
+[ep-4, bs-649] [tri-loss] 0.134555, [id-loss] 2.297141, 
+[ep-4, bs-699] [tri-loss] 0.133643, [id-loss] 2.346067, 
+[ep-4, bs-749] [tri-loss] 0.136422, [id-loss] 2.331097, 
+[euclidean][global] R@1: 0.2892 | R@5: 0.5260 | R@10: 0.6298
+[cosine   ][global] R@1: 0.3910 | R@5: 0.6272 | R@10: 0.7160
+[ep-5, bs-49] [tri-loss] 0.107548, [id-loss] 1.411885, 
+[ep-5, bs-99] [tri-loss] 0.103328, [id-loss] 1.315415, 
+[ep-5, bs-149] [tri-loss] 0.098290, [id-loss] 1.308456, 
+[ep-5, bs-199] [tri-loss] 0.093910, [id-loss] 1.260318, 
+[ep-5, bs-249] [tri-loss] 0.095190, [id-loss] 1.233652, 
+[ep-5, bs-299] [tri-loss] 0.094158, [id-loss] 1.216988, 
+[ep-5, bs-349] [tri-loss] 0.093696, [id-loss] 1.195290, 
+[ep-5, bs-399] [tri-loss] 0.090441, [id-loss] 1.162971, 
+[ep-5, bs-449] [tri-loss] 0.090072, [id-loss] 1.168806, 
+[ep-5, bs-499] [tri-loss] 0.095242, [id-loss] 1.141417, 
+[ep-5, bs-549] [tri-loss] 0.091477, [id-loss] 1.129582, 
+[ep-5, bs-599] [tri-loss] 0.091730, [id-loss] 1.145275, 
+[ep-5, bs-649] [tri-loss] 0.087487, [id-loss] 1.134144, 
+[ep-5, bs-699] [tri-loss] 0.092387, [id-loss] 1.120992, 
+[ep-5, bs-749] [tri-loss] 0.085889, [id-loss] 1.127919, 
+[euclidean][global] R@1: 0.3191 | R@5: 0.5560 | R@10: 0.6571
+[cosine   ][global] R@1: 0.3995 | R@5: 0.6379 | R@10: 0.7284
+[ep-6, bs-49] [tri-loss] 0.087590, [id-loss] 0.949804, 
+[ep-6, bs-99] [tri-loss] 0.086209, [id-loss] 0.991704, 
+[ep-6, bs-149] [tri-loss] 0.084570, [id-loss] 0.919595, 
+[ep-6, bs-199] [tri-loss] 0.079648, [id-loss] 0.945855, 
+[ep-6, bs-249] [tri-loss] 0.083709, [id-loss] 0.988440, 
+[ep-6, bs-299] [tri-loss] 0.083108, [id-loss] 0.954406, 
+[ep-6, bs-349] [tri-loss] 0.083195, [id-loss] 0.964982, 
+[ep-6, bs-399] [tri-loss] 0.086121, [id-loss] 1.006287, 
+[ep-6, bs-449] [tri-loss] 0.085460, [id-loss] 0.963422, 
+[ep-6, bs-499] [tri-loss] 0.083928, [id-loss] 0.970792, 
+[ep-6, bs-549] [tri-loss] 0.081578, [id-loss] 0.992091, 
+[ep-6, bs-599] [tri-loss] 0.084736, [id-loss] 0.995792, 
+[ep-6, bs-649] [tri-loss] 0.084343, [id-loss] 0.997732, 
+[ep-6, bs-699] [tri-loss] 0.081137, [id-loss] 1.004852, 
+[ep-6, bs-749] [tri-loss] 0.080978, [id-loss] 0.997953, 
+[euclidean][global] R@1: 0.3214 | R@5: 0.5680 | R@10: 0.6597
+[cosine   ][global] R@1: 0.4008 | R@5: 0.6386 | R@10: 0.7332
+[ep-7, bs-49] [tri-loss] 0.080264, [id-loss] 0.852685, 
+[ep-7, bs-99] [tri-loss] 0.077832, [id-loss] 0.852932, 
+[ep-7, bs-149] [tri-loss] 0.079881, [id-loss] 0.862093, 
+[ep-7, bs-199] [tri-loss] 0.080058, [id-loss] 0.898013, 
+[ep-7, bs-249] [tri-loss] 0.080510, [id-loss] 0.901724, 
+[ep-7, bs-299] [tri-loss] 0.078178, [id-loss] 0.900324, 
+[ep-7, bs-349] [tri-loss] 0.079371, [id-loss] 0.897078, 
+[ep-7, bs-399] [tri-loss] 0.077013, [id-loss] 0.888606, 
+[ep-7, bs-449] [tri-loss] 0.081942, [id-loss] 0.983560, 
+[ep-7, bs-499] [tri-loss] 0.079895, [id-loss] 0.892811, 
+[ep-7, bs-549] [tri-loss] 0.078952, [id-loss] 0.898412, 
+[ep-7, bs-599] [tri-loss] 0.081170, [id-loss] 0.918858, 
+[ep-7, bs-649] [tri-loss] 0.074113, [id-loss] 0.889249, 
+[ep-7, bs-699] [tri-loss] 0.074228, [id-loss] 0.923955, 
+[ep-7, bs-749] [tri-loss] 0.075376, [id-loss] 0.939242, 
+[euclidean][global] R@1: 0.3260 | R@5: 0.5758 | R@10: 0.6737
+[cosine   ][global] R@1: 0.4070 | R@5: 0.6438 | R@10: 0.7339
+[ep-8, bs-49] [tri-loss] 0.071994, [id-loss] 0.794884, 
+[ep-8, bs-99] [tri-loss] 0.075047, [id-loss] 0.817507, 
+[ep-8, bs-149] [tri-loss] 0.076100, [id-loss] 0.828195, 
+[ep-8, bs-199] [tri-loss] 0.071682, [id-loss] 0.801823, 
+[ep-8, bs-249] [tri-loss] 0.076729, [id-loss] 0.842515, 
+[ep-8, bs-299] [tri-loss] 0.076087, [id-loss] 0.799978, 
+[ep-8, bs-349] [tri-loss] 0.076287, [id-loss] 0.835007, 
+[ep-8, bs-399] [tri-loss] 0.069912, [id-loss] 0.830187, 
+[ep-8, bs-449] [tri-loss] 0.074820, [id-loss] 0.892202, 
+[ep-8, bs-499] [tri-loss] 0.071515, [id-loss] 0.881404, 
+[ep-8, bs-549] [tri-loss] 0.074090, [id-loss] 0.857407, 
+[ep-8, bs-599] [tri-loss] 0.073664, [id-loss] 0.855593, 
+[ep-8, bs-649] [tri-loss] 0.076342, [id-loss] 0.901722, 
+[ep-8, bs-699] [tri-loss] 0.077449, [id-loss] 0.892224, 
+[ep-8, bs-749] [tri-loss] 0.072466, [id-loss] 0.905285, 
+[euclidean][global] R@1: 0.3273 | R@5: 0.5719 | R@10: 0.6809
+[cosine   ][global] R@1: 0.4031 | R@5: 0.6422 | R@10: 0.7358
+[ep-9, bs-49] [tri-loss] 0.068478, [id-loss] 0.728528, 
+[ep-9, bs-99] [tri-loss] 0.073370, [id-loss] 0.764444, 
+[ep-9, bs-149] [tri-loss] 0.067244, [id-loss] 0.781108, 
+[ep-9, bs-199] [tri-loss] 0.070514, [id-loss] 0.752807, 
+[ep-9, bs-249] [tri-loss] 0.070421, [id-loss] 0.760908, 
+[ep-9, bs-299] [tri-loss] 0.068290, [id-loss] 0.791430, 
+[ep-9, bs-349] [tri-loss] 0.071594, [id-loss] 0.815545, 
+[ep-9, bs-399] [tri-loss] 0.073202, [id-loss] 0.817520, 
+[ep-9, bs-449] [tri-loss] 0.070304, [id-loss] 0.821234, 
+[ep-9, bs-499] [tri-loss] 0.068308, [id-loss] 0.818037, 
+[ep-9, bs-549] [tri-loss] 0.070528, [id-loss] 0.801698, 
+[ep-9, bs-599] [tri-loss] 0.070319, [id-loss] 0.855275, 
+[ep-9, bs-649] [tri-loss] 0.070437, [id-loss] 0.855029, 
+[ep-9, bs-699] [tri-loss] 0.071753, [id-loss] 0.841818, 
+[ep-9, bs-749] [tri-loss] 0.066378, [id-loss] 0.850950, 
+[euclidean][global] R@1: 0.3299 | R@5: 0.5745 | R@10: 0.6825
+[cosine   ][global] R@1: 0.4057 | R@5: 0.6444 | R@10: 0.7323
+[ep-10, bs-49] [tri-loss] 0.066136, [id-loss] 0.676101, 
+[ep-10, bs-99] [tri-loss] 0.069461, [id-loss] 0.706062, 
+[ep-10, bs-149] [tri-loss] 0.065673, [id-loss] 0.690122, 
+[ep-10, bs-199] [tri-loss] 0.066559, [id-loss] 0.678616, 
+[ep-10, bs-249] [tri-loss] 0.065945, [id-loss] 0.676199, 
+[ep-10, bs-299] [tri-loss] 0.062095, [id-loss] 0.672960, 
+[ep-10, bs-349] [tri-loss] 0.067873, [id-loss] 0.713094, 
+[ep-10, bs-399] [tri-loss] 0.069087, [id-loss] 0.701148, 
+[ep-10, bs-449] [tri-loss] 0.066564, [id-loss] 0.728780, 
+[ep-10, bs-499] [tri-loss] 0.064184, [id-loss] 0.705732, 
+[ep-10, bs-549] [tri-loss] 0.069000, [id-loss] 0.723121, 
+[ep-10, bs-599] [tri-loss] 0.062692, [id-loss] 0.698682, 
+[ep-10, bs-649] [tri-loss] 0.066121, [id-loss] 0.722012, 
+[ep-10, bs-699] [tri-loss] 0.064924, [id-loss] 0.727670, 
+[ep-10, bs-749] [tri-loss] 0.064328, [id-loss] 0.673219, 
+[euclidean][global] R@1: 0.3334 | R@5: 0.5797 | R@10: 0.6861
+[cosine   ][global] R@1: 0.4053 | R@5: 0.6428 | R@10: 0.7323
+[ep-11, bs-49] [tri-loss] 0.067151, [id-loss] 0.698894, 
