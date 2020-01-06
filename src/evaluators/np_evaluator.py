@@ -6,6 +6,7 @@ from sklearn.neighbors import DistanceMetric
 from loss.loss import cos_distance
 import torch.nn.functional as F
 
+
 class NPEvaluator(Evaluator):
     def __init__(self, img_loader, cap_loader, gt_file_path,  embed_size, logger, dist_fn_opt):
         super(NPEvaluator, self).__init__(img_loader, cap_loader, gt_file_path,  embed_size, logger)
@@ -65,33 +66,18 @@ class NPEvaluator(Evaluator):
         return np.array(scoremats)
     
     def regional_alignment_text(self, imgs, cap_parts, n2cs, dist_fn_opt):
-        #import pdb; pdb.set_trace()
         scoremats = []
-        # _, K = cap_parts.size()
-        for img in tqdm(imgs, "scoremat_rga_cap"):
+        N, M, K = cap_parts.size()
+        for cap_part, n2c in tqdm(zip(cap_parts, n2cs), "scoremat_rga_cap(nps)"):
             with torch.no_grad():
-                # dist = 1 - F.cosine_similarity(img.view(1, -1), cap_parts)
-                parts = []
-                start_index = 0
-                for n2c in n2cs:
-                    curr_parts = cap_parts[start_index:start_index + n2c]
-                    # curr_dists = dist[start_index:start_index + n2c]
-                    start_index = start_index + n2c
-                    M, T = curr_parts.size()
-                    #weights = F.softmax(curr_dists, 0).view(M, 1).expand_as(curr_parts)
-                    
-                    #curr_parts = torch.sum(weights * curr_parts, 0).view(1, -1)
-                    parts.append(curr_parts.mean(0).view(1,-1))
-                parts = torch.cat(parts)
+                parts = RGA_attend_one_to_many_batch(imgs, cap_part[None,:n2c,:].expand(imgs.size(0), n2c, imgs.size(1)), dist_fn_opt)
                 if dist_fn_opt == "cosine":
-                    scores = 1 - F.cosine_similarity(img[None], parts)
+                    scores = 1 - F.cosine_similarity(imgs, parts)
                 else:
-                    scores = F.pairwise_distance(img[None], parts)
+                    scores = F.pairwise_distance(imgs, parts)
                 scoremats.append(scores.detach().cpu().numpy())
         return np.array(scoremats)
     
-    
-        
     def evaluate(self, encoder, mlp_img, mlp_text, output_path="tmp.txt"):
         # compute global features
         self.populate_img_db(encoder, mlp_img)
@@ -107,7 +93,7 @@ class NPEvaluator(Evaluator):
         acc = self.compute_acc(scoremat_cap_rga, output_path)
         self.logger.log("[cap_rga] R@1: %.4f | R@5: %.4f | R@10: %.4f" % (acc['top-1'], acc['top-5'], acc['top-10']))
         
-        acc = self.compute_acc(scoremat_global + scoremat_img_rga + scoremat_cap_rga, output_path)
+        acc = self.compute_acc(scoremat_global + 0.5*scoremat_img_rga + 0.5*scoremat_cap_rga, output_path)
         self.logger.log("[fusion] R@1: %.4f | R@5: %.4f | R@10: %.4f" % (acc['top-1'], acc['top-5'], acc['top-10']))
         return acc                         
             
@@ -117,5 +103,5 @@ class NPEvaluator(Evaluator):
         candidates = self.global_imgs.cpu().detach().numpy()
         scoremat = self.dist(querys, candidates)
         scoremat2 = self.regional_alignment_image(self.global_caps, self.img_parts, self.dist_fn_opt)
-        scoremat3 = self.regional_alignment_image(self.global_imgs, self.cap_parts, self.dist_fn_opt)
-        return scoremat, scoremat2, scoremat3.transpose(1,0)
+        scoremat3 = self.regional_alignment_text(self.global_imgs, self.cap_parts, self.n2cs, self.dist_fn_opt)
+        return scoremat, scoremat2, scoremat3

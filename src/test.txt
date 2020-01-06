@@ -3316,3 +3316,50 @@ batch 63, [tri-loss] 0.093673
 [euclidean][global] R@1: 0.3334 | R@5: 0.5797 | R@10: 0.6861
 [cosine   ][global] R@1: 0.4053 | R@5: 0.6428 | R@10: 0.7323
 [ep-11, bs-49] [tri-loss] 0.067151, [id-loss] 0.698894, 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.3900 | R@5: 0.6428 | R@10: 0.7381
+[img_rga] R@1: 0.3481 | R@5: 0.5973 | R@10: 0.7023
+[cap_rga] R@1: 1.0000 | R@5: 1.0000 | R@10: 1.0000
+[global] R@1: 0.3900 | R@5: 0.6428 | R@10: 0.7381
+[img_rga] R@1: 0.3481 | R@5: 0.5973 | R@10: 0.7023
+[cap_rga] R@1: 0.2492 | R@5: 0.4779 | R@10: 0.5820
+[fusion] R@1: 0.3728 | R@5: 0.6291 | R@10: 0.7355
+[cosine   ][global] R@1: 0.3728 | R@5: 0.6291 | R@10: 0.7355
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.3920 | R@5: 0.6535 | R@10: 0.7528
+[img_rga] R@1: 0.3663 | R@5: 0.6113 | R@10: 0.7105
+[cap_rga] R@1: 0.2632 | R@5: 0.4954 | R@10: 0.6158
+[fusion] R@1: 0.4005 | R@5: 0.6574 | R@10: 0.7479
+[cosine   ][global] R@1: 0.4005 | R@5: 0.6574 | R@10: 0.7479
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.3_np_True/stage_2_id_match_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.3920 | R@5: 0.6535 | R@10: 0.7528
+[img_rga] R@1: 0.3663 | R@5: 0.6113 | R@10: 0.7105
+[cap_rga] R@1: 0.2632 | R@5: 0.4954 | R@10: 0.6158
+[fusion] R@1: 0.4005 | R@5: 0.6574 | R@10: 0.7479
+[cosine   ][global] R@1: 0.4005 | R@5: 0.6574 | R@10: 0.7479
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.4252 | R@5: 0.6731 | R@10: 0.7684
+[img_rga] R@1: 0.3803 | R@5: 0.6226 | R@10: 0.7232
+[cap_rga] R@1: 0.2856 | R@5: 0.5166 | R@10: 0.6275
+[fusion] R@1: 0.4359 | R@5: 0.6711 | R@10: 0.7694
+[cosine   ][global] R@1: 0.4359 | R@5: 0.6711 | R@10: 0.7694

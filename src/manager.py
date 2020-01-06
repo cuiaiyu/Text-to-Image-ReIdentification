@@ -197,7 +197,7 @@ class Manager:
             tri_image_regional_loss =  self.triplet_loss(img_part, cap, pid) 
             tri_text_regional_loss =  self.triplet_loss(img, cap_part, pid) 
             
-            if do_id:
+            if True:
                 id_loss = self.cls_loss(self.id_cls(img), pid) +  self.cls_loss(self.id_cls(cap), pid)
                 cum_id_loss += id_loss.item()
             else:

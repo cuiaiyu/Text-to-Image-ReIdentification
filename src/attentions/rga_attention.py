@@ -16,7 +16,8 @@ def RGA_attend_one_to_many_batch(fulls, parts, dist_fn_opt):
     fulls: NxT
     parts: N x M x T
     """
-    fulls = fulls[:,None,:].expand_as(parts)
+    if fulls.size() != parts.size():
+        fulls = fulls[:,None,:].expand_as(parts)
     dist_fn = euclid_dist if dist_fn_opt == "euclidean" else cos_dist
     dists = - dist_fn(fulls, parts)
     N, M, T = parts.size()
