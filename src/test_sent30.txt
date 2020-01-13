@@ -1,0 +1,16 @@
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [tri-loss] 5.987517, [id-loss] 1.508875, 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [tri-loss] 5.858912, [id-loss] 1.501286, 
+[ep-0, bs-99] [tri-loss] 3.841784, [id-loss] 1.545808, 
+[ep-0, bs-149] [tri-loss] 3.094048, [id-loss] 1.747206, 

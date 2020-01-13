@@ -97,13 +97,13 @@ class WIDERTriplet_Basic(WIDERTriplet):
                    )
 
 def build_wider_dataloader(cfg):
-    normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                                     std=[0.229, 0.224, 0.225])
+    #normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
+    #                                 std=[0.229, 0.224, 0.225])
     transform_train = transforms.Compose([
                                     transforms.Resize(cfg.dim),
                                     transforms.RandomHorizontalFlip(),
                                     transforms.ToTensor(),
-                                    normalize,
+                                    # normalize,
                             ])
     TrainDataset = WIDERTriplet_NP if cfg.np else WIDERTriplet_Basic
         

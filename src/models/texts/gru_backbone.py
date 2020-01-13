@@ -9,6 +9,7 @@ class BiGRUBackbone(nn.Module):
         self.embedding = nn.Embedding(vocab_size, 300)
         self.cap_embed_type = cap_embed_type
         self.fc = nn.Linear(embed_size*2, embed_size)
+        self.np_fc = nn.Linear(embed_size*2, embed_size)
         if caption_opt == "bigru":
             self.rnn = nn.GRU(input_size=300, 
                               hidden_size=embed_size, 
@@ -41,5 +42,8 @@ class BiGRUBackbone(nn.Module):
         else:
             sent_emb = hidden.transpose(0, 1).contiguous()
             sent_emb = sent_emb.view(-1, self.embed_size*2)
-            sent_emb = self.fc(sent_emb)
+            if caps.size(1) > 10:
+                sent_emb = self.fc(sent_emb)
+            else:
+                sent_emb = self.np_fc(sent_emb)
             return sent_emb

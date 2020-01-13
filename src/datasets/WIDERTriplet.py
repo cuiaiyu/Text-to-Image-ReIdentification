@@ -118,6 +118,7 @@ class WIDERTriplet(data.Dataset):
         #print(image.size)
         if self.transform:
             image = self.transform(image)
+                
         return image
     
     def __getitem__(self,index):

@@ -5,7 +5,7 @@ from nltk import Tree
 
 new_patterns = """
                 NP:    
-                {<JJ|VPN>*<NN|NNS|NNP|NNPS>+<IN><PRP><JJ>*<NN|NNS|NNP|NNPS>}
+                {<JJ|VPN>*<NN|NNS|NNP|NNPS>+<IN><PRP>*<JJ>*<NN|NNS|NNP|NNPS>}
                 {<JJ>+<CC>*<JJ|VPN>+<NN|NNS|NNP|NNPS>+}
                 {<JJ|VPN>*<NN|NNS|NNP|NNPS>+}
                 {<NN|NNS|NNP|NNPS><IN>*<NN|NNS|NNP|NNPS>+}
@@ -64,6 +64,7 @@ color_map_coarse={
     'color':'color',
     'green':'green',
     'tank':'tank',
+    'light': 'light', 
 }
 attr_map_coarse = {
     'sleeves':'sleeve',
@@ -141,7 +142,7 @@ class NPExtractor:
     
 
     def prepare_text(self, input):
-        sentences = nltk.sent_tokenize(input)
+        sentences = nltk.sent_tokenize(input.lower())
         sentences = [nltk.word_tokenize(sent) for sent in sentences]
         sentences = [self.pos_tag(sent) for sent in sentences]
         sentences = [self.NPChunker.parse(sent) for sent in sentences]

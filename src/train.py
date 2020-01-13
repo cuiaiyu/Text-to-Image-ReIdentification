@@ -1,4 +1,4 @@
-from datasets.wider_global_dataset_new import build_wider_dataloader
+from datasets.wider_part_dataset import build_wider_dataloader
 from datasets.text_test_datasets import build_text_test_loader
 from datasets.image_test_datasets import build_image_test_loader
 from manager import Manager, build_graph_optimizer
@@ -36,17 +36,19 @@ cfg.vocab_path = os.path.join(root, cfg.vocab_path)
 
 cfg.dim = (384,128)
 cfg.img_num_cut = 1 if not cfg.np else cfg.img_num_cut
-cfg.exp_name = "dist_fn_{}_imgbb_{}_capbb_{}_embed_size_{}_batch_{}_lr_{}_captype_{}_img_meltlayer_{}_cos_margin_{}_np_{}".format(
+cfg.exp_name = "dist_fn_{}_imgbb_{}_capbb_{}_embed_size_{}_batch_{}_lr_{}_step_size_{}_captype_{}_img_meltlayer_{}_np_{}".format(
     cfg.dist_fn_opt,
     cfg.img_backbone_opt,
     cfg.cap_backbone_opt,
     cfg.embed_size,
     cfg.batch_size,
     cfg.lr,
+    cfg.step_size,
     cfg.cap_embed_type,
     cfg.image_melt_layer,
-    cfg.cos_margin,
     cfg.np)
+if cfg.note:
+    cfg.exp_name += "_" + cfg.note
 cfg.model_path = os.path.join("/shared/rsaas/aiyucui2/wider_person", cfg.model_path, cfg.exp_name)
 cfg.output_path = os.path.join("/shared/rsaas/aiyucui2/wider_person", cfg.output_path, cfg.exp_name)
 
@@ -76,59 +78,54 @@ evaluator = Evaluator(img_loader=test_image_loader,
                           gt_file_path=cfg.gt_file_fn,
                           embed_size=cfg.embed_size,
                           logger=logger,
-                          dist_fn_opt="euclidean")
-cos_evaluator = Evaluator(img_loader=test_image_loader, 
-                          cap_loader=test_text_loader, 
-                          gt_file_path=cfg.gt_file_fn,
-                          embed_size=cfg.embed_size,
-                          logger=logger,
-                          dist_fn_opt="cosine")
+                          dist_fn_opt=cfg.dist_fn_opt)
 # Trainer
 manager = Manager(cfg, logger)
-
 
 #------------------
 ## Train
 #------------------
 # Stage 1 (ID)
 logger.log("======== [Stage 1] ============")
-manager.melt_img_layer(num_layer_to_melt=0)
+manager.melt_img_layer(num_layer_to_melt=1)
 param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls])
-optimizer = optim.Adam(param_to_optimize, lr=1e-3)
+optimizer = optim.Adam(param_to_optimize, lr=1e-3, weight_decay=cfg.weight_decay)
 scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10)
 
 for epoch in range(cfg.num_epochs_stage1):
     manager.train_epoch_id(train_loader, optimizer, epoch, "train-stage-1")
     acc = evaluator.evaluate(manager.model)
-    logger.log('[stage-1, ep-%d][euclidean][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, acc['top-1'], acc['top-5'], acc['top-10']))
-    acc = cos_evaluator.evaluate(manager.model)
-    logger.log('[stage-1, ep-%d][cosine   ][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, acc['top-1'], acc['top-5'], acc['top-10']))
+    logger.log('[stage-1, ep-%d][%s][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, cfg.dist_fn_opt, acc['top-1'], acc['top-5'], acc['top-10']))
     scheduler.step()
     manager.save_ckpt(epoch, acc, 'stage_1_id_last.pt')
-   
+
 if cfg.num_epochs_stage1:
     manager.save_ckpt(epoch, acc, 'id_initialized.pt')
 
 # Stage 2 (ID + Matching)
 logger.log("======== [Stage 2] ============")
-manager.melt_img_layer(num_layer_to_melt=cfg.image_melt_layer)
-if cfg.np:
-    param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls, manager.rga_img_mlp, manager.rga_cap_mlp]) 
-else:
-    param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls])    
-optimizer = optim.Adam(param_to_optimize, lr=2e-4, weight_decay=1e-5)
-scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10)
-
 train_epoch = manager.train_epoch_regional if cfg.np else manager.train_epoch_global
+
 for epoch in range(cfg.num_epochs_stage2):
+    if epoch % cfg.step_size == 0:
+        curr_lr = cfg.lr * (0.1 ** (epoch // cfg.step_size))
+        curr_num_layer_melt = cfg.image_melt_layer# + (epoch // cfg.step_size)
+        logger.log("[lr step] curr_lr: %.6f, curr_num_layer_melt: %d" %(curr_lr, curr_num_layer_melt) )
+        manager.melt_img_layer(num_layer_to_melt=curr_num_layer_melt)
+        if cfg.np:
+            param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls, manager.rga_img_mlp, manager.rga_cap_mlp]) 
+        else:
+            param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls])    
+        optimizer = optim.Adam(param_to_optimize, lr=curr_lr, weight_decay=cfg.weight_decay)
+        scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=cfg.step_size)
+    
     train_epoch(train_loader, optimizer, epoch, "train-stage-2")
     if cfg.np:
         acc = evaluator.evaluate(manager.model, manager.rga_img_mlp, manager.rga_cap_mlp)
-        cos_acc = cos_evaluator.evaluate(manager.model, manager.rga_img_mlp, manager.rga_cap_mlp)
     else:
         acc = evaluator.evaluate(manager.model)
-        cos_acc = cos_evaluator.evaluate(manager.model)
-    logger.log('[stage-2, ep-%d][euclidean][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, acc['top-1'], acc['top-5'], acc['top-10']))
-    logger.log('[stage-2, ep-%d][cosine   ][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, cos_acc['top-1'], cos_acc['top-5'], cos_acc['top-10']))
+    logger.log('[stage-2, ep-%d][%s][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, cfg.dist_fn_opt, acc['top-1'], acc['top-5'], acc['top-10']))
     scheduler.step()
     manager.save_ckpt(epoch, acc, 'stage_2_id_match_last.pt')
+    if (epoch+1) % 5 == 0:
+        manager.save_ckpt(epoch, acc, 'stage_2_id_match_epoch%d.pt' % epoch)

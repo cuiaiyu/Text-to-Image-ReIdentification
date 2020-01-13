@@ -65,13 +65,18 @@ class ImageBackbone(nn.Module):
             
         
     
-    def melt_layer(self,forzen_util=7):
+    def melt_layer(self,forzen_util=10):
         ct = 0
         for child in self.img_backbone.children():
             ct += 1
             if ct < forzen_util:
                 for param in child.parameters():
                     param.requires_grad = False
+            elif ct == 10 and forzen_util < 10:
+                for param in child.parameters():
+                    param.requires_grad = False
             else:
                 for param in child.parameters():
                     param.requires_grad = True
+                
+            

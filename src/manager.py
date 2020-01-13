@@ -27,9 +27,10 @@ def regional_alignment_text(fulls, parts, p2fs, dist_fn_opt):
     start_index = 0
     aligned = []
     for i, jump in enumerate(p2fs):
-        curr_parts = parts[start_index:start_index + jump]
-        start_index += jump
+        #curr_parts = parts[start_index:start_index + jump]
+        #start_index += jump
         curr_full = fulls[i:i+1]
+        curr_parts = parts[i, :jump, :]
         aligned.append(RGA_attend_one_to_many(curr_full, curr_parts, dist_fn_opt))
     return torch.cat(aligned)
 
@@ -131,9 +132,19 @@ class Manager:
     
     def melt_img_layer(self, num_layer_to_melt=1):
         if isinstance(self.model, nn.DataParallel):
-            self.model.module.img_backbone.melt_layer(8 - num_layer_to_melt)
+            self.model.module.img_backbone.melt_layer(11 - num_layer_to_melt)
         else:
-            self.model.img_backbone.melt_layer(8 - num_layer_to_melt)
+            self.model.img_backbone.melt_layer(11 - num_layer_to_melt)
+        if num_layer_to_melt > 1:
+            if isinstance(self.model, nn.DataParallel):
+                for param in self.model.module.cap_backbone.fc.parameters():
+                    param.requires_grad = False
+                
+            else:
+                for param in self.model.cap_backbone.fc.parameters():
+                    param.requires_grad = False
+            
+        
      
     def train_epoch_global(self, train_data, optimizer, epoch, do_id=True, note="train"):
         self.model.train()
@@ -180,9 +191,9 @@ class Manager:
             img, img_part = self.model(img)
             cap = self.model(cap)
             
-            # N, M, T = nps.size()
-            nps = self.rga_cap_mlp(self.model(nps))
-            #nps = self.rga_cap_mlp(self.model(nps.reshape(-1, T))).reshape(N, M, -1)
+            N, M, T = nps.size()
+            #nps = self.rga_cap_mlp(self.model(nps))
+            nps = self.rga_cap_mlp(self.model(nps.reshape(-1, T))).reshape(N, M, -1)
            
             # part
             img_part = self.rga_img_mlp(img_part)
@@ -195,7 +206,7 @@ class Manager:
             # loss
             tri_loss =  self.triplet_loss(img, cap, pid) 
             tri_image_regional_loss =  self.triplet_loss(img_part, cap, pid) 
-            tri_text_regional_loss =  self.triplet_loss(img, cap_part, pid) 
+            tri_text_regional_loss =  self.triplet_loss(cap_part, img, pid) 
             
             if True:
                 id_loss = self.cls_loss(self.id_cls(img), pid) +  self.cls_loss(self.id_cls(cap), pid)

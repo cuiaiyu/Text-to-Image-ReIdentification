@@ -13,10 +13,10 @@ def str2bool(v):
 def load_arg_parser():
     parser = argparse.ArgumentParser(description='Aiyu ReID Training')
     # Experiment Miscs
-    parser.add_argument('--experiment_name', 
-                        default='default', 
+    parser.add_argument('--note', 
+                        default='', 
                         type=str,
-                        help='experiment name')
+                        help='note to add')
     
     parser.add_argument('--data_root', 
                         default='/shared/rsaas/aiyucui2/wider_person/', 
@@ -40,6 +40,11 @@ def load_arg_parser():
                         default="wider/train/img", 
                         type=str, metavar='PATH',
                         help='path to imgs')
+    parser.add_argument('--mask_dir', 
+                        default="wider/train/aiyu_binary_masks", 
+                        type=str, metavar='PATH',
+                        help='path to train masks')
+    
     parser.add_argument('--val_anno_path', 
                         default="wider/val1/val1_anns.json", 
                         type=str, metavar='PATH',
@@ -48,6 +53,10 @@ def load_arg_parser():
                         default='wider/val1/img', 
                         type=str, metavar='PATH',
                         help='path to imgs')
+    parser.add_argument('--val_mask_dir', 
+                        default="wider/val1/aiyu_binary_masks", 
+                        type=str, metavar='PATH',
+                        help='path to val1 masks')
     parser.add_argument('--vocab_path', 
                         default='wider_graph/raw_vocab_th20.json', 
                         type=str, metavar='PATH',
@@ -65,21 +74,32 @@ def load_arg_parser():
                         type=str,
                         help='continue training. 0 for fresh model.')
     
+    
 
     # Models
     parser.add_argument('--load_model_path', default='starter_bert_resnet50_2048.pt', type=str,
                         help='0 indicating nothing')
     
-    parser.add_argument('--np', default=True, type=str2bool,
+    parser.add_argument('--np', default=False, type=str2bool,
                         help='use noun phrases or not?')
+    parser.add_argument('--mask', default=False, type=str2bool,
+                        help='use human parse segmask or not?')
+    
     parser.add_argument('--img_num_cut', default=1, type=int,
                         help='how many cut on feature map (horizontal)?')
     parser.add_argument('--regional_embed_size', default=256, type=int,
                         help='regional_embed_size')
 
-    parser.add_argument('--token_length', 
+    parser.add_argument('--sent_token_length', 
                         default=40, type=int,
                         help='fixed length of tokenized sentences. (Run stats to decided, 40 by default for WIDER-person)')
+    parser.add_argument('--np_token_length', 
+                        default=6, type=int,
+                        help='fixed length of tokenized NP. (Run stats to decided, 6 by default for WIDER-person)')
+    parser.add_argument('--num_np_per_sent', 
+                        default=6, type=int,
+                        help='how many NPs per sent?. (Run stats to decided, 6 by default for WIDER-person)')
+    
     
     parser.add_argument('--img_backbone_opt', 
                         default='resnet50', type=str,
@@ -115,11 +135,11 @@ def load_arg_parser():
     parser.add_argument('--num_epochs_stage2', 
                         default=60, type=int,
                         help='as is')
-    parser.add_argument('--lr', default=1e-4, type=float, 
+    parser.add_argument('--lr', default=2e-4, type=float, 
                         help='learning rate')
     parser.add_argument('--momentum', default=0.9, type=float, 
                         help='SGD momentum')
-    parser.add_argument('--weight_decay', default=5e-4, type=float, 
+    parser.add_argument('--weight_decay', default=0, type=float, 
                         help='SGD weight decay')
     parser.add_argument('--num_epochs', default=25, type=int, 
                         help='# epochs')

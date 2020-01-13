@@ -7,16 +7,11 @@ def build_text_test_loader(cfg):
     TestDataset = WIDERNPTextDataset if cfg.np else WIDERTextDataset
     ds_text = TestDataset(anno_path=cfg.val_anno_path, 
                           vocab_fn=cfg.vocab_path, 
+                          sent_token_length=cfg.sent_token_length, 
+                          np_token_length=cfg.np_token_length, 
+                          num_np_per_sent=cfg.num_np_per_sent,
                           debug=cfg.debug)
-    if cfg.np:
-        return data.DataLoader(ds_text,
-                               batch_size=cfg.batch_size,
-                               shuffle=False, 
-                               num_workers=cfg.num_workers,
-                               collate_fn=text_test_np_collate_fn,
-                               pin_memory=True)
-    else:
-        return data.DataLoader(ds_text,
+    return data.DataLoader(ds_text,
                                batch_size=cfg.batch_size,
                                shuffle=False, 
                                num_workers=cfg.num_workers,
@@ -49,8 +44,11 @@ class WIDERTextDataset(data.Dataset):
         - caption (indexed) 
         - image_fn (private_key)
     """
-    def __init__(self,anno_path, vocab_fn, split="val",token_length=40, debug=False):
+    def __init__(self,anno_path, vocab_fn, split="val",
+                 sent_token_length=40, np_token_length=6, num_np_per_sent=6,
+                 debug=False):
         super(WIDERTextDataset, self).__init__()
+        
         # load annotations
         with open(anno_path,'r') as f:
             anns = json.load(f)
@@ -58,7 +56,10 @@ class WIDERTextDataset(data.Dataset):
         self.anns = self.anns[:500] if debug else self.anns
         
         # init tokenizer
-        self.token_length = token_length
+        self.sent_token_length = sent_token_length
+        self.np_token_length = np_token_length
+        self.num_np_per_sent = num_np_per_sent
+        
         self.tokenizer = WIDER_Tokenizer(vocab_fn)
         
         # init captions data
@@ -78,7 +79,7 @@ class WIDERTextDataset(data.Dataset):
     
     def _load_cap(self,index):
         cap = self.captions[index]
-        cap_token = self.tokenizer.tokenize(cap, 40)
+        cap_token = self.tokenizer.tokenize(cap, self.sent_token_length)
         cap_token = torch.LongTensor([cap_token])[0]
         return cap_token
     
@@ -96,23 +97,37 @@ class WIDERNPTextDataset(WIDERTextDataset):
         - np chunks (in-time processed)
         - image_fn (private_key)
     """
-    def __init__(self,anno_path, vocab_fn, split="val",token_length=40, debug=False):
-        super(WIDERNPTextDataset, self).__init__(anno_path, vocab_fn, split, token_length, debug)
+    def __init__(self,anno_path, vocab_fn, split="val",
+                 sent_token_length=40, np_token_length=6, num_np_per_sent=6,
+                 debug=False):
+        super(WIDERNPTextDataset, self).__init__(anno_path=anno_path, 
+                                                 vocab_fn=vocab_fn, 
+                                                 split=split,
+                                                 sent_token_length=sent_token_length, 
+                                                 np_token_length=np_token_length, 
+                                                 num_np_per_sent=num_np_per_sent,
+                                                 debug=debug)
         self.np_extractor = NPExtractor()
      
     def _load_cap(self,index):
+        len_sent = self.sent_token_length
+        len_np = self.np_token_length
+        N = self.num_np_per_sent
         cap = self.captions[index]
-        cap_token = self.tokenizer.tokenize(cap, 40)
-        nps = self.np_extractor.sent_parse(cap)
-        nps = [torch.LongTensor([self.tokenizer.tokenize(np, 6)]) for np in nps]
-        nps = torch.cat(nps)
+        cap_token = self.tokenizer.tokenize(cap, len_sent)
+        cap_token = torch.LongTensor([cap_token])[0]
         
-        cap_token = torch.LongTensor([cap_token])
-        return cap_token, nps
+        nps = self.np_extractor.sent_parse(cap)
+        nps = [torch.LongTensor([self.tokenizer.tokenize(np, len_np)]) for np in nps]
+        num_nps = min(len(nps), N)
+        nps = torch.cat(nps)
+        nps = nps[:N] if nps.size(0) > N else torch.cat((nps, torch.ones((N - nps.size(0), len_np)).long()))
+        
+        return cap_token, nps, num_nps
     
     
     def __getitem__(self,index):
-        cap, nps = self._load_cap(index)
+        cap, nps, num_nps = self._load_cap(index)
         image_fn = self.images[index]
-        return cap, nps, image_fn
+        return cap, nps, num_nps, image_fn
 

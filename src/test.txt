@@ -3363,3 +3363,1710 @@ batch 63, [tri-loss] 0.093673
 [cap_rga] R@1: 0.2856 | R@5: 0.5166 | R@10: 0.6275
 [fusion] R@1: 0.4359 | R@5: 0.6711 | R@10: 0.7694
 [cosine   ][global] R@1: 0.4359 | R@5: 0.6711 | R@10: 0.7694
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.4385 | R@5: 0.6848 | R@10: 0.7664
+[img_rga] R@1: 0.3865 | R@5: 0.6412 | R@10: 0.7368
+[cap_rga] R@1: 0.3071 | R@5: 0.5270 | R@10: 0.6350
+[fusion] R@1: 0.4411 | R@5: 0.6838 | R@10: 0.7762
+[cosine   ][global] R@1: 0.4411 | R@5: 0.6838 | R@10: 0.7762
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_8_cos_margin_0.2_np_True/stage_2_id_match_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.4600 | R@5: 0.6997 | R@10: 0.7820
+[img_rga] R@1: 0.4037 | R@5: 0.6545 | R@10: 0.7498
+[cap_rga] R@1: 0.3344 | R@5: 0.5638 | R@10: 0.6701
+[fusion] R@1: 0.4639 | R@5: 0.7017 | R@10: 0.7921
+[cosine   ][global] R@1: 0.4639 | R@5: 0.7017 | R@10: 0.7921
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.0010 | R@5: 0.0036 | R@10: 0.0085
+[img_rga] R@1: 0.0010 | R@5: 0.0059 | R@10: 0.0114
+[cap_rga] R@1: 0.0013 | R@5: 0.0055 | R@10: 0.0114
+[fusion] R@1: 0.0013 | R@5: 0.0042 | R@10: 0.0078
+[cosine   ][global] R@1: 0.0013 | R@5: 0.0042 | R@10: 0.0078
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.2430 | R@5: 0.4483 | R@10: 0.5514
+[img_rga] R@1: 0.0007 | R@5: 0.0042 | R@10: 0.0094
+[cap_rga] R@1: 0.0013 | R@5: 0.0059 | R@10: 0.0107
+[fusion] R@1: 0.2336 | R@5: 0.4349 | R@10: 0.5381
+[cosine   ][global] R@1: 0.2336 | R@5: 0.4349 | R@10: 0.5381
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 0.674253, [tri-loss] 6.997257, [img_rga] 23.717876, [cap_rga] 28.112462 
+[ep-0, bs-99] [id-loss] 1.074059, [tri-loss] 5.025516, [img_rga] 13.911247, [cap_rga] 23.859708 
+[ep-0, bs-149] [id-loss] 1.938291, [tri-loss] 4.341976, [img_rga] 9.024274, [cap_rga] 23.352037 
+[ep-0, bs-199] [id-loss] 2.428700, [tri-loss] 3.981460, [img_rga] 6.644520, [cap_rga] 23.036404 
+[ep-0, bs-249] [id-loss] 2.729844, [tri-loss] 3.651858, [img_rga] 5.447959, [cap_rga] 22.759474 
+[ep-0, bs-299] [id-loss] 2.796490, [tri-loss] 3.292245, [img_rga] 4.634374, [cap_rga] 22.546013 
+[ep-0, bs-349] [id-loss] 2.657587, [tri-loss] 3.001495, [img_rga] 4.128825, [cap_rga] 22.356112 
+[ep-0, bs-399] [id-loss] 2.435188, [tri-loss] 2.743129, [img_rga] 3.737834, [cap_rga] 22.196594 
+[ep-0, bs-449] [id-loss] 2.432122, [tri-loss] 2.610756, [img_rga] 3.334873, [cap_rga] 22.070845 
+[ep-0, bs-499] [id-loss] 2.104072, [tri-loss] 2.521850, [img_rga] 3.198415, [cap_rga] 21.991985 
+[ep-0, bs-549] [id-loss] 1.849502, [tri-loss] 2.364511, [img_rga] 2.965381, [cap_rga] 21.905700 
+[ep-0, bs-599] [id-loss] 1.701079, [tri-loss] 2.180665, [img_rga] 2.708300, [cap_rga] 21.798977 
+[ep-0, bs-649] [id-loss] 1.441231, [tri-loss] 2.083117, [img_rga] 2.562805, [cap_rga] 21.746501 
+[ep-0, bs-699] [id-loss] 1.369294, [tri-loss] 2.113671, [img_rga] 2.577246, [cap_rga] 21.691681 
+[ep-0, bs-749] [id-loss] 1.236225, [tri-loss] 1.973665, [img_rga] 2.318778, [cap_rga] 21.626021 
+[global] R@1: 0.3702 | R@5: 0.6275 | R@10: 0.7316
+[img_rga] R@1: 0.2856 | R@5: 0.5081 | R@10: 0.6148
+[cap_rga] R@1: 0.0007 | R@5: 0.0046 | R@10: 0.0094
+[fusion] R@1: 0.3601 | R@5: 0.6093 | R@10: 0.7202
+[cosine   ][global] R@1: 0.3601 | R@5: 0.6093 | R@10: 0.7202
+[ep-1, bs-49] [id-loss] 0.491392, [tri-loss] 1.559323, [img_rga] 1.925448, [cap_rga] 21.480731 
+[ep-1, bs-99] [id-loss] 0.525762, [tri-loss] 1.568747, [img_rga] 1.854721, [cap_rga] 21.448846 
+[ep-1, bs-149] [id-loss] 0.515421, [tri-loss] 1.510369, [img_rga] 1.818752, [cap_rga] 21.407058 
+[ep-1, bs-199] [id-loss] 0.539304, [tri-loss] 1.529060, [img_rga] 1.782369, [cap_rga] 21.381111 
+[ep-1, bs-249] [id-loss] 0.553418, [tri-loss] 1.503019, [img_rga] 1.739646, [cap_rga] 21.323337 
+[ep-1, bs-299] [id-loss] 0.554453, [tri-loss] 1.505370, [img_rga] 1.717130, [cap_rga] 21.338891 
+[ep-1, bs-349] [id-loss] 0.588634, [tri-loss] 1.484591, [img_rga] 1.667259, [cap_rga] 21.299346 
+[ep-1, bs-399] [id-loss] 0.570856, [tri-loss] 1.428621, [img_rga] 1.616829, [cap_rga] 21.256492 
+[ep-1, bs-449] [id-loss] 0.593849, [tri-loss] 1.416288, [img_rga] 1.594272, [cap_rga] 21.222267 
+[ep-1, bs-499] [id-loss] 0.635190, [tri-loss] 1.475337, [img_rga] 1.613317, [cap_rga] 21.235563 
+[ep-1, bs-549] [id-loss] 0.599652, [tri-loss] 1.432476, [img_rga] 1.555710, [cap_rga] 21.177693 
+[ep-1, bs-599] [id-loss] 0.628278, [tri-loss] 1.359902, [img_rga] 1.492031, [cap_rga] 21.165985 
+[ep-1, bs-649] [id-loss] 0.642702, [tri-loss] 1.437875, [img_rga] 1.575577, [cap_rga] 21.174101 
+[ep-1, bs-699] [id-loss] 0.681536, [tri-loss] 1.439069, [img_rga] 1.537810, [cap_rga] 21.163325 
+[ep-1, bs-749] [id-loss] 0.661883, [tri-loss] 1.444477, [img_rga] 1.548354, [cap_rga] 21.155934 
+[global] R@1: 0.4034 | R@5: 0.6545 | R@10: 0.7472
+[img_rga] R@1: 0.3273 | R@5: 0.5576 | R@10: 0.6646
+[cap_rga] R@1: 0.0010 | R@5: 0.0049 | R@10: 0.0088
+[fusion] R@1: 0.3959 | R@5: 0.6464 | R@10: 0.7339
+[cosine   ][global] R@1: 0.3959 | R@5: 0.6464 | R@10: 0.7339
+[ep-2, bs-49] [id-loss] 0.435440, [tri-loss] 1.094342, [img_rga] 1.226336, [cap_rga] 20.995858 
+[ep-2, bs-99] [id-loss] 0.443191, [tri-loss] 1.048552, [img_rga] 1.152767, [cap_rga] 20.943790 
+[ep-2, bs-149] [id-loss] 0.473725, [tri-loss] 1.051050, [img_rga] 1.171364, [cap_rga] 20.937486 
+[ep-2, bs-199] [id-loss] 0.498880, [tri-loss] 1.049744, [img_rga] 1.139921, [cap_rga] 20.924284 
+[ep-2, bs-249] [id-loss] 0.532060, [tri-loss] 1.066329, [img_rga] 1.143759, [cap_rga] 20.916169 
+[ep-2, bs-299] [id-loss] 0.549582, [tri-loss] 1.062561, [img_rga] 1.134633, [cap_rga] 20.886502 
+[ep-2, bs-349] [id-loss] 0.555379, [tri-loss] 1.043310, [img_rga] 1.106212, [cap_rga] 20.877661 
+[ep-2, bs-399] [id-loss] 0.598426, [tri-loss] 1.098200, [img_rga] 1.159248, [cap_rga] 20.884519 
+[ep-2, bs-449] [id-loss] 0.633731, [tri-loss] 1.094232, [img_rga] 1.162591, [cap_rga] 20.907596 
+[ep-2, bs-499] [id-loss] 0.680647, [tri-loss] 1.157503, [img_rga] 1.189692, [cap_rga] 20.910252 
+[ep-2, bs-549] [id-loss] 0.695668, [tri-loss] 1.086965, [img_rga] 1.136956, [cap_rga] 20.881652 
+[ep-2, bs-599] [id-loss] 0.716770, [tri-loss] 1.115978, [img_rga] 1.131512, [cap_rga] 20.859983 
+[ep-2, bs-649] [id-loss] 0.745890, [tri-loss] 1.127605, [img_rga] 1.148961, [cap_rga] 20.859109 
+[ep-2, bs-699] [id-loss] 0.774828, [tri-loss] 1.118151, [img_rga] 1.133609, [cap_rga] 20.855001 
+[ep-2, bs-749] [id-loss] 0.789066, [tri-loss] 1.108415, [img_rga] 1.121509, [cap_rga] 20.845127 
+[global] R@1: 0.4154 | R@5: 0.6633 | R@10: 0.7612
+[img_rga] R@1: 0.3757 | R@5: 0.5950 | R@10: 0.6932
+[cap_rga] R@1: 0.0016 | R@5: 0.0049 | R@10: 0.0088
+[fusion] R@1: 0.4187 | R@5: 0.6653 | R@10: 0.7567
+[cosine   ][global] R@1: 0.4187 | R@5: 0.6653 | R@10: 0.7567
+[ep-3, bs-49] [id-loss] 0.477311, [tri-loss] 0.866452, [img_rga] 0.910482, [cap_rga] 20.716181 
+[ep-3, bs-99] [id-loss] 0.510233, [tri-loss] 0.861299, [img_rga] 0.899632, [cap_rga] 20.686278 
+[ep-3, bs-149] [id-loss] 0.517764, [tri-loss] 0.846296, [img_rga] 0.878686, [cap_rga] 20.672227 
+[ep-3, bs-199] [id-loss] 0.552891, [tri-loss] 0.855613, [img_rga] 0.884697, [cap_rga] 20.672096 
+[ep-3, bs-249] [id-loss] 0.614454, [tri-loss] 0.865218, [img_rga] 0.880779, [cap_rga] 20.662959 
+[ep-3, bs-299] [id-loss] 0.638751, [tri-loss] 0.882518, [img_rga] 0.907518, [cap_rga] 20.673884 
+[ep-3, bs-349] [id-loss] 0.670223, [tri-loss] 0.894148, [img_rga] 0.905409, [cap_rga] 20.661774 
+[ep-3, bs-399] [id-loss] 0.697360, [tri-loss] 0.902528, [img_rga] 0.926650, [cap_rga] 20.667373 
+[ep-3, bs-449] [id-loss] 0.759730, [tri-loss] 0.932703, [img_rga] 0.907845, [cap_rga] 20.678231 
+[ep-3, bs-499] [id-loss] 0.780260, [tri-loss] 0.885629, [img_rga] 0.879246, [cap_rga] 20.646399 
+[ep-3, bs-549] [id-loss] 0.798681, [tri-loss] 0.910639, [img_rga] 0.891239, [cap_rga] 20.654254 
+[ep-3, bs-599] [id-loss] 0.814969, [tri-loss] 0.932353, [img_rga] 0.913726, [cap_rga] 20.647802 
+[ep-3, bs-649] [id-loss] 0.875293, [tri-loss] 0.935180, [img_rga] 0.914769, [cap_rga] 20.648956 
+[ep-3, bs-699] [id-loss] 0.896922, [tri-loss] 0.941070, [img_rga] 0.922713, [cap_rga] 20.648302 
+[ep-3, bs-749] [id-loss] 0.919719, [tri-loss] 0.946221, [img_rga] 0.920919, [cap_rga] 20.656070 
+[global] R@1: 0.4382 | R@5: 0.6731 | R@10: 0.7615
+[img_rga] R@1: 0.3868 | R@5: 0.6145 | R@10: 0.7092
+[cap_rga] R@1: 0.0010 | R@5: 0.0046 | R@10: 0.0130
+[fusion] R@1: 0.4320 | R@5: 0.6721 | R@10: 0.7645
+[cosine   ][global] R@1: 0.4320 | R@5: 0.6721 | R@10: 0.7645
+[ep-4, bs-49] [id-loss] 0.536297, [tri-loss] 0.732958, [img_rga] 0.749162, [cap_rga] 20.530836 
+[ep-4, bs-99] [id-loss] 0.559863, [tri-loss] 0.744208, [img_rga] 0.743247, [cap_rga] 20.512263 
+[ep-4, bs-149] [id-loss] 0.576690, [tri-loss] 0.727245, [img_rga] 0.709397, [cap_rga] 20.497646 
+[ep-4, bs-199] [id-loss] 0.601729, [tri-loss] 0.719866, [img_rga] 0.703065, [cap_rga] 20.494472 
+[ep-4, bs-249] [id-loss] 0.641459, [tri-loss] 0.753763, [img_rga] 0.749763, [cap_rga] 20.496919 
+[ep-4, bs-299] [id-loss] 0.666032, [tri-loss] 0.774606, [img_rga] 0.749856, [cap_rga] 20.513276 
+[ep-4, bs-349] [id-loss] 0.707926, [tri-loss] 0.779267, [img_rga] 0.764135, [cap_rga] 20.500627 
+[ep-4, bs-399] [id-loss] 0.756763, [tri-loss] 0.774551, [img_rga] 0.763112, [cap_rga] 20.517257 
+[ep-4, bs-449] [id-loss] 0.784422, [tri-loss] 0.763672, [img_rga] 0.735655, [cap_rga] 20.501205 
+[ep-4, bs-499] [id-loss] 0.833660, [tri-loss] 0.785115, [img_rga] 0.744480, [cap_rga] 20.496340 
+[ep-4, bs-549] [id-loss] 0.857871, [tri-loss] 0.795408, [img_rga] 0.757528, [cap_rga] 20.495337 
+[ep-4, bs-599] [id-loss] 0.912605, [tri-loss] 0.823350, [img_rga] 0.775438, [cap_rga] 20.513741 
+[ep-4, bs-649] [id-loss] 0.976900, [tri-loss] 0.854063, [img_rga] 0.795039, [cap_rga] 20.523282 
+[ep-4, bs-699] [id-loss] 1.009689, [tri-loss] 0.849473, [img_rga] 0.794094, [cap_rga] 20.508046 
+[ep-4, bs-749] [id-loss] 0.998268, [tri-loss] 0.847799, [img_rga] 0.791368, [cap_rga] 20.507503 
+[global] R@1: 0.4294 | R@5: 0.6750 | R@10: 0.7700
+[img_rga] R@1: 0.3936 | R@5: 0.6334 | R@10: 0.7297
+[cap_rga] R@1: 0.0010 | R@5: 0.0062 | R@10: 0.0104
+[fusion] R@1: 0.4317 | R@5: 0.6779 | R@10: 0.7703
+[cosine   ][global] R@1: 0.4317 | R@5: 0.6779 | R@10: 0.7703
+[ep-5, bs-49] [id-loss] 0.545642, [tri-loss] 0.649254, [img_rga] 0.623426, [cap_rga] 20.406550 
+[ep-5, bs-99] [id-loss] 0.571866, [tri-loss] 0.633192, [img_rga] 0.598068, [cap_rga] 20.366540 
+[ep-5, bs-149] [id-loss] 0.587168, [tri-loss] 0.652418, [img_rga] 0.628277, [cap_rga] 20.374230 
+[ep-5, bs-199] [id-loss] 0.617237, [tri-loss] 0.671172, [img_rga] 0.638220, [cap_rga] 20.386230 
+[ep-5, bs-249] [id-loss] 0.678982, [tri-loss] 0.668496, [img_rga] 0.622122, [cap_rga] 20.376264 
+[ep-5, bs-299] [id-loss] 0.720402, [tri-loss] 0.684855, [img_rga] 0.650765, [cap_rga] 20.374759 
+[ep-5, bs-349] [id-loss] 0.764382, [tri-loss] 0.726120, [img_rga] 0.677939, [cap_rga] 20.399935 
+[ep-5, bs-399] [id-loss] 0.763235, [tri-loss] 0.671833, [img_rga] 0.636363, [cap_rga] 20.372184 
+[ep-5, bs-449] [id-loss] 0.840722, [tri-loss] 0.721091, [img_rga] 0.660795, [cap_rga] 20.388033 
+[ep-5, bs-499] [id-loss] 0.845306, [tri-loss] 0.692327, [img_rga] 0.633143, [cap_rga] 20.369517 
+[ep-5, bs-549] [id-loss] 0.901679, [tri-loss] 0.719656, [img_rga] 0.673112, [cap_rga] 20.380837 
+[ep-5, bs-599] [id-loss] 0.931180, [tri-loss] 0.732329, [img_rga] 0.675922, [cap_rga] 20.390827 
+[ep-5, bs-649] [id-loss] 0.965438, [tri-loss] 0.733063, [img_rga] 0.665885, [cap_rga] 20.388519 
+[ep-5, bs-699] [id-loss] 0.991211, [tri-loss] 0.741800, [img_rga] 0.690247, [cap_rga] 20.383869 
+[ep-5, bs-749] [id-loss] 1.050461, [tri-loss] 0.800251, [img_rga] 0.720048, [cap_rga] 20.414508 
+[global] R@1: 0.4346 | R@5: 0.6822 | R@10: 0.7739
+[img_rga] R@1: 0.4027 | R@5: 0.6269 | R@10: 0.7284
+[cap_rga] R@1: 0.0010 | R@5: 0.0052 | R@10: 0.0104
+[fusion] R@1: 0.4375 | R@5: 0.6789 | R@10: 0.7765
+[cosine   ][global] R@1: 0.4375 | R@5: 0.6789 | R@10: 0.7765
+[ep-6, bs-49] [id-loss] 0.611429, [tri-loss] 0.607272, [img_rga] 0.571577, [cap_rga] 20.308118 
+[ep-6, bs-99] [id-loss] 0.581122, [tri-loss] 0.576728, [img_rga] 0.536664, [cap_rga] 20.254999 
+[ep-6, bs-149] [id-loss] 0.582200, [tri-loss] 0.592439, [img_rga] 0.552906, [cap_rga] 20.277363 
+[ep-6, bs-199] [id-loss] 0.632769, [tri-loss] 0.614904, [img_rga] 0.569137, [cap_rga] 20.279123 
+[ep-6, bs-249] [id-loss] 0.663543, [tri-loss] 0.595620, [img_rga] 0.548543, [cap_rga] 20.255735 
+[ep-6, bs-299] [id-loss] 0.733627, [tri-loss] 0.648993, [img_rga] 0.601886, [cap_rga] 20.288541 
+[ep-6, bs-349] [id-loss] 0.744695, [tri-loss] 0.637461, [img_rga] 0.589578, [cap_rga] 20.274415 
+[ep-6, bs-399] [id-loss] 0.815521, [tri-loss] 0.625099, [img_rga] 0.572942, [cap_rga] 20.275379 
+[ep-6, bs-449] [id-loss] 0.842360, [tri-loss] 0.647251, [img_rga] 0.583709, [cap_rga] 20.283383 
+[ep-6, bs-499] [id-loss] 0.882967, [tri-loss] 0.664452, [img_rga] 0.615177, [cap_rga] 20.319646 
+[ep-6, bs-549] [id-loss] 0.924422, [tri-loss] 0.701933, [img_rga] 0.625705, [cap_rga] 20.310743 
+[ep-6, bs-599] [id-loss] 0.937832, [tri-loss] 0.688117, [img_rga] 0.627674, [cap_rga] 20.318071 
+[ep-6, bs-649] [id-loss] 0.981251, [tri-loss] 0.699576, [img_rga] 0.619139, [cap_rga] 20.310100 
+[ep-6, bs-699] [id-loss] 1.000599, [tri-loss] 0.686607, [img_rga] 0.614635, [cap_rga] 20.312238 
+[ep-6, bs-749] [id-loss] 1.066467, [tri-loss] 0.708408, [img_rga] 0.627148, [cap_rga] 20.302889 
+[global] R@1: 0.4421 | R@5: 0.6792 | R@10: 0.7710
+[img_rga] R@1: 0.4151 | R@5: 0.6402 | R@10: 0.7440
+[cap_rga] R@1: 0.0013 | R@5: 0.0075 | R@10: 0.0120
+[fusion] R@1: 0.4447 | R@5: 0.6845 | R@10: 0.7775
+[cosine   ][global] R@1: 0.4447 | R@5: 0.6845 | R@10: 0.7775
+[ep-7, bs-49] [id-loss] 0.596620, [tri-loss] 0.553444, [img_rga] 0.515258, [cap_rga] 20.208705 
+[ep-7, bs-99] [id-loss] 0.576284, [tri-loss] 0.541677, [img_rga] 0.501371, [cap_rga] 20.181262 
+[ep-7, bs-149] [id-loss] 0.574097, [tri-loss] 0.535317, [img_rga] 0.486765, [cap_rga] 20.158281 
+[ep-7, bs-199] [id-loss] 0.612156, [tri-loss] 0.542403, [img_rga] 0.497274, [cap_rga] 20.177363 
+[ep-7, bs-249] [id-loss] 0.652236, [tri-loss] 0.552968, [img_rga] 0.501708, [cap_rga] 20.179585 
+[ep-7, bs-299] [id-loss] 0.710896, [tri-loss] 0.552357, [img_rga] 0.492207, [cap_rga] 20.161634 
+[ep-7, bs-349] [id-loss] 0.743427, [tri-loss] 0.588843, [img_rga] 0.530007, [cap_rga] 20.192487 
+[ep-7, bs-399] [id-loss] 0.799310, [tri-loss] 0.597574, [img_rga] 0.528563, [cap_rga] 20.212610 
+[ep-7, bs-449] [id-loss] 0.815868, [tri-loss] 0.591640, [img_rga] 0.533577, [cap_rga] 20.198045 
+[ep-7, bs-499] [id-loss] 0.863032, [tri-loss] 0.606512, [img_rga] 0.541441, [cap_rga] 20.208920 
+[ep-7, bs-549] [id-loss] 0.916323, [tri-loss] 0.607519, [img_rga] 0.549290, [cap_rga] 20.211732 
+[ep-7, bs-599] [id-loss] 0.959824, [tri-loss] 0.619227, [img_rga] 0.530699, [cap_rga] 20.208771 
+[ep-7, bs-649] [id-loss] 0.994134, [tri-loss] 0.638885, [img_rga] 0.564064, [cap_rga] 20.219680 
+[ep-7, bs-699] [id-loss] 1.020288, [tri-loss] 0.656441, [img_rga] 0.582514, [cap_rga] 20.228257 
+[ep-7, bs-749] [id-loss] 1.070621, [tri-loss] 0.661117, [img_rga] 0.600540, [cap_rga] 20.238379 
+[global] R@1: 0.4496 | R@5: 0.6955 | R@10: 0.7811
+[img_rga] R@1: 0.4333 | R@5: 0.6552 | R@10: 0.7511
+[cap_rga] R@1: 0.0007 | R@5: 0.0042 | R@10: 0.0120
+[fusion] R@1: 0.4619 | R@5: 0.7007 | R@10: 0.7837
+[cosine   ][global] R@1: 0.4619 | R@5: 0.7007 | R@10: 0.7837
+[ep-8, bs-49] [id-loss] 0.570297, [tri-loss] 0.500402, [img_rga] 0.457911, [cap_rga] 20.130358 
+[ep-8, bs-99] [id-loss] 0.550555, [tri-loss] 0.490427, [img_rga] 0.438884, [cap_rga] 20.118357 
+[ep-8, bs-149] [id-loss] 0.585441, [tri-loss] 0.495273, [img_rga] 0.444244, [cap_rga] 20.096661 
+[ep-8, bs-199] [id-loss] 0.614052, [tri-loss] 0.515568, [img_rga] 0.457713, [cap_rga] 20.105391 
+[ep-8, bs-249] [id-loss] 0.667311, [tri-loss] 0.515659, [img_rga] 0.462933, [cap_rga] 20.093830 
+[ep-8, bs-299] [id-loss] 0.693693, [tri-loss] 0.542429, [img_rga] 0.478815, [cap_rga] 20.126831 
+[ep-8, bs-349] [id-loss] 0.758019, [tri-loss] 0.548233, [img_rga] 0.484582, [cap_rga] 20.126912 
+[ep-8, bs-399] [id-loss] 0.786669, [tri-loss] 0.546079, [img_rga] 0.484514, [cap_rga] 20.125689 
+[ep-8, bs-449] [id-loss] 0.818270, [tri-loss] 0.575783, [img_rga] 0.505857, [cap_rga] 20.129858 
+[ep-8, bs-499] [id-loss] 0.855941, [tri-loss] 0.559470, [img_rga] 0.499138, [cap_rga] 20.139523 
+[ep-8, bs-549] [id-loss] 0.900033, [tri-loss] 0.585448, [img_rga] 0.518772, [cap_rga] 20.139722 
+[ep-8, bs-599] [id-loss] 0.934160, [tri-loss] 0.570572, [img_rga] 0.497059, [cap_rga] 20.145331 
+[ep-8, bs-649] [id-loss] 0.981947, [tri-loss] 0.614907, [img_rga] 0.522480, [cap_rga] 20.166938 
+[ep-8, bs-699] [id-loss] 1.017063, [tri-loss] 0.615712, [img_rga] 0.527286, [cap_rga] 20.168834 
+[ep-8, bs-749] [id-loss] 1.054227, [tri-loss] 0.628156, [img_rga] 0.545570, [cap_rga] 20.169691 
+[global] R@1: 0.4574 | R@5: 0.6809 | R@10: 0.7746
+[img_rga] R@1: 0.4242 | R@5: 0.6558 | R@10: 0.7482
+[cap_rga] R@1: 0.0029 | R@5: 0.0055 | R@10: 0.0104
+[fusion] R@1: 0.4571 | R@5: 0.6858 | R@10: 0.7749
+[cosine   ][global] R@1: 0.4571 | R@5: 0.6858 | R@10: 0.7749
+[ep-9, bs-49] [id-loss] 0.558681, [tri-loss] 0.481857, [img_rga] 0.433677, [cap_rga] 20.084227 
+[ep-9, bs-99] [id-loss] 0.547521, [tri-loss] 0.468095, [img_rga] 0.402638, [cap_rga] 20.047857 
+[ep-9, bs-149] [id-loss] 0.589507, [tri-loss] 0.458621, [img_rga] 0.407152, [cap_rga] 20.039919 
+[ep-9, bs-199] [id-loss] 0.615624, [tri-loss] 0.466110, [img_rga] 0.403744, [cap_rga] 20.037603 
+[ep-9, bs-249] [id-loss] 0.648991, [tri-loss] 0.494576, [img_rga] 0.436025, [cap_rga] 20.038016 
+[ep-9, bs-299] [id-loss] 0.676848, [tri-loss] 0.513552, [img_rga] 0.445486, [cap_rga] 20.067880 
+[ep-9, bs-349] [id-loss] 0.745921, [tri-loss] 0.512510, [img_rga] 0.452244, [cap_rga] 20.064513 
+[ep-9, bs-399] [id-loss] 0.791161, [tri-loss] 0.531031, [img_rga] 0.457894, [cap_rga] 20.079137 
+[ep-9, bs-449] [id-loss] 0.812570, [tri-loss] 0.537661, [img_rga] 0.474346, [cap_rga] 20.091564 
+[ep-9, bs-499] [id-loss] 0.830779, [tri-loss] 0.537844, [img_rga] 0.460564, [cap_rga] 20.072149 
+[ep-9, bs-549] [id-loss] 0.897554, [tri-loss] 0.560227, [img_rga] 0.483483, [cap_rga] 20.093590 
+[ep-9, bs-599] [id-loss] 0.936276, [tri-loss] 0.550985, [img_rga] 0.478604, [cap_rga] 20.082596 
+[ep-9, bs-649] [id-loss] 0.965382, [tri-loss] 0.583668, [img_rga] 0.491676, [cap_rga] 20.110299 
+[ep-9, bs-699] [id-loss] 1.013943, [tri-loss] 0.594981, [img_rga] 0.516842, [cap_rga] 20.117937 
+[ep-9, bs-749] [id-loss] 1.041758, [tri-loss] 0.599796, [img_rga] 0.512589, [cap_rga] 20.124434 
+[global] R@1: 0.4457 | R@5: 0.6897 | R@10: 0.7859
+[img_rga] R@1: 0.4388 | R@5: 0.6614 | R@10: 0.7602
+[cap_rga] R@1: 0.0013 | R@5: 0.0059 | R@10: 0.0114
+[fusion] R@1: 0.4541 | R@5: 0.6936 | R@10: 0.7879
+[cosine   ][global] R@1: 0.4541 | R@5: 0.6936 | R@10: 0.7879
+[ep-10, bs-49] [id-loss] 0.541601, [tri-loss] 0.425242, [img_rga] 0.374445, [cap_rga] 20.036754 
+[ep-10, bs-99] [id-loss] 0.481815, [tri-loss] 0.416829, [img_rga] 0.364646, [cap_rga] 19.984894 
+[ep-10, bs-149] [id-loss] 0.460810, [tri-loss] 0.393991, [img_rga] 0.350669, [cap_rga] 19.957691 
+[ep-10, bs-199] [id-loss] 0.453550, [tri-loss] 0.397048, [img_rga] 0.348085, [cap_rga] 19.938309 
+[ep-10, bs-249] [id-loss] 0.436404, [tri-loss] 0.391567, [img_rga] 0.355221, [cap_rga] 19.944185 
+[ep-10, bs-299] [id-loss] 0.418278, [tri-loss] 0.391065, [img_rga] 0.346355, [cap_rga] 19.923769 
+[ep-10, bs-349] [id-loss] 0.399755, [tri-loss] 0.377728, [img_rga] 0.332802, [cap_rga] 19.908446 
+[ep-10, bs-399] [id-loss] 0.400089, [tri-loss] 0.386999, [img_rga] 0.335019, [cap_rga] 19.913534 
+[ep-10, bs-449] [id-loss] 0.388758, [tri-loss] 0.379265, [img_rga] 0.343978, [cap_rga] 19.903942 
+[ep-10, bs-499] [id-loss] 0.385730, [tri-loss] 0.370337, [img_rga] 0.324454, [cap_rga] 19.897717 
+[ep-10, bs-549] [id-loss] 0.377526, [tri-loss] 0.368524, [img_rga] 0.328783, [cap_rga] 19.894361 
+[ep-10, bs-599] [id-loss] 0.372343, [tri-loss] 0.378717, [img_rga] 0.336623, [cap_rga] 19.897224 
+[ep-10, bs-649] [id-loss] 0.373624, [tri-loss] 0.380749, [img_rga] 0.341395, [cap_rga] 19.883290 
+[ep-10, bs-699] [id-loss] 0.359457, [tri-loss] 0.352986, [img_rga] 0.322650, [cap_rga] 19.878126 
+[ep-10, bs-749] [id-loss] 0.354971, [tri-loss] 0.362719, [img_rga] 0.326492, [cap_rga] 19.881870 
+[global] R@1: 0.4759 | R@5: 0.7095 | R@10: 0.8025
+[img_rga] R@1: 0.4616 | R@5: 0.6851 | R@10: 0.7694
+[cap_rga] R@1: 0.0010 | R@5: 0.0059 | R@10: 0.0124
+[fusion] R@1: 0.4841 | R@5: 0.7157 | R@10: 0.8090
+[cosine   ][global] R@1: 0.4841 | R@5: 0.7157 | R@10: 0.8090
+[ep-11, bs-49] [id-loss] 0.296937, [tri-loss] 0.350409, [img_rga] 0.306712, [cap_rga] 19.875208 
+[ep-11, bs-99] [id-loss] 0.270953, [tri-loss] 0.349106, [img_rga] 0.308219, [cap_rga] 19.863237 
+[ep-11, bs-149] [id-loss] 0.299883, [tri-loss] 0.337563, [img_rga] 0.307763, [cap_rga] 19.852840 
+[ep-11, bs-199] [id-loss] 0.305476, [tri-loss] 0.341790, [img_rga] 0.306849, [cap_rga] 19.856223 
+[ep-11, bs-249] [id-loss] 0.293838, [tri-loss] 0.342975, [img_rga] 0.311029, [cap_rga] 19.849782 
+[ep-11, bs-299] [id-loss] 0.303318, [tri-loss] 0.332525, [img_rga] 0.304033, [cap_rga] 19.845458 
+[ep-11, bs-349] [id-loss] 0.315407, [tri-loss] 0.346139, [img_rga] 0.310800, [cap_rga] 19.857094 
+[ep-11, bs-399] [id-loss] 0.301549, [tri-loss] 0.337523, [img_rga] 0.307245, [cap_rga] 19.842069 
+[ep-11, bs-449] [id-loss] 0.291939, [tri-loss] 0.355636, [img_rga] 0.315402, [cap_rga] 19.850631 
+[ep-11, bs-499] [id-loss] 0.291758, [tri-loss] 0.338201, [img_rga] 0.302662, [cap_rga] 19.845099 
+[ep-11, bs-549] [id-loss] 0.310326, [tri-loss] 0.338299, [img_rga] 0.302906, [cap_rga] 19.845039 
+[ep-11, bs-599] [id-loss] 0.303515, [tri-loss] 0.335373, [img_rga] 0.299648, [cap_rga] 19.836613 
+[ep-11, bs-649] [id-loss] 0.309054, [tri-loss] 0.333728, [img_rga] 0.300219, [cap_rga] 19.845571 
+[ep-11, bs-699] [id-loss] 0.317633, [tri-loss] 0.342698, [img_rga] 0.304289, [cap_rga] 19.835625 
+[ep-11, bs-749] [id-loss] 0.330105, [tri-loss] 0.339540, [img_rga] 0.301515, [cap_rga] 19.834207 
+[global] R@1: 0.4727 | R@5: 0.7137 | R@10: 0.8025
+[img_rga] R@1: 0.4649 | R@5: 0.6874 | R@10: 0.7746
+[cap_rga] R@1: 0.0007 | R@5: 0.0062 | R@10: 0.0120
+[fusion] R@1: 0.4899 | R@5: 0.7189 | R@10: 0.8055
+[cosine   ][global] R@1: 0.4899 | R@5: 0.7189 | R@10: 0.8055
+[ep-12, bs-49] [id-loss] 0.257437, [tri-loss] 0.316709, [img_rga] 0.278740, [cap_rga] 19.819675 
+[ep-12, bs-99] [id-loss] 0.263302, [tri-loss] 0.328131, [img_rga] 0.292605, [cap_rga] 19.815322 
+[ep-12, bs-149] [id-loss] 0.266420, [tri-loss] 0.326194, [img_rga] 0.291099, [cap_rga] 19.834102 
+[ep-12, bs-199] [id-loss] 0.277022, [tri-loss] 0.323477, [img_rga] 0.291299, [cap_rga] 19.821701 
+[ep-12, bs-249] [id-loss] 0.273980, [tri-loss] 0.316013, [img_rga] 0.282930, [cap_rga] 19.818077 
+[ep-12, bs-299] [id-loss] 0.282290, [tri-loss] 0.320838, [img_rga] 0.287352, [cap_rga] 19.816079 
+[ep-12, bs-349] [id-loss] 0.283831, [tri-loss] 0.328584, [img_rga] 0.294518, [cap_rga] 19.814767 
+[ep-12, bs-399] [id-loss] 0.294720, [tri-loss] 0.319259, [img_rga] 0.285424, [cap_rga] 19.813418 
+[ep-12, bs-449] [id-loss] 0.292994, [tri-loss] 0.317887, [img_rga] 0.287468, [cap_rga] 19.813466 
+[ep-12, bs-499] [id-loss] 0.296163, [tri-loss] 0.329560, [img_rga] 0.292240, [cap_rga] 19.819144 
+[ep-12, bs-549] [id-loss] 0.297073, [tri-loss] 0.323975, [img_rga] 0.286865, [cap_rga] 19.806348 
+[ep-12, bs-599] [id-loss] 0.307697, [tri-loss] 0.321897, [img_rga] 0.285796, [cap_rga] 19.819140 
+[ep-12, bs-649] [id-loss] 0.304962, [tri-loss] 0.316365, [img_rga] 0.282645, [cap_rga] 19.801606 
+[ep-12, bs-699] [id-loss] 0.332308, [tri-loss] 0.330064, [img_rga] 0.291873, [cap_rga] 19.811283 
+[ep-12, bs-749] [id-loss] 0.322985, [tri-loss] 0.326399, [img_rga] 0.294010, [cap_rga] 19.807591 
+[global] R@1: 0.4756 | R@5: 0.7141 | R@10: 0.8019
+[img_rga] R@1: 0.4632 | R@5: 0.6841 | R@10: 0.7703
+[cap_rga] R@1: 0.0007 | R@5: 0.0065 | R@10: 0.0153
+[fusion] R@1: 0.4828 | R@5: 0.7150 | R@10: 0.8068
+[cosine   ][global] R@1: 0.4828 | R@5: 0.7150 | R@10: 0.8068
+[ep-13, bs-49] [id-loss] 0.267303, [tri-loss] 0.313883, [img_rga] 0.279318, [cap_rga] 19.802087 
+[ep-13, bs-99] [id-loss] 0.259146, [tri-loss] 0.303048, [img_rga] 0.269868, [cap_rga] 19.799105 
+[ep-13, bs-149] [id-loss] 0.277093, [tri-loss] 0.309907, [img_rga] 0.276676, [cap_rga] 19.785785 
+[ep-13, bs-199] [id-loss] 0.269107, [tri-loss] 0.303718, [img_rga] 0.269290, [cap_rga] 19.786430 
+[ep-13, bs-249] [id-loss] 0.280916, [tri-loss] 0.310566, [img_rga] 0.279933, [cap_rga] 19.800477 
+[ep-13, bs-299] [id-loss] 0.294302, [tri-loss] 0.311751, [img_rga] 0.276981, [cap_rga] 19.802742 
+[ep-13, bs-349] [id-loss] 0.281302, [tri-loss] 0.308312, [img_rga] 0.269197, [cap_rga] 19.785771 
+[ep-13, bs-399] [id-loss] 0.301962, [tri-loss] 0.313038, [img_rga] 0.276971, [cap_rga] 19.793345 
+[ep-13, bs-449] [id-loss] 0.292104, [tri-loss] 0.309407, [img_rga] 0.272712, [cap_rga] 19.796609 
+[ep-13, bs-499] [id-loss] 0.303378, [tri-loss] 0.310207, [img_rga] 0.274331, [cap_rga] 19.788230 
+[ep-13, bs-549] [id-loss] 0.306806, [tri-loss] 0.304118, [img_rga] 0.269646, [cap_rga] 19.785468 
+[ep-13, bs-599] [id-loss] 0.306312, [tri-loss] 0.306311, [img_rga] 0.270247, [cap_rga] 19.787527 
+[ep-13, bs-649] [id-loss] 0.311649, [tri-loss] 0.312377, [img_rga] 0.273701, [cap_rga] 19.782212 
+[ep-13, bs-699] [id-loss] 0.315652, [tri-loss] 0.316687, [img_rga] 0.280006, [cap_rga] 19.789621 
+[ep-13, bs-749] [id-loss] 0.316691, [tri-loss] 0.304783, [img_rga] 0.274498, [cap_rga] 19.786367 
+[global] R@1: 0.4740 | R@5: 0.7128 | R@10: 0.7973
+[img_rga] R@1: 0.4691 | R@5: 0.6809 | R@10: 0.7733
+[cap_rga] R@1: 0.0007 | R@5: 0.0052 | R@10: 0.0137
+[fusion] R@1: 0.4844 | R@5: 0.7131 | R@10: 0.8032
+[cosine   ][global] R@1: 0.4844 | R@5: 0.7131 | R@10: 0.8032
+[ep-14, bs-49] [id-loss] 0.254805, [tri-loss] 0.289242, [img_rga] 0.260606, [cap_rga] 19.772972 
+[ep-14, bs-99] [id-loss] 0.273676, [tri-loss] 0.291893, [img_rga] 0.252939, [cap_rga] 19.766911 
+[ep-14, bs-149] [id-loss] 0.274614, [tri-loss] 0.295751, [img_rga] 0.262608, [cap_rga] 19.773309 
+[ep-14, bs-199] [id-loss] 0.294082, [tri-loss] 0.297317, [img_rga] 0.264674, [cap_rga] 19.770277 
+[ep-14, bs-249] [id-loss] 0.278483, [tri-loss] 0.296515, [img_rga] 0.258596, [cap_rga] 19.769342 
+[ep-14, bs-299] [id-loss] 0.293688, [tri-loss] 0.302820, [img_rga] 0.271208, [cap_rga] 19.778141 
+[ep-14, bs-349] [id-loss] 0.293940, [tri-loss] 0.293583, [img_rga] 0.257252, [cap_rga] 19.765851 
+[ep-14, bs-399] [id-loss] 0.311908, [tri-loss] 0.299734, [img_rga] 0.264380, [cap_rga] 19.768258 
+[ep-14, bs-449] [id-loss] 0.305669, [tri-loss] 0.298332, [img_rga] 0.262237, [cap_rga] 19.774637 
+[ep-14, bs-499] [id-loss] 0.315066, [tri-loss] 0.298293, [img_rga] 0.263100, [cap_rga] 19.769904 
+[ep-14, bs-549] [id-loss] 0.309927, [tri-loss] 0.294825, [img_rga] 0.257801, [cap_rga] 19.767174 
+[ep-14, bs-599] [id-loss] 0.314774, [tri-loss] 0.295054, [img_rga] 0.257106, [cap_rga] 19.773480 
+[ep-14, bs-649] [id-loss] 0.332065, [tri-loss] 0.295403, [img_rga] 0.262227, [cap_rga] 19.769922 
+[ep-14, bs-699] [id-loss] 0.324677, [tri-loss] 0.310564, [img_rga] 0.270135, [cap_rga] 19.785692 
+[ep-14, bs-749] [id-loss] 0.334995, [tri-loss] 0.298378, [img_rga] 0.264908, [cap_rga] 19.769954 
+[global] R@1: 0.4756 | R@5: 0.7128 | R@10: 0.7947
+[img_rga] R@1: 0.4619 | R@5: 0.6841 | R@10: 0.7677
+[cap_rga] R@1: 0.0007 | R@5: 0.0065 | R@10: 0.0146
+[fusion] R@1: 0.4857 | R@5: 0.7131 | R@10: 0.7999
+[cosine   ][global] R@1: 0.4857 | R@5: 0.7131 | R@10: 0.7999
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 3.068462, [tri-loss] 11.093745, [img_rga] 25.991472, [cap_rga] 30.189990 
+[ep-0, bs-99] [id-loss] 2.266721, [tri-loss] 6.037772, [img_rga] 16.058562, [cap_rga] 19.399139 
+[ep-0, bs-149] [id-loss] 2.800451, [tri-loss] 4.677910, [img_rga] 11.057199, [cap_rga] 12.818039 
+[ep-0, bs-199] [id-loss] 3.231294, [tri-loss] 3.973664, [img_rga] 7.924749, [cap_rga] 9.203853 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.2430 | R@5: 0.4483 | R@10: 0.5514
+[img_rga] R@1: 0.0007 | R@5: 0.0059 | R@10: 0.0111
+[cap_rga] R@1: 0.0016 | R@5: 0.0062 | R@10: 0.0107
+[fusion] R@1: 0.2365 | R@5: 0.4480 | R@10: 0.5592
+[cosine   ][global] R@1: 0.2365 | R@5: 0.4480 | R@10: 0.5592
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 3.078420, [tri-loss] 7.808906, [img_rga] 15.749938, [cap_rga] 15.699706 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 3.009665, [tri-loss] 8.225683, [img_rga] 15.750378, [cap_rga] 15.703064 
+[ep-0, bs-99] [id-loss] 2.030037, [tri-loss] 3.731496, [img_rga] 15.744919, [cap_rga] 15.380027 
+[ep-0, bs-149] [id-loss] 2.700819, [tri-loss] 3.215590, [img_rga] 15.736743, [cap_rga] 14.683674 
+[ep-0, bs-199] [id-loss] 3.250291, [tri-loss] 2.958035, [img_rga] 15.728481, [cap_rga] 12.786890 
+[ep-0, bs-249] [id-loss] 3.658600, [tri-loss] 2.849670, [img_rga] 15.718762, [cap_rga] 9.822499 
+[ep-0, bs-299] [id-loss] 3.692879, [tri-loss] 2.780426, [img_rga] 15.699478, [cap_rga] 8.408970 
+[ep-0, bs-349] [id-loss] 3.771086, [tri-loss] 2.564450, [img_rga] 15.672774, [cap_rga] 7.714962 
+[ep-0, bs-399] [id-loss] 3.285430, [tri-loss] 2.529173, [img_rga] 15.610938, [cap_rga] 7.130228 
+[ep-0, bs-449] [id-loss] 3.051001, [tri-loss] 2.402197, [img_rga] 15.377787, [cap_rga] 6.800116 
+[ep-0, bs-499] [id-loss] 2.844242, [tri-loss] 2.861518, [img_rga] 12.416165, [cap_rga] 6.552870 
+[ep-0, bs-549] [id-loss] 2.832379, [tri-loss] 3.026876, [img_rga] 9.388358, [cap_rga] 6.413678 
+[ep-0, bs-599] [id-loss] 2.647522, [tri-loss] 2.675196, [img_rga] 8.916224, [cap_rga] 6.254187 
+[ep-0, bs-649] [id-loss] 2.507961, [tri-loss] 2.644636, [img_rga] 8.460577, [cap_rga] 6.134358 
+[ep-0, bs-699] [id-loss] 2.229354, [tri-loss] 2.511755, [img_rga] 8.331035, [cap_rga] 6.151651 
+[ep-0, bs-749] [id-loss] 2.095985, [tri-loss] 2.380235, [img_rga] 8.156375, [cap_rga] 6.025104 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 0.588744, [tri-loss] 4.952062, [img_rga] 18.935851, [cap_rga] 18.840447 
+[ep-0, bs-99] [id-loss] 0.856760, [tri-loss] 3.175076, [img_rga] 18.926584, [cap_rga] 18.282569 
+[ep-0, bs-149] [id-loss] 1.216429, [tri-loss] 2.651026, [img_rga] 18.908132, [cap_rga] 16.007137 
+[ep-0, bs-199] [id-loss] 1.868084, [tri-loss] 2.832320, [img_rga] 18.879946, [cap_rga] 11.022189 
+[ep-0, bs-249] [id-loss] 1.901529, [tri-loss] 2.562725, [img_rga] 18.813449, [cap_rga] 9.574145 
+[ep-0, bs-299] [id-loss] 1.955555, [tri-loss] 2.438268, [img_rga] 18.493157, [cap_rga] 9.042460 
+[ep-0, bs-349] [id-loss] 1.903650, [tri-loss] 3.169728, [img_rga] 13.420132, [cap_rga] 8.691669 
+[ep-0, bs-399] [id-loss] 1.832793, [tri-loss] 3.039022, [img_rga] 10.516253, [cap_rga] 8.359512 
+[ep-0, bs-449] [id-loss] 1.683821, [tri-loss] 2.812769, [img_rga] 10.041924, [cap_rga] 8.064121 
+[ep-0, bs-499] [id-loss] 1.567706, [tri-loss] 2.688675, [img_rga] 9.854651, [cap_rga] 7.783870 
+[ep-0, bs-549] [id-loss] 1.501997, [tri-loss] 2.594256, [img_rga] 9.687037, [cap_rga] 7.557607 
+[ep-0, bs-599] [id-loss] 1.475475, [tri-loss] 2.600650, [img_rga] 9.477400, [cap_rga] 6.854147 
+[ep-0, bs-649] [id-loss] 1.406569, [tri-loss] 2.664455, [img_rga] 9.352818, [cap_rga] 4.974091 
+[ep-0, bs-699] [id-loss] 1.175163, [tri-loss] 2.581777, [img_rga] 9.240499, [cap_rga] 4.472225 
+[ep-0, bs-749] [id-loss] 1.120840, [tri-loss] 2.390107, [img_rga] 9.070870, [cap_rga] 4.278239 
+[global] R@1: 0.2980 | R@5: 0.5384 | R@10: 0.6457
+[img_rga] R@1: 0.0000 | R@5: 0.0007 | R@10: 0.0007
+[cap_rga] R@1: 0.0013 | R@5: 0.0046 | R@10: 0.0091
+[fusion] R@1: 0.2082 | R@5: 0.4437 | R@10: 0.5634
+[cosine   ][global] R@1: 0.2082 | R@5: 0.4437 | R@10: 0.5634
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 0.590750, [tri-loss] 4.893942, [img_rga] 18.934193, [cap_rga] 18.816355 
+[ep-0, bs-99] [id-loss] 0.832800, [tri-loss] 3.169426, [img_rga] 18.925942, [cap_rga] 18.058473 
+[ep-0, bs-149] [id-loss] 1.361547, [tri-loss] 2.651988, [img_rga] 18.907619, [cap_rga] 14.614290 
+[ep-0, bs-199] [id-loss] 1.937419, [tri-loss] 2.860470, [img_rga] 18.876209, [cap_rga] 11.007631 
+[ep-0, bs-249] [id-loss] 1.971226, [tri-loss] 2.702654, [img_rga] 18.817339, [cap_rga] 9.904196 
+[ep-0, bs-299] [id-loss] 1.897084, [tri-loss] 2.621228, [img_rga] 18.583591, [cap_rga] 9.240690 
+[ep-0, bs-349] [id-loss] 2.004322, [tri-loss] 3.090493, [img_rga] 14.284437, [cap_rga] 8.903316 
+[ep-0, bs-399] [id-loss] 1.849283, [tri-loss] 3.288473, [img_rga] 10.851500, [cap_rga] 8.678720 
+[ep-0, bs-449] [id-loss] 1.804362, [tri-loss] 3.022972, [img_rga] 10.259097, [cap_rga] 8.463952 
+[ep-0, bs-499] [id-loss] 1.552060, [tri-loss] 2.801051, [img_rga] 10.014388, [cap_rga] 8.121005 
+[ep-0, bs-549] [id-loss] 1.527347, [tri-loss] 2.746199, [img_rga] 9.770513, [cap_rga] 7.874688 
+[ep-0, bs-599] [id-loss] 1.325063, [tri-loss] 2.757078, [img_rga] 9.582825, [cap_rga] 7.708180 
+[ep-0, bs-649] [id-loss] 1.258670, [tri-loss] 2.570894, [img_rga] 9.462168, [cap_rga] 7.502877 
+[ep-0, bs-699] [id-loss] 1.081534, [tri-loss] 2.501365, [img_rga] 9.256182, [cap_rga] 7.478823 
+[ep-0, bs-749] [id-loss] 1.025390, [tri-loss] 2.501155, [img_rga] 9.084624, [cap_rga] 7.333422 
+[global] R@1: 0.3022 | R@5: 0.5449 | R@10: 0.6565
+[img_rga] R@1: 0.0153 | R@5: 0.0491 | R@10: 0.0745
+[cap_rga] R@1: 0.0007 | R@5: 0.0046 | R@10: 0.0085
+[fusion] R@1: 0.2271 | R@5: 0.4649 | R@10: 0.5755
+[cosine   ][global] R@1: 0.2271 | R@5: 0.4649 | R@10: 0.5755
+[ep-1, bs-49] [id-loss] 0.432257, [tri-loss] 2.009759, [img_rga] 8.885637, [cap_rga] 7.135786 
+[ep-1, bs-99] [id-loss] 0.442645, [tri-loss] 1.989396, [img_rga] 8.766297, [cap_rga] 7.075929 
+[ep-1, bs-149] [id-loss] 0.447805, [tri-loss] 2.032035, [img_rga] 8.698386, [cap_rga] 7.047067 
+[ep-1, bs-199] [id-loss] 0.446698, [tri-loss] 1.997500, [img_rga] 8.601538, [cap_rga] 6.915558 
+[ep-1, bs-249] [id-loss] 0.448508, [tri-loss] 2.010576, [img_rga] 8.538503, [cap_rga] 6.984326 
+[ep-1, bs-299] [id-loss] 0.428249, [tri-loss] 2.019945, [img_rga] 8.485945, [cap_rga] 6.897438 
+[ep-1, bs-349] [id-loss] 0.416759, [tri-loss] 1.895098, [img_rga] 8.261867, [cap_rga] 6.830551 
+[ep-1, bs-399] [id-loss] 0.418939, [tri-loss] 1.901746, [img_rga] 8.291186, [cap_rga] 6.912152 
+[ep-1, bs-449] [id-loss] 0.439505, [tri-loss] 1.901817, [img_rga] 8.101756, [cap_rga] 6.845802 
+[ep-1, bs-499] [id-loss] 0.417710, [tri-loss] 1.845373, [img_rga] 7.875917, [cap_rga] 6.834783 
+[ep-1, bs-549] [id-loss] 0.487882, [tri-loss] 1.948217, [img_rga] 7.618758, [cap_rga] 6.790917 
+[ep-1, bs-599] [id-loss] 0.434788, [tri-loss] 2.069416, [img_rga] 6.713351, [cap_rga] 6.839608 
+[ep-1, bs-649] [id-loss] 0.472888, [tri-loss] 2.161959, [img_rga] 6.019271, [cap_rga] 6.821646 
+[ep-1, bs-699] [id-loss] 0.448494, [tri-loss] 2.027210, [img_rga] 5.705124, [cap_rga] 6.795500 
+[ep-1, bs-749] [id-loss] 0.428607, [tri-loss] 2.006224, [img_rga] 5.466900, [cap_rga] 6.830278 
+[global] R@1: 0.3142 | R@5: 0.5755 | R@10: 0.6799
+[img_rga] R@1: 0.0306 | R@5: 0.0696 | R@10: 0.0976
+[cap_rga] R@1: 0.0003 | R@5: 0.0036 | R@10: 0.0072
+[fusion] R@1: 0.2323 | R@5: 0.4610 | R@10: 0.5738
+[cosine   ][global] R@1: 0.2323 | R@5: 0.4610 | R@10: 0.5738
+[ep-2, bs-49] [id-loss] 0.269668, [tri-loss] 1.695631, [img_rga] 5.179814, [cap_rga] 6.645593 
+[ep-2, bs-99] [id-loss] 0.278048, [tri-loss] 1.655804, [img_rga] 5.185346, [cap_rga] 6.555225 
+[ep-2, bs-149] [id-loss] 0.273369, [tri-loss] 1.704689, [img_rga] 5.026314, [cap_rga] 6.568513 
+[ep-2, bs-199] [id-loss] 0.268691, [tri-loss] 1.684412, [img_rga] 5.005731, [cap_rga] 6.559726 
+[ep-2, bs-249] [id-loss] 0.323439, [tri-loss] 1.664496, [img_rga] 4.952611, [cap_rga] 6.609765 
+[ep-2, bs-299] [id-loss] 0.313137, [tri-loss] 1.665193, [img_rga] 4.937792, [cap_rga] 6.552911 
+[ep-2, bs-349] [id-loss] 0.316663, [tri-loss] 1.664394, [img_rga] 4.892198, [cap_rga] 6.551842 
+[ep-2, bs-399] [id-loss] 0.329557, [tri-loss] 1.644061, [img_rga] 4.857227, [cap_rga] 6.600793 
+[ep-2, bs-449] [id-loss] 0.335859, [tri-loss] 1.649344, [img_rga] 4.880097, [cap_rga] 6.518091 
+[ep-2, bs-499] [id-loss] 0.340688, [tri-loss] 1.670009, [img_rga] 4.727508, [cap_rga] 6.464705 
+[ep-2, bs-549] [id-loss] 0.305513, [tri-loss] 1.650264, [img_rga] 4.825058, [cap_rga] 6.546220 
+[ep-2, bs-599] [id-loss] 0.339445, [tri-loss] 1.628858, [img_rga] 4.721396, [cap_rga] 6.498667 
+[ep-2, bs-649] [id-loss] 0.316501, [tri-loss] 1.625412, [img_rga] 4.675769, [cap_rga] 6.526876 
+[ep-2, bs-699] [id-loss] 0.335668, [tri-loss] 1.610820, [img_rga] 4.629411, [cap_rga] 6.417485 
+[ep-2, bs-749] [id-loss] 0.323932, [tri-loss] 1.635135, [img_rga] 4.647681, [cap_rga] 6.417081 
+[global] R@1: 0.3217 | R@5: 0.5813 | R@10: 0.6789
+[img_rga] R@1: 0.0277 | R@5: 0.0667 | R@10: 0.0849
+[cap_rga] R@1: 0.0020 | R@5: 0.0065 | R@10: 0.0107
+[fusion] R@1: 0.2482 | R@5: 0.4811 | R@10: 0.5849
+[cosine   ][global] R@1: 0.2482 | R@5: 0.4811 | R@10: 0.5849
+[ep-3, bs-49] [id-loss] 0.210059, [tri-loss] 1.395975, [img_rga] 4.441339, [cap_rga] 6.219410 
+[ep-3, bs-99] [id-loss] 0.242893, [tri-loss] 1.428924, [img_rga] 4.377868, [cap_rga] 6.216449 
+[ep-3, bs-149] [id-loss] 0.233578, [tri-loss] 1.389259, [img_rga] 4.368360, [cap_rga] 6.198812 
+[ep-3, bs-199] [id-loss] 0.269632, [tri-loss] 1.449376, [img_rga] 4.391830, [cap_rga] 6.202441 
+[ep-3, bs-249] [id-loss] 0.268424, [tri-loss] 1.415614, [img_rga] 4.279263, [cap_rga] 6.159313 
+[ep-3, bs-299] [id-loss] 0.259939, [tri-loss] 1.360976, [img_rga] 4.292427, [cap_rga] 6.323643 
+[ep-3, bs-349] [id-loss] 0.273769, [tri-loss] 1.433301, [img_rga] 4.436672, [cap_rga] 6.174778 
+[ep-3, bs-399] [id-loss] 0.271340, [tri-loss] 1.439535, [img_rga] 4.267612, [cap_rga] 6.131344 
+[ep-3, bs-449] [id-loss] 0.286726, [tri-loss] 1.421187, [img_rga] 4.305336, [cap_rga] 6.078219 
+[ep-3, bs-499] [id-loss] 0.284299, [tri-loss] 1.483906, [img_rga] 4.324763, [cap_rga] 6.234030 
+[ep-3, bs-549] [id-loss] 0.300904, [tri-loss] 1.443028, [img_rga] 4.314048, [cap_rga] 6.141637 
+[ep-3, bs-599] [id-loss] 0.319442, [tri-loss] 1.428592, [img_rga] 4.208279, [cap_rga] 6.022713 
+[ep-3, bs-649] [id-loss] 0.328647, [tri-loss] 1.414751, [img_rga] 4.282836, [cap_rga] 6.244091 
+[ep-3, bs-699] [id-loss] 0.344377, [tri-loss] 1.442510, [img_rga] 4.177553, [cap_rga] 5.990269 
+[ep-3, bs-749] [id-loss] 0.336311, [tri-loss] 1.413113, [img_rga] 4.192942, [cap_rga] 6.174823 
+[global] R@1: 0.3273 | R@5: 0.5732 | R@10: 0.6773
+[img_rga] R@1: 0.0120 | R@5: 0.0371 | R@10: 0.0573
+[cap_rga] R@1: 0.0016 | R@5: 0.0065 | R@10: 0.0133
+[fusion] R@1: 0.2245 | R@5: 0.4522 | R@10: 0.5634
+[cosine   ][global] R@1: 0.2245 | R@5: 0.4522 | R@10: 0.5634
+[ep-4, bs-49] [id-loss] 0.219501, [tri-loss] 1.198579, [img_rga] 4.022714, [cap_rga] 5.838489 
+[ep-4, bs-99] [id-loss] 0.251658, [tri-loss] 1.301834, [img_rga] 3.951022, [cap_rga] 5.703160 
+[ep-4, bs-149] [id-loss] 0.261044, [tri-loss] 1.250575, [img_rga] 3.926860, [cap_rga] 5.594505 
+[ep-4, bs-199] [id-loss] 0.277692, [tri-loss] 1.297594, [img_rga] 3.997495, [cap_rga] 5.600569 
+[ep-4, bs-249] [id-loss] 0.283663, [tri-loss] 1.271210, [img_rga] 3.971490, [cap_rga] 5.460018 
+[ep-4, bs-299] [id-loss] 0.290786, [tri-loss] 1.257513, [img_rga] 3.926383, [cap_rga] 5.421743 
+[ep-4, bs-349] [id-loss] 0.279955, [tri-loss] 1.280225, [img_rga] 3.926779, [cap_rga] 5.353829 
+[ep-4, bs-399] [id-loss] 0.297641, [tri-loss] 1.237314, [img_rga] 3.898763, [cap_rga] 4.680565 
+[ep-4, bs-449] [id-loss] 0.335900, [tri-loss] 1.251217, [img_rga] 3.940525, [cap_rga] 4.065714 
+[ep-4, bs-499] [id-loss] 0.342629, [tri-loss] 1.245029, [img_rga] 3.928097, [cap_rga] 3.844781 
+[ep-4, bs-549] [id-loss] 0.337795, [tri-loss] 1.239777, [img_rga] 3.793082, [cap_rga] 3.663529 
+[ep-4, bs-599] [id-loss] 0.332568, [tri-loss] 1.212592, [img_rga] 3.770350, [cap_rga] 3.483246 
+[ep-4, bs-649] [id-loss] 0.330729, [tri-loss] 1.209110, [img_rga] 3.855249, [cap_rga] 3.271170 
+[ep-4, bs-699] [id-loss] 0.345907, [tri-loss] 1.192353, [img_rga] 3.770450, [cap_rga] 3.110607 
+[ep-4, bs-749] [id-loss] 0.342955, [tri-loss] 1.176580, [img_rga] 3.771935, [cap_rga] 2.920538 
+[global] R@1: 0.3286 | R@5: 0.5647 | R@10: 0.6653
+[img_rga] R@1: 0.0007 | R@5: 0.0023 | R@10: 0.0039
+[cap_rga] R@1: 0.0020 | R@5: 0.0094 | R@10: 0.0159
+[fusion] R@1: 0.2459 | R@5: 0.4873 | R@10: 0.6087
+[cosine   ][global] R@1: 0.2459 | R@5: 0.4873 | R@10: 0.6087
+[ep-5, bs-49] [id-loss] 0.243528, [tri-loss] 0.989940, [img_rga] 3.447217, [cap_rga] 2.561295 
+[ep-5, bs-99] [id-loss] 0.240280, [tri-loss] 1.071487, [img_rga] 3.502130, [cap_rga] 2.377839 
+[ep-5, bs-149] [id-loss] 0.257952, [tri-loss] 1.058814, [img_rga] 3.402759, [cap_rga] 2.255951 
+[ep-5, bs-199] [id-loss] 0.274362, [tri-loss] 1.096251, [img_rga] 3.207403, [cap_rga] 2.128689 
+[ep-5, bs-249] [id-loss] 0.264233, [tri-loss] 1.063857, [img_rga] 3.186936, [cap_rga] 2.078478 
+[ep-5, bs-299] [id-loss] 0.295931, [tri-loss] 1.122360, [img_rga] 3.090462, [cap_rga] 2.026015 
+[ep-5, bs-349] [id-loss] 0.293950, [tri-loss] 1.117640, [img_rga] 3.070138, [cap_rga] 1.959747 
+[ep-5, bs-399] [id-loss] 0.293575, [tri-loss] 1.072817, [img_rga] 2.986575, [cap_rga] 1.859191 
+[ep-5, bs-449] [id-loss] 0.312271, [tri-loss] 1.097261, [img_rga] 2.914236, [cap_rga] 1.814667 
+[ep-5, bs-499] [id-loss] 0.307398, [tri-loss] 1.100062, [img_rga] 2.912533, [cap_rga] 1.747332 
+[ep-5, bs-549] [id-loss] 0.309787, [tri-loss] 1.108435, [img_rga] 2.847108, [cap_rga] 1.704477 
+[ep-5, bs-599] [id-loss] 0.335116, [tri-loss] 1.113148, [img_rga] 2.933480, [cap_rga] 1.688700 
+[ep-5, bs-649] [id-loss] 0.313685, [tri-loss] 1.114062, [img_rga] 2.865524, [cap_rga] 1.623372 
+[ep-5, bs-699] [id-loss] 0.321301, [tri-loss] 1.084617, [img_rga] 2.820419, [cap_rga] 1.595507 
+[ep-5, bs-749] [id-loss] 0.306503, [tri-loss] 1.073090, [img_rga] 2.845145, [cap_rga] 1.542616 
+[global] R@1: 0.3217 | R@5: 0.5716 | R@10: 0.6698
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0003
+[cap_rga] R@1: 0.0016 | R@5: 0.0088 | R@10: 0.0205
+[fusion] R@1: 0.2518 | R@5: 0.4815 | R@10: 0.5992
+[cosine   ][global] R@1: 0.2518 | R@5: 0.4815 | R@10: 0.5992
+[ep-6, bs-49] [id-loss] 0.206580, [tri-loss] 0.856945, [img_rga] 2.597837, [cap_rga] 1.335614 
+[ep-6, bs-99] [id-loss] 0.234160, [tri-loss] 0.886443, [img_rga] 2.503224, [cap_rga] 1.292611 
+[ep-6, bs-149] [id-loss] 0.234305, [tri-loss] 0.884005, [img_rga] 2.526154, [cap_rga] 1.260597 
+[ep-6, bs-199] [id-loss] 0.215497, [tri-loss] 0.897732, [img_rga] 2.455804, [cap_rga] 1.251345 
+[ep-6, bs-249] [id-loss] 0.233020, [tri-loss] 0.902342, [img_rga] 2.430998, [cap_rga] 1.215698 
+[ep-6, bs-299] [id-loss] 0.231774, [tri-loss] 0.884882, [img_rga] 2.455779, [cap_rga] 1.181068 
+[ep-6, bs-349] [id-loss] 0.239957, [tri-loss] 0.900675, [img_rga] 2.436680, [cap_rga] 1.199945 
+[ep-6, bs-399] [id-loss] 0.245088, [tri-loss] 0.885439, [img_rga] 2.398127, [cap_rga] 1.164085 
+[ep-6, bs-449] [id-loss] 0.248785, [tri-loss] 0.892071, [img_rga] 2.433367, [cap_rga] 1.149439 
+[ep-6, bs-499] [id-loss] 0.251494, [tri-loss] 0.931661, [img_rga] 2.456251, [cap_rga] 1.173433 
+[ep-6, bs-549] [id-loss] 0.255684, [tri-loss] 0.922992, [img_rga] 2.546793, [cap_rga] 1.158443 
+[ep-6, bs-599] [id-loss] 0.260872, [tri-loss] 0.893540, [img_rga] 2.356152, [cap_rga] 1.147688 
+[ep-6, bs-649] [id-loss] 0.267146, [tri-loss] 0.873070, [img_rga] 2.426840, [cap_rga] 1.124545 
+[ep-6, bs-699] [id-loss] 0.238057, [tri-loss] 0.929474, [img_rga] 2.402170, [cap_rga] 1.124225 
+[ep-6, bs-749] [id-loss] 0.239218, [tri-loss] 0.890161, [img_rga] 2.425518, [cap_rga] 1.136558 
+[global] R@1: 0.3373 | R@5: 0.5599 | R@10: 0.6588
+[img_rga] R@1: 0.0000 | R@5: 0.0003 | R@10: 0.0003
+[cap_rga] R@1: 0.0013 | R@5: 0.0101 | R@10: 0.0176
+[fusion] R@1: 0.2544 | R@5: 0.4971 | R@10: 0.5969
+[cosine   ][global] R@1: 0.2544 | R@5: 0.4971 | R@10: 0.5969
+[ep-7, bs-49] [id-loss] 0.175027, [tri-loss] 0.723412, [img_rga] 2.162062, [cap_rga] 0.938978 
+[ep-7, bs-99] [id-loss] 0.196124, [tri-loss] 0.759858, [img_rga] 2.149545, [cap_rga] 0.933831 
+[ep-7, bs-149] [id-loss] 0.175155, [tri-loss] 0.745024, [img_rga] 2.129483, [cap_rga] 0.937549 
+[ep-7, bs-199] [id-loss] 0.198988, [tri-loss] 0.744217, [img_rga] 2.113865, [cap_rga] 0.911191 
+[ep-7, bs-249] [id-loss] 0.194090, [tri-loss] 0.755639, [img_rga] 2.125135, [cap_rga] 0.918161 
+[ep-7, bs-299] [id-loss] 0.206186, [tri-loss] 0.759343, [img_rga] 2.118951, [cap_rga] 0.902266 
+[ep-7, bs-349] [id-loss] 0.190528, [tri-loss] 0.771315, [img_rga] 2.068468, [cap_rga] 0.902631 
+[ep-7, bs-399] [id-loss] 0.210346, [tri-loss] 0.754828, [img_rga] 2.161651, [cap_rga] 0.890105 
+[ep-7, bs-449] [id-loss] 0.226497, [tri-loss] 0.779785, [img_rga] 2.058354, [cap_rga] 0.904757 
+[ep-7, bs-499] [id-loss] 0.216708, [tri-loss] 0.814375, [img_rga] 2.204818, [cap_rga] 0.919056 
+[ep-7, bs-549] [id-loss] 0.223822, [tri-loss] 0.753602, [img_rga] 2.149152, [cap_rga] 0.883625 
+[ep-7, bs-599] [id-loss] 0.224239, [tri-loss] 0.775343, [img_rga] 2.063375, [cap_rga] 0.886208 
+[ep-7, bs-649] [id-loss] 0.249324, [tri-loss] 0.808503, [img_rga] 2.120105, [cap_rga] 0.904434 
+[ep-7, bs-699] [id-loss] 0.235444, [tri-loss] 0.802879, [img_rga] 2.140462, [cap_rga] 0.912880 
+[ep-7, bs-749] [id-loss] 0.256773, [tri-loss] 0.793880, [img_rga] 2.196655, [cap_rga] 0.909645 
+[global] R@1: 0.3393 | R@5: 0.5569 | R@10: 0.6568
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+[cap_rga] R@1: 0.0023 | R@5: 0.0101 | R@10: 0.0130
+[fusion] R@1: 0.2476 | R@5: 0.4717 | R@10: 0.5888
+[cosine   ][global] R@1: 0.2476 | R@5: 0.4717 | R@10: 0.5888
+[ep-8, bs-49] [id-loss] 0.187608, [tri-loss] 0.640278, [img_rga] 1.849560, [cap_rga] 0.762162 
+[ep-8, bs-99] [id-loss] 0.180454, [tri-loss] 0.644055, [img_rga] 1.851263, [cap_rga] 0.742988 
+[ep-8, bs-149] [id-loss] 0.203122, [tri-loss] 0.653747, [img_rga] 1.806706, [cap_rga] 0.738847 
+[ep-8, bs-199] [id-loss] 0.192382, [tri-loss] 0.700165, [img_rga] 1.856460, [cap_rga] 0.764484 
+[ep-8, bs-249] [id-loss] 0.204628, [tri-loss] 0.664689, [img_rga] 1.850574, [cap_rga] 0.741908 
+[ep-8, bs-299] [id-loss] 0.196952, [tri-loss] 0.667022, [img_rga] 1.835049, [cap_rga] 0.731188 
+[ep-8, bs-349] [id-loss] 0.218593, [tri-loss] 0.666145, [img_rga] 1.773729, [cap_rga] 0.754887 
+[ep-8, bs-399] [id-loss] 0.191761, [tri-loss] 0.670301, [img_rga] 1.904972, [cap_rga] 0.746281 
+[ep-8, bs-449] [id-loss] 0.202122, [tri-loss] 0.678106, [img_rga] 1.861791, [cap_rga] 0.740987 
+[ep-8, bs-499] [id-loss] 0.207464, [tri-loss] 0.672264, [img_rga] 1.860782, [cap_rga] 0.741160 
+[ep-8, bs-549] [id-loss] 0.226730, [tri-loss] 0.674434, [img_rga] 1.805920, [cap_rga] 0.733960 
+[ep-8, bs-599] [id-loss] 0.237929, [tri-loss] 0.688070, [img_rga] 1.874364, [cap_rga] 0.751332 
+[ep-8, bs-649] [id-loss] 0.236947, [tri-loss] 0.656738, [img_rga] 1.812170, [cap_rga] 0.717107 
+[ep-8, bs-699] [id-loss] 0.243117, [tri-loss] 0.693579, [img_rga] 1.885253, [cap_rga] 0.753934 
+[ep-8, bs-749] [id-loss] 0.242131, [tri-loss] 0.694039, [img_rga] 1.828054, [cap_rga] 0.760464 
+[global] R@1: 0.3152 | R@5: 0.5582 | R@10: 0.6679
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+[cap_rga] R@1: 0.0016 | R@5: 0.0075 | R@10: 0.0137
+[fusion] R@1: 0.2498 | R@5: 0.4776 | R@10: 0.5930
+[cosine   ][global] R@1: 0.2498 | R@5: 0.4776 | R@10: 0.5930
+[ep-9, bs-49] [id-loss] 0.171077, [tri-loss] 0.583765, [img_rga] 1.565213, [cap_rga] 0.645484 
+[ep-9, bs-99] [id-loss] 0.172898, [tri-loss] 0.576363, [img_rga] 1.596709, [cap_rga] 0.642036 
+[ep-9, bs-149] [id-loss] 0.173924, [tri-loss] 0.575064, [img_rga] 1.568890, [cap_rga] 0.629643 
+[ep-9, bs-199] [id-loss] 0.180655, [tri-loss] 0.584382, [img_rga] 1.592659, [cap_rga] 0.625537 
+[ep-9, bs-249] [id-loss] 0.194585, [tri-loss] 0.593710, [img_rga] 1.584461, [cap_rga] 0.626711 
+[ep-9, bs-299] [id-loss] 0.190356, [tri-loss] 0.579954, [img_rga] 1.628152, [cap_rga] 0.623968 
+[ep-9, bs-349] [id-loss] 0.221172, [tri-loss] 0.588549, [img_rga] 1.631898, [cap_rga] 0.632295 
+[ep-9, bs-399] [id-loss] 0.211964, [tri-loss] 0.582496, [img_rga] 1.593866, [cap_rga] 0.623295 
+[ep-9, bs-449] [id-loss] 0.190054, [tri-loss] 0.600047, [img_rga] 1.625529, [cap_rga] 0.648395 
+[ep-9, bs-499] [id-loss] 0.217762, [tri-loss] 0.599322, [img_rga] 1.561167, [cap_rga] 0.629737 
+[ep-9, bs-549] [id-loss] 0.210467, [tri-loss] 0.619670, [img_rga] 1.574501, [cap_rga] 0.645617 
+[ep-9, bs-599] [id-loss] 0.216209, [tri-loss] 0.625889, [img_rga] 1.640391, [cap_rga] 0.655996 
+[ep-9, bs-649] [id-loss] 0.217270, [tri-loss] 0.607469, [img_rga] 1.635498, [cap_rga] 0.647235 
+[ep-9, bs-699] [id-loss] 0.229674, [tri-loss] 0.621462, [img_rga] 1.622640, [cap_rga] 0.637713 
+[ep-9, bs-749] [id-loss] 0.246832, [tri-loss] 0.623448, [img_rga] 1.650369, [cap_rga] 0.657950 
+[global] R@1: 0.3360 | R@5: 0.5686 | R@10: 0.6656
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+[cap_rga] R@1: 0.0016 | R@5: 0.0094 | R@10: 0.0156
+[fusion] R@1: 0.2450 | R@5: 0.4837 | R@10: 0.5875
+[cosine   ][global] R@1: 0.2450 | R@5: 0.4837 | R@10: 0.5875
+[ep-10, bs-49] [id-loss] 0.157296, [tri-loss] 0.500878, [img_rga] 1.408934, [cap_rga] 0.555468 
+[ep-10, bs-99] [id-loss] 0.134645, [tri-loss] 0.485309, [img_rga] 1.387884, [cap_rga] 0.538014 
+[ep-10, bs-149] [id-loss] 0.140095, [tri-loss] 0.483329, [img_rga] 1.353175, [cap_rga] 0.539270 
+[ep-10, bs-199] [id-loss] 0.134228, [tri-loss] 0.471045, [img_rga] 1.375569, [cap_rga] 0.520405 
+[ep-10, bs-249] [id-loss] 0.141967, [tri-loss] 0.470019, [img_rga] 1.348719, [cap_rga] 0.512632 
+[ep-10, bs-299] [id-loss] 0.123425, [tri-loss] 0.479524, [img_rga] 1.373160, [cap_rga] 0.514104 
+[ep-10, bs-349] [id-loss] 0.120842, [tri-loss] 0.475028, [img_rga] 1.363053, [cap_rga] 0.521875 
+[ep-10, bs-399] [id-loss] 0.112852, [tri-loss] 0.472867, [img_rga] 1.359709, [cap_rga] 0.508273 
+[ep-10, bs-449] [id-loss] 0.134756, [tri-loss] 0.464678, [img_rga] 1.293587, [cap_rga] 0.508778 
+[ep-10, bs-499] [id-loss] 0.121668, [tri-loss] 0.471649, [img_rga] 1.347476, [cap_rga] 0.509981 
+[ep-10, bs-549] [id-loss] 0.101259, [tri-loss] 0.455434, [img_rga] 1.311436, [cap_rga] 0.488323 
+[ep-10, bs-599] [id-loss] 0.113012, [tri-loss] 0.485049, [img_rga] 1.314793, [cap_rga] 0.512661 
+[ep-10, bs-649] [id-loss] 0.110956, [tri-loss] 0.456714, [img_rga] 1.330268, [cap_rga] 0.499477 
+[ep-10, bs-699] [id-loss] 0.118088, [tri-loss] 0.469442, [img_rga] 1.284919, [cap_rga] 0.490093 
+[ep-10, bs-749] [id-loss] 0.114001, [tri-loss] 0.474803, [img_rga] 1.322688, [cap_rga] 0.500776 
+[global] R@1: 0.3351 | R@5: 0.5569 | R@10: 0.6695
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+[cap_rga] R@1: 0.0013 | R@5: 0.0078 | R@10: 0.0133
+[fusion] R@1: 0.2498 | R@5: 0.4772 | R@10: 0.5940
+[cosine   ][global] R@1: 0.2498 | R@5: 0.4772 | R@10: 0.5940
+[ep-11, bs-49] [id-loss] 0.095026, [tri-loss] 0.443000, [img_rga] 1.224247, [cap_rga] 0.473916 
+[ep-11, bs-99] [id-loss] 0.082091, [tri-loss] 0.459777, [img_rga] 1.251328, [cap_rga] 0.470026 
+[ep-11, bs-149] [id-loss] 0.090900, [tri-loss] 0.448810, [img_rga] 1.289722, [cap_rga] 0.472937 
+[ep-11, bs-199] [id-loss] 0.084829, [tri-loss] 0.458336, [img_rga] 1.244135, [cap_rga] 0.482117 
+[ep-11, bs-249] [id-loss] 0.097785, [tri-loss] 0.457515, [img_rga] 1.242827, [cap_rga] 0.480644 
+[ep-11, bs-299] [id-loss] 0.094514, [tri-loss] 0.448666, [img_rga] 1.271388, [cap_rga] 0.464073 
+[ep-11, bs-349] [id-loss] 0.078538, [tri-loss] 0.451393, [img_rga] 1.244934, [cap_rga] 0.471496 
+[ep-11, bs-399] [id-loss] 0.095319, [tri-loss] 0.455091, [img_rga] 1.286898, [cap_rga] 0.478595 
+[ep-11, bs-449] [id-loss] 0.089321, [tri-loss] 0.455610, [img_rga] 1.244472, [cap_rga] 0.466911 
+[ep-11, bs-499] [id-loss] 0.099482, [tri-loss] 0.457010, [img_rga] 1.220500, [cap_rga] 0.468709 
+[ep-11, bs-549] [id-loss] 0.085479, [tri-loss] 0.433193, [img_rga] 1.196730, [cap_rga] 0.453176 
+[ep-11, bs-599] [id-loss] 0.100020, [tri-loss] 0.473681, [img_rga] 1.269039, [cap_rga] 0.475096 
+[ep-11, bs-649] [id-loss] 0.093271, [tri-loss] 0.453544, [img_rga] 1.208517, [cap_rga] 0.464128 
+[ep-11, bs-699] [id-loss] 0.091632, [tri-loss] 0.461344, [img_rga] 1.223219, [cap_rga] 0.464517 
+[ep-11, bs-749] [id-loss] 0.096833, [tri-loss] 0.448099, [img_rga] 1.257965, [cap_rga] 0.472071 
+[global] R@1: 0.3247 | R@5: 0.5615 | R@10: 0.6633
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+[cap_rga] R@1: 0.0020 | R@5: 0.0065 | R@10: 0.0130
+[fusion] R@1: 0.2534 | R@5: 0.4844 | R@10: 0.5914
+[cosine   ][global] R@1: 0.2534 | R@5: 0.4844 | R@10: 0.5914
+[ep-12, bs-49] [id-loss] 0.078364, [tri-loss] 0.431393, [img_rga] 1.201446, [cap_rga] 0.453624 
+[ep-12, bs-99] [id-loss] 0.076915, [tri-loss] 0.434977, [img_rga] 1.208058, [cap_rga] 0.444619 
+[ep-12, bs-149] [id-loss] 0.067886, [tri-loss] 0.431580, [img_rga] 1.176476, [cap_rga] 0.434820 
+[ep-12, bs-199] [id-loss] 0.080411, [tri-loss] 0.447453, [img_rga] 1.179973, [cap_rga] 0.461040 
+[ep-12, bs-249] [id-loss] 0.076894, [tri-loss] 0.427441, [img_rga] 1.181070, [cap_rga] 0.449492 
+[ep-12, bs-299] [id-loss] 0.093139, [tri-loss] 0.454198, [img_rga] 1.200552, [cap_rga] 0.459185 
+[ep-12, bs-349] [id-loss] 0.098434, [tri-loss] 0.455746, [img_rga] 1.227948, [cap_rga] 0.465252 
+[ep-12, bs-399] [id-loss] 0.079808, [tri-loss] 0.420914, [img_rga] 1.157524, [cap_rga] 0.451114 
+[ep-12, bs-449] [id-loss] 0.082334, [tri-loss] 0.446726, [img_rga] 1.192921, [cap_rga] 0.451999 
+[ep-12, bs-499] [id-loss] 0.080707, [tri-loss] 0.445162, [img_rga] 1.190776, [cap_rga] 0.453581 
+[ep-12, bs-549] [id-loss] 0.082781, [tri-loss] 0.441735, [img_rga] 1.146577, [cap_rga] 0.453169 
+[ep-12, bs-599] [id-loss] 0.099642, [tri-loss] 0.439705, [img_rga] 1.192489, [cap_rga] 0.448670 
+[ep-12, bs-649] [id-loss] 0.092740, [tri-loss] 0.438864, [img_rga] 1.192497, [cap_rga] 0.454429 
+[ep-12, bs-699] [id-loss] 0.094414, [tri-loss] 0.440447, [img_rga] 1.210465, [cap_rga] 0.441174 
+[ep-12, bs-749] [id-loss] 0.081998, [tri-loss] 0.434964, [img_rga] 1.162874, [cap_rga] 0.443439 
+[global] R@1: 0.3224 | R@5: 0.5556 | R@10: 0.6607
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+[cap_rga] R@1: 0.0013 | R@5: 0.0065 | R@10: 0.0120
+[fusion] R@1: 0.2505 | R@5: 0.4808 | R@10: 0.5862
+[cosine   ][global] R@1: 0.2505 | R@5: 0.4808 | R@10: 0.5862
+[ep-13, bs-49] [id-loss] 0.074395, [tri-loss] 0.421428, [img_rga] 1.143409, [cap_rga] 0.438525 
+[ep-13, bs-99] [id-loss] 0.072982, [tri-loss] 0.426470, [img_rga] 1.118168, [cap_rga] 0.426285 
+[ep-13, bs-149] [id-loss] 0.080286, [tri-loss] 0.402366, [img_rga] 1.120189, [cap_rga] 0.427514 
+[ep-13, bs-199] [id-loss] 0.079719, [tri-loss] 0.419211, [img_rga] 1.121209, [cap_rga] 0.429329 
+[ep-13, bs-249] [id-loss] 0.083349, [tri-loss] 0.433881, [img_rga] 1.142289, [cap_rga] 0.428817 
+[ep-13, bs-299] [id-loss] 0.087816, [tri-loss] 0.446250, [img_rga] 1.160183, [cap_rga] 0.440560 
+[ep-13, bs-349] [id-loss] 0.084596, [tri-loss] 0.417716, [img_rga] 1.154416, [cap_rga] 0.427839 
+[ep-13, bs-399] [id-loss] 0.071441, [tri-loss] 0.426883, [img_rga] 1.159247, [cap_rga] 0.430648 
+[ep-13, bs-449] [id-loss] 0.085228, [tri-loss] 0.439418, [img_rga] 1.139803, [cap_rga] 0.439647 
+[ep-13, bs-499] [id-loss] 0.082936, [tri-loss] 0.418714, [img_rga] 1.106252, [cap_rga] 0.433882 
+[ep-13, bs-549] [id-loss] 0.076988, [tri-loss] 0.408925, [img_rga] 1.115850, [cap_rga] 0.425035 
+[ep-13, bs-599] [id-loss] 0.085142, [tri-loss] 0.438536, [img_rga] 1.136042, [cap_rga] 0.439736 
+[ep-13, bs-649] [id-loss] 0.084495, [tri-loss] 0.413395, [img_rga] 1.156355, [cap_rga] 0.421041 
+[ep-13, bs-699] [id-loss] 0.084101, [tri-loss] 0.426683, [img_rga] 1.152344, [cap_rga] 0.431525 
+[ep-13, bs-749] [id-loss] 0.093846, [tri-loss] 0.427756, [img_rga] 1.125383, [cap_rga] 0.430178 
+[global] R@1: 0.3201 | R@5: 0.5530 | R@10: 0.6555
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+[cap_rga] R@1: 0.0013 | R@5: 0.0065 | R@10: 0.0130
+[fusion] R@1: 0.2531 | R@5: 0.4733 | R@10: 0.5839
+[cosine   ][global] R@1: 0.2531 | R@5: 0.4733 | R@10: 0.5839
+[ep-14, bs-49] [id-loss] 0.077061, [tri-loss] 0.388787, [img_rga] 1.091921, [cap_rga] 0.401567 
+[ep-14, bs-99] [id-loss] 0.071885, [tri-loss] 0.405678, [img_rga] 1.071363, [cap_rga] 0.414035 
+[ep-14, bs-149] [id-loss] 0.077318, [tri-loss] 0.407762, [img_rga] 1.118423, [cap_rga] 0.413554 
+[ep-14, bs-199] [id-loss] 0.081306, [tri-loss] 0.420033, [img_rga] 1.072331, [cap_rga] 0.416449 
+[ep-14, bs-249] [id-loss] 0.066225, [tri-loss] 0.399344, [img_rga] 1.104518, [cap_rga] 0.407908 
+[ep-14, bs-299] [id-loss] 0.076108, [tri-loss] 0.401262, [img_rga] 1.057198, [cap_rga] 0.409760 
+[ep-14, bs-349] [id-loss] 0.085287, [tri-loss] 0.422510, [img_rga] 1.089058, [cap_rga] 0.410312 
+[ep-14, bs-399] [id-loss] 0.086116, [tri-loss] 0.414700, [img_rga] 1.106653, [cap_rga] 0.429252 
+[ep-14, bs-449] [id-loss] 0.076668, [tri-loss] 0.412303, [img_rga] 1.099303, [cap_rga] 0.419232 
+[ep-14, bs-499] [id-loss] 0.084195, [tri-loss] 0.411454, [img_rga] 1.055500, [cap_rga] 0.411351 
+[ep-14, bs-549] [id-loss] 0.079174, [tri-loss] 0.417110, [img_rga] 1.093149, [cap_rga] 0.419502 
+[ep-14, bs-599] [id-loss] 0.084328, [tri-loss] 0.424355, [img_rga] 1.098867, [cap_rga] 0.413367 
+[ep-14, bs-649] [id-loss] 0.087678, [tri-loss] 0.411493, [img_rga] 1.073679, [cap_rga] 0.414337 
+[ep-14, bs-699] [id-loss] 0.081402, [tri-loss] 0.412800, [img_rga] 1.123839, [cap_rga] 0.413875 
+[ep-14, bs-749] [id-loss] 0.092550, [tri-loss] 0.410990, [img_rga] 1.098406, [cap_rga] 0.403444 
+[global] R@1: 0.3214 | R@5: 0.5501 | R@10: 0.6548
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0000
+[cap_rga] R@1: 0.0016 | R@5: 0.0075 | R@10: 0.0120
+[fusion] R@1: 0.2505 | R@5: 0.4733 | R@10: 0.5823
+[cosine   ][global] R@1: 0.2505 | R@5: 0.4733 | R@10: 0.5823
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 0.591228, [tri-loss] 4.878460, [img_rga] 18.937147, [cap_rga] 18.865559 
+[ep-0, bs-99] [id-loss] 0.871282, [tri-loss] 3.059186, [img_rga] 18.924303, [cap_rga] 18.203066 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 0.538211, [tri-loss] 4.808885, [img_rga] 18.934549, [cap_rga] 18.850814 
+[ep-0, bs-99] [id-loss] 0.868747, [tri-loss] 3.058487, [img_rga] 18.925076, [cap_rga] 18.248528 
+[ep-0, bs-149] [id-loss] 1.399693, [tri-loss] 2.686434, [img_rga] 18.904885, [cap_rga] 14.942708 
+[ep-0, bs-199] [id-loss] 1.826101, [tri-loss] 2.883577, [img_rga] 18.863783, [cap_rga] 10.762209 
+[ep-0, bs-249] [id-loss] 1.882722, [tri-loss] 2.631186, [img_rga] 18.743311, [cap_rga] 9.793786 
+[ep-0, bs-299] [id-loss] 1.951694, [tri-loss] 2.966226, [img_rga] 15.799319, [cap_rga] 9.293096 
+[ep-0, bs-349] [id-loss] 1.901032, [tri-loss] 3.295369, [img_rga] 11.178223, [cap_rga] 8.960086 
+[ep-0, bs-399] [id-loss] 1.826270, [tri-loss] 3.053741, [img_rga] 10.307603, [cap_rga] 8.685002 
+[ep-0, bs-449] [id-loss] 1.706595, [tri-loss] 2.758208, [img_rga] 9.949790, [cap_rga] 8.410935 
+[ep-0, bs-499] [id-loss] 1.498352, [tri-loss] 2.653704, [img_rga] 9.721416, [cap_rga] 8.278227 
+[ep-0, bs-549] [id-loss] 1.515843, [tri-loss] 2.602981, [img_rga] 9.472083, [cap_rga] 8.036997 
+[ep-0, bs-599] [id-loss] 1.310888, [tri-loss] 2.617320, [img_rga] 9.311266, [cap_rga] 7.988289 
+[ep-0, bs-649] [id-loss] 1.099598, [tri-loss] 2.444596, [img_rga] 9.082278, [cap_rga] 7.816169 
+[ep-0, bs-699] [id-loss] 1.088183, [tri-loss] 2.543185, [img_rga] 8.879924, [cap_rga] 7.750104 
+[ep-0, bs-749] [id-loss] 0.981013, [tri-loss] 2.393751, [img_rga] 8.776466, [cap_rga] 7.619509 
+[global] R@1: 0.3172 | R@5: 0.5647 | R@10: 0.6685
+[img_rga] R@1: 0.0062 | R@5: 0.0205 | R@10: 0.0322
+[cap_rga] R@1: 0.0013 | R@5: 0.0046 | R@10: 0.0085
+[fusion] R@1: 0.2316 | R@5: 0.4740 | R@10: 0.5852
+[cosine   ][global] R@1: 0.2316 | R@5: 0.4740 | R@10: 0.5852
+[ep-1, bs-49] [id-loss] 0.376737, [tri-loss] 1.979071, [img_rga] 8.530908, [cap_rga] 7.388385 
+[ep-1, bs-99] [id-loss] 0.422078, [tri-loss] 1.911869, [img_rga] 8.388108, [cap_rga] 7.356339 
+[ep-1, bs-149] [id-loss] 0.438882, [tri-loss] 2.041767, [img_rga] 8.247817, [cap_rga] 7.261946 
+[ep-1, bs-199] [id-loss] 0.421932, [tri-loss] 1.944829, [img_rga] 8.267598, [cap_rga] 7.321591 
+[ep-1, bs-249] [id-loss] 0.427685, [tri-loss] 1.930726, [img_rga] 8.160224, [cap_rga] 7.201278 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-1, bs-299] [id-loss] 0.450727, [tri-loss] 1.986375, [img_rga] 8.186541, [cap_rga] 7.214384 
+[ep-1, bs-349] [id-loss] 0.496651, [tri-loss] 1.954977, [img_rga] 8.041800, [cap_rga] 7.061130 
+[ep-1, bs-399] [id-loss] 0.476738, [tri-loss] 1.970456, [img_rga] 7.973697, [cap_rga] 7.046760 
+[ep-1, bs-449] [id-loss] 0.438825, [tri-loss] 1.981468, [img_rga] 8.031510, [cap_rga] 7.052710 
+[ep-1, bs-499] [id-loss] 0.441426, [tri-loss] 1.935844, [img_rga] 7.946998, [cap_rga] 7.060099 
+[ep-1, bs-549] [id-loss] 0.453725, [tri-loss] 1.914633, [img_rga] 7.837262, [cap_rga] 6.932628 
+[ep-1, bs-599] [id-loss] 0.422251, [tri-loss] 1.902505, [img_rga] 7.854001, [cap_rga] 6.973072 
+[ep-1, bs-649] [id-loss] 0.458004, [tri-loss] 1.935674, [img_rga] 7.871212, [cap_rga] 6.951389 
+[ep-1, bs-699] [id-loss] 0.450963, [tri-loss] 1.829984, [img_rga] 7.782601, [cap_rga] 6.905145 
+[ep-1, bs-749] [id-loss] 0.424841, [tri-loss] 1.958181, [img_rga] 7.746728, [cap_rga] 6.867251 
+[global] R@1: 0.3471 | R@5: 0.5836 | R@10: 0.6822
+[img_rga] R@1: 0.0150 | R@5: 0.0449 | R@10: 0.0667
+[cap_rga] R@1: 0.0033 | R@5: 0.0130 | R@10: 0.0254
+[fusion] R@1: 0.2668 | R@5: 0.5065 | R@10: 0.6174
+[cosine   ][global] R@1: 0.2668 | R@5: 0.5065 | R@10: 0.6174
+[ep-2, bs-49] [id-loss] 0.263102, [tri-loss] 1.576824, [img_rga] 7.344859, [cap_rga] 6.657104 
+[ep-2, bs-99] [id-loss] 0.281274, [tri-loss] 1.583476, [img_rga] 7.262064, [cap_rga] 6.606987 
+[ep-2, bs-149] [id-loss] 0.310882, [tri-loss] 1.669493, [img_rga] 7.044797, [cap_rga] 6.597430 
+[ep-2, bs-199] [id-loss] 0.316938, [tri-loss] 1.771006, [img_rga] 6.475845, [cap_rga] 6.635505 
+[ep-2, bs-249] [id-loss] 0.326364, [tri-loss] 1.775095, [img_rga] 5.782801, [cap_rga] 6.607946 
+[ep-2, bs-299] [id-loss] 0.338689, [tri-loss] 1.722742, [img_rga] 5.548472, [cap_rga] 6.569202 
+[ep-2, bs-349] [id-loss] 0.350050, [tri-loss] 1.697919, [img_rga] 5.298541, [cap_rga] 6.531883 
+[ep-2, bs-399] [id-loss] 0.333623, [tri-loss] 1.635199, [img_rga] 5.222579, [cap_rga] 6.416014 
+[ep-2, bs-449] [id-loss] 0.337794, [tri-loss] 1.695902, [img_rga] 5.168291, [cap_rga] 6.440066 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-2, bs-499] [id-loss] 0.357377, [tri-loss] 1.650846, [img_rga] 5.030112, [cap_rga] 6.396405 
+[ep-2, bs-549] [id-loss] 0.345506, [tri-loss] 1.669294, [img_rga] 5.032558, [cap_rga] 6.388204 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-2, bs-599] [id-loss] 0.383550, [tri-loss] 1.712186, [img_rga] 4.937505, [cap_rga] 5.909341 
+[ep-2, bs-649] [id-loss] 0.409152, [tri-loss] 1.809340, [img_rga] 5.008286, [cap_rga] 4.271619 
+[ep-2, bs-699] [id-loss] 0.370455, [tri-loss] 1.728113, [img_rga] 4.909812, [cap_rga] 4.030939 
+[ep-2, bs-749] [id-loss] 0.359566, [tri-loss] 1.714830, [img_rga] 4.900848, [cap_rga] 3.876725 
+[global] R@1: 0.3347 | R@5: 0.5784 | R@10: 0.6815
+[img_rga] R@1: 0.0003 | R@5: 0.0033 | R@10: 0.0052
+[cap_rga] R@1: 0.0013 | R@5: 0.0072 | R@10: 0.0140
+[fusion] R@1: 0.2378 | R@5: 0.4720 | R@10: 0.5748
+[cosine   ][global] R@1: 0.2378 | R@5: 0.4720 | R@10: 0.5748
+[ep-3, bs-49] [id-loss] 0.250362, [tri-loss] 1.354832, [img_rga] 4.490318, [cap_rga] 3.652867 
+[ep-3, bs-99] [id-loss] 0.251170, [tri-loss] 1.360536, [img_rga] 4.362990, [cap_rga] 3.609754 
+[ep-3, bs-149] [id-loss] 0.269085, [tri-loss] 1.298922, [img_rga] 4.310596, [cap_rga] 3.486845 
+[ep-3, bs-199] [id-loss] 0.253132, [tri-loss] 1.342808, [img_rga] 4.371166, [cap_rga] 3.501190 
+[ep-3, bs-249] [id-loss] 0.265207, [tri-loss] 1.346575, [img_rga] 4.323666, [cap_rga] 3.443639 
+[ep-3, bs-299] [id-loss] 0.280695, [tri-loss] 1.379183, [img_rga] 4.224978, [cap_rga] 3.455529 
+[ep-3, bs-349] [id-loss] 0.273690, [tri-loss] 1.310002, [img_rga] 4.237849, [cap_rga] 3.319765 
+[ep-3, bs-399] [id-loss] 0.315734, [tri-loss] 1.344440, [img_rga] 4.114591, [cap_rga] 3.270523 
+[ep-3, bs-449] [id-loss] 0.314756, [tri-loss] 1.356740, [img_rga] 4.138014, [cap_rga] 3.207094 
+[ep-3, bs-499] [id-loss] 0.313259, [tri-loss] 1.347408, [img_rga] 4.219734, [cap_rga] 3.170510 
+[ep-3, bs-549] [id-loss] 0.330314, [tri-loss] 1.322780, [img_rga] 4.090059, [cap_rga] 3.003310 
+[ep-3, bs-599] [id-loss] 0.322125, [tri-loss] 1.330781, [img_rga] 4.046703, [cap_rga] 2.924179 
+[ep-3, bs-649] [id-loss] 0.319563, [tri-loss] 1.329950, [img_rga] 4.159975, [cap_rga] 2.820413 
+[ep-3, bs-699] [id-loss] 0.347119, [tri-loss] 1.368639, [img_rga] 4.058495, [cap_rga] 2.752703 
+[ep-3, bs-749] [id-loss] 0.345804, [tri-loss] 1.329495, [img_rga] 3.974726, [cap_rga] 2.660684 
+[global] R@1: 0.3325 | R@5: 0.5696 | R@10: 0.6779
+[img_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0003
+[cap_rga] R@1: 0.0055 | R@5: 0.0169 | R@10: 0.0237
+[fusion] R@1: 0.2336 | R@5: 0.4564 | R@10: 0.5680
+[cosine   ][global] R@1: 0.2336 | R@5: 0.4564 | R@10: 0.5680
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 0.694525, [tri-loss] 7.003319, [img_rga] 27.332463, [cap_rga] 27.315751 
+[ep-0, bs-99] [id-loss] 1.143115, [tri-loss] 5.100445, [img_rga] 21.387549, [cap_rga] 17.509701 
+[ep-0, bs-149] [id-loss] 1.797451, [tri-loss] 4.111710, [img_rga] 20.979252, [cap_rga] 10.890999 
+[ep-0, bs-199] [id-loss] 2.191769, [tri-loss] 3.630062, [img_rga] 20.729773, [cap_rga] 7.990887 
+[ep-0, bs-249] [id-loss] 2.552845, [tri-loss] 3.473691, [img_rga] 20.513500, [cap_rga] 6.513753 
+[ep-0, bs-299] [id-loss] 2.455728, [tri-loss] 3.137592, [img_rga] 20.291134, [cap_rga] 5.458355 
+[ep-0, bs-349] [id-loss] 2.284631, [tri-loss] 2.896374, [img_rga] 20.143311, [cap_rga] 4.715145 
+[ep-0, bs-399] [id-loss] 2.231901, [tri-loss] 2.714715, [img_rga] 19.935036, [cap_rga] 4.360825 
+[ep-0, bs-449] [id-loss] 2.169952, [tri-loss] 2.616556, [img_rga] 19.687933, [cap_rga] 3.971555 
+[ep-0, bs-499] [id-loss] 1.744014, [tri-loss] 2.499227, [img_rga] 19.633663, [cap_rga] 3.762394 
+[ep-0, bs-549] [id-loss] 1.797831, [tri-loss] 2.331635, [img_rga] 19.320726, [cap_rga] 3.549402 
+[ep-0, bs-599] [id-loss] 1.605311, [tri-loss] 2.271785, [img_rga] 18.904109, [cap_rga] 3.409781 
+[ep-0, bs-649] [id-loss] 1.516610, [tri-loss] 2.132072, [img_rga] 18.816521, [cap_rga] 3.131982 
+[ep-0, bs-699] [id-loss] 1.345575, [tri-loss] 2.027446, [img_rga] 18.556100, [cap_rga] 3.102338 
+[ep-0, bs-749] [id-loss] 1.176631, [tri-loss] 2.020631, [img_rga] 18.378388, [cap_rga] 3.003362 
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.0020 | R@5: 0.0100 | R@10: 0.0140
+[img_rga] R@1: 0.0000 | R@5: 0.0080 | R@10: 0.0120
+[cap_rga] R@1: 0.0000 | R@5: 0.0000 | R@10: 0.0080
+[fusion] R@1: 0.0000 | R@5: 0.0100 | R@10: 0.0160
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0100 | R@10: 0.0160
+[Trainer][init] initialize fresh model.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.0000 | R@5: 0.0120 | R@10: 0.0220
+[img_rga] R@1: 0.0000 | R@5: 0.0060 | R@10: 0.0160
+[cap_rga] R@1: 0.0000 | R@5: 0.0160 | R@10: 0.0200
+[fusion] R@1: 0.0000 | R@5: 0.0080 | R@10: 0.0300
+[cosine   ][global] R@1: 0.0000 | R@5: 0.0080 | R@10: 0.0300
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 0.670037, [tri-loss] 7.009276, [img_rga] 27.468156, [cap_rga] 27.279234 
+[ep-0, bs-99] [id-loss] 1.167173, [tri-loss] 5.173454, [img_rga] 21.545068, [cap_rga] 17.631763 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 0.666607, [tri-loss] 7.217235, [img_rga] 27.475508, [cap_rga] 27.280780 
+[ep-0, bs-99] [id-loss] 1.177326, [tri-loss] 5.104390, [img_rga] 21.535139, [cap_rga] 17.224384 
+[ep-0, bs-149] [id-loss] 1.772134, [tri-loss] 4.226480, [img_rga] 21.148133, [cap_rga] 10.956504 
+[ep-0, bs-199] [id-loss] 2.173136, [tri-loss] 3.663916, [img_rga] 21.007862, [cap_rga] 8.247898 
+[ep-0, bs-249] [id-loss] 2.419045, [tri-loss] 3.482661, [img_rga] 20.909116, [cap_rga] 6.679381 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-299] [id-loss] 2.365901, [tri-loss] 3.218892, [img_rga] 20.839655, [cap_rga] 5.449479 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-349] [id-loss] 2.327375, [tri-loss] 2.984645, [img_rga] 20.798044, [cap_rga] 4.864384 
+[ep-0, bs-49] [id-loss] 0.636965, [tri-loss] 7.008122, [img_rga] 24.496125, [cap_rga] 27.238970 
+[ep-0, bs-399] [id-loss] 2.207199, [tri-loss] 2.702739, [img_rga] 20.796129, [cap_rga] 4.219121 
+[ep-0, bs-99] [id-loss] 1.149393, [tri-loss] 4.831081, [img_rga] 13.912209, [cap_rga] 17.049370 
+[ep-0, bs-449] [id-loss] 2.201362, [tri-loss] 2.714596, [img_rga] 20.748184, [cap_rga] 4.195349 
+[ep-0, bs-149] [id-loss] 1.753449, [tri-loss] 3.817872, [img_rga] 8.980100, [cap_rga] 10.522649 
+[ep-0, bs-199] [id-loss] 1.988973, [tri-loss] 3.357471, [img_rga] 6.538013, [cap_rga] 7.558095 
+[ep-0, bs-499] [id-loss] 1.872970, [tri-loss] 2.463632, [img_rga] 20.731690, [cap_rga] 3.700516 
+[ep-0, bs-249] [id-loss] 2.053156, [tri-loss] 3.012982, [img_rga] 5.277487, [cap_rga] 6.081490 
+[ep-0, bs-549] [id-loss] 1.711718, [tri-loss] 2.484564, [img_rga] 20.719835, [cap_rga] 3.783383 
+[ep-0, bs-299] [id-loss] 1.859696, [tri-loss] 2.774495, [img_rga] 4.480792, [cap_rga] 5.077369 
+[ep-0, bs-599] [id-loss] 1.522679, [tri-loss] 2.379175, [img_rga] 20.722431, [cap_rga] 3.442285 
+[ep-0, bs-649] [id-loss] 1.368494, [tri-loss] 2.263420, [img_rga] 20.713695, [cap_rga] 3.242840 
+[ep-0, bs-699] [id-loss] 1.267876, [tri-loss] 2.204384, [img_rga] 20.700203, [cap_rga] 3.149529 
+[ep-0, bs-749] [id-loss] 1.139169, [tri-loss] 2.113195, [img_rga] 20.669794, [cap_rga] 3.080260 
+[global] R@1: 0.3956 | R@5: 0.6461 | R@10: 0.7420
+[img_rga] R@1: 0.0078 | R@5: 0.0182 | R@10: 0.0237
+[cap_rga] R@1: 0.1275 | R@5: 0.3260 | R@10: 0.4453
+[fusion] R@1: 0.3640 | R@5: 0.6239 | R@10: 0.7241
+[cosine   ][global] R@1: 0.3640 | R@5: 0.6239 | R@10: 0.7241
+[ep-1, bs-49] [id-loss] 0.475219, [tri-loss] 1.603795, [img_rga] 20.691676, [cap_rga] 2.417552 
+[ep-1, bs-99] [id-loss] 0.511657, [tri-loss] 1.579806, [img_rga] 20.656933, [cap_rga] 2.303073 
+[ep-1, bs-149] [id-loss] 0.465317, [tri-loss] 1.565951, [img_rga] 20.647557, [cap_rga] 2.302141 
+[ep-1, bs-199] [id-loss] 0.480922, [tri-loss] 1.521118, [img_rga] 20.634162, [cap_rga] 2.230382 
+[ep-1, bs-249] [id-loss] 0.527896, [tri-loss] 1.549481, [img_rga] 20.617213, [cap_rga] 2.282140 
+[ep-1, bs-299] [id-loss] 0.502294, [tri-loss] 1.558250, [img_rga] 20.613983, [cap_rga] 2.291462 
+[ep-1, bs-349] [id-loss] 0.512401, [tri-loss] 1.545210, [img_rga] 20.592219, [cap_rga] 2.344519 
+[ep-1, bs-399] [id-loss] 0.515090, [tri-loss] 1.547957, [img_rga] 20.602496, [cap_rga] 2.203739 
+[ep-1, bs-449] [id-loss] 0.551308, [tri-loss] 1.588360, [img_rga] 20.617593, [cap_rga] 2.199057 
+[ep-1, bs-499] [id-loss] 0.522645, [tri-loss] 1.530240, [img_rga] 20.610950, [cap_rga] 2.123358 
+[ep-1, bs-549] [id-loss] 0.539090, [tri-loss] 1.477746, [img_rga] 20.599775, [cap_rga] 2.102012 
+[ep-1, bs-599] [id-loss] 0.555662, [tri-loss] 1.526386, [img_rga] 20.582932, [cap_rga] 2.082315 
+[ep-1, bs-649] [id-loss] 0.587937, [tri-loss] 1.407953, [img_rga] 20.580213, [cap_rga] 1.985627 
+[ep-1, bs-699] [id-loss] 0.586579, [tri-loss] 1.480730, [img_rga] 20.580989, [cap_rga] 2.037250 
+[ep-1, bs-749] [id-loss] 0.603024, [tri-loss] 1.488587, [img_rga] 20.569007, [cap_rga] 2.028623 
+[global] R@1: 0.4262 | R@5: 0.6711 | R@10: 0.7733
+[img_rga] R@1: 0.0085 | R@5: 0.0189 | R@10: 0.0264
+[cap_rga] R@1: 0.1897 | R@5: 0.4203 | R@10: 0.5319
+[fusion] R@1: 0.4096 | R@5: 0.6594 | R@10: 0.7550
+[cosine   ][global] R@1: 0.4096 | R@5: 0.6594 | R@10: 0.7550
+[ep-2, bs-49] [id-loss] 0.362535, [tri-loss] 1.085051, [img_rga] 20.552317, [cap_rga] 1.536568 
+[ep-2, bs-99] [id-loss] 0.396660, [tri-loss] 1.130095, [img_rga] 20.506620, [cap_rga] 1.500494 
+[ep-2, bs-149] [id-loss] 0.436493, [tri-loss] 1.114487, [img_rga] 20.498872, [cap_rga] 1.499456 
+[ep-2, bs-199] [id-loss] 0.455605, [tri-loss] 1.139142, [img_rga] 20.509171, [cap_rga] 1.477091 
+[ep-2, bs-249] [id-loss] 0.493181, [tri-loss] 1.189542, [img_rga] 20.491143, [cap_rga] 1.607328 
+[ep-2, bs-299] [id-loss] 0.517066, [tri-loss] 1.169252, [img_rga] 20.493517, [cap_rga] 1.582790 
+[ep-2, bs-349] [id-loss] 0.541468, [tri-loss] 1.142436, [img_rga] 20.482547, [cap_rga] 1.507235 
+[ep-2, bs-399] [id-loss] 0.562861, [tri-loss] 1.142898, [img_rga] 20.480281, [cap_rga] 1.525330 
+[ep-2, bs-449] [id-loss] 0.577621, [tri-loss] 1.161704, [img_rga] 20.464058, [cap_rga] 1.495554 
+[ep-2, bs-499] [id-loss] 0.602879, [tri-loss] 1.168856, [img_rga] 20.487753, [cap_rga] 1.527323 
+[ep-2, bs-549] [id-loss] 0.632537, [tri-loss] 1.165805, [img_rga] 20.496937, [cap_rga] 1.488842 
+[ep-2, bs-599] [id-loss] 0.680543, [tri-loss] 1.204850, [img_rga] 20.465617, [cap_rga] 1.541995 
+[ep-2, bs-649] [id-loss] 0.694830, [tri-loss] 1.157184, [img_rga] 20.474698, [cap_rga] 1.487971 
+[ep-2, bs-699] [id-loss] 0.712759, [tri-loss] 1.225718, [img_rga] 20.470819, [cap_rga] 1.528178 
+[ep-2, bs-749] [id-loss] 0.736167, [tri-loss] 1.143687, [img_rga] 20.495109, [cap_rga] 1.483906 
+[global] R@1: 0.4291 | R@5: 0.6789 | R@10: 0.7697
+[img_rga] R@1: 0.0062 | R@5: 0.0159 | R@10: 0.0221
+[cap_rga] R@1: 0.2235 | R@5: 0.4480 | R@10: 0.5654
+[fusion] R@1: 0.4200 | R@5: 0.6643 | R@10: 0.7612
+[cosine   ][global] R@1: 0.4200 | R@5: 0.6643 | R@10: 0.7612
+[ep-3, bs-49] [id-loss] 0.426689, [tri-loss] 0.915040, [img_rga] 20.427233, [cap_rga] 1.191601 
+[ep-3, bs-99] [id-loss] 0.457013, [tri-loss] 0.875238, [img_rga] 20.388348, [cap_rga] 1.084471 
+[ep-3, bs-149] [id-loss] 0.469350, [tri-loss] 0.952676, [img_rga] 20.382425, [cap_rga] 1.191096 
+[ep-3, bs-199] [id-loss] 0.529065, [tri-loss] 0.934419, [img_rga] 20.399478, [cap_rga] 1.165581 
+[ep-3, bs-249] [id-loss] 0.549741, [tri-loss] 0.937480, [img_rga] 20.401257, [cap_rga] 1.173779 
+[ep-3, bs-299] [id-loss] 0.574094, [tri-loss] 0.970661, [img_rga] 20.382902, [cap_rga] 1.187183 
+[ep-3, bs-349] [id-loss] 0.617800, [tri-loss] 0.959796, [img_rga] 20.377065, [cap_rga] 1.209611 
+[ep-3, bs-399] [id-loss] 0.643756, [tri-loss] 0.960541, [img_rga] 20.380219, [cap_rga] 1.177685 
+[ep-3, bs-449] [id-loss] 0.685685, [tri-loss] 0.972287, [img_rga] 20.376924, [cap_rga] 1.201530 
+[ep-3, bs-499] [id-loss] 0.680502, [tri-loss] 0.978899, [img_rga] 20.373345, [cap_rga] 1.217463 
+[ep-3, bs-549] [id-loss] 0.756222, [tri-loss] 1.040658, [img_rga] 20.375976, [cap_rga] 1.271226 
+[ep-3, bs-599] [id-loss] 0.771006, [tri-loss] 1.056030, [img_rga] 20.413972, [cap_rga] 1.271323 
+[ep-3, bs-649] [id-loss] 0.828361, [tri-loss] 1.032705, [img_rga] 20.367328, [cap_rga] 1.255087 
+[ep-3, bs-699] [id-loss] 0.854905, [tri-loss] 1.038287, [img_rga] 20.394279, [cap_rga] 1.326610 
+[ep-3, bs-749] [id-loss] 0.855789, [tri-loss] 1.048320, [img_rga] 20.364867, [cap_rga] 1.259259 
+[global] R@1: 0.4480 | R@5: 0.6779 | R@10: 0.7807
+[img_rga] R@1: 0.0059 | R@5: 0.0163 | R@10: 0.0218
+[cap_rga] R@1: 0.2274 | R@5: 0.4701 | R@10: 0.5830
+[fusion] R@1: 0.4359 | R@5: 0.6692 | R@10: 0.7632
+[cosine   ][global] R@1: 0.4359 | R@5: 0.6692 | R@10: 0.7632
+[ep-4, bs-49] [id-loss] 0.474340, [tri-loss] 0.775526, [img_rga] 20.305765, [cap_rga] 0.951973 
+[ep-4, bs-99] [id-loss] 0.501429, [tri-loss] 0.793542, [img_rga] 20.324104, [cap_rga] 0.967378 
+[ep-4, bs-149] [id-loss] 0.526083, [tri-loss] 0.786375, [img_rga] 20.287548, [cap_rga] 0.945016 
+[ep-4, bs-199] [id-loss] 0.539445, [tri-loss] 0.800664, [img_rga] 20.292655, [cap_rga] 0.944880 
+[ep-4, bs-249] [id-loss] 0.569050, [tri-loss] 0.836606, [img_rga] 20.272076, [cap_rga] 0.988515 
+[ep-4, bs-299] [id-loss] 0.607479, [tri-loss] 0.839814, [img_rga] 20.304958, [cap_rga] 0.986061 
+[ep-4, bs-349] [id-loss] 0.643686, [tri-loss] 0.864283, [img_rga] 20.301747, [cap_rga] 1.049061 
+[ep-4, bs-399] [id-loss] 0.697297, [tri-loss] 0.875767, [img_rga] 20.251587, [cap_rga] 1.041255 
+[ep-4, bs-449] [id-loss] 0.716548, [tri-loss] 0.838286, [img_rga] 20.277381, [cap_rga] 0.959613 
+[ep-4, bs-499] [id-loss] 0.735461, [tri-loss] 0.851822, [img_rga] 20.274714, [cap_rga] 1.007294 
+[ep-4, bs-549] [id-loss] 0.765603, [tri-loss] 0.890119, [img_rga] 20.279775, [cap_rga] 1.065108 
+[ep-4, bs-599] [id-loss] 0.835233, [tri-loss] 0.903719, [img_rga] 20.294773, [cap_rga] 1.050891 
+[ep-4, bs-649] [id-loss] 0.859777, [tri-loss] 0.932859, [img_rga] 20.330407, [cap_rga] 1.096421 
+[ep-4, bs-699] [id-loss] 0.881990, [tri-loss] 0.924934, [img_rga] 20.324152, [cap_rga] 1.085871 
+[ep-4, bs-749] [id-loss] 0.907885, [tri-loss] 0.962245, [img_rga] 20.333485, [cap_rga] 1.099816 
+[global] R@1: 0.4421 | R@5: 0.6848 | R@10: 0.7746
+[img_rga] R@1: 0.0046 | R@5: 0.0159 | R@10: 0.0218
+[cap_rga] R@1: 0.2479 | R@5: 0.4841 | R@10: 0.5950
+[fusion] R@1: 0.4213 | R@5: 0.6718 | R@10: 0.7700
+[cosine   ][global] R@1: 0.4213 | R@5: 0.6718 | R@10: 0.7700
+[ep-5, bs-49] [id-loss] 0.464424, [tri-loss] 0.669571, [img_rga] 20.267220, [cap_rga] 0.800376 
+[ep-5, bs-99] [id-loss] 0.498535, [tri-loss] 0.705006, [img_rga] 20.248805, [cap_rga] 0.839778 
+[ep-5, bs-149] [id-loss] 0.502511, [tri-loss] 0.682904, [img_rga] 20.204718, [cap_rga] 0.783996 
+[ep-5, bs-199] [id-loss] 0.565567, [tri-loss] 0.746217, [img_rga] 20.229080, [cap_rga] 0.852077 
+[ep-5, bs-249] [id-loss] 0.576027, [tri-loss] 0.731458, [img_rga] 20.179030, [cap_rga] 0.835094 
+[ep-5, bs-299] [id-loss] 0.595508, [tri-loss] 0.750879, [img_rga] 20.222567, [cap_rga] 0.856050 
+[ep-5, bs-349] [id-loss] 0.624094, [tri-loss] 0.728932, [img_rga] 20.219299, [cap_rga] 0.855503 
+[ep-5, bs-399] [id-loss] 0.679983, [tri-loss] 0.782951, [img_rga] 20.199709, [cap_rga] 0.867341 
+[ep-5, bs-449] [id-loss] 0.718366, [tri-loss] 0.793590, [img_rga] 20.197091, [cap_rga] 0.910559 
+[ep-5, bs-499] [id-loss] 0.747490, [tri-loss] 0.789831, [img_rga] 20.219016, [cap_rga] 0.905870 
+[ep-5, bs-549] [id-loss] 0.772400, [tri-loss] 0.771009, [img_rga] 20.208296, [cap_rga] 0.877793 
+[ep-5, bs-599] [id-loss] 0.823958, [tri-loss] 0.812985, [img_rga] 20.246090, [cap_rga] 0.907656 
+[ep-5, bs-649] [id-loss] 0.870561, [tri-loss] 0.807111, [img_rga] 20.186954, [cap_rga] 0.906683 
+[ep-5, bs-699] [id-loss] 0.910971, [tri-loss] 0.854042, [img_rga] 20.208256, [cap_rga] 0.947466 
+[ep-5, bs-749] [id-loss] 0.929043, [tri-loss] 0.845271, [img_rga] 20.249004, [cap_rga] 0.973606 
+[global] R@1: 0.4379 | R@5: 0.6890 | R@10: 0.7785
+[img_rga] R@1: 0.0062 | R@5: 0.0143 | R@10: 0.0211
+[cap_rga] R@1: 0.2391 | R@5: 0.4831 | R@10: 0.5973
+[fusion] R@1: 0.4275 | R@5: 0.6750 | R@10: 0.7677
+[cosine   ][global] R@1: 0.4275 | R@5: 0.6750 | R@10: 0.7677
+[ep-6, bs-49] [id-loss] 0.477149, [tri-loss] 0.653798, [img_rga] 20.187388, [cap_rga] 0.760226 
+[ep-6, bs-99] [id-loss] 0.489222, [tri-loss] 0.631881, [img_rga] 20.140103, [cap_rga] 0.731388 
+[ep-6, bs-149] [id-loss] 0.523788, [tri-loss] 0.639953, [img_rga] 20.136169, [cap_rga] 0.724495 
+[ep-6, bs-199] [id-loss] 0.548830, [tri-loss] 0.677360, [img_rga] 20.163618, [cap_rga] 0.748546 
+[ep-6, bs-249] [id-loss] 0.553081, [tri-loss] 0.672990, [img_rga] 20.135265, [cap_rga] 0.747404 
+[ep-6, bs-299] [id-loss] 0.588392, [tri-loss] 0.664255, [img_rga] 20.126182, [cap_rga] 0.704228 
+[ep-6, bs-349] [id-loss] 0.626025, [tri-loss] 0.681019, [img_rga] 20.138367, [cap_rga] 0.754477 
+[ep-6, bs-399] [id-loss] 0.661176, [tri-loss] 0.714721, [img_rga] 20.128729, [cap_rga] 0.784319 
+[ep-6, bs-449] [id-loss] 0.713209, [tri-loss] 0.701305, [img_rga] 20.173306, [cap_rga] 0.781177 
+[ep-6, bs-499] [id-loss] 0.767854, [tri-loss] 0.728133, [img_rga] 20.139885, [cap_rga] 0.786110 
+[ep-6, bs-549] [id-loss] 0.799589, [tri-loss] 0.752340, [img_rga] 20.150708, [cap_rga] 0.822913 
+[ep-6, bs-599] [id-loss] 0.822182, [tri-loss] 0.761308, [img_rga] 20.181215, [cap_rga] 0.851513 
+[ep-6, bs-649] [id-loss] 0.846896, [tri-loss] 0.751698, [img_rga] 20.132620, [cap_rga] 0.818632 
+[ep-6, bs-699] [id-loss] 0.906186, [tri-loss] 0.765121, [img_rga] 20.116643, [cap_rga] 0.810762 
+[ep-6, bs-749] [id-loss] 0.907469, [tri-loss] 0.750834, [img_rga] 20.200105, [cap_rga] 0.840099 
+[global] R@1: 0.4470 | R@5: 0.6835 | R@10: 0.7807
+[img_rga] R@1: 0.0046 | R@5: 0.0140 | R@10: 0.0195
+[cap_rga] R@1: 0.2713 | R@5: 0.4909 | R@10: 0.6028
+[fusion] R@1: 0.4359 | R@5: 0.6711 | R@10: 0.7713
+[cosine   ][global] R@1: 0.4359 | R@5: 0.6711 | R@10: 0.7713
+[ep-7, bs-49] [id-loss] 0.477705, [tri-loss] 0.597054, [img_rga] 19.990184, [cap_rga] 0.666752 
+[ep-7, bs-99] [id-loss] 0.481567, [tri-loss] 0.583928, [img_rga] 19.980363, [cap_rga] 0.645786 
+[ep-7, bs-149] [id-loss] 0.508373, [tri-loss] 0.614356, [img_rga] 20.058379, [cap_rga] 0.665490 
+[ep-7, bs-199] [id-loss] 0.540926, [tri-loss] 0.607220, [img_rga] 20.036688, [cap_rga] 0.640149 
+[ep-7, bs-249] [id-loss] 0.568555, [tri-loss] 0.617007, [img_rga] 20.131972, [cap_rga] 0.659864 
+[ep-7, bs-299] [id-loss] 0.606310, [tri-loss] 0.646882, [img_rga] 19.981740, [cap_rga] 0.677769 
+[ep-7, bs-349] [id-loss] 0.655845, [tri-loss] 0.657019, [img_rga] 20.041527, [cap_rga] 0.697333 
+[ep-7, bs-399] [id-loss] 0.665520, [tri-loss] 0.658217, [img_rga] 20.078931, [cap_rga] 0.704137 
+[ep-7, bs-449] [id-loss] 0.702870, [tri-loss] 0.653381, [img_rga] 20.071407, [cap_rga] 0.716490 
+[ep-7, bs-499] [id-loss] 0.752403, [tri-loss] 0.675338, [img_rga] 20.082441, [cap_rga] 0.752648 
+[ep-7, bs-549] [id-loss] 0.770153, [tri-loss] 0.707324, [img_rga] 20.010045, [cap_rga] 0.759505 
+[ep-7, bs-599] [id-loss] 0.811951, [tri-loss] 0.724097, [img_rga] 20.168826, [cap_rga] 0.782176 
+[ep-7, bs-649] [id-loss] 0.876305, [tri-loss] 0.690971, [img_rga] 20.103155, [cap_rga] 0.777551 
+[ep-7, bs-699] [id-loss] 0.860961, [tri-loss] 0.720727, [img_rga] 20.123101, [cap_rga] 0.799024 
+[ep-7, bs-749] [id-loss] 0.918190, [tri-loss] 0.733235, [img_rga] 20.117391, [cap_rga] 0.807392 
+[global] R@1: 0.4519 | R@5: 0.6897 | R@10: 0.7788
+[img_rga] R@1: 0.0036 | R@5: 0.0107 | R@10: 0.0150
+[cap_rga] R@1: 0.2625 | R@5: 0.4925 | R@10: 0.6126
+[fusion] R@1: 0.4333 | R@5: 0.6815 | R@10: 0.7687
+[cosine   ][global] R@1: 0.4333 | R@5: 0.6815 | R@10: 0.7687
+[ep-8, bs-49] [id-loss] 0.476073, [tri-loss] 0.559744, [img_rga] 20.021624, [cap_rga] 0.619753 
+[ep-8, bs-99] [id-loss] 0.483431, [tri-loss] 0.539655, [img_rga] 19.988704, [cap_rga] 0.582037 
+[ep-8, bs-149] [id-loss] 0.496838, [tri-loss] 0.553677, [img_rga] 19.944544, [cap_rga] 0.595977 
+[ep-8, bs-199] [id-loss] 0.547038, [tri-loss] 0.592063, [img_rga] 19.971067, [cap_rga] 0.611532 
+[ep-8, bs-249] [id-loss] 0.546672, [tri-loss] 0.565116, [img_rga] 19.878860, [cap_rga] 0.575865 
+[ep-8, bs-299] [id-loss] 0.598404, [tri-loss] 0.590879, [img_rga] 20.033931, [cap_rga] 0.633955 
+[ep-8, bs-349] [id-loss] 0.627735, [tri-loss] 0.571438, [img_rga] 19.969607, [cap_rga] 0.591792 
+[ep-8, bs-399] [id-loss] 0.646800, [tri-loss] 0.588706, [img_rga] 19.968872, [cap_rga] 0.632541 
+[ep-8, bs-449] [id-loss] 0.670574, [tri-loss] 0.638155, [img_rga] 20.004214, [cap_rga] 0.653242 
+[ep-8, bs-499] [id-loss] 0.701054, [tri-loss] 0.648464, [img_rga] 19.984324, [cap_rga] 0.659385 
+[ep-8, bs-549] [id-loss] 0.760003, [tri-loss] 0.653612, [img_rga] 20.025471, [cap_rga] 0.676399 
+[ep-8, bs-599] [id-loss] 0.788962, [tri-loss] 0.644417, [img_rga] 19.973626, [cap_rga] 0.668950 
+[ep-8, bs-649] [id-loss] 0.855183, [tri-loss] 0.664156, [img_rga] 19.988171, [cap_rga] 0.706207 
+[ep-8, bs-699] [id-loss] 0.867425, [tri-loss] 0.686597, [img_rga] 20.040154, [cap_rga] 0.719945 
+[ep-8, bs-749] [id-loss] 0.935073, [tri-loss] 0.707851, [img_rga] 20.072156, [cap_rga] 0.777608 
+[global] R@1: 0.4414 | R@5: 0.6789 | R@10: 0.7710
+[img_rga] R@1: 0.0039 | R@5: 0.0111 | R@10: 0.0143
+[cap_rga] R@1: 0.2609 | R@5: 0.5068 | R@10: 0.6233
+[fusion] R@1: 0.4258 | R@5: 0.6714 | R@10: 0.7703
+[cosine   ][global] R@1: 0.4258 | R@5: 0.6714 | R@10: 0.7703
+[ep-9, bs-49] [id-loss] 0.449910, [tri-loss] 0.509004, [img_rga] 19.883011, [cap_rga] 0.559379 
+[ep-9, bs-99] [id-loss] 0.485384, [tri-loss] 0.516930, [img_rga] 19.786734, [cap_rga] 0.530030 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 0.912607, [tri-loss] 6.791262, [img_rga] 24.214029, [cap_rga] 27.376899 
+[ep-0, bs-99] [id-loss] 1.516060, [tri-loss] 4.448496, [img_rga] 13.637265, [cap_rga] 17.092431 
+[ep-0, bs-149] [id-loss] 2.337119, [tri-loss] 3.699375, [img_rga] 8.834582, [cap_rga] 10.713572 
+[ep-0, bs-199] [id-loss] 2.868732, [tri-loss] 3.271265, [img_rga] 6.460898, [cap_rga] 7.715371 
+[ep-0, bs-249] [id-loss] 3.231451, [tri-loss] 2.950431, [img_rga] 5.234140, [cap_rga] 6.063324 
+[ep-0, bs-299] [id-loss] 3.157070, [tri-loss] 2.690268, [img_rga] 4.510360, [cap_rga] 5.086128 
+[ep-0, bs-349] [id-loss] 3.033041, [tri-loss] 2.547035, [img_rga] 3.978993, [cap_rga] 4.523588 
+[ep-0, bs-399] [id-loss] 2.834994, [tri-loss] 2.467799, [img_rga] 3.703976, [cap_rga] 4.038543 
+[ep-0, bs-449] [id-loss] 2.576532, [tri-loss] 2.263424, [img_rga] 3.368720, [cap_rga] 3.664244 
+[ep-0, bs-499] [id-loss] 2.281841, [tri-loss] 2.176278, [img_rga] 3.102130, [cap_rga] 3.466630 
+[ep-0, bs-549] [id-loss] 2.136448, [tri-loss] 1.968652, [img_rga] 2.817102, [cap_rga] 3.137135 
+[ep-0, bs-599] [id-loss] 1.863028, [tri-loss] 1.837888, [img_rga] 2.643037, [cap_rga] 3.004242 
+[ep-0, bs-649] [id-loss] 1.611820, [tri-loss] 1.753633, [img_rga] 2.487273, [cap_rga] 2.911066 
+[ep-0, bs-699] [id-loss] 1.575985, [tri-loss] 1.777318, [img_rga] 2.473074, [cap_rga] 2.834842 
+[ep-0, bs-749] [id-loss] 1.495787, [tri-loss] 1.743952, [img_rga] 2.367082, [cap_rga] 2.764301 
+[global] R@1: 0.4005 | R@5: 0.6383 | R@10: 0.7453
+[img_rga] R@1: 0.3273 | R@5: 0.5465 | R@10: 0.6636
+[cap_rga] R@1: 0.1480 | R@5: 0.3481 | R@10: 0.4642
+[fusion] R@1: 0.3803 | R@5: 0.6210 | R@10: 0.7290
+[cosine   ][global] R@1: 0.3803 | R@5: 0.6210 | R@10: 0.7290
+[ep-1, bs-49] [id-loss] 0.623675, [tri-loss] 1.277348, [img_rga] 1.882363, [cap_rga] 2.178283 
+[ep-1, bs-99] [id-loss] 0.604053, [tri-loss] 1.240396, [img_rga] 1.810948, [cap_rga] 2.151011 
+[ep-1, bs-149] [id-loss] 0.608996, [tri-loss] 1.210386, [img_rga] 1.763646, [cap_rga] 2.045084 
+[ep-1, bs-199] [id-loss] 0.611110, [tri-loss] 1.183710, [img_rga] 1.705407, [cap_rga] 2.008296 
+[ep-1, bs-249] [id-loss] 0.623663, [tri-loss] 1.160525, [img_rga] 1.617776, [cap_rga] 1.942387 
+[ep-1, bs-299] [id-loss] 0.625351, [tri-loss] 1.145151, [img_rga] 1.624844, [cap_rga] 1.986807 
+[ep-1, bs-349] [id-loss] 0.640201, [tri-loss] 1.159596, [img_rga] 1.588647, [cap_rga] 1.875545 
+[ep-1, bs-399] [id-loss] 0.615698, [tri-loss] 1.094287, [img_rga] 1.516558, [cap_rga] 1.885749 
+[ep-1, bs-449] [id-loss] 0.625060, [tri-loss] 1.104250, [img_rga] 1.552246, [cap_rga] 1.879392 
+[ep-1, bs-499] [id-loss] 0.621932, [tri-loss] 1.097404, [img_rga] 1.498564, [cap_rga] 1.814610 
+[ep-1, bs-549] [id-loss] 0.627307, [tri-loss] 1.102002, [img_rga] 1.493195, [cap_rga] 1.867906 
+[ep-1, bs-599] [id-loss] 0.637797, [tri-loss] 1.094379, [img_rga] 1.460828, [cap_rga] 1.785888 
+[ep-1, bs-649] [id-loss] 0.655626, [tri-loss] 1.047776, [img_rga] 1.454292, [cap_rga] 1.786516 
+[ep-1, bs-699] [id-loss] 0.699277, [tri-loss] 1.053608, [img_rga] 1.435617, [cap_rga] 1.729974 
+[ep-1, bs-749] [id-loss] 0.682769, [tri-loss] 1.073021, [img_rga] 1.453284, [cap_rga] 1.731365 
+[global] R@1: 0.4245 | R@5: 0.6659 | R@10: 0.7668
+[img_rga] R@1: 0.3565 | R@5: 0.5953 | R@10: 0.7085
+[cap_rga] R@1: 0.1792 | R@5: 0.4131 | R@10: 0.5355
+[fusion] R@1: 0.4005 | R@5: 0.6503 | R@10: 0.7459
+[cosine   ][global] R@1: 0.4005 | R@5: 0.6503 | R@10: 0.7459
+[ep-2, bs-49] [id-loss] 0.407553, [tri-loss] 0.778287, [img_rga] 1.093926, [cap_rga] 1.324770 
+[ep-2, bs-99] [id-loss] 0.442858, [tri-loss] 0.776600, [img_rga] 1.102592, [cap_rga] 1.363941 
+[ep-2, bs-149] [id-loss] 0.472759, [tri-loss] 0.743773, [img_rga] 1.070784, [cap_rga] 1.297456 
+[ep-2, bs-199] [id-loss] 0.492756, [tri-loss] 0.759284, [img_rga] 1.096798, [cap_rga] 1.282794 
+[ep-2, bs-249] [id-loss] 0.546170, [tri-loss] 0.795154, [img_rga] 1.121076, [cap_rga] 1.355240 
+[ep-2, bs-299] [id-loss] 0.559751, [tri-loss] 0.780383, [img_rga] 1.084697, [cap_rga] 1.321084 
+[ep-2, bs-349] [id-loss] 0.557971, [tri-loss] 0.792075, [img_rga] 1.095059, [cap_rga] 1.371778 
+[ep-2, bs-399] [id-loss] 0.600407, [tri-loss] 0.766484, [img_rga] 1.075012, [cap_rga] 1.270259 
+[ep-2, bs-449] [id-loss] 0.622276, [tri-loss] 0.788217, [img_rga] 1.076496, [cap_rga] 1.306926 
+[ep-2, bs-499] [id-loss] 0.645123, [tri-loss] 0.784266, [img_rga] 1.054991, [cap_rga] 1.314710 
+[ep-2, bs-549] [id-loss] 0.658963, [tri-loss] 0.753305, [img_rga] 1.033022, [cap_rga] 1.271959 
+[ep-2, bs-599] [id-loss] 0.720472, [tri-loss] 0.817689, [img_rga] 1.082685, [cap_rga] 1.366508 
+[ep-2, bs-649] [id-loss] 0.719794, [tri-loss] 0.805517, [img_rga] 1.075937, [cap_rga] 1.314725 
+[ep-2, bs-699] [id-loss] 0.720721, [tri-loss] 0.791653, [img_rga] 1.045556, [cap_rga] 1.294701 
+[ep-2, bs-749] [id-loss] 0.769650, [tri-loss] 0.801947, [img_rga] 1.057737, [cap_rga] 1.317450 
+[global] R@1: 0.4369 | R@5: 0.6815 | R@10: 0.7742
+[img_rga] R@1: 0.3845 | R@5: 0.6324 | R@10: 0.7215
+[cap_rga] R@1: 0.2163 | R@5: 0.4574 | R@10: 0.5719
+[fusion] R@1: 0.4118 | R@5: 0.6627 | R@10: 0.7622
+[cosine   ][global] R@1: 0.4118 | R@5: 0.6627 | R@10: 0.7622
+[ep-3, bs-49] [id-loss] 0.469038, [tri-loss] 0.608740, [img_rga] 0.868022, [cap_rga] 1.009489 
+[ep-3, bs-99] [id-loss] 0.484182, [tri-loss] 0.579169, [img_rga] 0.814332, [cap_rga] 1.019394 
+[ep-3, bs-149] [id-loss] 0.508704, [tri-loss] 0.584569, [img_rga] 0.815594, [cap_rga] 0.977768 
+[ep-3, bs-199] [id-loss] 0.532285, [tri-loss] 0.606278, [img_rga] 0.822410, [cap_rga] 1.024873 
+[ep-3, bs-249] [id-loss] 0.582919, [tri-loss] 0.586848, [img_rga] 0.820147, [cap_rga] 0.986683 
+[ep-3, bs-299] [id-loss] 0.604625, [tri-loss] 0.610626, [img_rga] 0.848426, [cap_rga] 0.995587 
+[ep-3, bs-349] [id-loss] 0.638660, [tri-loss] 0.608965, [img_rga] 0.828054, [cap_rga] 1.014672 
+[ep-3, bs-399] [id-loss] 0.671917, [tri-loss] 0.608607, [img_rga] 0.813248, [cap_rga] 0.994917 
+[ep-3, bs-449] [id-loss] 0.726407, [tri-loss] 0.620944, [img_rga] 0.844521, [cap_rga] 1.062309 
+[ep-3, bs-499] [id-loss] 0.723441, [tri-loss] 0.631222, [img_rga] 0.844327, [cap_rga] 1.030953 
+[ep-3, bs-549] [id-loss] 0.781928, [tri-loss] 0.645209, [img_rga] 0.876105, [cap_rga] 1.078421 
+[ep-3, bs-599] [id-loss] 0.817152, [tri-loss] 0.640343, [img_rga] 0.851177, [cap_rga] 1.048391 
+[ep-3, bs-649] [id-loss] 0.872147, [tri-loss] 0.654688, [img_rga] 0.869288, [cap_rga] 1.126774 
+[ep-3, bs-699] [id-loss] 0.863044, [tri-loss] 0.653832, [img_rga] 0.850661, [cap_rga] 1.047571 
+[ep-3, bs-749] [id-loss] 0.894187, [tri-loss] 0.679823, [img_rga] 0.883488, [cap_rga] 1.134315 
+[global] R@1: 0.4382 | R@5: 0.6750 | R@10: 0.7755
+[img_rga] R@1: 0.4031 | R@5: 0.6347 | R@10: 0.7323
+[cap_rga] R@1: 0.2417 | R@5: 0.4873 | R@10: 0.6077
+[fusion] R@1: 0.4219 | R@5: 0.6656 | R@10: 0.7681
+[cosine   ][global] R@1: 0.4219 | R@5: 0.6656 | R@10: 0.7681
+[ep-4, bs-49] [id-loss] 0.513387, [tri-loss] 0.481200, [img_rga] 0.680907, [cap_rga] 0.804062 
+[ep-4, bs-99] [id-loss] 0.518139, [tri-loss] 0.486790, [img_rga] 0.678880, [cap_rga] 0.819472 
+[ep-4, bs-149] [id-loss] 0.566147, [tri-loss] 0.492311, [img_rga] 0.682080, [cap_rga] 0.848201 
+[ep-4, bs-199] [id-loss] 0.573843, [tri-loss] 0.464704, [img_rga] 0.643887, [cap_rga] 0.819322 
+[ep-4, bs-249] [id-loss] 0.628785, [tri-loss] 0.482244, [img_rga] 0.651853, [cap_rga] 0.825472 
+[ep-4, bs-299] [id-loss] 0.670063, [tri-loss] 0.510464, [img_rga] 0.687332, [cap_rga] 0.830067 
+[ep-4, bs-349] [id-loss] 0.696000, [tri-loss] 0.516780, [img_rga] 0.704739, [cap_rga] 0.823782 
+[ep-4, bs-399] [id-loss] 0.749652, [tri-loss] 0.526556, [img_rga] 0.708359, [cap_rga] 0.850951 
+[ep-4, bs-449] [id-loss] 0.772105, [tri-loss] 0.548560, [img_rga] 0.724044, [cap_rga] 0.906647 
+[ep-4, bs-499] [id-loss] 0.793941, [tri-loss] 0.545600, [img_rga] 0.712850, [cap_rga] 0.901045 
+[ep-4, bs-549] [id-loss] 0.833834, [tri-loss] 0.545853, [img_rga] 0.727873, [cap_rga] 0.892617 
+[ep-4, bs-599] [id-loss] 0.903951, [tri-loss] 0.566458, [img_rga] 0.747849, [cap_rga] 0.907206 
+[ep-4, bs-649] [id-loss] 0.927025, [tri-loss] 0.570968, [img_rga] 0.749641, [cap_rga] 0.904531 
+[ep-4, bs-699] [id-loss] 0.963828, [tri-loss] 0.591079, [img_rga] 0.758763, [cap_rga] 0.904402 
+[ep-4, bs-749] [id-loss] 0.993385, [tri-loss] 0.578184, [img_rga] 0.766865, [cap_rga] 0.904781 
+[global] R@1: 0.4450 | R@5: 0.6828 | R@10: 0.7811
+[img_rga] R@1: 0.4079 | R@5: 0.6522 | R@10: 0.7511
+[cap_rga] R@1: 0.2632 | R@5: 0.4928 | R@10: 0.6008
+[fusion] R@1: 0.4327 | R@5: 0.6734 | R@10: 0.7716
+[cosine   ][global] R@1: 0.4327 | R@5: 0.6734 | R@10: 0.7716
+[ep-5, bs-49] [id-loss] 0.542689, [tri-loss] 0.415084, [img_rga] 0.589037, [cap_rga] 0.709196 
+[ep-5, bs-99] [id-loss] 0.549518, [tri-loss] 0.401242, [img_rga] 0.568504, [cap_rga] 0.681752 
+[ep-5, bs-149] [id-loss] 0.581616, [tri-loss] 0.425919, [img_rga] 0.581634, [cap_rga] 0.729077 
+[ep-5, bs-199] [id-loss] 0.603837, [tri-loss] 0.438529, [img_rga] 0.592060, [cap_rga] 0.710281 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0001_captype_sent_img_meltlayer_2_cos_margin_0.2_np_False/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 3.225259, [tri-loss] 14.014757, [img_rga] 26.226277, [cap_rga] 24.033220 
+[ep-0, bs-99] [id-loss] 3.687323, [tri-loss] 6.333739, [img_rga] 18.747102, [cap_rga] 11.889412 
+[ep-0, bs-149] [id-loss] 4.323600, [tri-loss] 4.973779, [img_rga] 17.186857, [cap_rga] 7.598935 
+[ep-0, bs-199] [id-loss] 4.544380, [tri-loss] 4.019274, [img_rga] 15.042671, [cap_rga] 5.699686 
+[ep-0, bs-249] [id-loss] 4.232433, [tri-loss] 3.533700, [img_rga] 14.209449, [cap_rga] 4.926955 
+[ep-0, bs-299] [id-loss] 4.299581, [tri-loss] 3.278932, [img_rga] 11.319589, [cap_rga] 4.407422 
+[ep-0, bs-349] [id-loss] 3.853996, [tri-loss] 2.783383, [img_rga] 11.381951, [cap_rga] 3.792157 
+[ep-0, bs-399] [id-loss] 3.497798, [tri-loss] 2.590280, [img_rga] 11.092594, [cap_rga] 3.494986 
+[ep-0, bs-449] [id-loss] 3.223377, [tri-loss] 2.542827, [img_rga] 8.354156, [cap_rga] 3.334787 
+[ep-0, bs-499] [id-loss] 2.768599, [tri-loss] 2.197870, [img_rga] 8.777124, [cap_rga] 3.047717 
+[ep-0, bs-549] [id-loss] 2.463693, [tri-loss] 2.124311, [img_rga] 8.658516, [cap_rga] 2.877453 
+[ep-0, bs-599] [id-loss] 2.268999, [tri-loss] 2.135440, [img_rga] 7.398765, [cap_rga] 2.904430 
+[ep-0, bs-649] [id-loss] 2.005439, [tri-loss] 1.969397, [img_rga] 8.521337, [cap_rga] 2.695914 
+[ep-0, bs-699] [id-loss] 1.754508, [tri-loss] 1.960337, [img_rga] 8.988306, [cap_rga] 2.660754 
+[ep-0, bs-749] [id-loss] 1.527414, [tri-loss] 1.754535, [img_rga] 9.831887, [cap_rga] 2.415163 
+[global] R@1: 0.3832 | R@5: 0.6415 | R@10: 0.7358
+[img_rga] R@1: 0.1532 | R@5: 0.3608 | R@10: 0.4727
+[cap_rga] R@1: 0.1916 | R@5: 0.4141 | R@10: 0.5420
+[fusion] R@1: 0.3478 | R@5: 0.6135 | R@10: 0.7193
+[cosine   ][global] R@1: 0.3478 | R@5: 0.6135 | R@10: 0.7193
+[ep-1, bs-49] [id-loss] 0.552562, [tri-loss] 1.296747, [img_rga] 6.735031, [cap_rga] 1.890070 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 3.380808, [tri-loss] 14.135523, [img_rga] 26.714704, [cap_rga] 24.297885 
+[ep-0, bs-99] [id-loss] 3.494385, [tri-loss] 6.478080, [img_rga] 20.936642, [cap_rga] 11.945172 
+[ep-0, bs-149] [id-loss] 4.042387, [tri-loss] 5.025022, [img_rga] 20.517820, [cap_rga] 7.736032 
+[ep-0, bs-199] [id-loss] 3.917127, [tri-loss] 4.039553, [img_rga] 20.236877, [cap_rga] 5.921385 
+[ep-0, bs-249] [id-loss] 3.869408, [tri-loss] 3.564003, [img_rga] 19.899071, [cap_rga] 5.037219 
+[ep-0, bs-299] [id-loss] 3.449595, [tri-loss] 3.206895, [img_rga] 19.648719, [cap_rga] 4.465066 
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 3.002832, [tri-loss] 12.181917, [img_rga] 26.062094, [cap_rga] 0.000000 
+[ep-0, bs-99] [id-loss] 3.189975, [tri-loss] 5.382017, [img_rga] 19.062982, [cap_rga] 0.000000 
+[ep-0, bs-149] [id-loss] 3.722061, [tri-loss] 4.148944, [img_rga] 14.386247, [cap_rga] 0.000000 
+[ep-0, bs-199] [id-loss] 4.227637, [tri-loss] 3.487081, [img_rga] 11.205678, [cap_rga] 0.000000 
+[ep-0, bs-249] [id-loss] 4.453707, [tri-loss] 3.110673, [img_rga] 9.239670, [cap_rga] 0.000000 
+[ep-0, bs-299] [id-loss] 4.177651, [tri-loss] 2.740334, [img_rga] 7.912542, [cap_rga] 0.000000 
+[ep-0, bs-349] [id-loss] 3.772606, [tri-loss] 2.444130, [img_rga] 6.996944, [cap_rga] 0.000000 
+[ep-0, bs-399] [id-loss] 3.546358, [tri-loss] 2.172522, [img_rga] 6.195282, [cap_rga] 0.000000 
+[ep-0, bs-449] [id-loss] 3.157463, [tri-loss] 2.069159, [img_rga] 5.675576, [cap_rga] 0.000000 
+[ep-0, bs-499] [id-loss] 2.760407, [tri-loss] 1.832663, [img_rga] 5.241018, [cap_rga] 0.000000 
+[ep-0, bs-549] [id-loss] 2.482467, [tri-loss] 1.756250, [img_rga] 4.857468, [cap_rga] 0.000000 
+[ep-0, bs-599] [id-loss] 2.114265, [tri-loss] 1.611703, [img_rga] 4.520260, [cap_rga] 0.000000 
+[ep-0, bs-649] [id-loss] 2.038375, [tri-loss] 1.738721, [img_rga] 4.400907, [cap_rga] 0.000000 
+[ep-0, bs-699] [id-loss] 1.716517, [tri-loss] 1.531234, [img_rga] 4.060880, [cap_rga] 0.000000 
+[ep-0, bs-749] [id-loss] 1.534079, [tri-loss] 1.462521, [img_rga] 3.908510, [cap_rga] 0.000000 
+[global] R@1: 0.3692 | R@5: 0.6100 | R@10: 0.7160
+[img_rga] R@1: 0.2261 | R@5: 0.4519 | R@10: 0.5608
+[cap_rga] R@1: 0.0000 | R@5: 0.0046 | R@10: 0.0081
+[fusion] R@1: 0.3559 | R@5: 0.5963 | R@10: 0.6968
+[cosine   ][global] R@1: 0.3559 | R@5: 0.5963 | R@10: 0.6968
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 2.810658, [tri-loss] 11.948688, [img_rga] 25.947343, [cap_rga] 0.000000 
+[ep-0, bs-99] [id-loss] 3.088776, [tri-loss] 5.371618, [img_rga] 18.591649, [cap_rga] 0.000000 
+[ep-0, bs-149] [id-loss] 3.844294, [tri-loss] 4.193045, [img_rga] 13.667884, [cap_rga] 0.000000 
+[ep-0, bs-199] [id-loss] 4.259987, [tri-loss] 3.475278, [img_rga] 10.473347, [cap_rga] 0.000000 
+[ep-0, bs-249] [id-loss] 4.321101, [tri-loss] 2.973377, [img_rga] 8.701663, [cap_rga] 0.000000 
+[ep-0, bs-299] [id-loss] 3.995232, [tri-loss] 2.685657, [img_rga] 7.659523, [cap_rga] 0.000000 
+[ep-0, bs-349] [id-loss] 3.930951, [tri-loss] 2.413961, [img_rga] 6.742618, [cap_rga] 0.000000 
+[ep-0, bs-399] [id-loss] 3.434911, [tri-loss] 2.158944, [img_rga] 6.197195, [cap_rga] 0.000000 
+[ep-0, bs-449] [id-loss] 2.985410, [tri-loss] 1.956501, [img_rga] 5.626487, [cap_rga] 0.000000 
+[ep-0, bs-499] [id-loss] 2.611159, [tri-loss] 1.872437, [img_rga] 5.078574, [cap_rga] 0.000000 
+[ep-0, bs-549] [id-loss] 2.412422, [tri-loss] 1.804902, [img_rga] 4.761888, [cap_rga] 0.000000 
+[ep-0, bs-599] [id-loss] 2.116737, [tri-loss] 1.635557, [img_rga] 4.446248, [cap_rga] 0.000000 
+[ep-0, bs-649] [id-loss] 1.952579, [tri-loss] 1.600399, [img_rga] 4.276630, [cap_rga] 0.000000 
+[ep-0, bs-699] [id-loss] 1.719391, [tri-loss] 1.555698, [img_rga] 4.032680, [cap_rga] 0.000000 
+[ep-0, bs-749] [id-loss] 1.411376, [tri-loss] 1.433188, [img_rga] 3.712001, [cap_rga] 0.000000 
+[global] R@1: 0.3790 | R@5: 0.6230 | R@10: 0.7154
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[global] R@1: 0.0664 | R@5: 0.1802 | R@10: 0.2677
+[img_rga] R@1: 0.0013 | R@5: 0.0072 | R@10: 0.0107
+[cap_rga] R@1: 0.0013 | R@5: 0.0052 | R@10: 0.0098
+[fusion] R@1: 0.0612 | R@5: 0.1594 | R@10: 0.2385
+[Trainer][init] load pre-trained model from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained id_cls from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_img_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] load pre-trained rga_cap_mlp from /shared/rsaas/aiyucui2/wider_person/checkpoints/reID/baseline/dist_fn_cosine_imgbb_resnet50_capbb_bigru_embed_size_1024_batch_96_lr_0.0002_step_size_10_captype_sent_img_meltlayer_6_np_False_sent_60_cap_10_6_fix_img_melt/stage_1_id_last.pt.
+[Trainer][init] model initialized.
+[Trainer][init] criterion initialized.
+[ep-0, bs-49] [id-loss] 3.078731, [tri-loss] 12.245416, [img_rga] 26.023119, [cap_rga] 0.000000 
+[ep-0, bs-99] [id-loss] 2.985575, [tri-loss] 5.310125, [img_rga] 19.574588, [cap_rga] 0.000000 
+[ep-0, bs-149] [id-loss] 3.792645, [tri-loss] 4.219028, [img_rga] 14.775048, [cap_rga] 0.000000 
+[ep-0, bs-199] [id-loss] 4.348468, [tri-loss] 3.509865, [img_rga] 11.224974, [cap_rga] 0.000000 
+[ep-0, bs-249] [id-loss] 4.343195, [tri-loss] 3.012444, [img_rga] 9.236499, [cap_rga] 0.000000 
+[ep-0, bs-299] [id-loss] 4.107030, [tri-loss] 2.636675, [img_rga] 7.959398, [cap_rga] 0.000000 
+[ep-0, bs-349] [id-loss] 3.971394, [tri-loss] 2.382365, [img_rga] 6.933376, [cap_rga] 0.000000 
+[ep-0, bs-399] [id-loss] 3.297932, [tri-loss] 2.170229, [img_rga] 6.284121, [cap_rga] 0.000000 
+[ep-0, bs-449] [id-loss] 3.213507, [tri-loss] 2.028612, [img_rga] 5.747965, [cap_rga] 0.000000 
+[ep-0, bs-499] [id-loss] 2.732611, [tri-loss] 1.938702, [img_rga] 5.451291, [cap_rga] 0.000000 
+[ep-0, bs-549] [id-loss] 2.422625, [tri-loss] 1.769128, [img_rga] 4.956568, [cap_rga] 0.000000 
+[ep-0, bs-599] [id-loss] 2.065385, [tri-loss] 1.645503, [img_rga] 4.575398, [cap_rga] 0.000000 
+[ep-0, bs-649] [id-loss] 1.848589, [tri-loss] 1.605210, [img_rga] 4.325709, [cap_rga] 0.000000 
+[ep-0, bs-699] [id-loss] 1.583535, [tri-loss] 1.537311, [img_rga] 3.952608, [cap_rga] 0.000000 
+[ep-0, bs-749] [id-loss] 1.355007, [tri-loss] 1.446340, [img_rga] 3.822096, [cap_rga] 0.000000 
+[global] R@1: 0.3705 | R@5: 0.6126 | R@10: 0.7101
+[img_rga] R@1: 0.2189 | R@5: 0.4502 | R@10: 0.5556
+[cap_rga] R@1: 0.0013 | R@5: 0.0059 | R@10: 0.0091
+[fusion] R@1: 0.3559 | R@5: 0.5940 | R@10: 0.6932
+[cosine   ][global] R@1: 0.3559 | R@5: 0.5940 | R@10: 0.6932
+[ep-1, bs-49] [id-loss] 0.496426, [tri-loss] 1.008112, [img_rga] 3.240440, [cap_rga] 0.000000 
+[ep-1, bs-99] [id-loss] 0.480916, [tri-loss] 0.917633, [img_rga] 3.010802, [cap_rga] 0.000000 
+[ep-1, bs-149] [id-loss] 0.505513, [tri-loss] 0.932427, [img_rga] 2.881308, [cap_rga] 0.000000 
+[ep-1, bs-199] [id-loss] 0.490409, [tri-loss] 0.910388, [img_rga] 2.924159, [cap_rga] 0.000000 
+[ep-1, bs-249] [id-loss] 0.547675, [tri-loss] 0.918140, [img_rga] 2.798573, [cap_rga] 0.000000 
+[ep-1, bs-299] [id-loss] 0.533737, [tri-loss] 0.964821, [img_rga] 2.792914, [cap_rga] 0.000000 
+[ep-1, bs-349] [id-loss] 0.544569, [tri-loss] 0.921646, [img_rga] 2.729030, [cap_rga] 0.000000 
+[ep-1, bs-399] [id-loss] 0.516965, [tri-loss] 0.905187, [img_rga] 2.635051, [cap_rga] 0.000000 
+[ep-1, bs-449] [id-loss] 0.538384, [tri-loss] 0.873349, [img_rga] 2.546358, [cap_rga] 0.000000 
+[ep-1, bs-499] [id-loss] 0.535479, [tri-loss] 0.870708, [img_rga] 2.465056, [cap_rga] 0.000000 
+[ep-1, bs-549] [id-loss] 0.551346, [tri-loss] 0.931022, [img_rga] 2.462876, [cap_rga] 0.000000 
+[ep-1, bs-599] [id-loss] 0.543249, [tri-loss] 0.885450, [img_rga] 2.457857, [cap_rga] 0.000000 
+[ep-1, bs-649] [id-loss] 0.589441, [tri-loss] 0.855786, [img_rga] 2.344031, [cap_rga] 0.000000 
+[ep-1, bs-699] [id-loss] 0.537837, [tri-loss] 0.864133, [img_rga] 2.378264, [cap_rga] 0.000000 
+[ep-1, bs-749] [id-loss] 0.598413, [tri-loss] 0.904044, [img_rga] 2.316061, [cap_rga] 0.000000 
+[global] R@1: 0.4008 | R@5: 0.6457 | R@10: 0.7521
+[img_rga] R@1: 0.2710 | R@5: 0.5231 | R@10: 0.6321
+[cap_rga] R@1: 0.0013 | R@5: 0.0052 | R@10: 0.0088
+[fusion] R@1: 0.3887 | R@5: 0.6308 | R@10: 0.7316
+[cosine   ][global] R@1: 0.3887 | R@5: 0.6308 | R@10: 0.7316
+[ep-2, bs-49] [id-loss] 0.345375, [tri-loss] 0.607181, [img_rga] 1.945276, [cap_rga] 0.000000 
+[ep-2, bs-99] [id-loss] 0.338339, [tri-loss] 0.593599, [img_rga] 1.828497, [cap_rga] 0.000000 
+[ep-2, bs-149] [id-loss] 0.330727, [tri-loss] 0.571789, [img_rga] 1.823953, [cap_rga] 0.000000 
+[ep-2, bs-199] [id-loss] 0.696532, [tri-loss] 0.810853, [img_rga] 2.830035, [cap_rga] 0.000000 
+[ep-2, bs-249] [id-loss] 0.567694, [tri-loss] 0.693715, [img_rga] 2.005724, [cap_rga] 0.000000 
+[ep-2, bs-299] [id-loss] 0.522929, [tri-loss] 0.608205, [img_rga] 1.812869, [cap_rga] 0.000000 
+[ep-2, bs-349] [id-loss] 0.490140, [tri-loss] 0.661990, [img_rga] 1.830310, [cap_rga] 0.000000 
+[ep-2, bs-399] [id-loss] 0.500428, [tri-loss] 0.629545, [img_rga] 1.845297, [cap_rga] 0.000000 
+[ep-2, bs-449] [id-loss] 0.543152, [tri-loss] 0.626224, [img_rga] 1.732822, [cap_rga] 0.000000 
+[ep-2, bs-499] [id-loss] 0.552299, [tri-loss] 0.655640, [img_rga] 1.860066, [cap_rga] 0.000000 
+[ep-2, bs-549] [id-loss] 0.565859, [tri-loss] 0.651061, [img_rga] 1.787458, [cap_rga] 0.000000 
+[ep-2, bs-599] [id-loss] 0.582254, [tri-loss] 0.675773, [img_rga] 1.770121, [cap_rga] 0.000000 
+[ep-2, bs-649] [id-loss] 0.557271, [tri-loss] 0.661695, [img_rga] 1.751608, [cap_rga] 0.000000 
+[ep-2, bs-699] [id-loss] 0.612982, [tri-loss] 0.666457, [img_rga] 1.722136, [cap_rga] 0.000000 
+[ep-2, bs-749] [id-loss] 0.618437, [tri-loss] 0.638082, [img_rga] 1.761396, [cap_rga] 0.000000 
+[global] R@1: 0.4167 | R@5: 0.6614 | R@10: 0.7593
+[img_rga] R@1: 0.3003 | R@5: 0.5472 | R@10: 0.6630
+[cap_rga] R@1: 0.0007 | R@5: 0.0046 | R@10: 0.0094
+[fusion] R@1: 0.3985 | R@5: 0.6464 | R@10: 0.7498
+[cosine   ][global] R@1: 0.3985 | R@5: 0.6464 | R@10: 0.7498
+[ep-3, bs-49] [id-loss] 0.347860, [tri-loss] 0.459318, [img_rga] 1.473353, [cap_rga] 0.000000 
+[ep-3, bs-99] [id-loss] 0.363927, [tri-loss] 0.429511, [img_rga] 1.364969, [cap_rga] 0.000000 
+[ep-3, bs-149] [id-loss] 0.421594, [tri-loss] 0.452785, [img_rga] 1.385307, [cap_rga] 0.000000 
+[ep-3, bs-199] [id-loss] 0.415113, [tri-loss] 0.447953, [img_rga] 1.345620, [cap_rga] 0.000000 
+[ep-3, bs-249] [id-loss] 0.447168, [tri-loss] 0.465062, [img_rga] 1.368851, [cap_rga] 0.000000 
+[ep-3, bs-299] [id-loss] 0.455274, [tri-loss] 0.489786, [img_rga] 1.490695, [cap_rga] 0.000000 
+[ep-3, bs-349] [id-loss] 0.506188, [tri-loss] 0.501103, [img_rga] 1.459362, [cap_rga] 0.000000 
+[ep-3, bs-399] [id-loss] 0.534969, [tri-loss] 0.490447, [img_rga] 1.399005, [cap_rga] 0.000000 
+[ep-3, bs-449] [id-loss] 0.554074, [tri-loss] 0.497137, [img_rga] 1.427021, [cap_rga] 0.000000 
+[ep-3, bs-499] [id-loss] 0.550944, [tri-loss] 0.489516, [img_rga] 1.374735, [cap_rga] 0.000000 
+[ep-3, bs-549] [id-loss] 0.603798, [tri-loss] 0.498607, [img_rga] 1.409052, [cap_rga] 0.000000 
+[ep-3, bs-599] [id-loss] 0.641557, [tri-loss] 0.558582, [img_rga] 1.457254, [cap_rga] 0.000000 
+[ep-3, bs-649] [id-loss] 0.663557, [tri-loss] 0.520143, [img_rga] 1.369940, [cap_rga] 0.000000 
+[ep-3, bs-699] [id-loss] 0.705968, [tri-loss] 0.502597, [img_rga] 1.331992, [cap_rga] 0.000000 
+[ep-3, bs-749] [id-loss] 0.687695, [tri-loss] 0.517140, [img_rga] 1.400134, [cap_rga] 0.000000 
