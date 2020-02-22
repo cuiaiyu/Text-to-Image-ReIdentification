@@ -82,50 +82,58 @@ evaluator = Evaluator(img_loader=test_image_loader,
 # Trainer
 manager = Manager(cfg, logger)
 
+
 #------------------
 ## Train
 #------------------
-# Stage 1 (ID)
-logger.log("======== [Stage 1] ============")
-manager.melt_img_layer(num_layer_to_melt=1)
-param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls])
-optimizer = optim.Adam(param_to_optimize, lr=1e-3, weight_decay=cfg.weight_decay)
-scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10)
+if cfg.mode == 'train':
+    # Stage 1 (ID)
+    logger.log("======== [Stage 1] ============")
+    manager.melt_img_layer(num_layer_to_melt=1)
+    param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls])
+    optimizer = optim.Adam(param_to_optimize, lr=1e-3, weight_decay=cfg.weight_decay)
+    scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10)
 
-for epoch in range(cfg.num_epochs_stage1):
-    manager.train_epoch_id(train_loader, optimizer, epoch, "train-stage-1")
-    acc = evaluator.evaluate(manager.model)
-    logger.log('[stage-1, ep-%d][%s][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, cfg.dist_fn_opt, acc['top-1'], acc['top-5'], acc['top-10']))
-    scheduler.step()
-    manager.save_ckpt(epoch, acc, 'stage_1_id_last.pt')
+    for epoch in range(cfg.num_epochs_stage1):
+        manager.train_epoch_id(train_loader, optimizer, epoch, "train-stage-1")
+        acc = evaluator.evaluate(manager.model)
+        logger.log('[stage-1, ep-%d][%s][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, cfg.dist_fn_opt, acc['top-1'], acc['top-5'], acc['top-10']))
+        scheduler.step()
+        manager.save_ckpt(epoch, acc, 'stage_1_id_last.pt')
 
-if cfg.num_epochs_stage1:
-    manager.save_ckpt(epoch, acc, 'id_initialized.pt')
+    if cfg.num_epochs_stage1:
+        manager.save_ckpt(epoch, acc, 'id_initialized.pt')
 
-# Stage 2 (ID + Matching)
-logger.log("======== [Stage 2] ============")
-train_epoch = manager.train_epoch_regional if cfg.np else manager.train_epoch_global
+    # Stage 2 (ID + Matching)
+    logger.log("======== [Stage 2] ============")
+    train_epoch = manager.train_epoch_regional if cfg.np else manager.train_epoch_global
 
-for epoch in range(cfg.num_epochs_stage2):
-    if epoch % cfg.step_size == 0:
-        curr_lr = cfg.lr * (0.1 ** (epoch // cfg.step_size))
-        curr_num_layer_melt = cfg.image_melt_layer# + (epoch // cfg.step_size)
-        logger.log("[lr step] curr_lr: %.6f, curr_num_layer_melt: %d" %(curr_lr, curr_num_layer_melt) )
-        manager.melt_img_layer(num_layer_to_melt=curr_num_layer_melt)
+    for epoch in range(cfg.num_epochs_stage2):
+        if epoch % cfg.step_size == 0:
+            curr_lr = cfg.lr * (0.1 ** (epoch // cfg.step_size))
+            curr_num_layer_melt = cfg.image_melt_layer# + (epoch // cfg.step_size)
+            logger.log("[lr step] curr_lr: %.6f, curr_num_layer_melt: %d" %(curr_lr, curr_num_layer_melt) )
+            manager.melt_img_layer(num_layer_to_melt=curr_num_layer_melt)
+            if cfg.np:
+                param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls, manager.rga_img_mlp, manager.rga_cap_mlp]) 
+            else:
+                param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls])    
+            optimizer = optim.Adam(param_to_optimize, lr=curr_lr, weight_decay=cfg.weight_decay)
+            scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=cfg.step_size)
+        
+        train_epoch(train_loader, optimizer, epoch, "train-stage-2")
         if cfg.np:
-            param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls, manager.rga_img_mlp, manager.rga_cap_mlp]) 
+            acc = evaluator.evaluate(manager.model, manager.rga_img_mlp, manager.rga_cap_mlp)
         else:
-            param_to_optimize = build_graph_optimizer([manager.model, manager.id_cls])    
-        optimizer = optim.Adam(param_to_optimize, lr=curr_lr, weight_decay=cfg.weight_decay)
-        scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=cfg.step_size)
-    
-    train_epoch(train_loader, optimizer, epoch, "train-stage-2")
+            acc = evaluator.evaluate(manager.model)
+        logger.log('[stage-2, ep-%d][%s][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, cfg.dist_fn_opt, acc['top-1'], acc['top-5'], acc['top-10']))
+        scheduler.step()
+        manager.save_ckpt(epoch, acc, 'stage_2_id_match_last.pt')
+        if (epoch+1) % 5 == 0:
+            manager.save_ckpt(epoch, acc, 'stage_2_id_match_epoch%d.pt' % epoch)
+
+else:
     if cfg.np:
-        acc = evaluator.evaluate(manager.model, manager.rga_img_mlp, manager.rga_cap_mlp)
+            acc = evaluator.evaluate(manager.model, manager.rga_img_mlp, manager.rga_cap_mlp)
     else:
         acc = evaluator.evaluate(manager.model)
-    logger.log('[stage-2, ep-%d][%s][global] R@1: %.4f | R@5: %.4f | R@10: %.4f' % (epoch, cfg.dist_fn_opt, acc['top-1'], acc['top-5'], acc['top-10']))
-    scheduler.step()
-    manager.save_ckpt(epoch, acc, 'stage_2_id_match_last.pt')
-    if (epoch+1) % 5 == 0:
-        manager.save_ckpt(epoch, acc, 'stage_2_id_match_epoch%d.pt' % epoch)

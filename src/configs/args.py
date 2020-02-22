@@ -172,7 +172,7 @@ def load_arg_parser():
 
     # Mode
     parser.add_argument('--mode', default='train', type=str,choices=['train','val'],
-                        help='# epoch to save checkpoint')
+                        help='train or eval?')
 
     parser.add_argument('--optimizer', default='Adam', type=str,choices=['SparseAdam','Adam'],
                         help='Opitimizer')
