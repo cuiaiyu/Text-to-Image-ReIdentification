@@ -35,6 +35,7 @@ class ImageBackbone(nn.Module):
         return out
     
     def mlp(self, x):
+        #x = self.img_backbone.layer4(x)
         x = self.img_backbone.avgpool(x)
         x = torch.flatten(x, 1)
         x = self.img_backbone.fc(x)

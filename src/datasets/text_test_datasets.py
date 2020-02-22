@@ -109,11 +109,11 @@ class WIDERNPTextDataset(WIDERTextDataset):
                                                  debug=debug)
         self.np_extractor = NPExtractor()
      
-    def _load_cap(self,index):
+    def _load_cap(self,cap):
         len_sent = self.sent_token_length
         len_np = self.np_token_length
         N = self.num_np_per_sent
-        cap = self.captions[index]
+        
         cap_token = self.tokenizer.tokenize(cap, len_sent)
         cap_token = torch.LongTensor([cap_token])[0]
         
@@ -127,7 +127,8 @@ class WIDERNPTextDataset(WIDERTextDataset):
     
     
     def __getitem__(self,index):
-        cap, nps, num_nps = self._load_cap(index)
+        cap = self.captions[index]
+        cap, nps, num_nps = self._load_cap(cap)
         image_fn = self.images[index]
         return cap, nps, num_nps, image_fn
 

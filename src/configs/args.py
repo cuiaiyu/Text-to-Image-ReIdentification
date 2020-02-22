@@ -103,7 +103,7 @@ def load_arg_parser():
     
     parser.add_argument('--img_backbone_opt', 
                         default='resnet50', type=str,
-                        choices=['resnet50','resnet18'],
+                        choices=['resnet50','resnet18', 'resnet101'],
                         help='global encoder opt')
     parser.add_argument('--cap_embed_type', 
                         default='sent', type=str,

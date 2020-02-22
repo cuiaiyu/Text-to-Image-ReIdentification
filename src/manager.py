@@ -42,6 +42,7 @@ class Manager:
     def __init__(self, args, logger):
         self.log = logger.log
         self.cfg = args
+        self.device = 'cpu' if args.num_gpus < 1 else 'cuda' 
         self._init_models()
         self._init_criterion()
     
@@ -60,13 +61,13 @@ class Manager:
                           caption_opt=self.cfg.cap_backbone_opt,
                           cap_embed_type=self.cfg.cap_embed_type,
                           img_num_cut=self.cfg.img_num_cut,
-                          regional_embed_size=self.cfg.regional_embed_size).cuda()
+                          regional_embed_size=self.cfg.regional_embed_size).to(self.device)
         # id classifer
-        self.id_cls = nn.Linear(self.cfg.embed_size, self.cfg.num_ids).cuda()
+        self.id_cls = nn.Linear(self.cfg.embed_size, self.cfg.num_ids).to(self.device)
         # RGA image mlp
-        self.rga_img_mlp = MLP(self.cfg.regional_embed_size, self.cfg.embed_size).cuda()
+        self.rga_img_mlp = MLP(self.cfg.regional_embed_size, self.cfg.embed_size).to(self.device)
         # RGA text mlp
-        self.rga_cap_mlp = MLP(self.cfg.embed_size, self.cfg.embed_size).cuda()
+        self.rga_cap_mlp = MLP(self.cfg.embed_size, self.cfg.embed_size).to(self.device)
              
         self.all_models = {
             "model": self.model,
@@ -75,16 +76,18 @@ class Manager:
             "rga_cap_mlp": self.rga_cap_mlp,
         }
         
+        # load ckpt
+        self.reset_ckpt()
+        
         # gpu
         if self.cfg.num_gpus > 1:
             for name in self.all_models.keys():
                 print('set data parallel to [%s]' % name)
+                import pdb; pdb.set_trace()
                 self.all_models[name] = nn.DataParallel(self.all_models[name])
+                
            
         
-        
-        # load ckpt
-        self.reset_ckpt()
         
         
         self.log("[Trainer][init] model initialized.")
@@ -126,7 +129,7 @@ class Manager:
         ret = []
         for arg in batch:
             if isinstance(arg, torch.Tensor):
-                arg = arg.cuda()
+                arg = arg.to(self.device)
             ret.append(arg)
         return tuple(ret)
     
