@@ -1,7 +1,7 @@
 # Language-to-vision Re-Identification: A Re-Implementation of Multi-granularity Image-text Alignments 
 (Still under testing)
-- A algorithm for Text-to-image Re-ID
-- This is an implementation of ICCV'19 paper [Improving Description-based Person Re-identification by Multi-granularity Image-text Alignments](https://arxiv.org/abs/1906.09610). Refer to the original paper for details.
+- An re-implementation for a Text-to-image Re-ID algorithm
+- This is an implementation of ICCV'19 paper [Improving Description-based Person Re-identification by Multi-granularity Image-text Alignments](https://arxiv.org/abs/1906.09610). Refer to the original paper and authors for details.
 - This is a beta version implementation. Bug could exist.
 - If you find this is useful in your research work, please cite the original paper (and probably star this repo ;-))
 
