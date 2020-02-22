@@ -1,5 +1,6 @@
 # Language-to-vision Re-Identification: A Re-Implementation of Multi-granularity Image-text Alignments 
-- A algorithm to lan
+(Still under testing)
+- A algorithm for Text-to-image Re-ID
 - This is an implementation of ICCV'19 paper [Improving Description-based Person Re-identification by Multi-granularity Image-text Alignments](https://arxiv.org/abs/1906.09610). Refer to the original paper for details.
 - This is a beta version implementation. Bug could exist.
 - If you find this is useful in your research work, please cite the original paper (and probably star this repo ;-))
@@ -18,14 +19,15 @@ With bi-GRU as caption encoder and ResNet-50 as image encoder, we got the follow
 for computational reason, we haven't implemented the __global-global + global-part + part-part__ versiono of MIA, which might be released in next updates.
 
 ## Train
-run ```sh src/train.sh```
+run ```sh src/run.sh```
 
 ## Inference
+run ```sh src/run.sh``` with ``--mode val`` and ``--load_ckpt_fn`` set as the path to the saved checkpoints.
 
 ## Visualization
 1. Check notebook [src/inference.ipynb](src/inference.ipynb) for interactive retrieval with config set properly
 
-2. 
+2. run ```python src/visualizations/heep_generator.py``` for generate a html page visualize retrieval result. Please set parameter accordingly to enable different visualization. e.g. False only for only display retrieval failures.
 
 
 
