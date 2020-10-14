@@ -2,6 +2,17 @@
 (Still under testing)
 - An re-implementation for a Text-to-image Re-ID algorithm
 - This is an implementation of ICCV'19 paper [Improving Description-based Person Re-identification by Multi-granularity Image-text Alignments](https://arxiv.org/abs/1906.09610). Refer to the original paper and authors for details.
+```
+@article{niu2020improving,
+  title={Improving description-based person re-identification by multi-granularity image-text alignments},
+  author={Niu, Kai and Huang, Yan and Ouyang, Wanli and Wang, Liang},
+  journal={IEEE Transactions on Image Processing},
+  volume={29},
+  pages={5542--5556},
+  year={2020},
+  publisher={IEEE}
+}
+```
 - This is a beta version implementation. Bug could exist.
 - If you find this is useful in your research work, please cite the original paper (and probably star this repo ;-))
 
