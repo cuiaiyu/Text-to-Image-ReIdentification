@@ -19,7 +19,7 @@ def load_arg_parser():
                         help='note to add')
     
     parser.add_argument('--data_root', 
-                        default='/shared/rsaas/aiyucui2/wider_person/', 
+                        default='', 
                         type=str,
                         help='dataroot')
 
