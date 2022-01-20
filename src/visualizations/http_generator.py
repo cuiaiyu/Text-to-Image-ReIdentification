@@ -119,7 +119,7 @@ class HTMLGenerator:
 
 
 if __name__ == '__main__':
-    data_root = '/shared/rsaas/aiyucui2/wider_person/wider/val1/'
+    data_root = ... # to specify
     Generator = HTMLGenerator(img_dir='img', anno_path=data_root+'val1_anns.json')
     Generator.generate(submission_fn='../tmp.txt', false_only=True, K=1000, out_path='../../http/false_only.html')
 
