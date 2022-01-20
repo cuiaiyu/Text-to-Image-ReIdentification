@@ -48,8 +48,8 @@ cfg.exp_name = "dist_fn_{}_imgbb_{}_capbb_{}_embed_size_{}_batch_{}_lr_{}_captyp
     cfg.cos_margin,
     cfg.np)
 cfg.exp_name += "_id_only"
-cfg.model_path = os.path.join("/shared/rsaas/aiyucui2/wider_person", cfg.model_path, cfg.exp_name)
-cfg.output_path = os.path.join("/shared/rsaas/aiyucui2/wider_person", cfg.output_path, cfg.exp_name)
+cfg.model_path = os.path.join(cfg.model_path, cfg.exp_name)
+cfg.output_path = os.path.join(cfg.output_path, cfg.exp_name)
 
 if not os.path.exists(cfg.model_path):
     os.mkdir(cfg.model_path)
