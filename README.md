@@ -1,6 +1,6 @@
 # Language-to-vision Re-Identification: A Re-Implementation of Multi-granularity Image-text Alignments 
-(Still under testing)
-- An __Pytorch__ re-implementation for a Text-to-image Re-ID algorithm
+(No longer actively maintained)
+- An __Pytorch__ (partial) re-implementation for a Text-to-image Re-ID algorithm
 - This is an implementation of ICCV'19 paper [Improving Description-based Person Re-identification by Multi-granularity Image-text Alignments](https://arxiv.org/abs/1906.09610). Refer to the original paper and authors for details.
 ```
 @article{niu2020improving,
